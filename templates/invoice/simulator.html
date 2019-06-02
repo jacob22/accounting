@@ -1,0 +1,13 @@
+{% if simprovider %}
+<div class="simulator">
+  <form class="form-inline" id="simulatePayment" method="get"
+        action="/simulatePayment/{{ simprovider[0].id[0] }}/{{ purchase.id[0] }}">
+    <input type="hidden" name="returnurl" value="{{ purchase.invoiceUrl[0] }}" />
+    <input class="form-control" type="number" name="amount" step="0.01"
+           value="{{ purchase.remainingAmount[0] }}" />
+    <button type="submit" class="btn btn-default">
+      {% trans %}Simulate payment{% endtrans %}
+    </button>
+  </form>
+</div>
+{% endif %}

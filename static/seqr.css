@@ -1,0 +1,152 @@
+/*
+Copyright 2019 Open End AB
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+@font-face {
+  font-family: 'SEQR';
+  src: url('//cdn.seqr.com/webshop-plugin/fonts/book/whitneybookprogkcy.eot');
+  src: url('//cdn.seqr.com/webshop-plugin/fonts/book/whitneybookprogkcy.eot?#iefix') format('embedded-opentype'), url('//cdn.seqr.com/webshop-plugin/fonts/book/whitneybookprogkcy.woff') format('woff'), url('//cdn.seqr.com/webshop-plugin/fonts/book/whitneybookprogkcy.ttf') format('truetype'), url('//cdn.seqr.com/webshop-plugin/fonts/book/whitneybookprogkcy.svg#whitneybookprogkcy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#seqr-container {
+  background: #f2f2f2;
+  max-width: 250px;
+  margin: 0 auto;
+  font-family: "SEQR", Helvetica, Arial, sans-serif;
+  overflow: auto;
+}
+
+#seqr-container .seqr-logo {
+  padding: 15px;
+}
+
+#seqr-container .seqr-qrcode {
+  text-align: center;
+  font-size: 19px;
+  padding: 15px;
+  background: #00a391;
+  color: #ffffff;
+}
+
+#seqr-container .seqr-qrcode .seqr-images {
+  position: relative;
+  width: 220px;
+  height: 220px;
+}
+
+#seqr-container .seqr-qrcode .seqr-images img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#seqr-container .seqr-qrcode .seqr-images img.seqr-overlay-img {
+  position: absolute;
+  top: 55px;
+  left: 55px;
+  opacity: 0;
+}
+
+#seqr-container .seqr-qrcode p {
+  margin: 15px 0 0 0;
+}
+
+#seqr-container .seqr-qrcode p .seqr-text-canceled {
+  display: none;
+}
+
+#seqr-container .seqr-qrcode p .seqr-text-paid {
+  display: none;
+}
+
+#seqr-container a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+#seqr-container .seqr-text-cancel {
+    text-align: center;
+    color: #393939;
+    padding: 1em 0 1em 0;
+}
+
+#seqr-container .seqr-download {
+  float: right;
+  width: 220px;
+  margin: 0;
+  padding: 7.5px 15px;
+  text-align: center;
+}
+
+#seqr-container .seqr-download li {
+  text-align: center;
+  margin: 0px 10px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+#seqr-container .seqr-download li a {
+  text-decoration: none;
+  color: #393939;
+}
+
+#seqr-container .seqr-download img {
+  margin: 5px 0px;
+  width: 20px;
+  height: 20px;
+  border: none;
+}
+
+#seqr-container.seqr-desktop .seqr-text-press {
+  display: none;
+}
+
+#seqr-container.seqr-mobile .seqr-text-scan {
+  display: none;
+}
+
+#seqr-container.seqr-status-canceled .seqr-qrcode img.seqr-base-img {
+  opacity: 0.3;
+}
+#seqr-container.seqr-status-canceled .seqr-qrcode img.seqr-overlay-canceled {
+  opacity: 1;
+}
+#seqr-container.seqr-status-canceled .seqr-text-scan {
+  display: none;
+}
+#seqr-container.seqr-status-canceled .seqr-text-press {
+  display: none;
+}
+#seqr-container.seqr-status-canceled .seqr-text-canceled {
+  display: inline;
+}
+#seqr-container.seqr-status-paid .seqr-qrcode img.seqr-base-img {
+  opacity: 0.3;
+}
+#seqr-container.seqr-status-paid .seqr-qrcode img.seqr-overlay-paid {
+  opacity: 1;
+}
+#seqr-container.seqr-status-paid .seqr-text-scan {
+  display: none;
+}
+#seqr-container.seqr-status-paid .seqr-text-press {
+  display: none;
+}
+#seqr-container.seqr-status-paid .seqr-text-paid {
+  display: inline;
+}

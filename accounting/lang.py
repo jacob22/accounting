@@ -1,6 +1,3 @@
-Unless stated otherwise in a file in this package, all files are
-available under the Apache 2.0 Open Source License.
-
 # Copyright 2019 Open End AB
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,3 +12,19 @@ available under the Apache 2.0 Open Source License.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import werkzeug.datastructures
+
+def get_language(request):
+    def _value_matches(value, item):
+        def _normalize(language):
+            return werkzeug.datastructures._locale_delim_re.split(
+                language.lower())
+        if item == '*':
+            return True
+        for x, y in zip(_normalize(value), _normalize(item)):
+            if x != y:
+                return False
+        return True
+    request.accept_languages._value_matches = _value_matches
+    lang = request.accept_languages.best_match(['en', 'sv_SE'], default='en')
+    return lang

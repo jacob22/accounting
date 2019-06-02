@@ -1,0 +1,20 @@
+From: {{(org.name[0], sender) | email}}
+To: {{(''.join(purchase.buyerName), ''.join(purchase.buyerEmail)) | email}}
+Subject: Beställningsbekräftelse / Order confirmation - {{org.name[0]}}
+X-OE-MailType: order-confirmation
+{% if replyto %}Reply-to: {{(org.name[0], replyto) | email}}{% endif %}
+
+Tack för din beställning från {{org.name[0]}}. En bekräftelse med
+betalningsinformation kan ses på följande adress:
+{{purchase.invoiceUrl[0]}}
+
+När vi har tagit emot din betalning skickas ett email med bekräftelse
+på betalningen.
+
+
+Thank you for ordering from {{org.name[0]}}. Your order details can be
+viewed at
+{{purchase.invoiceUrl[0]}}
+
+We will send you a confirmation e-mail when we have received payment.
+

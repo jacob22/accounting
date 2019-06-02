@@ -1,0 +1,8 @@
+{# -*- mode: jinja2 -*- #}
+{% if swishprovider and purchase.paymentState != ['paid'] and purchase.kind != ['credit'] %}
+  <link rel="stylesheet" href="/static/spinner.css" type="text/css" charset="utf-8" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+{% endif %}

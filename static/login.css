@@ -1,0 +1,81 @@
+/*
+Copyright 2019 Open End AB
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+body {
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+#loginform table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginform button {
+    background: url(/static/images/openidproviders.png);
+    width: 100px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+#loginform input {
+    width: 95%;
+}
+
+#loginform button:hover {
+    background-color: #e3e3e3;
+}
+
+#loginform button[value="google"],
+#loginform button[name="google"] {
+    background-position: 0 -150px;
+}
+
+#loginform button[name="yahoo"] {
+    background-position: 0 -122px;
+}
+
+#loginform button[value="facebook"] {
+    background-position: 0 -810px;
+}
+
+#loginform button[value="twitter"] {
+    background-position: 0 -62px;
+}
+
+#loginform button[value="windowslive"] {
+    background-position: 0 -512px;
+}
+
+#loginform button[name="custom"] {
+    background-position: 0 -482px;
+}
+
+input[type="text"] {
+    padding-left: 0.4em;
+}
+
+.hotmailcomment,
+.cookies {
+    margin: 2ex 0;
+    font-size: 80%;
+}

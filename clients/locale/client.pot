@@ -1,0 +1,676 @@
+msgid "Account"
+msgstr ""
+
+msgid "Accounted"
+msgstr ""
+
+msgid ""
+"Accounts used in your iZettle payment provider settings is missing in the "
+"current accounting. Correct this situation in order to import transactions."
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Additional information"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "Amount to pay"
+msgstr ""
+
+msgid "An error occured while processing your payment."
+msgstr ""
+
+msgid "An unknown error has occured. Please try again later."
+msgstr ""
+
+msgid "Approve"
+msgstr ""
+
+msgid ""
+"Are you sure you want to permanently remove the category <em>{name}</em>?"
+msgstr ""
+
+msgid "Attach invoice files"
+msgstr ""
+
+msgid "Attention!"
+msgstr ""
+
+msgid "Automated"
+msgstr ""
+
+msgid "Automated payment completed."
+msgstr ""
+
+msgid "Automated payment failed."
+msgstr ""
+
+msgid "Automated payment order for transfer on"
+msgstr ""
+
+msgid "Automated payment scheduled for"
+msgstr ""
+
+msgid "Bank account"
+msgstr ""
+
+msgid "Bank account number"
+msgstr ""
+
+msgid "Bankgiro"
+msgstr ""
+
+msgid "Barcode:"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cancel automatic payment"
+msgstr ""
+
+msgid "Choose category"
+msgstr ""
+
+msgid "Clear rejected status"
+msgstr ""
+
+msgid "Clear selection"
+msgstr ""
+
+msgid "Clearing"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Complete the payment in your Swish app."
+msgstr ""
+
+msgid "Create new"
+msgstr ""
+
+msgid "Create transfer verification"
+msgstr ""
+
+msgid "Credit"
+msgstr ""
+
+msgid "Custom unit:"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Date of purchase"
+msgstr ""
+
+msgid "Dates"
+msgstr ""
+
+msgid "Debit"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete draft"
+msgstr ""
+
+msgid "Deny"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Diff"
+msgstr ""
+
+msgid "Discard form"
+msgstr ""
+
+msgid "Download Plusgiro file"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid ""
+"Drag and drop the Excel product list to this box, or click to select file."
+msgstr ""
+
+msgid ""
+"Drag and drop the Excel transactions file to this box, or click to select "
+"file."
+msgstr ""
+
+msgid "Drag and drop the SIE4 file to this box, or click to select file."
+msgstr ""
+
+msgid ""
+"Drag and drop the scanned invoice file to this box, or click to select file."
+msgstr ""
+
+msgid "Due"
+msgstr ""
+
+msgid "Due date"
+msgstr ""
+
+msgid "E-mail"
+msgstr ""
+
+msgid "Enter additional information here"
+msgstr ""
+
+msgid "Enter text"
+msgstr ""
+
+msgid "Enter your phone number:"
+msgstr ""
+
+msgid "Error message from Bankgirocentralen (BGC):"
+msgstr ""
+
+msgid "Expense category"
+msgstr ""
+
+msgid "Expenses with a fixed price per unit"
+msgstr ""
+
+msgid "Expenses with a single, fixed price"
+msgstr ""
+
+msgid "Expiry date"
+msgstr ""
+
+msgid "Failed to save verification. Please close this window."
+msgstr ""
+
+msgid "Failure!"
+msgstr ""
+
+msgid "Fetching data..."
+msgstr ""
+
+msgid "Fields marked with <span class=\"mandatory\"></span> are mandatory."
+msgstr ""
+
+msgid "Generate transfer verification"
+msgstr ""
+
+msgid "Handle"
+msgstr ""
+
+msgid "Hide accounted invoices (default)"
+msgstr ""
+
+msgid "Hide automated invoices"
+msgstr ""
+
+msgid "Importing..."
+msgstr ""
+
+msgid "Importing... "
+msgstr ""
+
+msgid ""
+"In {number} iZettle products an account is no longer present in the current "
+"account plan. These products are marked with <i class=\"fa fa-bug\" aria-"
+"hidden=\"true\"></i>."
+msgstr ""
+
+msgid ""
+"In {number} iZettle products the price does not match the accounting rules. "
+"These products are marked with <i class=\"fa fa-exclamation-triangle\" aria-"
+"hidden=\"true\"></i>."
+msgstr ""
+
+msgid "Incorrect Luhn checksum."
+msgstr ""
+
+msgid "Incorrect date format. Please use YYYY-MM-DD."
+msgstr ""
+
+msgid "Incorrect phone number."
+msgstr ""
+
+msgid "Invert selection"
+msgstr ""
+
+msgid "Invoice date"
+msgstr ""
+
+msgid "Invoice identifier"
+msgstr ""
+
+msgid "Invoice number"
+msgstr ""
+
+msgid "Invoice type"
+msgstr ""
+
+msgid "Item"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Log of uploaded files"
+msgstr ""
+
+msgid "Manual payment done."
+msgstr ""
+
+msgid "Manual payment sent."
+msgstr ""
+
+msgid "Mark as paid"
+msgstr ""
+
+msgid "Mark as registered"
+msgstr ""
+
+msgid "Mark as sent"
+msgstr ""
+
+msgid ""
+"Members of the <i>Storekeeper</i> role can upload iZettle products files "
+"here."
+msgstr ""
+
+msgid "Message to recipient"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "No account"
+msgstr ""
+
+msgid "No attached files"
+msgstr ""
+
+msgid "No expense reports match."
+msgstr ""
+
+msgid "No, keep this category"
+msgstr ""
+
+msgid "Not a banking day"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgid "Note:"
+msgstr ""
+
+msgid "OCR number"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Order failed"
+msgstr ""
+
+msgid "Overdue"
+msgstr ""
+
+msgid "Overdue date"
+msgstr ""
+
+msgid "Paid"
+msgstr ""
+
+msgid "Past date"
+msgstr ""
+
+msgid "Pay"
+msgstr ""
+
+msgid "Pay with Swish"
+msgstr ""
+
+msgid "Payment"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Phone number is not connected to Swish."
+msgstr ""
+
+msgid "Please wait while your order is being processed."
+msgstr ""
+
+msgid "Plusgiro"
+msgstr ""
+
+msgid "Plusgiro payment order file: sending bank account"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Products"
+msgstr ""
+
+msgid "Quantity"
+msgstr ""
+
+msgid "Quantity remaining"
+msgstr ""
+
+msgid "Receipts and documents"
+msgstr ""
+
+msgid "Recipient name"
+msgstr ""
+
+msgid "Registered"
+msgstr ""
+
+msgid "Rejected"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Remove category"
+msgstr ""
+
+msgid "Remove this category?"
+msgstr ""
+
+msgid "Removing"
+msgstr ""
+
+msgid "Reset changes"
+msgstr ""
+
+msgid "Revert"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Saving"
+msgstr ""
+
+msgid "Saving..."
+msgstr ""
+
+msgid "Scanned invoice"
+msgstr ""
+
+msgid "Schedule automatic payment"
+msgstr ""
+
+msgid "Scheduled"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Select account"
+msgstr ""
+
+msgid "Select all"
+msgstr ""
+
+msgid "Select all unaccounted"
+msgstr ""
+
+msgid "Select invoices due today"
+msgstr ""
+
+msgid "Select invoices for accounting"
+msgstr ""
+
+msgid "Select series"
+msgstr ""
+
+msgid ""
+"Select verification series, account for payables and receivables, and the "
+"bank account from which to draw money on transfer."
+msgstr ""
+
+msgid "Sent"
+msgstr ""
+
+msgid "Series"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Shopping cart"
+msgstr ""
+
+msgid "Show accounted invoices"
+msgstr ""
+
+msgid "Show automated invoices (default)"
+msgstr ""
+
+msgid "Show ledger"
+msgstr ""
+
+msgid "Show manual payment journal"
+msgstr ""
+
+msgid "Sort ascending (current first)"
+msgstr ""
+
+msgid "Sort descending (futuremost first)"
+msgstr ""
+
+msgid "Standard expenses"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Submitting order..."
+msgstr ""
+
+msgid "Success!"
+msgstr ""
+
+msgid "Sum"
+msgstr ""
+
+msgid "Supplier debt account"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "The iZettle product import failed."
+msgstr ""
+
+msgid "The iZettle transaction import failed."
+msgstr ""
+
+msgid "The name field is mandatory."
+msgstr ""
+
+msgid "The shopping cart is empty."
+msgstr ""
+
+msgid ""
+"The uploaded transactions file has been imported, creating {created} "
+"payments."
+msgstr ""
+
+msgid ""
+"The uploded iZettle products file has been imported, creating {created} new, "
+"and updating {updated} iZettle products."
+msgstr ""
+
+msgid "There are no expense reports to manage."
+msgstr ""
+
+msgid "There are no iZettle products yet."
+msgstr ""
+
+msgid "There are no reports"
+msgstr ""
+
+msgid "This field is mandatory"
+msgstr ""
+
+msgid ""
+"Timeout during communication with bank. Please note that we can not tell if "
+"the payment was successful or not. You should check your bank statement."
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Transfer date"
+msgstr ""
+
+msgid "Transfer method"
+msgstr ""
+
+msgid "Transfer verification text"
+msgstr ""
+
+msgid "Unit"
+msgstr ""
+
+msgid "Unsaved changes"
+msgstr ""
+
+msgid "Unschedule automatic payment"
+msgstr ""
+
+msgid "Upload SIE4 file here."
+msgstr ""
+
+msgid "Upload iZettle product list here."
+msgstr ""
+
+msgid "Upload iZettle transactions file here."
+msgstr ""
+
+msgid "Upload scanned invoice here."
+msgstr ""
+
+msgid "Upload your receipts here."
+msgstr ""
+
+msgid "VAT percentage:"
+msgstr ""
+
+msgid "Variant"
+msgstr ""
+
+msgid "Verification"
+msgstr ""
+
+msgid "Verification on registration"
+msgstr ""
+
+msgid "Verification on transfer complete"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Warning!"
+msgstr ""
+
+msgid ""
+"When you pay with Swish, you should open your Swish app and verify that the "
+"information there is correct. You must authorize the purchas with your "
+"Mobile BankID and you will immediately get a payment confirmation."
+msgstr ""
+
+msgid "Working..."
+msgstr ""
+
+msgid "YYYY-MM-DD"
+msgstr ""
+
+msgid "You already have a payment you need to handle. Please check your phone."
+msgstr ""
+
+msgid "You have aborted the payment."
+msgstr ""
+
+msgid "You have cancelled the BankID signing."
+msgstr ""
+
+msgid "You have no expense reports that are being processed."
+msgstr ""
+
+msgid "You have not entered a phone number."
+msgstr ""
+
+msgid ""
+"You have not set up iZettle as a payment provider for your organization."
+msgstr ""
+
+msgid "You must fill in at least one of the Address and E-mail fields."
+msgstr ""
+
+msgid "You need to save the draft before uploading attachements is possible."
+msgstr ""
+
+msgid "You need to sign the autmatic payment using Freja eID."
+msgstr ""
+
+msgid "Your order could not be placed. Please try again at a later time."
+msgstr ""
+
+msgid "has been sent."
+msgstr ""
+
+msgid "iZettle Products"
+msgstr ""
+
+msgid "iZettle Transactions"
+msgstr ""
+
+msgid ""
+"iZettle price not specified. Product can not be evaluated in verification "
+"import."
+msgstr ""
+
+msgid "iZettle product identifier:"
+msgstr ""
+
+msgid "invoices selected"
+msgstr ""
+
+msgid "new payments:"
+msgstr ""
+
+msgid "phone number"
+msgstr ""
+
+msgid "products"
+msgstr ""

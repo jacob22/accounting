@@ -1,0 +1,196 @@
+<!DOCTYPE html> {# -*- mode: jinja2 -*- #}
+<html lang="{{ language }}">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{{ org.name[0] }}</title>
+    <link rel="stylesheet" href="/static/invoice.css" type="text/css" charset="utf-8" />
+
+    {% include 'invoice/swish.header.html' %}
+
+    <meta name="viewport" content="width=device-width,
+				   initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <link href="//netdna.bootstrapcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+      <link href="/static/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="/static/respond.proxy.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <div id="webshop-header" class="container">
+      {% if org.hasImage[0] %}
+        <img class="logotype img-responsive" src="/image/{{ org.id[0] }}" />
+      {% else %}
+        <h1 class="text-center">{{ org.name[0] }}</h1>
+      {% endif %}
+    </div>
+    <div class="container">
+
+      <div class="specification">
+	<div class="headerRow">
+	  <div class="item-name spec-column pull-left">{% trans %}Item{% endtrans %}</div>
+	  <div class="item-total spec-column numeric pull-right">{% trans %}Total{% endtrans %}</div>
+	  <div class="item-quantity spec-column numeric pull-right">{% trans %}Quantity{% endtrans %}</div>
+	  <div class="item-price spec-column numeric pull-right">{% trans %}Price{% endtrans %}</div>
+	</div>
+	{% set row_class_cycler = cycler('odd', 'even') %}
+	{% for item in purchase.items %}
+          {% set row_class = row_class_cycler.next() %}
+          <div class="itemRow {{ row_class }}">
+            <div class="item-name spec-column pull-left">{{ item.product[0].name[0] }}</div>
+            <div class="pull-right">
+              <div class="item-total spec-column numeric pull-right">{{ item.total[0] }}</div>
+              <div class="item-quantity spec-column numeric pull-right">{{ item.quantity[0] }}</div>
+              <div class="item-price spec-column numeric pull-right">{{ item.price[0] }}</div>
+            </div>
+          </div>
+          {% if item.optionsWithValue %}
+            <div class="itemOptions clearfix {{ row_class }}">
+              <table>
+                {% for field, value in item.optionsWithValue %}
+                  <tr>
+                    <td class="itemOptionField">{{ field }}:</td>
+                    <td class="itemOptionValue">{{ value }}</td>
+                  </tr>
+                {% endfor %}
+              </table>
+            </div>
+          {% endif %}
+	{% endfor %}
+	<div class="clearfix">
+	  <div class="pull-right">
+	    <span class="vat">
+	      {% for code, percentage, amount in purchase.vat %}
+                <span>{% trans %}VAT{% endtrans %} {{ percentage | vatpercentage }}%: {{ amount }}</span>
+	      {% endfor %}
+	    </span>
+	    <span class="total">{% trans %}Amount to pay:{% endtrans %} {{ purchase.currency[0]}}</span>
+            <span class="total numeric sum">{{ purchase.total[0] }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row footer">
+        <div class="supplier col-sm-4">
+          <h4>{% trans %}Seller{% endtrans %}</h4>
+          <div class="orgName">{{ org.name[0] }}</div>
+          <div class="orgAddress">{{ ''.join(org.address) }}</div>
+          {% if org.phone %}
+            <div class="orgPhone"><em>{% trans %}Phone:{% endtrans %}</em> {{ org.phone[0] }}</div>
+          {% endif %}
+          {% if org.email %}
+            <div class="orgEmail">
+              <a href="mailto:{{ org.email[0] }}">
+                {{ org.email[0] }}
+              </a>
+            </div>
+          {% endif %}
+          <div class="orgnum"><em>Orgnr:</em> {{ ''.join(org.orgnum) }}</div>
+        </div>
+
+        <div class="buyer col-sm-4">
+          <h4>{% trans %}Buyer{% endtrans %}</h4>
+          <div class="buyerName">{{ purchase.buyerName[0] }}</div>
+          <div class="buyerAddress">{{ purchase.buyerAddress[0] }}</div>
+          {% if ''.join(purchase.buyerPhone) %}
+            <div class="buyerPhone"><em>{% trans %}Phone:{% endtrans %}</em> {{ purchase.buyerPhone[0] }}</div>
+          {% endif %}
+          <div class="buyerEmail">
+            <a href="mailto:{{ purchase.buyerEmail[0] }}">
+              {{ purchase.buyerEmail[0] }}
+            </a>
+          </div>
+
+          {% if ''.join(purchase.buyerAnnotation) %}
+            <div class="buyerAnnotation">{{ purchase.buyerAnnotation[0] }}</div>
+          {% endif %}
+        </div>
+
+        <div class="payment col-sm-4">
+
+          <div class="invoiceData">
+            <div class="pull-right">
+              <a href="{{ purchase.invoiceUrl[0] }}.pdf" class="pdf-link" target="_blank">
+                <span class="glyphicon glyphicon-file pdf-icon"></span><br>
+                PDF
+              </a>
+            </div>
+
+            <div class="invoiceDate">
+              {% trans %}Date:{% endtrans %}
+              {{ purchase.date[0] | date }}
+            </div>
+
+            <div class="referenceNumber">
+              {% trans %}Reference number:{% endtrans %}
+              {{ purchase.ocr[0] }}
+            </div>
+
+            {% if purchase.expiryDate %}
+              <div class="expiryDate">
+                {% trans %}Due date:{% endtrans %}
+                {{ purchase.expiryDate[0] | date }}
+              </div>
+            {% endif %}
+
+          </div> {# /.invoiceData #}
+
+          {% if purchase.paymentState == ["paid"] %}
+            {% if purchase.total[0] != 0 %}
+              <h3 class="paid">{% trans %}Thanks for your payment{% endtrans %}</h3>
+            {% else %}
+              <p class="free">{% trans %}Since the total cost of this purchase is zero, no payment is needed.{% endtrans %}</p>
+            {% endif %}
+          {% endif %}
+
+          {% if purchase.paymentState == ["credited"] %}
+            <h3>{% trans %}Credited{% endtrans %}</h3>
+          {% endif %}
+
+          {% if tickets %}
+            <div class="tickets">
+              <form id="getTickets" method="get" action="{{ purchase.ticketsUrl[0] }}">
+                <input class="btn" type="submit" value="{% trans %}Get tickets{% endtrans %}" />
+              </form>
+            </div>
+          {% endif %}
+
+          {% if purchase.paymentState[0] in ("unpaid", "partial") and purchase.kind != ["credit"] %}
+            <h4>{% trans %}Payment options{% endtrans %}</h4>
+            <div class="providers">
+              {% include 'invoice/plusgiro.html' %}
+              {% include 'invoice/payson.html' %}
+              {% include 'invoice/seqr.html' %}
+              {% include 'invoice/stripe.html' %}
+              {% include 'invoice/swish.html' %}
+              {% include 'invoice/simulator.html' %}
+            </div>
+          {% endif %}
+
+        </div> {# /.payment #}
+
+      </div> {# /.footer #}
+
+    </div> {# /.container #}
+
+    <!-- jQuery -->
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- <script src="/webshop/jquery.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    {% include 'invoice/swish.footer.html' %}
+
+  </body>
+</html>

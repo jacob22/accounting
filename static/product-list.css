@@ -1,0 +1,55 @@
+/*
+Copyright 2019 Open End AB
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+.products {
+    font-family: sans;
+}
+
+.products .section .row-header {
+    cursor: pointer;
+}
+
+.products .section .product-count,
+.products .section .product .price {
+    float: right;
+}
+
+.products .section .product .options {
+    padding: 1ex;
+}
+
+.products .section .product .option label {
+    margin-right: 1ex;
+    text-align: right;
+}
+
+.products .section .product .mandatory-explanation {
+    font-size: smaller;
+    font-style: italic;
+}
+
+.products .section .product .option label.mandatory:after,
+.products .section .product .mandatory-explanation span.mandatory:after {
+    content: "\a0*";
+    color: red;
+    font-size: 75%;
+    vertical-align: super;
+}
+
+.products .section .product .stock {
+    font-weight: bold;
+    margin-right: 3em;
+}

@@ -1,0 +1,61 @@
+MH00        5164005810            44580231  SEK      SEK                        
+PI0002                  201111300000000100000           44580264                
+BA00                           BETALNING NR 1                                   
+BE01                  ANNA ANDERSSON                                            
+BE0210571    STOCKHOLM                                                          
+BE03REGERINGSGATAN 42                                                           
+BM99Återbetalning av fakt nr 1                                                  
+PI0000     8377004      2011113000000001000001234567899                         
+BA00                           BETALNING NR 2 OCRREF                            
+PI0000     44580264     201111300000000100000                                   
+BA00                           BETALNING NR 3                                   
+BM99Avser betalning av 500 levererade böcker. Vid nästa beställning som vi ska  
+BM99göra om 2 månader ber vi er beräkna de totala kostnaderna för 1000 böcker.  
+PI0005     2374825      2011113000000001000001111111116                         
+BA00                           BETALNING NR 4 OCRREF                            
+PI0005     50052976     201111300000000100000                                   
+BA00                           BETALNING NR 5                                   
+BM99Betalning för införda annonser under augusti månad. Avdrag för felaktigheter
+BM99i den första annonsen har gjorts enligt överenskommelse.                    
+PI00093144 7723686      201111300000000100000Fakt. 5432                         
+BA00                           BETALNING NR 6                                   
+PI0005     50052976     201111300000000100000                                   
+BA00                           BETALNING NR 7                                   
+CNDBFaktura nr 1211                    0000000104000                            
+CNKRKreditfaktura nr1212               0000000004000                            
+PI00093144 7805569      201111300000000100000Stipendium                         
+BA00                           BETALNING NR 8                                   
+PI00083145 7715481      201111300000000100000                                   
+BA00                           BETALNING NR 9                                   
+PI00063144 7805569      201111300000000100000                                   
+BA00                           BETALNING NR 10                                  
+PI0000     44580264     201111300000000100000                                   
+BA00                           BETALNING NR 11                                  
+CNDBReferens 535535                    0000000400000                            
+CNKRReferens 625111                    0000000050000                            
+CNKRReferens 625112                    0000000075000                            
+CNKRReferens 625113                    0000000025000                            
+CNKRReferens 625114                    0000000010000                            
+CNKRReferens 625115                    0000000010000                            
+CNKRReferens 625116                    0000000010000                            
+CNKRReferens 625117                    0000000010000                            
+CNKRReferens 625118                    0000000010000                            
+CNKRReferens 625119                    0000000010000                            
+CNKRReferens 625120                    0000000010000                            
+CNKRReferens 625121                    0000000010000                            
+CNKRReferens 625122                    0000000010000                            
+CNKRReferens 625123                    0000000010000                            
+CNKRReferens 625124                    0000000010000                            
+CNKRReferens 625125                    0000000010000                            
+CNKRReferens 625126                    0000000010000                            
+CNKRReferens 625127                    0000000010000                            
+CNKRReferens 625128                    0000000010000                            
+MT00                         0000011000000001100000                             
+MH00        5164005810            44580231  EUR      EUR                        
+PI0000     44580231     201111300000000010000 Faktura nr 4567                   
+BA00                           BETALNING NR 12                                  
+MT00                         0000001000000000010000                             
+MH00        5164005810            44580231  EUR      SEK                        
+PI0000     44580272     201111300000000005000Faktura nr 4568                    
+BA00                           BETALNING NR13                                   
+MT00                         0000001000000000005000                             

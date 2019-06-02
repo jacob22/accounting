@@ -1,0 +1,158 @@
+Medlemsadministration är kärnan i den administrativa verksamheten i de
+flesta föreningar. Administrationen går ut på att ta in och bokföra
+medlemsavgifter (och andra inbetalningar) från medlemmarna,
+upprätthålla ett register över medlemmarna och att rapportera in
+medlemsinformationen till förbundsorganisationer och bidragsgivare.
+
+Det finns så vitt jag har kunnat se inget system som integrerar dessa
+element i ett effektivt administrativt flöde och därför går det åt
+väldigt mycket arbetstid i föreningarna för att få det hela att
+fungera. Mängden fel blir dessutom ganska stor.
+
+Arbetsflödet för olika roller ser ut ungefär så här:
+
+Befintlig medlem
+=================
+
+1. Befintliga medlemmar får ett utskick om att det är dags att förnya sina
+avgifter för perioden.
+
+2. Varje medlem loggar in på föreningens Eutaxia-Admin-sida med hjälp
+av ett OpenID.
+
+3. Medlemmen får ett förslag med produkter att betala för, baserat på
+förra årets inköp.
+
+3. Medlemmen väljer vilka produkter hen vill betala för, kontrollerar
+och rättar personuppgifter knutna till respektive produkt.
+
+4. Medlemmen checkar ut och får en OCR-kod.
+
+5. Medlemmen betalar via Plusgiro/Bankgiro med OCR-koden.
+
+6. När betalningen har registrerats i föreningens bokföringssystem får
+medlemmen en bekräftelse via epost. Denna kan innehålla en PDF-fil med
+ett medlemskort.
+
+Ny medlem
+=========
+
+1. Personen får information om hur och var man betalar medlemsavgift.
+
+2. Personen går till föreningens Eutaxia-Admin-sida och skapar ett nytt
+konto genom att ange sin autenticering för ett OpenID-konto.
+
+3. Personen får ett formulär där grundläggande persondata fylls i.
+
+4. Personen väljer produkter hen vill betala för, checkar ut och får
+en OCR-kod.
+
+4. Personen betalar via Plusgiro/Bankgiro med OCR-koden.
+
+5. När betalningen har registrerats i föreningens bokföringssystem får
+personen en bekräftelse via epost. Denna kan innehålla en PDF-fil med
+ett medlemskort. Personen är nu registrerad som medlem.
+
+Prospektiv medlem
+=================
+
+En prospektiv medlem är en person som deltar i föreningens aktivitet
+utan att vara medlem. Man vill registrera sådana personer eftersom man
+kan få bidrag för deras deltagande.
+
+De går igenom steg 1-3 för Ny medlem. Blir de senare riktiga medlemmar
+går de igenom samtliga steg för befintlig medlem.
+
+Icke medlemmar
+==============
+
+Det kan finnas anledning att erbjuda produkter till icke
+medlemmar. Detta kan vara sådant som kursavgifter eller
+matchbiljetter. Man ska kunna köpa sådana produkter utan att logga in
+och utan att behöva ange alla personuppgifter som en medlem behöver
+ange.
+
+Bokföringsansvarig
+==================
+
+1. När betalningar flyter in så levereras en fil från
+Plusgirot/Bankgirot.  Denna innehåller betalningar, antingen med
+OCR-nummer eller med betalningsinformation.
+
+2. Det finns nu två alternativa möjligheter att skapa affärsregler:
+
+a. När en fil hämtas från girot så matchas posterna automatiskt mot
+utestående medlemsbetalningar. De som kan matchas bokförs automatiskt
+medan de som inte kan matchas läggs upp som okända inbetalningar, med
+så mycket data som ingår i filformatet. Dessa kan sedan matchas för
+hand eller bokföras för hand.
+
+b. När det finns filer tillgängliga från girot ger den
+bokföringsansvarige ett kommando för inmatchning av befintliga
+filer. De som kan matchas bokförs medan övrigaläggs upp som okända
+inbetalningar för manuell matchning.
+
+Grundprincipen ska vara att alla inbetalningar ska kunna matchas mot
+ett OCR-nummer, men vissa betalningar, som bidrag från kommun och
+förbund kommer att betalas in utan matchande referens och ofta med
+okänt belopp. Förhoppningsvis kan man identifiera dessa utifrån
+adress, avsändarkonto eller liknande. Det bör finnas en funktion där
+man kan ange att handmatchande betalningar ska registreras som
+underlag för framtida automatiska matchningar. T.ex. kan avsändarkonto
+automatiskt leda till viss kontering, eller förslag på kontering.
+
+Registeransvarig
+================
+
+1. Den registeransvarige kontrollerar att medlemmarna förnyar sina
+medlemsskap under förnyelseperioden.
+
+2. Lämpligt antal dagar efter sista inbetalning skickas påminnleser
+till alla som inte har förnyat.
+
+3. Efter ytterligare någon tid kan medlemsregister levereras till
+förbund och andra intressenter.
+
+4. Rapporter omfattande specifika urval av medlemmarna genereras vid
+behov.  Detta kan t.ex. vara nyckelregister, medlemsrulla eller lista
+på betalda medlemsavgifter.
+
+Informationssökare
+==================
+
+Medlem som vill ta kontakt med annan medlem ska kunna slå upp
+medlemsdata i medlemsregistret. Man bör kunna hitta årets och
+föregående års medlemmar. Det kan vara nödvändigt att erbjuda en
+möjlighet att inte bli inkluderad i delen av medlemsregistret som är
+tillgängligt för övriga medlemmar. Det finns t.ex. personer som har
+skyddad identitet, där risken för läckage är så stor att endast
+föreningens styrelse ska ha kontaktinformation.
+
+Produktutbud
+============
+
+Medlemmen ska kunna välja bland alla produkter som föreningen erbjuder.
+Detta kan vara olika former av medlemsskap, nyckelavgifter, platshyra
+(skåp, kanotplats, hästbox etc), träningsavgifter, med mera.
+
+I bland kan möjligheten att köpa en produkt vara styrd av att man
+sedan tidigarehar en annan produkt, eller har den andra produkten i
+sin varukorg. Det kan finnas flera andra produkter som gör användaren
+kvalificerad att köpa en viss produkt. T.ex. ska måde individuell
+medlemsavgift och familjemedlemsavgift fungera som förutsättning för
+att få hyra en kajakplats.
+
+En produkt kan kräva tilläggsinformation från slutkunden
+(t.ex. skostorlek eller hästnamn), eller extrainformation som en
+administratör tillför (t.ex. nyckelnummer, eller kanotplatsnummer).
+
+En produkt har en giltighetsperiod och en period då den är tillgänglig
+för beställning.
+
+En smärre överkurs är att reducera produktutbudet som visas för
+medlemmen till de produkter som vederbörande faktiskt kan köpa. Man
+visar inte medlemsalternativ för en ständig medlem eller
+ungdomsmedlemskap för en vuxen person.
+
+Det krävs ett användargränssnitt för att definiera de tillgängliga
+produkterna. Med produktberoendena blir gränssnittet inte trivialt.

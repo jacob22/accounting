@@ -1,0 +1,5 @@
+{% if paysonprovider %}
+<div id ="payson">
+  <a href="/paysonPayment/{{ paysonprovider[0].id[0] }}/{{ purchase.id[0] }}?{{ {'returnurl': purchase.invoiceUrl[0]} | urlencode }}" id="paysonButton" type="submit" value="Betala med Payson">{% trans %}Pay{% endtrans %}</a>
+</div>
+{% endif %}

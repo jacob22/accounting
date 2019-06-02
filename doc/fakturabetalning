@@ -1,0 +1,39 @@
+Stöd för fakturabetalning innebär att man i Eutaxia Admin registrerar
+sina utbetalningar för att sedan göra en filöverföring till
+internetbank eller Bankgirots betalningsservice. Initialt kommer vi
+bara att stödja Nordeas Internetbank, som är kopplad till ett
+Plusgirokonto. De har filimport direkt i användargränssnittet till
+Internetbanken.
+
+De arbetsmoment som behöver stödjas är:
+
+- Registrering av kontonummer för utgående betalningar, med knytning
+  till balanskonto i bokföringen.
+
+- Registrering av en leverantör. Här ska användaren mata in namn och
+  kontonummer för leverantören. Det ska finnas möjligheter att lägga
+  in adress, telefon, epost, organisationsnummer samt konton för
+  automatkontering.
+
+- Registrering av en betalning. Val av leverantör, inmatning av
+  belopp, förfallodag samt meddelande/ORC.
+
+- Kontering av registrerade betalningar
+(kan kanske hanteras som överföring av inkompletta transaktioner till bokföringen och konteras där.)
+
+- Filexport av registrerade betalningar.
+
+- Rättelse och omexport till fil av registrerade betalningar.
+
+- Export av utvalda transaktioner till bokföringen.
+
+- Redigering av leverantör
+
+Registrering av betalningar är huvudvyn och registrering av en
+leverantör bör bakas in som en del i betalningsregistreringen. Man ska
+inte behöva avbryta registreringen av betalningar för att i en annan
+vy registrera en leverantör.
+
+Det ska gå att söka leverantör på kontonummer och namn.
+
+Det är bra om det går att söka betalningar på belopp.

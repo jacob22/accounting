@@ -1,0 +1,98 @@
+{% extends "report.html" %}
+{% block title %}{% trans %}Balance sheet{% endtrans %}{% endblock title %}
+{% block header %}{% trans %}Balance sheet{% endtrans %}{% endblock header %}
+
+{% macro section(title, end_text, rows, sums) %}
+  {% if rows %}
+      <tr>
+        <td></td>
+        <td class="title">{{ title }}</td>
+      </tr>
+      {% for r in rows %}
+        <tr>
+          <td>{{ r.number[0] }}</td>
+          <td>{{ r.name[0] }}</td>
+          <td class="money">{{ r.opening_balance[0] |thousand_sep }}</td>
+          <td class="money">{{ r.total[0] |thousand_sep }}</td>
+          <td class="money">{{ (r.opening_balance[0] + r.total[0]) |thousand_sep }}</td>
+        </tr>
+      {% endfor %}
+      <tr>
+        <td></td>
+        <td class="account">{{ end_text }}</td>
+        <td class="money account">{{ sums[0] |thousand_sep }}</td>
+        <td class="money account">{{ sums[1] |thousand_sep }}</td>
+        <td class="money account">{{ (sums[1] + sums[0]) |thousand_sep }}</td>
+      </tr>
+      <tr><td>&#xa0;</td></tr>
+  {% endif %}
+{% endmacro %}
+
+{% macro sum_row(title) %}
+  {% set sums = balance_sums(varargs) %}
+      <tr>
+        <td></td>
+        <td class="account upper">{{ title }}</td>
+        <td class="money account">{{ sums[0] |thousand_sep }}</td>
+        <td class="money account">{{ sums[1] |thousand_sep }}</td>
+        <td class="money account">{{ sums[2] |thousand_sep }}</td>
+      </tr>
+      <tr><td>&#xa0;</td></tr>
+
+{% endmacro %}
+
+{% block report %}
+    <table>
+      <tr>
+        <th>{% trans %}Account{% endtrans %}</th>
+        <th>{% trans %}Header/Name{% endtrans %}</th>
+        <th class="money">{% trans %}Opening balance{% endtrans %}</th>
+        <th class="money">{% trans %}Difference{% endtrans %}</th>
+        <th class="money">{% trans %}Closing balance{% endtrans %}</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="account upper">{% trans %}Assets{% endtrans %}</td>
+      </tr>
+      {% set (fixed_assets, sums_fixed_assets) = make_sums(result, '1000', '1600') %}
+      {{ section(gettext('Fixed assets'),
+                 gettext('Sum of fixed assets'),
+                 fixed_assets, sums_fixed_assets) }}
+      {% set (cash_assets, sums_cash_assets) = make_sums(result, '1600', '2000') %}
+      {{ section(gettext('Current assets'),
+                 gettext('Sum of current assets'),
+                 cash_assets, sums_cash_assets) }}
+
+      {{ sum_row(gettext('Sum of assets'), sums_fixed_assets, sums_cash_assets) }}
+      <tr>
+        <td>&#xa0;</td>
+        <td class="account upper">{% trans %}Liabilities and capital{% endtrans %}</td>
+      </tr>
+      {% set (capital, sums_capital) = make_sums(result, '2000', '2200') %}
+      {{ section(gettext('Capital'),
+                 gettext('Sum of capital'),
+                 capital, sums_capital) }}
+      {% set (reservations, sums_reservations) = make_sums(result, '2200', '2300') %}
+      {{ section(gettext('Provisions'),
+                 gettext('Sum of provisions'),
+                 reservations, sums_reservations) }}
+      {% set (fixed_liabilities, sums_fixed_liabilities) = make_sums(result, '2300', '2400') %}
+      {{ section(gettext('Long term debts'),
+                 gettext('Sum of long term debts'),
+                 fixed_liabilities, sums_fixed_liabilities) }}
+      {% set (cash_liabilities, sums_cash_liabilities) = make_sums(result, '2400', '3000') %}
+      {{ section(gettext('Short term debts'),
+                 gettext('Sum of short term debts'),
+                 cash_liabilities, sums_cash_liabilities) }}
+
+      {{ sum_row(gettext('Sum of debts and capital'),
+                 sums_capital, sums_reservations, sums_fixed_liabilities, sums_cash_liabilities) }}
+      {{ sum_row(gettext('Calculated net income'),
+                 sums_fixed_assets,
+                 sums_cash_assets,
+                 sums_capital,
+                 sums_reservations,
+                 sums_fixed_liabilities,
+                 sums_cash_liabilities) }}
+    </table>
+{% endblock %}

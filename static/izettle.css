@@ -1,0 +1,88 @@
+/*
+Copyright 2019 Open End AB
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+#status {
+    padding-top: 1rem;
+}
+
+.nohover {
+    background-color: white;
+}
+
+.barcode,
+.productId {
+    font-family: monospace;
+    color: grey;
+    margin-left: 0.5ex;
+}
+
+.otherunit,
+.vatpercentage,
+.izpnote {
+    margin-left: 0.5ex;
+    color: grey;
+}
+
+.queryselect > div > svg {
+    /* Move the arrow symbol in the combobox a few pixels to the left. */
+    position: relative;
+    right: 0.6em;
+}
+
+.infoBox {
+    margin: 0.5ex;
+    margin-left: 1em;
+    color: grey;
+}
+
+.alerttext {
+    margin-left: 1ex;
+}
+
+.simplelist {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.smallfont {
+    font-size: smaller;
+}
+
+.uploadData {
+    display: inline-block;
+    padding-right: 1ex;
+}
+.uploadNum {
+    text-align: right;
+    display: inline-block;
+    padding-right: 1ex;
+    min-width: 6ex;
+}
+.dropzone {
+    margin-bottom: 1.25rem;
+}
+
+.amountbox {
+    width: 15ex;
+}
+.spinner-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: initial;
+    left: initial;
+    padding: 1.25rem;
+}

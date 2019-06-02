@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{{ product.name[0] }}</title>
+    <style type="text/css">
+{{ css }}
+{{ sales_css }}
+    </style>
+  </head>
+  <body>
+    <div class="report">
+      <h1>
+        {% set name = product.name[0] %}
+        {% trans %}Sales report for <em>{{ name }}</em>{% endtrans %}
+      </h1>
+      <table>
+        <thead>
+          <tr>
+            <th>{% trans %}Buyer{% endtrans %}</th>
+            <th>{% trans %}Phone{% endtrans %}</th>
+            <th>{% trans %}Buyer e-mail{% endtrans %}</th>
+            <th>{% trans %}Date{% endtrans %}</th>
+            <th>{% trans %}Quantity{% endtrans %}</th>
+            {% for field in fields %}
+              <th>{{ field }}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in items %}
+            {% set buyer = item.purchase[0].buyerName[0] %}
+            {% set phone = item.purchase[0].buyerPhone[0] %}
+            {% set email = item.purchase[0].buyerEmail[0] %}
+            {% set orderDate = item.purchase[0].date[0] %}
+            {% set quantity = item.quantity[0] %}
+            <tr>
+              <td>{{ buyer }}</td>
+              <td>{{ phone }}</td>
+              <td>{{ email }}</td>
+              <td>{{ orderDate | timestamp2date }}</td>
+              <td class="quantity">{{ quantity }}</td>
+              {% for field, value in item.allOptionsWithValue %}
+                <td class="option">{{ value }}</td>
+              {% endfor %}
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

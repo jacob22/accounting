@@ -1,5 +1,5 @@
-Unless stated otherwise in a file in this package, all files are
-available under the Apache 2.0 Open Source License.
+#!/usr/bin/env python
+from __future__ import absolute_import
 
 # Copyright 2019 Open End AB
 #
@@ -15,3 +15,7 @@ available under the Apache 2.0 Open Source License.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import accounting.izettle_import
+
+if __name__ == '__main__': 
+    accounting.izettle_import.main()

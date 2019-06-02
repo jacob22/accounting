@@ -1,0 +1,4 @@
+{# -*- mode: jinja2 -*- #}
+{% if swishprovider and purchase.paymentState != ['paid'] and purchase.kind != ['credit'] %}
+  <script src="/static/clients/apps/swish/swish.bundle.js"></script>
+{% endif %}

@@ -1,0 +1,89 @@
+Ett vanligt problem som genererar mycket arbete i föreningar är
+hantering av medlemsutlägg. Det kan vara allt från inköp av kaffe och
+städmaterial till långa tävlingsresor.
+
+Den som begär ersättning
+========================
+
+1. Startar app/Går till URL som är unik för föreningen, eller som
+låter användaren mata in vilken förening som ska betala utlägget.
+
+2. Matar in vad man begär ersättning för. Varje rad ska innehålla
+kontering, specifikation och belopp. Det ska vara möjligt att ha med
+rader med negativa belopp. Kontering bör vara ett flervalsfält utan
+kontonummer. (Kontonummret kan förefalla skrämmande för somliga.)
+Användargränssnittet summerar.
+
+3. Det ska finnas möjlighet för användaren att bifoga fotograferade
+eller scannade kvitton. Helst ska det gå att aktivera kameran ifrån
+ersättningsapplikationen, men det ska också gå att importera en extern
+fil. För den som inte biforgar inläst kvitto ska det finnas
+instruktioner om hur kvitton ska märkas och var de ska lämnas.
+
+4. Det ska finnas ett fält för fritext där man kan ange information som
+deltagare, förklaring till inköpet etc.
+
+5. Om systemet har lagrat information om utbetalningskonto ska detta
+visas. Användaren ska kunna mata in/ändra
+utbetalningsinformationen. Ett val (checkbox) ska styra om
+kontoinformationen ska sparas eller raderas.
+
+6. Användaren skickar iväg utläggen. När dessa är bekräftade som
+mottagna av Eutaxia Admin får användaren en fråga om de ska raderas
+eller läggas i en lokal logg.
+
+App eller webb
+--------------
+
+Det kan vara lite besvärligt att bestämma om den här funktionaliteten
+ska erbjudas som en mobilapp eller som en ren webbtjänst.
+
+Fördelen med en mobilapp är att den kan användas offline. När man
+utför inköpen i butik så kan man enkelt fotografera sina kvitton och
+lägga in utläggsinformationen direkt när man har gjort inköpet. Man
+kan sedan skicka sina samlade utlägg när man är online vid ett senare
+tillfälle.
+
+Nackdelen är att man behöver ha en app installerad. Dessutom funkar inte
+en app i en webbläsare på en arbetsstation.
+
+Fördelen med webbaserad hantering är att man kan göra en applikation i
+HTML5 som fungerar både i skrivbordsmiljö och mobil miljö. Nackdelen
+är att det kan vara svårt att få en sådan applikation att fungera
+off-line. T.ex. finns inte applikationen installerad på telefonen när
+man kommer på att man vill använda den.
+
+Det kan finnas hybrider, som t.ex. Phonegap, som kan erbjuda
+fördelarna från båda världarna. Jag har inte närmare undersökt detta.
+
+Attestant
+=========
+
+Den som är attestbehörig ska få ett epost-meddelande när det finns
+utlägg att attestera. Det kan finnas mer än en attestbehörig.
+
+1. Logga in
+
+2. Gå till valet "Attester".
+
+3. Få en lista med utläggslistor att attestera.
+
+4. Klick på en post i listan visar detaljer. Det ska vara möjligt för
+attestanten att ändra i detaljvyn.
+
+5. Explicit klick på en knapp för attest bekräftar att attestanten
+godkänt utlägget. Vem som attesterat och tidpunkt registeras.
+
+Det skall vara möjligt att ångra en attest tills dess att utlägget
+exporterats till plusgirot.
+
+6. Det ska finnas en historik med alla attester för verksamhetsåret
+tillgänglig för attestanten.
+
+Fakturabetalare
+===============
+
+1. Attesterade utlägg dyker automatiskt upp i vyn för
+leverantörsbetalningar. De behandlas som en normal
+leverantörsbetalning på alla sätt efter att de förts in. De förs över
+till bokföringen enligt regelverket för leverantörsreskontra.

@@ -1,6 +1,3 @@
-Unless stated otherwise in a file in this package, all files are
-available under the Apache 2.0 Open Source License.
-
 # Copyright 2019 Open End AB
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,3 +12,17 @@ available under the Apache 2.0 Open Source License.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+from flask import Blueprint, g, render_template, request
+from pytransact.context import ReadonlyContext
+import accounting.lang
+
+app = Blueprint('accountspayable', __name__)
+
+@app.route('/<objectid:org>')
+def main(org):
+    language = accounting.lang.get_language(request)
+    with ReadonlyContext(g.database, g.user):
+        return render_template('accountspayable.html',
+                               app='accountspayable/accountspayable',
+                               css_files=['accountspayable.css','spinner.css'],
+                               language=language)

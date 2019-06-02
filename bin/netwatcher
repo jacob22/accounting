@@ -1,0 +1,18 @@
+#!/bin/sh
+
+exec > ${1:-/var/log/netwatcher.log} 2>&1
+
+while :; do
+    if ! fping -n -u $(host -t a admin.eutaxia.eu | awk '{print $NF}'); then
+        echo IPv4 failed at
+        date --rfc-3339=seconds
+    else
+        sleep 5
+    fi
+    if ! fping6 -n -u $(host -t aaaa admin.eutaxia.eu | awk '{print $NF}'); then
+        echo IPv6 failed at
+        date --rfc-3339=seconds
+    else
+        sleep 5
+    fi
+done

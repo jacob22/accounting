@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions name="ERSWSExternalClientServiceImplService" targetNamespace="http://externalclientservice.cashregister.seamless.com/" xmlns:ns1="http://external.interfaces.ers.seamless.com/" xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://externalclientservice.cashregister.seamless.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:import location="https://extdev4.seqr.se/extclientproxy/service/v2?wsdl=ERSWSExternalClientService.wsdl" namespace="http://external.interfaces.ers.seamless.com/">
+    </wsdl:import>
+  <wsdl:binding name="ERSWSExternalClientServiceImplServiceSoapBinding" type="ns1:ERSWSExternalClientService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="refundPayment">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="refundPayment">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="refundPaymentResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="confirmCustomerRegistration">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="confirmCustomerRegistration">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="confirmCustomerRegistrationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="markTransactionPeriod">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="markTransactionPeriod">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="markTransactionPeriodResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="commitReservation">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="commitReservation">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="commitReservationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="executeReport">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="executeReport">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="executeReportResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registerTerminal">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="registerTerminal">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="registerTerminalResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancelInvoice">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="cancelInvoice">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="cancelInvoiceResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="requestPrincipalInformation">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="requestPrincipalInformation">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="requestPrincipalInformationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="submitPaymentReceipt">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="submitPaymentReceipt">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="submitPaymentReceiptResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPaymentStatus">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getPaymentStatus">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getPaymentStatusResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="unregisterTerminal">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="unregisterTerminal">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="unregisterTerminalResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="requestPurchase">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="requestPurchase">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="requestPurchaseResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateInvoice">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="updateInvoice">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateInvoiceResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="requestTopup">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="requestTopup">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="requestTopupResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sendInvoice">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="sendInvoice">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="sendInvoiceResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="changePrincipalPassword">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="changePrincipalPassword">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="changePrincipalPasswordResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="requestTransfer">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="requestTransfer">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="requestTransferResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="assignSeqrId">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="assignSeqrId">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="assignSeqrIdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="benchmarkingNop">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="benchmarkingNop">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="benchmarkingNopResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ERSWSExternalClientServiceImplService">
+    <wsdl:port binding="tns:ERSWSExternalClientServiceImplServiceSoapBinding" name="ERSWSExternalClientServiceImplPort">
+      <soap:address location="https://extdev4.seqr.se/extclientproxy/service/v2"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

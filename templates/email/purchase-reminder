@@ -1,0 +1,25 @@
+From: {{(org.name[0], sender) | email}}
+To: {{(''.join(purchase.buyerName), ''.join(purchase.buyerEmail)) | email}}
+Subject: Betalningspåminnelse / Reminder of purchase - {{org.name[0]}}
+X-OE-MailType: purchase-reminder
+{% if replyto %}Reply-to: {{(org.name[0], replyto) | email}}{% endif %}
+
+{{purchase.date[0] | date}} gjorde du en beställning hos {{org.name[0]}}.
+Betalning för den beställningen är ännu inte mottagen.
+Om du betalt de senaste dagarna ber vi dig bortse från den här påminnelsen.
+
+Information om beställningen kan ses på följande address:
+{{purchase.invoiceUrl[0]}}
+
+När vi har tagit emot din betalning skickas ett email med bekräftelse
+på betalningen.
+
+
+You placed an order with {{org.name[0]}} on  {{purchase.date[0] | date}}.
+Unfortunately, we have not yet registered a payment for this order.
+If you have paid during the last couple of days, please ignore this reminder.
+
+Your order details can be viewed at
+{{purchase.invoiceUrl[0]}}
+
+We will send a confirmation e-mail when we have received payment.

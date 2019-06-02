@@ -1,0 +1,18 @@
+From: {{(org.name[0], sender) | email}}
+To: {{(''.join(purchase.buyerName), ''.join(purchase.buyerEmail)) | email}}
+Subject: Faktura - {{org.name[0]}}
+X-OE-MailType: invoice-confirmation
+{% if replyto %}Reply-to: {{(org.name[0], replyto) | email}}{% endif %}
+
+Du har fått en faktura från {{org.name[0]}}. Den kan ses på följande adress:
+{{purchase.invoiceUrl[0]}}
+
+När vi har tagit emot din betalning skickas ett email med bekräftelse
+på betalningen.
+
+
+You have an invoice {{org.name[0]}}. You can view it at
+{{purchase.invoiceUrl[0]}}
+
+We will send you a confirmation e-mail when we have received payment.
+

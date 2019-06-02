@@ -1,6 +1,3 @@
-Unless stated otherwise in a file in this package, all files are
-available under the Apache 2.0 Open Source License.
-
 # Copyright 2019 Open End AB
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,3 +12,23 @@ available under the Apache 2.0 Open Source License.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+from accounting import config
+from datetime import timedelta
+
+
+CELERY_RESULT_BACKEND = "mongodb"
+
+
+CELERY_MONGODB_BACKEND_SETTINGS = {
+    "host": config.config.get('accounting', 'mongodb_uri'),
+    "database": config.config.get('accounting', 'mongodb_dbname'),
+    "taskmeta_collection": "celery_tasks_meta",
+}
+
+
+CELERYBEAT_SCHEDULE = {
+    'add-every-10-seconds': {
+        'task': 'write-file',
+        'schedule': timedelta(seconds=10),
+    }
+}

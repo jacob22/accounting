@@ -1,0 +1,50 @@
+{% extends "report.html" %}
+{% block title %}{% trans %}General ledger{% endtrans %}{% endblock title %}
+{% block header %}{% trans %}General ledger{% endtrans %}{% endblock header %}
+{% block report %}
+    <table class="main-ledger">
+      <thead>
+        <tr>
+          <th>{% trans %}Act/No{% endtrans %}</th>
+          <th>{% trans %}Date{% endtrans %}</th>
+          <th>{% trans %}Text{% endtrans %}</th>
+          <th class="debit">{% trans %}Debit{% endtrans %}</th>
+          <th class="credit">{% trans %}Credit{% endtrans %}</th>
+          <th class="balance">{% trans %}Balance{% endtrans %}</th>
+        </tr>
+      </thead>
+      {% for r in result %}
+      <tbody id="account-{{ r.number[0] }}">
+        <tr class="account-header">
+          <td class="number" colspan="2">{{ r.number[0] }}</td>
+          <td class="name" colspan="3">{{ r.name[0] }}</td>
+          {% set total = r.opening_balance[0] %}
+          <td class="amount">{{ total | thousand_sep }}</td>
+        </tr>
+        {% set rtotal = make_running_totals(r.transactions, r.opening_balance[0]) %}
+        {% for t in rtotal %}
+          <tr class="verification">
+            {% set ver = t.verification[0] %}
+            <td class="name">{{ ver.series[0].name[0]}} {{ ver.number[0] }}</td>
+            <td class="date">{{ ver.transaction_date[0] }}</td>
+            <td class="text">{{ t.text[0]|truncate(40) }}</td>
+            {% set amount = t.amount[0] %}
+            {% if amount > 0 %}
+              <td class="debit">{{ amount | thousand_sep }}</td>
+              <td></td>
+            {% else %}
+              <td></td>
+              <td class="credit">{{ -amount | thousand_sep }}</td>
+            {% endif %}
+            <td class="balance">{{ rtotal.total | thousand_sep }}</td>
+          </tr>
+        {% endfor %}
+        <tr class="account-summary">
+          <td colspan="3" />
+          <td class="debit">{{ rtotal.debit | thousand_sep }}</td>
+          <td class="credit">{{ rtotal.credit | thousand_sep }}</td>
+        </tr>
+      </tbody>
+      {% endfor %}
+      </table>
+{% endblock %}

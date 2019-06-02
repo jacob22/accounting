@@ -1,6 +1,3 @@
-Unless stated otherwise in a file in this package, all files are
-available under the Apache 2.0 Open Source License.
-
 # Copyright 2019 Open End AB
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,3 +12,21 @@ available under the Apache 2.0 Open Source License.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import flask
+from pytransact.testsupport import BLMTests
+import accounting.flask_utils
+import blm
+
+
+class WSGITests(BLMTests):
+
+    def setup_wsgi(self, app=None):
+        if not app:
+            app = self.app
+        accounting.flask_utils.add_converters(app)
+        accounting.flask_utils.set_json_encoder(app)
+        app.before_request(self.fake_login)
+
+    def fake_login(self):
+        flask.g.database = self.database
+        flask.g.user, = blm.TO._query(id=self.user).run()

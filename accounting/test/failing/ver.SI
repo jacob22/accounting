@@ -1,0 +1,43 @@
+#FLAGGA 0
+#FORMAT PC8
+#SIETYP 4
+#PROGRAM "Visma Administration 2000 med Visma Integration" 5.11
+#GEN 20110218 
+#FNAMN "™vningsbolaget AB"
+#FNR "C:\Documents and Settings\All Users\Application Data\SPCS\SPCS Administration\Företag\Ovnbol2000"
+#ORGNR 555555-5555
+#ADRESS "Siw Eriksson" "Box 1" "123 45 STORSTAD" "012-34 56 78"
+#KPTYP EUBAS97
+#KONTO 1910 Kassa
+#KTYP 1910 T
+#SRU 1910 7281
+#KONTO 1920 "Bank, PlusGiro"
+#KTYP 1920 T
+#SRU 1920 7281
+#KONTO 1930 "Bank, checkr„kningskonto"
+#KTYP 1930 T
+#SRU 1930 7281
+#KONTO 2641 "Ing†ende moms"
+#KTYP 2641 S
+#SRU 2641 7369
+#KONTO 6110 Kontorsmaterial
+#KTYP 6110 K
+#SRU 6110 7513
+#DIM 1 Resultatenhet
+#DIM 6 Projekt
+#VER A 45 20100827 ™verf”ring 20100817
+{
+   #TRANS 1920 {} -200000.00
+   #TRANS 1930 {} 200000.00
+}
+#VER A 46 20100830 "Ink”p Kontorsmaterial" 20100817
+{
+   #TRANS 1910 {} -187.00
+   #TRANS 2641 {} 37.40
+   #TRANS 6110 {} 149.60
+}
+#VER A 47 20100830 ™verf”ring 20100817
+{
+   #TRANS 1930 {} -4000.00
+   #TRANS 1910 {} 4000.00
+}

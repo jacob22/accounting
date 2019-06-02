@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Copyright (C) Open End AB 2013, All rights reserved -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{% trans %}Create profile - Eutaxia Admin{% endtrans %}</title>
+    <link rel="stylesheet" type="text/css" href="/static/create-profile.css" />
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/static/create-profile.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <span class="error">{{ error }}</span>
+      <p>
+        {% trans %}Please fill in the following details{% endtrans %}
+      </p>
+      <form action="{{ request.base_url }}" name="create-profile" method="post">
+	<table>
+	  <tbody>
+	    <tr>
+              <td>
+                {% trans %}Name{% endtrans %}
+              </td>
+              <td>
+                <input type="text" name="name" size="40" value="{{ request.values.name }}" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                {% trans %}E-mail{% endtrans %}
+              </td>
+              <td>
+                <input type="text" name="email" size="40" value="{{ request.values.email }}" />
+              </td>
+            </tr>
+            <tr>
+              <td />
+              <td>
+                <input type="checkbox" id="agree" name="agree" />
+                {% trans %}I agree to the <a target="_new" href="http://www.eutaxia.se/#tab_agreement">terms of service</a>.{% endtrans %}
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="right">
+                <input id="submit" type="submit" value="{% trans %}Create profile{% endtrans %}" disabled />
+              </td>
+	    </tr>
+	  </tbody>
+	</table>
+      </form>
+    </div>
+  </body>
+</html>

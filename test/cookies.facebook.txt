@@ -1,0 +1,18 @@
+# Netscape HTTP Cookie File
+# HTTP Cookie File downloaded with cookies.txt by Genuinous @genuinous
+# This file can be used by wget, curl, aria2c and other standard compliant tools.
+# Usage Examples:
+#   1) wget -x --load-cookies cookies.txt "http://localhost.admin.eutaxia.eu:5000/create_profile?name=Mark+Amibgiedekb+Changman#_=_"
+#   2) curl --cookie cookies.txt "http://localhost.admin.eutaxia.eu:5000/create_profile?name=Mark+Amibgiedekb+Changman#_=_"
+#   3) aria2c --load-cookies cookies.txt "http://localhost.admin.eutaxia.eu:5000/create_profile?name=Mark+Amibgiedekb+Changman#_=_"
+#
+.facebook.com	TRUE	/	TRUE	1609920230	datr	vg9nWwPuItX5EmrbjQny8HSr
+.facebook.com	TRUE	/	TRUE	1609920230	sb	vg9nWzfaFAa_j6_Wty7berqW
+.facebook.com	TRUE	/	TRUE	1547453028	wd	767x879
+.facebook.com	TRUE	/	TRUE	1547453030	dpr	1.5
+.facebook.com	TRUE	/	TRUE	1554624230	c_user	100009279545002
+.facebook.com	TRUE	/	TRUE	1554624230	xs	29%3A_ToBWKra0MKWfg%3A2%3A1546848229%3A-1%3A-1
+.facebook.com	TRUE	/	TRUE	1554624230	fr	0ov7S54XVu39EHwox.AWX96uuaYo-BpVn4s22WxCxig9g.BbZw--.Qb.AAA.0.0.BcMwfl.AWU8Se9E
+.facebook.com	TRUE	/	TRUE	1554624230	pl	y
+.facebook.com	TRUE	/	TRUE	1546938233	spin	r.4666971_b.trunk_t.1546848232_s.1_v.2_
+.facebook.com	TRUE	/	TRUE	0	presence	EDvF3EtimeF1546848234EuserFA21B09279545002A2EstateFDutF1546848234012CEchFDp_5f1B09279545002F2CC

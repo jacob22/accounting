@@ -1,0 +1,17 @@
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Mime-Version: 1.0
+From: {{from}}
+To: {{to}}
+Subject: Ny kund i Eutaxia Admin.
+
+Organisationsnummer: {{o.orgnum}}
+Namn: {{o.name}}
+Adress: {{o.address}}
+E-post: {{o.email}}
+Telefon: {{o.phone}}
+PG-nummer: {{o.pgnum}}
+
+Kontaktperson: {{o.contact}}
+E-post: {{o.contactEmail}}
+Telefon: {{o.contactPhone}}

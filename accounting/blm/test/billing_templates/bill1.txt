@@ -1,0 +1,4 @@
+{{ bill.number[0] }}
+{{ bill.ocr[0] }}
+{{ bill.amount[0] }}
+

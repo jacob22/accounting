@@ -1,5 +1,4 @@
-Unless stated otherwise in a file in this package, all files are
-available under the Apache 2.0 Open Source License.
+#!/usr/bin/env python
 
 # Copyright 2019 Open End AB
 #
@@ -15,3 +14,18 @@ available under the Apache 2.0 Open Source License.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import pprint
+import sys
+import pytransact.utils
+import accounting.izettle_import
+
+
+def main():
+    org, filename = sys.argv[1:]
+    with pytransact.utils.count_db_calls() as counter:
+        accounting.izettle_import.import_transactions(org, filename)
+    pprint.pprint(counter._copy())
+
+
+if __name__ == '__main__':
+    main()

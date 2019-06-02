@@ -1,0 +1,779 @@
+# Swedish translations for accounting package
+# Svenska översättningar för paket accounting.
+# Copyright (C) 2019 Open End AB
+# This file is distributed under the same license as the accounting package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-21 10:56+0200\n"
+"PO-Revision-Date: 2018-06-25 13:50+0200\n"
+"Last-Translator:  <vlad@openend.se>\n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Account"
+msgstr "Konto"
+
+msgid "Accounted"
+msgstr "Bokförd"
+
+msgid ""
+"Accounts used in your iZettle payment provider settings is missing in the "
+"current accounting. Correct this situation in order to import transactions."
+msgstr ""
+"Konton som används i iställningarna för betalningsförmedling av iZettle "
+"saknas i nuvarande bokföring. Rätta till uppgifterna för att kunna importera "
+"transaktioner."
+
+msgid "Action"
+msgstr "Utför"
+
+msgid "Add"
+msgstr "Lägg till"
+
+msgid "Additional information"
+msgstr "Övrig information här"
+
+msgid "Address"
+msgstr "Adress"
+
+msgid "Amount"
+msgstr "Belopp"
+
+msgid "Amount to pay"
+msgstr "Att betala"
+
+msgid "An error occured while processing your payment."
+msgstr "Ett fel uppstod under betalningen. "
+
+msgid "An unknown error has occured. Please try again later."
+msgstr ""
+"Det blev fel på ett sätt vi inte kan identifiera. Var vänlig försök igen "
+"senare."
+
+msgid "Approve"
+msgstr "Godkänn"
+
+msgid ""
+"Are you sure you want to permanently remove the category <em>{name}</em>?"
+msgstr ""
+"Vill ta bort kategorin <em>{name}</em>? Den kommer <b>inte</b> gå att "
+"återställa."
+
+msgid "Attach invoice files"
+msgstr ""
+
+msgid "Attention!"
+msgstr "Observera!"
+
+msgid "Automated"
+msgstr ""
+
+msgid "Automated payment completed."
+msgstr ""
+
+msgid "Automated payment failed."
+msgstr ""
+
+msgid "Automated payment order for transfer on"
+msgstr ""
+
+msgid "Automated payment scheduled for"
+msgstr ""
+
+msgid "Bank account"
+msgstr "Bankkonto"
+
+msgid "Bank account number"
+msgstr "Bankkontonummer"
+
+msgid "Bankgiro"
+msgstr ""
+
+msgid "Barcode:"
+msgstr "Streckkod:"
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cancel automatic payment"
+msgstr ""
+
+msgid "Choose category"
+msgstr "Välj kategori"
+
+msgid "Clear rejected status"
+msgstr ""
+
+#, fuzzy
+msgid "Clear selection"
+msgstr "Fakturadatum"
+
+msgid "Clearing"
+msgstr ""
+
+msgid "Close"
+msgstr "Stäng"
+
+msgid "Comment"
+msgstr "Kommentar"
+
+msgid "Complete the payment in your Swish app."
+msgstr "Godkänn betalningen i din Swish-app."
+
+msgid "Create new"
+msgstr "Skapa ny"
+
+msgid "Create transfer verification"
+msgstr ""
+
+msgid "Credit"
+msgstr "Kredit"
+
+msgid "Custom unit:"
+msgstr "Annan enhet:"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Date of purchase"
+msgstr "Datum för inköp"
+
+msgid "Dates"
+msgstr "Datum"
+
+msgid "Debit"
+msgstr "Debet"
+
+msgid "Delete"
+msgstr "Ta bort"
+
+msgid "Delete draft"
+msgstr "Ta bort utkast"
+
+msgid "Deny"
+msgstr "Neka"
+
+msgid "Description"
+msgstr "Beskrivning"
+
+msgid "Diff"
+msgstr "Differens"
+
+msgid "Discard form"
+msgstr ""
+
+msgid "Download Plusgiro file"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid ""
+"Drag and drop the Excel product list to this box, or click to select file."
+msgstr ""
+"Drag och släpp filen med produktlistan här. Du kan även klicka för att välja "
+"fil."
+
+msgid ""
+"Drag and drop the Excel transactions file to this box, or click to select "
+"file."
+msgstr ""
+"Drag och släpp din transaktionsfil från iZettle här. Du kan även klicka för "
+"att välja fil."
+
+#, fuzzy
+msgid "Drag and drop the SIE4 file to this box, or click to select file."
+msgstr ""
+"Drag och släpp din inscannade faktura här. Du kan även klicka för att välja "
+"fil."
+
+msgid ""
+"Drag and drop the scanned invoice file to this box, or click to select file."
+msgstr ""
+"Drag och släpp din inscannade faktura här. Du kan även klicka för att välja "
+"fil."
+
+msgid "Due"
+msgstr ""
+
+msgid "Due date"
+msgstr "Förfallodatum"
+
+msgid "E-mail"
+msgstr "E-post"
+
+msgid "Enter additional information here"
+msgstr "Fyll i övrig information här"
+
+msgid "Enter text"
+msgstr "Skriv in text"
+
+msgid "Enter your phone number:"
+msgstr "Ange telefonnummer:"
+
+msgid "Error message from Bankgirocentralen (BGC):"
+msgstr ""
+
+msgid "Expense category"
+msgstr "Utläggskategori"
+
+msgid "Expenses with a fixed price per unit"
+msgstr "Utgifter med visst pris per enhet"
+
+msgid "Expenses with a single, fixed price"
+msgstr "Utgifter/ersättningar med fast pris"
+
+msgid "Expiry date"
+msgstr "Förfallodatum"
+
+msgid "Failed to save verification. Please close this window."
+msgstr "Verifikatet kunde inte sparas. Väntligen stäng detta fönster"
+
+msgid "Failure!"
+msgstr "Problem!"
+
+msgid "Fetching data..."
+msgstr "Hämtar data..."
+
+msgid "Fields marked with <span class=\"mandatory\"></span> are mandatory."
+msgstr "Fält markerade med <span class=\"mandatory\"></span> måste fyllas i."
+
+msgid "Generate transfer verification"
+msgstr ""
+
+msgid "Handle"
+msgstr "Hantera"
+
+#, fuzzy
+msgid "Hide accounted invoices (default)"
+msgstr "Ladda upp en inscannad faktura här."
+
+#, fuzzy
+msgid "Hide automated invoices"
+msgstr "Ladda upp en inscannad faktura här."
+
+#, fuzzy
+msgid "Importing..."
+msgstr "Importerar..."
+
+msgid "Importing... "
+msgstr "Importerar..."
+
+msgid ""
+"In {number} iZettle products an account is no longer present in the current "
+"account plan. These products are marked with <i class=\"fa fa-bug\" aria-"
+"hidden=\"true\"></i>."
+msgstr ""
+"Bokförningsreglerna för {number} produkt(er) stämmer inte överens med "
+"nuvarande kontoplan. Detta markeras med <i class=\"fa fa-exclamation-triangle"
+"\" aria-hidden=\"true\"></i> intill berörd produkt."
+
+msgid ""
+"In {number} iZettle products the price does not match the accounting rules. "
+"These products are marked with <i class=\"fa fa-exclamation-triangle\" aria-"
+"hidden=\"true\"></i>."
+msgstr ""
+"För {number} produkt(er) stämmer inte priset överens med bokföringsreglerna. "
+"Detta markeras med <i class=\"fa fa-exclamation-triangle\" aria-hidden=\"true"
+"\"></i> under kolumnen »Status«."
+
+#, fuzzy
+msgid "Incorrect Luhn checksum."
+msgstr "Felaktigt telefonnummer."
+
+msgid "Incorrect date format. Please use YYYY-MM-DD."
+msgstr ""
+
+msgid "Incorrect phone number."
+msgstr "Felaktigt telefonnummer."
+
+#, fuzzy
+msgid "Invert selection"
+msgstr "Fakturadatum"
+
+msgid "Invoice date"
+msgstr "Fakturadatum"
+
+#, fuzzy
+msgid "Invoice identifier"
+msgstr "Fakturadatum"
+
+#, fuzzy
+msgid "Invoice number"
+msgstr "Fakturadatum"
+
+#, fuzzy
+msgid "Invoice type"
+msgstr "Fakturadatum"
+
+msgid "Item"
+msgstr "Vara"
+
+msgid "Loading..."
+msgstr "Laddar..."
+
+msgid "Log of uploaded files"
+msgstr "Historik över uppladdade filer"
+
+#, fuzzy
+msgid "Manual payment done."
+msgstr "nya betalningar:"
+
+#, fuzzy
+msgid "Manual payment sent."
+msgstr "nya betalningar:"
+
+msgid "Mark as paid"
+msgstr ""
+
+msgid "Mark as registered"
+msgstr ""
+
+msgid "Mark as sent"
+msgstr ""
+
+msgid ""
+"Members of the <i>Storekeeper</i> role can upload iZettle products files "
+"here."
+msgstr ""
+"Medlemmar med rollen <i>Butiksadministratör</i> kan ladda upp produktlistor "
+"från iZettle här."
+
+msgid "Message to recipient"
+msgstr ""
+
+msgid "Name"
+msgstr "Namn"
+
+msgid "New"
+msgstr ""
+
+msgid "No account"
+msgstr "Inget konto"
+
+msgid "No attached files"
+msgstr ""
+
+msgid "No expense reports match."
+msgstr "Inga utläggsrapporter matchar din sökning."
+
+msgid "No, keep this category"
+msgstr "Nej, låt kategorin vara kvar"
+
+msgid "Not a banking day"
+msgstr ""
+
+msgid "Note"
+msgstr "Specifikation"
+
+msgid "Note:"
+msgstr "Notering"
+
+#, fuzzy
+msgid "OCR number"
+msgstr "telefonnummer"
+
+msgid "Order"
+msgstr "Beställ"
+
+msgid "Order failed"
+msgstr "Beställningen misslyckades"
+
+#, fuzzy
+msgid "Overdue"
+msgstr "Fakturadatum"
+
+#, fuzzy
+msgid "Overdue date"
+msgstr "Fakturadatum"
+
+msgid "Paid"
+msgstr ""
+
+msgid "Past date"
+msgstr ""
+
+msgid "Pay"
+msgstr "Betala"
+
+msgid "Pay with Swish"
+msgstr "Betala med Swish"
+
+#, fuzzy
+msgid "Payment"
+msgstr "nya betalningar:"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Phone number is not connected to Swish."
+msgstr "Telefonnummret är inte kopplat till Swish."
+
+msgid "Please wait while your order is being processed."
+msgstr "Vänligen vänta medan systemet registrerar din beställning."
+
+msgid "Plusgiro"
+msgstr ""
+
+msgid "Plusgiro payment order file: sending bank account"
+msgstr ""
+
+msgid "Price"
+msgstr "Pris"
+
+msgid "Products"
+msgstr "Produkter"
+
+msgid "Quantity"
+msgstr "Antal"
+
+msgid "Quantity remaining"
+msgstr "Antal kvar"
+
+msgid "Receipts and documents"
+msgstr "Kvitton och dokument"
+
+msgid "Recipient name"
+msgstr ""
+
+msgid "Registered"
+msgstr ""
+
+msgid "Rejected"
+msgstr ""
+
+msgid "Remove"
+msgstr "Ta bort"
+
+msgid "Remove category"
+msgstr "Ja, ta bort kategorin"
+
+msgid "Remove this category?"
+msgstr "Ta bort den här kategorin?"
+
+msgid "Removing"
+msgstr "Tar bort"
+
+msgid "Reset changes"
+msgstr ""
+
+msgid "Revert"
+msgstr "Ångra"
+
+msgid "Save"
+msgstr "Spara"
+
+msgid "Saving"
+msgstr "Sparar"
+
+msgid "Saving..."
+msgstr "Sparar..."
+
+#, fuzzy
+msgid "Scanned invoice"
+msgstr "Ladda upp en inscannad faktura här."
+
+msgid "Schedule automatic payment"
+msgstr ""
+
+msgid "Scheduled"
+msgstr ""
+
+#, fuzzy
+msgid "Select"
+msgstr "Välj serie"
+
+msgid "Select account"
+msgstr "Välj konto"
+
+#, fuzzy
+msgid "Select all"
+msgstr "Välj konto"
+
+#, fuzzy
+msgid "Select all unaccounted"
+msgstr "Välj konto"
+
+#, fuzzy
+msgid "Select invoices due today"
+msgstr "Välj konto"
+
+#, fuzzy
+msgid "Select invoices for accounting"
+msgstr "Välj konto"
+
+msgid "Select series"
+msgstr "Välj serie"
+
+msgid ""
+"Select verification series, account for payables and receivables, and the "
+"bank account from which to draw money on transfer."
+msgstr ""
+
+msgid "Sent"
+msgstr ""
+
+msgid "Series"
+msgstr "Serier"
+
+msgid "Settings"
+msgstr ""
+
+msgid "Shopping cart"
+msgstr "Varukorg"
+
+#, fuzzy
+msgid "Show accounted invoices"
+msgstr "Ladda upp en inscannad faktura här."
+
+#, fuzzy
+msgid "Show automated invoices (default)"
+msgstr "Ladda upp en inscannad faktura här."
+
+msgid "Show ledger"
+msgstr ""
+
+#, fuzzy
+msgid "Show manual payment journal"
+msgstr "nya betalningar:"
+
+msgid "Sort ascending (current first)"
+msgstr ""
+
+msgid "Sort descending (futuremost first)"
+msgstr ""
+
+msgid "Standard expenses"
+msgstr "Normala utgifter"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Submit"
+msgstr ""
+
+msgid "Submitting order..."
+msgstr "Lägger beställning..."
+
+msgid "Success!"
+msgstr "Grattis!"
+
+msgid "Sum"
+msgstr "Summa"
+
+msgid "Supplier debt account"
+msgstr "Supplier debt account"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "The iZettle product import failed."
+msgstr "Importen av iZettle-produktlistan har misslyckats."
+
+msgid "The iZettle transaction import failed."
+msgstr "Importen av transaktionsfilen har misslyckats."
+
+msgid "The name field is mandatory."
+msgstr "Du måste ange namn."
+
+msgid "The shopping cart is empty."
+msgstr "Varukorgen är tom."
+
+msgid ""
+"The uploaded transactions file has been imported, creating {created} "
+"payments."
+msgstr ""
+"Den uppladdade transaktionsfilen har importerats. {created} nya betalningar "
+"har bokförts."
+
+msgid ""
+"The uploded iZettle products file has been imported, creating {created} new, "
+"and updating {updated} iZettle products."
+msgstr ""
+"Den uppladdade iZettle-produktlistan har importerats. {created} nya "
+"produkt(er) har skapats, {updated} har uppdaterats"
+
+msgid "There are no expense reports to manage."
+msgstr "Det finns inga ohanterade utläggsrapporter."
+
+msgid "There are no iZettle products yet."
+msgstr "Det finns inga iZettle-produkter"
+
+msgid "There are no reports"
+msgstr "Det finns inga rapporter"
+
+msgid "This field is mandatory"
+msgstr "Det här fältet är obligatoriskt."
+
+msgid ""
+"Timeout during communication with bank. Please note that we can not tell if "
+"the payment was successful or not. You should check your bank statement."
+msgstr ""
+"Vi fick inget svar i datakommunikationen med din bank. Det innebär att vi "
+"tyvärr inte vet om betalningen har registrerats i banken eller inte. Vi "
+"rekommenderar dig att undersöka med din bank om transaktionen har gått "
+"igenom eller ej."
+
+msgid "Total"
+msgstr "Summa"
+
+msgid "Transfer date"
+msgstr ""
+
+msgid "Transfer method"
+msgstr ""
+
+msgid "Transfer verification text"
+msgstr ""
+
+msgid "Unit"
+msgstr "Enhet"
+
+msgid "Unsaved changes"
+msgstr ""
+
+msgid "Unschedule automatic payment"
+msgstr ""
+
+#, fuzzy
+msgid "Upload SIE4 file here."
+msgstr "Ladda upp kvitton här."
+
+msgid "Upload iZettle product list here."
+msgstr "Ladda upp din iZettle-produktlista här."
+
+msgid "Upload iZettle transactions file here."
+msgstr "Ladda upp din transaktionsfil från iZettle här"
+
+msgid "Upload scanned invoice here."
+msgstr "Ladda upp en inscannad faktura här."
+
+msgid "Upload your receipts here."
+msgstr "Ladda upp kvitton här."
+
+msgid "VAT percentage:"
+msgstr "Momssats (%):"
+
+msgid "Variant"
+msgstr "Variant"
+
+#, fuzzy
+msgid "Verification"
+msgstr "Beskrivning"
+
+#, fuzzy
+msgid "Verification on registration"
+msgstr "Beskrivning"
+
+#, fuzzy
+msgid "Verification on transfer complete"
+msgstr "Beskrivning"
+
+msgid "View"
+msgstr ""
+
+msgid "Warning!"
+msgstr "Varning!"
+
+msgid ""
+"When you pay with Swish, you should open your Swish app and verify that the "
+"information there is correct. You must authorize the purchas with your "
+"Mobile BankID and you will immediately get a payment confirmation."
+msgstr ""
+"När du väljer att betala med Swish öppnar du din Swish-app och kontrollerar "
+"att de förifyllda uppgifterna är korrekta. Du godkänner köpet med Mobilt "
+"BankID och får direkt en bekräftelse på betalningen."
+
+#, fuzzy
+msgid "Working..."
+msgstr "Importerar..."
+
+msgid "YYYY-MM-DD"
+msgstr "YYYY-MM-DD"
+
+msgid "You already have a payment you need to handle. Please check your phone."
+msgstr ""
+"Du har redan en utestående betalning du behöver godkänna eller avböja. Titta "
+"efter i din telefon."
+
+msgid "You have aborted the payment."
+msgstr "Du avbröt betalningen."
+
+msgid "You have cancelled the BankID signing."
+msgstr "Du avbröt signering med BankID."
+
+msgid "You have no expense reports that are being processed."
+msgstr "Du har inga utestående utläggsrapporter."
+
+msgid "You have not entered a phone number."
+msgstr "Du har inte angett ett telefonnummer."
+
+msgid ""
+"You have not set up iZettle as a payment provider for your organization."
+msgstr ""
+"Du har inte lagt till iZettle som en betalningsförmedlare för din "
+"organisation."
+
+msgid "You must fill in at least one of the Address and E-mail fields."
+msgstr "Du måste ange antingen adress eller e-post."
+
+msgid "You need to save the draft before uploading attachements is possible."
+msgstr ""
+
+msgid "You need to sign the autmatic payment using Freja eID."
+msgstr ""
+
+msgid "Your order could not be placed. Please try again at a later time."
+msgstr ""
+"Något gick fel när vi försökte lägga beställningen. Var vänlig försök igen "
+"senare."
+
+msgid "has been sent."
+msgstr ""
+
+msgid "iZettle Products"
+msgstr "Produkter"
+
+msgid "iZettle Transactions"
+msgstr "Transaktioner"
+
+msgid ""
+"iZettle price not specified. Product can not be evaluated in verification "
+"import."
+msgstr ""
+"iZettle-pris saknas. Produkten kan inte användas i import av verifikat."
+
+msgid "iZettle product identifier:"
+msgstr "iZettles produkt-ID:"
+
+#, fuzzy
+msgid "invoices selected"
+msgstr "Fakturadatum"
+
+msgid "new payments:"
+msgstr "nya betalningar:"
+
+msgid "phone number"
+msgstr "telefonnummer"
+
+msgid "products"
+msgstr "produkter"
+
+#, fuzzy
+#~ msgid "close"
+#~ msgstr "Stäng"
+
+#, fuzzy
+#~ msgid "function"
+#~ msgstr "Observera!"
+
+#, fuzzy
+#~ msgid "number"
+#~ msgstr "telefonnummer"

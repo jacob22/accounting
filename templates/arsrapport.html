@@ -1,0 +1,137 @@
+{% extends "report.html" %}
+{% block title %}{% trans %}Annual report{% endtrans %}{% endblock title %}
+{% block header %}{% trans %}Annual report{% endtrans %}{% endblock header %}
+
+{% macro section(title, end_text, rows, sums) %}
+  {% if rows %}
+      <tr>
+        <td></td>
+        <td class="account">{{ title }}</td>
+      </tr>
+      {% for r in rows %}
+        <tr id="account-{{ r[0] }}" >
+          <td>{{ r[0] }}</td>
+          <td>{{ r[1] }}</td>
+          <td class="money">{{ r[2] |negate_no_decimals }}</td>
+          <td class="money">{{ r[3] |negate_no_decimals }}</td>
+          <td class="money">{{ r[4] |negate_no_decimals }}</td>
+          <td class="money">{{ r[5] |negate_no_decimals }}</td>
+          <td class="money">{{ r[6] |no_decimals }}</td>
+          <td id="current_year-{{ r[0] }}" class="money">{{ r[7] |negate_no_decimals }}</td>
+          <td class="money">{{ r[8] |no_decimals }}</td>
+        </tr>
+      {% endfor %}
+      <tr>
+        <td></td>
+        <td class="account">{{ end_text }}</td>
+        <td class="money account">{{ sums[0] |negate_no_decimals }}</td>
+	<td class="money account">{{ sums[1] |negate_no_decimals }}</td>
+	<td class="money account">{{ sums[2] |negate_no_decimals }}</td>
+	<td class="money account">{{ sums[3] |negate_no_decimals }}</td>
+	<td class="money account">{{ sums[4] |no_decimals }}</td>
+	<td class="money account">{{ sums[5] |negate_no_decimals }}</td>
+	<td class="money account">{{ sums[6] |no_decimals }}</td>
+      </tr>
+      <tr><td>&#xa0;</td></tr>
+  {% endif %}
+{% endmacro %}
+
+{% macro sum_row(title) %}
+  {% set sums = income_sums(varargs) %}
+  {% if sums %}
+      <tr>
+        <td></td>
+        <td class="account upper">{{ title }}</td>
+        <td class="money account">{{ sums[0] |negate_no_decimals }}</td>
+	<td class="money account">{{ sums[1] |negate_no_decimals }}</td>
+	<td class="money account">{{ sums[2] |negate_no_decimals }}</td>
+	<td class="money account">{{ sums[3] |negate_no_decimals }}</td>
+	<td class="money account">{{ sums[4] |no_decimals }}</td>
+	<td class="money account">{{ sums[5] |negate_no_decimals }}</td>
+	<td class="money account">{{ sums[6] |no_decimals }}</td>
+      </tr>
+      <tr><td>&#xa0;</td></tr>
+  {% endif %}
+{% endmacro %}
+
+{% block report %}
+    <table>
+      <tr>
+	{% set year = make_int(acc.end[0][:4]) %}
+        <th>{% trans %}Account{% endtrans %}</th>
+        <th>{% trans %}Header/Name{% endtrans %}</th>
+        <th class="money">{% trans %}Revenue{% endtrans %}<br />
+	{{ year - 4 }}</th>
+        <th class="money">{% trans %}Revenue{% endtrans %}<br />
+	{{ year - 3 }}</th>
+        <th class="money">{% trans %}Revenue{% endtrans %}<br />
+	{{ year - 2 }}</th>
+        <th class="money">{% trans %}Revenue{% endtrans %}<br />
+	{{ year - 1 }}</th>
+        <th class="money">{% trans %}Budget{% endtrans %}<br />
+	{{ year - 1 }}</th>
+        <th class="money">{% trans %}Revenue{% endtrans %}<br />{{ year }}</th>
+        <th class="money">{% trans %}Budget{% endtrans %}<br />{{ year }}</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="account upper">{% trans %}Income{% endtrans %}</td>
+      </tr>
+      {% set (income, sums_income) = make_sums(result, '3000', '4000') %}
+      {{ section(gettext('Income'),
+                 gettext('Sum of income'), income, sums_income) }}
+      {{ sum_row(gettext('Sum of operating income'), sums_income) }}
+
+      <tr>
+        <td></td>
+        <td class="account upper">{% trans %}Expenses{% endtrans %}</td>
+      </tr>
+      {% set (goods, sums_goods) = make_sums(result, '4000', '5000') %}
+      {{ section(gettext('Materials and goods'),
+                 gettext('Sum of materials and goods'),
+                 goods, sums_goods) }}
+      {{ sum_row(gettext('Gross profit'), sums_income, sums_goods) }}
+
+      {% set (running_costs, sums_running_costs) = make_sums(result, '5000', '7000') %}
+      {{ section(gettext('Operating costs'),
+                 gettext('Sum of operating costs'),
+                 running_costs, sums_running_costs) }}
+
+      {% set (personel_costs, sums_personel_costs) = make_sums(result, '7000', '7700') %}
+      {{ section(gettext('Personnel costs'),
+                 gettext('Sum of personnel costs'),
+                 personel_costs, sums_personel_costs) }}
+      {{ sum_row(gettext('Operational expenses'), sums_running_costs, sums_personel_costs) }}
+
+      {% set (depreciations, sums_depreciations) = make_sums(result, '7700', '8000') %}
+      {{ section(gettext('Write-offs'),
+                 gettext('Sum of write-offs'),
+                 depreciations, sums_depreciations) }}
+      {% set (financial_income, sums_financial_income) = make_sums(result, '8000', '8400') %}
+      {{ section(gettext('Financial income'),
+                 gettext('Sum of financial income'),
+                 financial_income, sums_financial_income) }}
+      {% set (financial_costs, sums_financial_costs) = make_sums(result, '8400', '8500') %}
+      {{ section(gettext('Financial costs'),
+                 gettext('Sum of financial costs'),
+                 financial_costs, sums_financial_costs) }}
+      {% set (dispositions, sums_dispositions) = make_sums(result, '8500', '8900') %}
+      {{ section(gettext('Appropriations'),
+                 gettext('Sum of appropriations'),
+                 dispositions, sums_dispositions) }}
+
+      {{ sum_row(gettext('Earnings before taxes'), sums_income, sums_goods,
+         sums_running_costs, sums_personel_costs, sums_depreciations, 
+         sums_financial_income, sums_financial_costs, sums_dispositions) }}
+
+      {% set (taxes, sums_taxes) = make_sums(result, '8900', '8989') %}
+      {{ section('Skatter', 'Summa skatter', taxes,
+         sums_taxes) }}
+
+      {{ sum_row(gettext('Calculated results'), sums_income, sums_goods,
+         sums_running_costs, sums_personel_costs, sums_depreciations, 
+         sums_financial_income, sums_financial_costs, sums_dispositions,
+         sums_taxes) }}
+
+      </table>
+{% endblock report %}

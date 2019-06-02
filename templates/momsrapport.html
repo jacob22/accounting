@@ -1,0 +1,20 @@
+{% extends "report.html" %}
+{% block title %}{% trans %}VAT report{% endtrans %}{% endblock title %}
+{% block header %}{% trans %}VAT report{% endtrans %}{% endblock header %}
+{% block report %}
+    <table class="vatreport">
+      <thead>
+        <th>{% trans %}VAT code{% endtrans %}</th>
+        <th class="header"></th>
+        <th>{% trans %}Amount{% endtrans %}</th>
+      </thead>
+
+      {% for code, amount in vatReport %}
+        <tr>
+          <td class="vatCode">{{ code }}</td>
+          <td>{{ codeDescrs[code] }}</td>
+          <td class="amount">{{ amount | abs }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+{% endblock %}

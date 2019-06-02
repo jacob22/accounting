@@ -1,0 +1,12 @@
+#!/usr/bin/env client.py
+
+import unicodedata
+
+for coa in blm.accounting.ChartOfAccounts._query().run():
+    f = file(coa.name[0]+'.coa', 'w')
+    for acct in blm.accounting.AccountTemplate._query(id=coa.accounts).run():
+        s = unicodedata.normalize(
+            'NFC',
+            (u'%s\t%s\t%s\t%s' % (acct.number[0], acct.type[0], ''.join(acct.vatCode), acct.name[0]))).strip()
+        f.write(s.encode('utf-8') + '\n')
+    f.close()

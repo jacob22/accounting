@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{% block title %}{% endblock title %}</title>
+    <link rel="stylesheet"
+          href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+          integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+          crossorigin="anonymous"/>
+    <style type="text/css">
+{{ css }}
+    </style>
+  </head>
+  <body>
+    <div class="report">
+      <h1>{% block header %}{% endblock header %} - {{ acc.orgname[0] }}</h1>
+      <p>
+        <b>{% trans %}Accounting year{% endtrans %}:</b> {{ acc.start[0][2:-3] }} - {{ acc.end[0][2:-3] }}<br />
+        <b>{% trans %}Printing time{% endtrans %}:</b> {{ time }}
+        {# <!--- filterdata will contain various filters enacted per report ---> #}
+        {% block filterdata %}{% endblock filterdata %}
+      </p>
+
+{% block report %}{% endblock %}
+
+    </div>
+  </body>
+</html>

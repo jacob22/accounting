@@ -1,0 +1,7 @@
+{% if pgnum %}
+<div id="plusgiro">
+  <div>Plusgiro: {{ pgnum|pgnum }}</div>
+  <div>OCR: {{ purchase.ocr[0] }}</div>
+  <div>{% trans %}Amount{% endtrans %}: {{ purchase.remainingAmount[0] }}</div>
+</div>
+{% endif %}

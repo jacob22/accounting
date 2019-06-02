@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Copyright (C) Open End AB 2013, All rights reserved -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Eutaxia Admin</title>
+    <link rel="stylesheet" type="text/css" href="/static/login.css" />
+  </head>
+  <body>
+    <div>
+      <p>
+        {% trans %}Log in using one of the following providers{% endtrans %}
+      </p>
+      <form id="loginform" name="loginform" action="{{ request.base_url }}" method="post">
+        <input type="hidden" name="next" value="{{ next }}" />
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <button type="submit" name="oauth" value="google" title="{% trans %}Log in using Google{% endtrans %}"></button>
+              </td>
+              <td>
+                <button type="submit" name="oauth" value="facebook" title="{% trans %}Log in using Facebook{% endtrans %}"></button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button type="submit" name="oauth" value="twitter" title="{% trans %}Log in using Twitter{% endtrans %}"></button>
+              </td>
+              <td>
+                <button type="submit" name="oauth" value="windowslive" title="{% trans %}Log in using Windows Live or Hotmail{% endtrans %}"></button>
+              </td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+      <span class="error"><!-- LOGIN_ERROR --></span>
+
+      <div class="hotmailcomment">
+        {% trans %}Hotmail users can log in with Windows Live ID.{% endtrans %}
+      </div>
+
+      <div class="cookies">
+        {% trans %}If you log in, Eutaxia Admin uses cookies.{% endtrans %}
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,6 +1,3 @@
-Unless stated otherwise in a file in this package, all files are
-available under the Apache 2.0 Open Source License.
-
 # Copyright 2019 Open End AB
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,3 +12,17 @@ available under the Apache 2.0 Open Source License.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+from .. import base64long
+
+def test_encode_decode():
+    expected = [
+        (1, 'B'),
+        (64, 'AB'),
+        (1<<(6*20), 'A'*20 + 'B')
+        ]
+
+    for l, s in expected:
+        rs = base64long.encode(l)
+        assert rs == s
+        rl = base64long.decode(s)
+        assert rl == l

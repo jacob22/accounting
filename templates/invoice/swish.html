@@ -1,0 +1,9 @@
+{# -*- mode: jinja2 -*- #}
+{% if swishprovider %}
+<div id="swish">
+  <input type="hidden" id="swish-provider" value="{{ swishprovider[0].id[0] }}" />
+  <input type="hidden" id="swish-purchase" value="{{ purchase.id[0] }}" />
+  <input type="hidden" id="swish-is-test" value="{{ swishprovider[0].is_test[0] }}" />
+  <div id="swish-react"></div>
+</div>
+{% endif %}

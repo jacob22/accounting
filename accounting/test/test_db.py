@@ -1,6 +1,3 @@
-Unless stated otherwise in a file in this package, all files are
-available under the Apache 2.0 Open Source License.
-
 # Copyright 2019 Open End AB
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,3 +12,14 @@ available under the Apache 2.0 Open Source License.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+from accounting import config, db
+from pytransact import testsupport
+
+
+class TestDB(object):
+
+    def test_connect(self, monkeypatch):
+        database1 = db.connect()
+        database2 = db.connect()
+
+        assert database1 is database2

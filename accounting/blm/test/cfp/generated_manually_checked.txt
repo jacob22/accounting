@@ -1,0 +1,20 @@
+MH00        5164005810            44580231  SEK      SEK                        
+PI0000     8377004      2011113000000001000001234567899                         
+BA00Mottagar1 AB               5a254b6a907e1367877c33f5                         
+PI0000     8377004      201111300000000100000                                   
+BA00Mottagar1 AB               5a254b6a907e1367877c33f9                         
+BM9999 bottles of beer on the wall, 99 bottles of beer on the wall, Take        
+BM99one down, pass it around, 98       bottles of beer on the wall, 98          
+BM99bottles of beer on the wall, Take  one down, pass it around, 97             
+BM99bottles of beer on the wall, 97    bottles of beer on the wall, Take        
+BM99one down, pass it around, 96       bottles of beer on the wall, 96          
+PI0005     2374825      2011113000000001000001234567899                         
+BA00Mottagar1 AB               5a254b6a907e1367877c33fd                         
+PI0000     8377004      201111300000000100000                                   
+BA00Mottagar1 AB               5a254b6a907e1367877c3401                         
+BM9999 bottles of beer on the wall, 99 bottles of beer on the wall, Take        
+BM99one down, pass it around, 98       bottles of beer on the wall, 98          
+BM99bottles of beer on the wall, Take  one down, pass it around, 97             
+BM99bottles of beer on the wall, 97    bottles of beer on the wall, Take        
+BM99one down, pass it around, 96       bottles of beer on the wall, 96          
+MT00                         0000004000000000400000                             

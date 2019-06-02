@@ -1,0 +1,60 @@
+{% extends "report.html" %}
+{% block title %}{% trans %}Accounts payable{% endtrans %}{% endblock title %}
+{% block header %}{% trans %}Accounts payable{% endtrans %}{% endblock header %}
+
+{#<!-- filterdata displays chosen filterdata if received -->#}
+{% block filterdata %}
+<br /><div id="datefilter"><b id="current_year_filter-{{ filtername_daterange }}">{% trans %}Daterange{% endtrans %}: </b>{{ filterinfo_daterange }}</div>
+<div id="statusfilter"><b id="current_year_filter-{{ filtername_status }}">{% trans %}Status{% endtrans %}: </b><span id="filterinfo_status">{{ filterinfo_status }}</span></div>
+<div id="recipientfilter"><b id="current_year_filter-{{ filtername_recipient }}">{% trans %}Recipient name{% endtrans %}: </b><span id="filterinfo_recipient">{{ filterinfo_recipient }}</span></div>
+
+{% endblock filterdata %}
+
+{% block report %}
+    <table class="verification-list">
+      <thead>
+        <tr>
+	  <th>{% trans %}Accounted{% endtrans %}</th>
+	  <th>{% trans %}Automated{% endtrans %}</th>
+          <th>{% trans %}Status{% endtrans %}</th>
+	  <th>{% trans %}Recipient name{% endtrans %}</th>
+          <th>{% trans %}Transfer Date{% endtrans %}</th>
+	  <th>{% trans %}Transaction Date{% endtrans %}</th>
+          <th>{% trans %}Identifier{% endtrans %}</th>
+	  <th>{% trans %}Attachements{% endtrans %}</th>
+          <th class="debit">{% trans %}Debit{% endtrans %}</th>
+          <th class="credit">{% trans %}Credit{% endtrans %}</th>
+	  <th>{% trans %}Verifications{% endtrans %}</th>
+        </tr>
+      </thead>
+      {% for si in supInvList %}
+        <tbody id="si-{{ si.id[0] }}">
+             <tr>
+               <td>{{'yes' if si.accounted[0]}}</td>
+               <td>{{'yes' if si.automated[0]}}</td>
+               <td>{{ si.invoiceState[0] }}</td>
+	       <td>{{ si.recipient[0] }}</td>
+	       <td>{{ si.transferDate[0] }}</td>
+	       <td>{{ si.transaction_date[0] }}</td>
+	       <td>{{ si.invoiceIdentifier[0] }}</td>
+	       <td>
+                 {% for image in si.images %}
+		 <a href='/image/{{image.id[0]}}' target='_blank'>
+		   <i class="fa fa-paperclip" title='{{ image.filename[0] }}'></i></a>
+		 {% endfor %}
+	       </td>
+	       <td class='debit'>{{ si.amount[0] if si.amount[0] > 0}}</td>
+	       <td class='credit'>{{ si.amount[0]*-1 if si.amount[0] < 0}}</td>
+               <td class='verifications'>
+                 {% for ver1 in si.registrationVerification %}
+		 {{ ver1.series[0].name[0] }}{{ ver1.number[0] }}
+		 {% endfor %}
+                 {% for ver2 in si.transferVerification %}
+		 {{ ver2.series[0].name[0] }}{{ ver2.number[0] }}
+		 {% endfor %}
+	       </td>
+            </tr>
+        </tbody>
+      {% endfor %}
+    </table>
+{% endblock %}

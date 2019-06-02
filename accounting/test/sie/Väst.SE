@@ -1,0 +1,4152 @@
+#FLAGGA 0
+#PROGRAM "Hogia Ekonomi" "2013.2"
+#FORMAT PC8
+#GEN 20140310 "AN"
+#SIETYP 4
+#PROSA ""
+#FNR 20
+#ORGNR 864501-9376
+#ADRESS "" "DjurgÜrdsgatan 40" "14164 Gîteborg" ""
+#FNAMN "Sverok VÑst"
+#RAR 0 20130101 20131231
+#RAR -1 20120101 20121231
+#OMFATTN 20131231
+#KPTYP EUBAS97
+#KONTO 1000 "Fodran Humlan"
+#KTYP 1000 T
+#KONTO 1010 "Balanserade utgifter"
+#KTYP 1010 T
+#SRU 1010 7201
+#KONTO 1012 "Balanserade utgifter progvaror"
+#KTYP 1012 T
+#KONTO 1019 "Ack avskr balanserade utgifter"
+#KTYP 1019 T
+#KONTO 1020 "Koncessioner m m"
+#KTYP 1020 T
+#KONTO 1029 "Ack avskr koncessioner m m"
+#KTYP 1029 T
+#KONTO 1030 "Patent"
+#KTYP 1030 T
+#SRU 1030 7201
+#KONTO 1039 "Ack avskr pÜ patent"
+#KTYP 1039 T
+#KONTO 1040 "Licenser"
+#KTYP 1040 T
+#KONTO 1049 "Ack avskr licenser"
+#KTYP 1049 T
+#KONTO 1050 "VarumÑrken"
+#KTYP 1050 T
+#KONTO 1059 "Ack avskr varumÑrken"
+#KTYP 1059 T
+#KONTO 1060 "HyresrÑtter"
+#KTYP 1060 T
+#SRU 1060 7201
+#KONTO 1069 "Ack avskr hyresrÑtter"
+#KTYP 1069 T
+#KONTO 1070 "Goodwill"
+#KTYP 1070 T
+#SRU 1070 7201
+#KONTO 1079 "Ack avskrivning goodwill"
+#KTYP 1079 T
+#KONTO 1080 "PÜg. projekt fîrskott imm anl"
+#KTYP 1080 T
+#KONTO 1110 "Byggnader"
+#KTYP 1110 T
+#SRU 1110 7214
+#KONTO 1119 "Ack avskr pÜ byggnader"
+#KTYP 1119 T
+#SRU 1119 7214
+#KONTO 1130 "Mark"
+#KTYP 1130 T
+#SRU 1130 7214
+#KONTO 1150 "MarkanlÑggningar"
+#KTYP 1150 T
+#SRU 1150 7214
+#KONTO 1159 "Ack avskr pÜ markanlÑggningar"
+#KTYP 1159 T
+#SRU 1159 7214
+#KONTO 1180 "PÜg.nyanl o fîrskott bygg/mark"
+#KTYP 1180 T
+#KONTO 1210 "Maskiner och andra tekn anl"
+#KTYP 1210 T
+#SRU 1210 7215
+#KONTO 1219 "Ack avskr mask/andra tekn anl"
+#KTYP 1219 T
+#SRU 1219 7215
+#KONTO 1220 "Inventarier"
+#KTYP 1220 T
+#SRU 1220 7215
+#KONTO 1229 "Ack avskrivn inventarier"
+#KTYP 1229 T
+#SRU 1229 7215
+#KONTO 1230 "Installationer"
+#KTYP 1230 T
+#KONTO 1239 "Ack avskrivning installationer"
+#KTYP 1239 T
+#KONTO 1240 "Bilar och andra transportmedel"
+#KTYP 1240 T
+#SRU 1240 7215
+#KONTO 1249 "Ack avskr bilar/transportmedel"
+#KTYP 1249 T
+#SRU 1249 7215
+#KONTO 1250 "Datorer"
+#KTYP 1250 T
+#KONTO 1259 "Ack avskrivning datorer"
+#KTYP 1259 T
+#KONTO 1260 "Leasade tillgÜngar"
+#KTYP 1260 T
+#KONTO 1269 "Ack avskr pÜ leasingavtal"
+#KTYP 1269 T
+#KONTO 1280 "PÜg. nyanl o fîrskott mask/inv"
+#KTYP 1280 T
+#KONTO 1290 "ôvr maskiner och inventarier"
+#KTYP 1290 T
+#KONTO 1291 "Konst och liknande tillgÜngar"
+#KTYP 1291 T
+#KONTO 1299 "Ack avskr îvr maskiner o inven"
+#KTYP 1299 T
+#KONTO 1310 "Andelar koncernftg"
+#KTYP 1310 T
+#KONTO 1318 "Ack nedskr andelar koncernftg"
+#KTYP 1318 T
+#KONTO 1320 "LÜngfrist fordr koncernftg"
+#KTYP 1320 T
+#KONTO 1328 "Ack nedsk lÜngfr fordr koncftg"
+#KTYP 1328 T
+#KONTO 1330 "Andelar intresseftg"
+#KTYP 1330 T
+#KONTO 1338 "Ack nedskr andelar intress.tfg"
+#KTYP 1338 T
+#KONTO 1340 "LÜngfrist fordr intresseftg"
+#KTYP 1340 T
+#KONTO 1348 "Ack nedskr lÜngfr fordr intres"
+#KTYP 1348 T
+#KONTO 1350 "Andelar och vÑrdep i andra ftg"
+#KTYP 1350 T
+#KONTO 1354 "Obligationer"
+#KTYP 1354 T
+#SRU 1354 7233
+#KONTO 1358 "Ack nedskr andelar o vÑrdep"
+#KTYP 1358 T
+#KONTO 1360 "LÜn delÑg nÑrstÜende, lÜngfris"
+#KTYP 1360 T
+#KONTO 1369 "Ack nedskr lÜn delÑg nÑrst"
+#KTYP 1369 T
+#KONTO 1370 "Uppskjuten skattefordran"
+#KTYP 1370 T
+#KONTO 1380 "Fordringar Nintendo Next"
+#KTYP 1380 T
+#SRU 1380 7235
+#KONTO 1381 "Fordringar Humlan"
+#KTYP 1381 T
+#SRU 1381 7235
+#KONTO 1382 "Fordringar Warcon"
+#KTYP 1382 T
+#KONTO 1383 "LÑmnade depositioner lÜngfrist"
+#KTYP 1383 T
+#KONTO 1384 "Derivat"
+#KTYP 1384 T
+#KONTO 1385 "VÑrde av kapitalfîrsÑkring"
+#KTYP 1385 T
+#KONTO 1386 "Fîrutbet leasingavg, lÜngfrist"
+#KTYP 1386 T
+#KONTO 1387 "LÜngfrist kontraktsfordringar"
+#KTYP 1387 T
+#KONTO 1389 "Ack nedskr lÜngfrist fordr"
+#KTYP 1389 T
+#KONTO 1400 "Lager"
+#KTYP 1400 T
+#KONTO 1410 "Lager av rÜvaror"
+#KTYP 1410 T
+#SRU 1410 7241
+#KONTO 1419 "FîrÑndring lager av rÜvaror"
+#KTYP 1419 T
+#KONTO 1420 "Lager av tillsatsmtrl/fîrnîd"
+#KTYP 1420 T
+#SRU 1420 7241
+#KONTO 1429 "FîrÑndr lager tillsatsmtrl/fîr"
+#KTYP 1429 T
+#KONTO 1430 "Lager av halvfabrikat"
+#KTYP 1430 T
+#KONTO 1439 "FîrÑndr lager av halvfabrikat"
+#KTYP 1439 T
+#KONTO 1440 "Produkter i arbete"
+#KTYP 1440 T
+#SRU 1440 7242
+#KONTO 1449 "FîrÑndring produkter i arbete"
+#KTYP 1449 T
+#KONTO 1450 "Lager av fÑrdiga varor"
+#KTYP 1450 T
+#KONTO 1459 "FîrÑndr lager av fÑrdiga varor"
+#KTYP 1459 T
+#KONTO 1460 "Lager av handelsvaror"
+#KTYP 1460 T
+#SRU 1460 7243
+#KONTO 1469 "FîrÑndr lager av handelsvaror"
+#KTYP 1469 T
+#KONTO 1470 "PÜgÜende arbeten"
+#KTYP 1470 T
+#SRU 1470 7245
+#KONTO 1479 "FîrÑndr pÜgÜende arbeten"
+#KTYP 1479 T
+#KONTO 1480 "Fîrskott varor och tjÑnster"
+#KTYP 1480 T
+#SRU 1480 7246
+#KONTO 1489 "ôvr fîrskott till leverantîrer"
+#KTYP 1489 T
+#KONTO 1490 "ôvriga lagertillgÜngar"
+#KTYP 1490 T
+#KONTO 1510 "Fîreningsfodringar"
+#KTYP 1510 T
+#SRU 1510 7251
+#KONTO 1512 "BelÜnade kundfordr.(factoring)"
+#KTYP 1512 T
+#KONTO 1513 "Kundfordringar - delad faktura"
+#KTYP 1513 T
+#KONTO 1515 "OsÑkra kundfordringar"
+#KTYP 1515 T
+#SRU 1515 7251
+#KONTO 1519 "Nedskr av kundfordringar"
+#KTYP 1519 T
+#KONTO 1520 "VÑxelfordringar"
+#KTYP 1520 T
+#KONTO 1525 "OsÑkra vÑxelfordringar"
+#KTYP 1525 T
+#KONTO 1529 "Nedskr vÑxelfordringar"
+#KTYP 1529 T
+#KONTO 1530 "Kontraktsfordringar"
+#KTYP 1530 T
+#KONTO 1535 "OsÑkra kontraktsfordringar"
+#KTYP 1535 T
+#KONTO 1539 "Nedskr kontraktsfordring"
+#KTYP 1539 T
+#KONTO 1550 "Konsignationsfordringar"
+#KTYP 1550 T
+#KONTO 1560 "Kundfordringar koncern"
+#KTYP 1560 T
+#KONTO 1569 "Nedskr kundfordr koncernftg"
+#KTYP 1569 T
+#KONTO 1570 "Kundfordringar hos intresseftg"
+#KTYP 1570 T
+#KONTO 1579 "Nedskr kundfordr hos int.ftg"
+#KTYP 1579 T
+#KONTO 1580 "Fordr kontokort och kuponger"
+#KTYP 1580 T
+#KONTO 1610 "Kortfr fordr hos anstÑllda"
+#KTYP 1610 T
+#SRU 1610 7261
+#KONTO 1611 "Resefîrskott"
+#KTYP 1611 T
+#SRU 1611 7261
+#KONTO 1612 "Kassafîrskott"
+#KTYP 1612 T
+#KONTO 1613 "ôvriga fîrskott"
+#KTYP 1613 T
+#SRU 1613 7261
+#KONTO 1614 "TillfÑlliga lÜn till anstÑllda"
+#KTYP 1614 T
+#SRU 1614 7261
+#KONTO 1619 "ôvr fordr anstÑllda"
+#KTYP 1619 T
+#KONTO 1620 "Upparbetad men ej fakt intÑkt"
+#KTYP 1620 T
+#KONTO 1630 "AvrÑkn skatter och avgifter"
+#KTYP 1630 T
+#SRU 1630 7261
+#KONTO 1640 "Skattefordringar"
+#KTYP 1640 T
+#SRU 1640 7261
+#KONTO 1650 "Momsfordran"
+#KTYP 1650 T
+#SRU 1650 7261
+#KONTO 1660 "Koncernfordringar, korta"
+#KTYP 1660 T
+#KONTO 1680 "Andra kortfristiga fordringar"
+#KTYP 1680 T
+#SRU 1680 7261
+#KONTO 1683 "Derivat"
+#KTYP 1683 T
+#KONTO 1684 "Kortfr fordr hos leverantîrer"
+#KTYP 1684 T
+#SRU 1684 7261
+#KONTO 1688 "Fordran pensionsfîrsÑkr"
+#KTYP 1688 T
+#KONTO 1689 "ôvriga kortfristiga fordringar"
+#KTYP 1689 T
+#KONTO 1690 "Ford teckn ej inbet akt.kapita"
+#KTYP 1690 T
+#KONTO 1700 "Fîrutbet kost/upplupna int"
+#KTYP 1700 T
+#SRU 1700 7263
+#KONTO 1710 "Fîrutbetalda hyror"
+#KTYP 1710 T
+#SRU 1710 7263
+#KONTO 1720 "Fîrutbet leasingavg kortfr del"
+#KTYP 1720 T
+#SRU 1720 7263
+#KONTO 1730 "Fîrutbet fîrsÑkringspremier"
+#KTYP 1730 T
+#SRU 1730 7263
+#KONTO 1740 "Fîrutbetalda rÑntekostnader"
+#KTYP 1740 T
+#SRU 1740 7263
+#KONTO 1750 "Upplupna hyresintÑkter"
+#KTYP 1750 T
+#SRU 1750 7263
+#KONTO 1760 "Upplupna rÑnteintÑkter"
+#KTYP 1760 T
+#SRU 1760 7263
+#KONTO 1770 "TillgÜngar av kostnadsnatur"
+#KTYP 1770 T
+#KONTO 1780 "Upplupna avtalsintÑkter"
+#KTYP 1780 T
+#KONTO 1790 "ôvr fîrutbet kostn/upplup int"
+#KTYP 1790 T
+#SRU 1790 7263
+#KONTO 1799 "Observationskonto"
+#KTYP 1799 T
+#KONTO 1810 "Andelar bîrsnoterade fîretag"
+#KTYP 1810 T
+#KONTO 1820 "Obligationer"
+#KTYP 1820 T
+#KONTO 1880 "Andra kortfrist placeringar"
+#KTYP 1880 T
+#KONTO 1890 "Nedskr kortfrist placeringar"
+#KTYP 1890 T
+#KONTO 1910 "Kassa"
+#KTYP 1910 T
+#SRU 1910 7281
+#KONTO 1911 "Tobias Handkassa"
+#KTYP 1911 T
+#SRU 1911 7281
+#KONTO 1912 "Dan Sivnert handkassa"
+#KTYP 1912 T
+#SRU 1912 7281
+#KONTO 1913 "Anna Handkassa"
+#KTYP 1913 T
+#SRU 1913 7281
+#KONTO 1914 "Daniel Handkassa"
+#KTYP 1914 T
+#SRU 1914 7281
+#KONTO 1915 "Kontokort"
+#KTYP 1915 T
+#SRU 1915 7281
+#KONTO 1916 "Jon handkassa"
+#KTYP 1916 T
+#SRU 1916 7281
+#KONTO 1917 "John handkassa"
+#KTYP 1917 T
+#SRU 1917 7281
+#KONTO 1918 "Olof Nilsson handkassa"
+#KTYP 1918 T
+#SRU 1918 7281
+#KONTO 1919 "Viktor Hadkassa"
+#KTYP 1919 T
+#SRU 1919 7281
+#KONTO 1920 "Plusgirokonto"
+#KTYP 1920 T
+#SRU 1920 7281
+#KONTO 1921 "Ulf handkassa"
+#KTYP 1921 T
+#SRU 1921 7281
+#KONTO 1922 "Thomas Hadkassa"
+#KTYP 1922 T
+#SRU 1922 7281
+#KONTO 1923 "Pontus Hadkassa"
+#KTYP 1923 T
+#SRU 1923 7281
+#KONTO 1924 "Niklas Hadkassa"
+#KTYP 1924 T
+#SRU 1924 7281
+#KONTO 1930 "Bank, CheckrÑkningskonto"
+#KTYP 1930 T
+#SRU 1930 7281
+#KONTO 1940 "Bank, ôvriga bankkonto"
+#KTYP 1940 T
+#SRU 1940 7281
+#KONTO 1950 "Penningmarknadsfond"
+#KTYP 1950 T
+#SRU 1950 7281
+#KONTO 1960 "Koncernkonto moderfîretag"
+#KTYP 1960 T
+#KONTO 1970 "SÑrskilda bankkonton"
+#KTYP 1970 T
+#KONTO 1980 "Valutakonton"
+#KTYP 1980 T
+#SRU 1980 7281
+#KONTO 1990 "Redovisningsmedel"
+#KTYP 1990 T
+#KONTO 2010 "Eget kapital"
+#KTYP 2010 S
+#KONTO 2019 "Redovisat resultat"
+#KTYP 2019 S
+#KONTO 2061 "Eget kapital"
+#KTYP 2061 S
+#KONTO 2067 "Balanserad vinst/fîrlust"
+#KTYP 2067 S
+#KONTO 2068 "Vinst/fîrlust frÜn fîreg Ür"
+#KTYP 2068 S
+#KONTO 2069 "èrets resultat"
+#KTYP 2069 S
+#KONTO 2080 "Bundet eget kapital"
+#KTYP 2080 S
+#KONTO 2081 "Aktiekapital"
+#KTYP 2081 S
+#SRU 2081 7301
+#KONTO 2082 "Ej registrerat aktiekapital"
+#KTYP 2082 S
+#SRU 2082 7301
+#KONTO 2083 "Medlemsinsatser"
+#KTYP 2083 S
+#SRU 2083 7301
+#KONTO 2084 "ôverkursfond"
+#KTYP 2084 S
+#SRU 2084 7301
+#KONTO 2085 "Uppskrivningsfond"
+#KTYP 2085 S
+#SRU 2085 7301
+#KONTO 2086 "Reservfond/VÑrdesÑkringsfond"
+#KTYP 2086 S
+#SRU 2086 7301
+#KONTO 2090 "Fritt eget kapital"
+#KTYP 2090 S
+#SRU 2090 7302
+#KONTO 2091 "Balanserad vinst/fîrlust"
+#KTYP 2091 S
+#SRU 2091 7302
+#KONTO 2092 "Mottagna/lÑmn. konc.bidrag"
+#KTYP 2092 S
+#KONTO 2093 "ErhÜllna aktieÑgartillskott"
+#KTYP 2093 S
+#SRU 2093 7302
+#KONTO 2094 "Egna aktier"
+#KTYP 2094 S
+#KONTO 2095 "Fusionsresultat"
+#KTYP 2095 S
+#KONTO 2096 "Fond fîr verkligt vÑrde"
+#KTYP 2096 S
+#KONTO 2097 "ôverkursfond"
+#KTYP 2097 S
+#KONTO 2098 "Vinst/fîrlust fîregÜende Ür"
+#KTYP 2098 S
+#SRU 2098 7302
+#KONTO 2099 "Redovisat resultat"
+#KTYP 2099 S
+#SRU 2099 7302
+#KONTO 2110 "Periodiseringsfond tax 2010"
+#KTYP 2110 S
+#SRU 2110 7321
+#KONTO 2111 "Periodiseringsfond tax 2011"
+#KTYP 2111 S
+#SRU 2111 7321
+#KONTO 2112 "Periodiseringsfond tax 2012"
+#KTYP 2112 S
+#SRU 2112 7321
+#KONTO 2113 "Periodiseringsfond tax 2013"
+#KTYP 2113 S
+#SRU 2113 7321
+#KONTO 2114 "Periodiseringsfond 2014"
+#KTYP 2114 S
+#KONTO 2115 "Periodiseringsfond 2015"
+#KTYP 2115 S
+#KONTO 2123 "Periodiseringsfond tax 2003"
+#KTYP 2123 S
+#SRU 2123 7321
+#KONTO 2124 "Periodiseringsfond tax 2004"
+#KTYP 2124 S
+#SRU 2124 7321
+#KONTO 2125 "Periodiseringsfond tax 2005"
+#KTYP 2125 S
+#SRU 2125 7321
+#KONTO 2126 "Periodiseringsfond tax 2006"
+#KTYP 2126 S
+#SRU 2126 7321
+#KONTO 2127 "Periodiseringsfond tax 2007"
+#KTYP 2127 S
+#SRU 2127 7321
+#KONTO 2128 "Periodiseringsfond tax 2008"
+#KTYP 2128 S
+#SRU 2128 7321
+#KONTO 2129 "Periodiseringsfond tax 2009"
+#KTYP 2129 S
+#SRU 2129 7321
+#KONTO 2150 "Ackumulerade îveravskrivningar"
+#KTYP 2150 S
+#SRU 2150 7322
+#KONTO 2151 "Ack îveravskr imm anl.tillg"
+#KTYP 2151 S
+#SRU 2151 7322
+#KONTO 2152 "Ack îveravskr pÜ byggn/markanl"
+#KTYP 2152 S
+#SRU 2152 7322
+#KONTO 2153 "Ack îveravskr maskiner/inv"
+#KTYP 2153 S
+#SRU 2153 7322
+#KONTO 2160 "ErsÑttningsfond"
+#KTYP 2160 S
+#SRU 2160 7323
+#KONTO 2180 "Obeskattade intÑkter"
+#KTYP 2180 S
+#KONTO 2190 "ôvriga obeskattade reserver"
+#KTYP 2190 S
+#SRU 2190 7323
+#KONTO 2191 "Skilln bokf o fakti pens.skuld"
+#KTYP 2191 S
+#KONTO 2196 "Lagerreserv"
+#KTYP 2196 S
+#KONTO 2199 "ôvr obeskattade reserver"
+#KTYP 2199 S
+#KONTO 2210 "AvsÑttningar fîr pensioner"
+#KTYP 2210 S
+#KONTO 2220 "AvsÑttningar fîr garantier"
+#KTYP 2220 S
+#KONTO 2230 "ôvr avsÑttn fîr pens och likn"
+#KTYP 2230 S
+#KONTO 2240 "AvsÑttn. fîr uppskj skatter"
+#KTYP 2240 S
+#KONTO 2250 "ôvriga avsÑttn fîr skatter"
+#KTYP 2250 S
+#KONTO 2253 "AvsÑttning sÑrskild lîneskatt"
+#KTYP 2253 S
+#KONTO 2290 "ôvriga avsÑttningar"
+#KTYP 2290 S
+#KONTO 2310 "Obligations- och fîrlagslÜn"
+#KTYP 2310 S
+#KONTO 2320 "Konvertibla lÜn o liknande"
+#KTYP 2320 S
+#KONTO 2321 "Konvertibla lÜn"
+#KTYP 2321 S
+#KONTO 2322 "LÜn fîrenade med optionsrÑtt"
+#KTYP 2322 S
+#KONTO 2330 "CheckrÑkningskredit"
+#KTYP 2330 S
+#SRU 2330 7351
+#KONTO 2340 "Byggnadskreditiv"
+#KTYP 2340 S
+#SRU 2340 7352
+#KONTO 2350 "LÜn"
+#KTYP 2350 S
+#SRU 2350 7352
+#KONTO 2351 "FastighetslÜn lÜngfristig del"
+#KTYP 2351 S
+#KONTO 2359 "ôvr lÜngfr lÜn frÜn kreditinst"
+#KTYP 2359 S
+#KONTO 2360 "LÜngfrist skulder koncernftg"
+#KTYP 2360 S
+#KONTO 2370 "LÜngfr skulder till intr.fîret"
+#KTYP 2370 S
+#KONTO 2390 "ôvriga lÜngfristiga skulder"
+#KTYP 2390 S
+#SRU 2390 7354
+#KONTO 2391 "Avbetalningskontrakt lÜngfrist"
+#KTYP 2391 S
+#KONTO 2393 "LÜn frÜn nÑrst. lÜngfrist. del"
+#KTYP 2393 S
+#KONTO 2394 "LÜngfrist leverantîrskrediter"
+#KTYP 2394 S
+#KONTO 2396 "Derivat"
+#KTYP 2396 S
+#KONTO 2399 "ôvr lÜngfristiga skulder"
+#KTYP 2399 S
+#KONTO 2410 "Kortfrist skuld kreditinstitut"
+#KTYP 2410 S
+#KONTO 2420 "Fîrskott frÜn kunder"
+#KTYP 2420 S
+#SRU 2420 7362
+#KONTO 2430 "PÜgÜende arbeten"
+#KTYP 2430 S
+#KONTO 2431 "PÜgÜende arbeten fakturering"
+#KTYP 2431 S
+#KONTO 2438 "PÜgÜende arbeten nedlagda kost"
+#KTYP 2438 S
+#KONTO 2439 "BerÑkn fîrÑndr pÜgÜende arbete"
+#KTYP 2439 S
+#KONTO 2440 "Leverantîrsskulder"
+#KTYP 2440 S
+#SRU 2440 7365
+#KONTO 2441 "Leverantîrsskulder,ankomst"
+#KTYP 2441 S
+#KONTO 2450 "Fakt men ej upparb. intÑkt"
+#KTYP 2450 S
+#KONTO 2460 "Leverantîrsskulder,koncern"
+#KTYP 2460 S
+#KONTO 2470 "Leverantîrsskulder intresseftg"
+#KTYP 2470 S
+#KONTO 2480 "CheckrÑkningskredit, kortfrist"
+#KTYP 2480 S
+#KONTO 2490 "ôvr kortfrist skuld kreditinst"
+#KTYP 2490 S
+#KONTO 2491 "AvrÑkning spelarrangîrer"
+#KTYP 2491 S
+#KONTO 2499 "Andra îvriga  kortfristiga sku"
+#KTYP 2499 S
+#SRU 2499 7369
+#KONTO 2510 "Skatteskuld"
+#KTYP 2510 S
+#SRU 2510 7368
+#KONTO 2512 "BerÑknad inkomstskatt"
+#KTYP 2512 S
+#KONTO 2513 "BerÑknad fastighetsskatt"
+#KTYP 2513 S
+#KONTO 2514 "BerÑk sÑrsk lîneskatt pen kost"
+#KTYP 2514 S
+#KONTO 2515 "BerÑknad avkastningsskatt"
+#KTYP 2515 S
+#KONTO 2516 "Moms"
+#KTYP 2516 S
+#KONTO 2517 "BerÑknad utlÑndsk skatt"
+#KTYP 2517 S
+#KONTO 2518 "Betald F-skatt"
+#KTYP 2518 S
+#KONTO 2610 "UtgÜende moms, oreducerad"
+#KTYP 2610 S
+#SRU 2610 7369
+#KONTO 2611 "Utg moms fîrs inom Sv, ored"
+#KTYP 2611 S
+#SRU 2611 7369
+#KONTO 2612 "Utg moms egna uttag, 25 %"
+#KTYP 2612 S
+#KONTO 2613 "Utg moms uthyrning, 25 %"
+#KTYP 2613 S
+#KONTO 2614 "Utg moms tjÑnstefîrv utl ored"
+#KTYP 2614 S
+#SRU 2614 7369
+#KONTO 2615 "Utg moms varufîrvÑrv EU, ored"
+#KTYP 2615 S
+#SRU 2615 7369
+#KONTO 2616 "Utg moms VMB, 25 %"
+#KTYP 2616 S
+#KONTO 2617 "Utg moms omv skatt sv, 25 %"
+#KTYP 2617 S
+#KONTO 2618 "Vilande utgÜende moms, 25 %"
+#KTYP 2618 S
+#KONTO 2620 "UtgÜende moms, reducerad 1"
+#KTYP 2620 S
+#SRU 2620 7369
+#KONTO 2621 "Utg m fîrsÑljn inom Sv, red 1"
+#KTYP 2621 S
+#SRU 2621 7369
+#KONTO 2622 "Utg moms egna uttag 12 %"
+#KTYP 2622 S
+#KONTO 2623 "Utg moms uthyrning 12 %"
+#KTYP 2623 S
+#KONTO 2624 "Utg moms tjÑnstefîrv utl red 1"
+#KTYP 2624 S
+#SRU 2624 7369
+#KONTO 2625 "Utg moms, varufîrvÑrv EU, red1"
+#KTYP 2625 S
+#SRU 2625 7369
+#KONTO 2626 "Utg moms VMB, 12 %"
+#KTYP 2626 S
+#KONTO 2627 "Utg moms omv skatt sv, 12 %"
+#KTYP 2627 S
+#KONTO 2628 "Vilande utg moms, 12 %"
+#KTYP 2628 S
+#KONTO 2630 "UtgÜende moms, reducerad 2"
+#KTYP 2630 S
+#SRU 2630 7369
+#KONTO 2631 "Utg m fîrsÑljn inom Sv, red 2"
+#KTYP 2631 S
+#SRU 2631 7369
+#KONTO 2632 "Utg moms egna uttag, 6 %"
+#KTYP 2632 S
+#KONTO 2633 "Utg moms uthyrning 6 %"
+#KTYP 2633 S
+#KONTO 2634 "Utg moms tjÑnstefîrv utl red 2"
+#KTYP 2634 S
+#SRU 2634 7369
+#KONTO 2635 "Utg moms, varufîrvÑrv EU, red2"
+#KTYP 2635 S
+#SRU 2635 7369
+#KONTO 2636 "Utg moms VMB, 6 %"
+#KTYP 2636 S
+#KONTO 2637 "Utg moms omv skatt sv. 6 %"
+#KTYP 2637 S
+#KONTO 2638 "Vilande utg moms, 6 %"
+#KTYP 2638 S
+#KONTO 2640 "IngÜende moms"
+#KTYP 2640 S
+#SRU 2640 7369
+#KONTO 2641 "IngÜende moms"
+#KTYP 2641 S
+#KONTO 2642 "Ing moms frivillig skattskyld"
+#KTYP 2642 S
+#KONTO 2643 "Ing moms verksamhetslokaler"
+#KTYP 2643 S
+#KONTO 2645 "Ber ing moms fîrv. frÜn utl."
+#KTYP 2645 S
+#KONTO 2646 "Ing moms uthyrning"
+#KTYP 2646 S
+#KONTO 2647 "Ing moms omv skatt Sverige"
+#KTYP 2647 S
+#KONTO 2648 "Vilande ingÜende moms"
+#KTYP 2648 S
+#KONTO 2649 "Ing moms blandad verksamhet"
+#KTYP 2649 S
+#KONTO 2650 "Redovisningskonto fîr moms"
+#KTYP 2650 S
+#SRU 2650 7369
+#KONTO 2661 "Reklamskatt"
+#KTYP 2661 S
+#KONTO 2669 "ôvriga punktskatter"
+#KTYP 2669 S
+#KONTO 2710 "Personalens kÑllskatt"
+#KTYP 2710 S
+#SRU 2710 7369
+#KONTO 2730 "Skuld sociala avgifter"
+#KTYP 2730 S
+#SRU 2730 7369
+#KONTO 2731 "AvrÑkn lagstadgade sociala avg"
+#KTYP 2731 S
+#SRU 2731 7369
+#KONTO 2732 "AvrÑkning sÑrskild lîneskatt"
+#KTYP 2732 S
+#KONTO 2733 "AvrÑkn sÑrskild sjukfîrs.avg"
+#KTYP 2733 S
+#SRU 2733 7369
+#KONTO 2740 "Avtalade sociala avgifter"
+#KTYP 2740 S
+#KONTO 2750 "UtmÑtning i lîn m m"
+#KTYP 2750 S
+#SRU 2750 7369
+#KONTO 2760 "Semestermedel"
+#KTYP 2760 S
+#SRU 2760 7369
+#KONTO 2790 "ôvriga lîneavdrag"
+#KTYP 2790 S
+#SRU 2790 7369
+#KONTO 2792 "Lînsparande"
+#KTYP 2792 S
+#SRU 2792 7369
+#KONTO 2793 "GruppfîrsÑkringspremier"
+#KTYP 2793 S
+#SRU 2793 7369
+#KONTO 2794 "Fackfîreningsavgifter"
+#KTYP 2794 S
+#SRU 2794 7369
+#KONTO 2795 "MÑtnings- och granskningsarvod"
+#KTYP 2795 S
+#KONTO 2799 "ôvriga lîneavdrag"
+#KTYP 2799 S
+#KONTO 2810 "AvrÑkn f factoring, kortfr del"
+#KTYP 2810 S
+#SRU 2810 7369
+#KONTO 2820 "Kortfr skulder till anstÑllda"
+#KTYP 2820 S
+#SRU 2820 7369
+#KONTO 2821 "Lîneskulder"
+#KTYP 2821 S
+#KONTO 2822 "ReserÑkningar"
+#KTYP 2822 S
+#KONTO 2823 "Tantiem, gratifikationer"
+#KTYP 2823 S
+#KONTO 2829 "ôvr kortfr skulder anstÑllda"
+#KTYP 2829 S
+#KONTO 2830 "AvrÑkning fîr annans rÑkning"
+#KTYP 2830 S
+#KONTO 2840 "LÜneskulder,kortfristiga"
+#KTYP 2840 S
+#KONTO 2860 "Kortfrist skuld koncernftg"
+#KTYP 2860 S
+#KONTO 2870 "Kortfr skulder intresseftg"
+#KTYP 2870 S
+#KONTO 2880 "Skuld erhÜllna bidrag"
+#KTYP 2880 S
+#KONTO 2890 "ôvriga kortfristiga skulder"
+#KTYP 2890 S
+#SRU 2890 7369
+#KONTO 2900 "Uppl kostn/fîrutbet intÑkter"
+#KTYP 2900 S
+#SRU 2900 7370
+#KONTO 2910 "Upplupna lîner"
+#KTYP 2910 S
+#SRU 2910 7370
+#KONTO 2911 "Lîneskulder"
+#KTYP 2911 S
+#KONTO 2912 "Ackordsîverskott"
+#KTYP 2912 S
+#KONTO 2919 "ôvriga upplupna lîner"
+#KTYP 2919 S
+#KONTO 2920 "Upplupna semlîner"
+#KTYP 2920 S
+#SRU 2920 7370
+#KONTO 2930 "Upplupna pensionskostnader"
+#KTYP 2930 S
+#KONTO 2931 "Upplupna pensionsutbetalningar"
+#KTYP 2931 S
+#KONTO 2940 "Upplupna lagstad sociala avg"
+#KTYP 2940 S
+#KONTO 2941 "BerÑknade upplupna sociala avg"
+#KTYP 2941 S
+#SRU 2941 7370
+#KONTO 2942 "BerÑkn upplupen sÑrsk lîneskat"
+#KTYP 2942 S
+#KONTO 2943 "Ber uppl sÑrsk lînesk pens.kos"
+#KTYP 2943 S
+#KONTO 2944 "Ber upplupen avk.skatt pens.ko"
+#KTYP 2944 S
+#KONTO 2945 "Ber uppl sÑrskild sjukf.avg"
+#KTYP 2945 S
+#SRU 2945 7370
+#KONTO 2950 "Upplupna avtalade sociala avg"
+#KTYP 2950 S
+#KONTO 2951 "Upplupna avtalade fîrsÑkr.avg"
+#KTYP 2951 S
+#KONTO 2959 "Upplupna avt. pens.fîrs.prem"
+#KTYP 2959 S
+#KONTO 2960 "Upplupna rÑntekostnader"
+#KTYP 2960 S
+#SRU 2960 7370
+#KONTO 2970 "Fîrutbetalda hyresintÑkter"
+#KTYP 2970 S
+#SRU 2970 7370
+#KONTO 2971 "Fîrutbetalda hyresinstÑkter"
+#KTYP 2971 S
+#KONTO 2972 "Fîrutbetalda medlemsavgifter"
+#KTYP 2972 S
+#KONTO 2979 "ôvriga fîrutbetalda intÑkter"
+#KTYP 2979 S
+#KONTO 2980 "Upplupna avtalskostnader"
+#KTYP 2980 S
+#KONTO 2990 "interimsskulder"
+#KTYP 2990 S
+#SRU 2990 7370
+#KONTO 2991 "BerÑknat arvode bokslut"
+#KTYP 2991 S
+#KONTO 2992 "BerÑknat arvode revision"
+#KTYP 2992 S
+#KONTO 2993 "Ospec.skuld till leverantîrer"
+#KTYP 2993 S
+#KONTO 2999 "Upplupna kostnader"
+#KTYP 2999 S
+#SRU 2999 7370
+#KONTO 3000 "Fsg inom Sverige"
+#KTYP 3000 I
+#KONTO 3001 "Fsg inom Sverige 25 %"
+#KTYP 3001 I
+#KONTO 3002 "Fsg inom Sverige 12 %"
+#KTYP 3002 I
+#KONTO 3003 "Fsg inom Sverige 6 %"
+#KTYP 3003 I
+#KONTO 3004 "Fsg Sverige momsfri"
+#KTYP 3004 I
+#KONTO 3008 "Pos vinstmarg, konto"
+#KTYP 3008 I
+#KONTO 3009 "Pos vinstmarg, omfkonto"
+#KTYP 3009 I
+#KONTO 3010 "FîrsÑlj rÜvaror/fîrnîdenheter"
+#KTYP 3010 I
+#SRU 3010 7410
+#KONTO 3011 "HyresintÑkter"
+#KTYP 3011 I
+#KONTO 3080 "Reduktion f.pris rÜvar/fîrnîd"
+#KTYP 3080 I
+#SRU 3080 7410
+#KONTO 3081 "LÑmnade kassarab rÜvar/fîrnîd"
+#KTYP 3081 I
+#SRU 3081 7410
+#KONTO 3100 "Fsg varor utanfîr Sverige"
+#KTYP 3100 I
+#KONTO 3105 "Fsg varor till land utanfîr EU"
+#KTYP 3105 I
+#KONTO 3106 "Fsg varor annat EU-land momspl"
+#KTYP 3106 I
+#KONTO 3108 "Fsg varor annat EU-land momsfr"
+#KTYP 3108 I
+#KONTO 3110 "FîrsÑjning Handelsvaror"
+#KTYP 3110 I
+#SRU 3110 7410
+#KONTO 3120 "IntÑkter anordnade resor"
+#KTYP 3120 I
+#SRU 3120 7410
+#KONTO 3180 "Reduktion f.pris handelsvaror"
+#KTYP 3180 I
+#SRU 3180 7410
+#KONTO 3181 "LÑmnade kassarab handelsvaror"
+#KTYP 3181 I
+#SRU 3181 7410
+#KONTO 3200 "Fsg VMB och omvÑnd moms"
+#KTYP 3200 I
+#KONTO 3211 "Fsg positiv VMB 25 %"
+#KTYP 3211 I
+#KONTO 3212 "Fsg negativ VMB 25 %"
+#KTYP 3212 I
+#KONTO 3231 "FîrsÑlj inom bygg omv skatt"
+#KTYP 3231 I
+#KONTO 3300 "Fsg tjÑnster utanfîr Sverige"
+#KTYP 3300 I
+#KONTO 3305 "Fsg tjÑnster land utanfîr EU"
+#KTYP 3305 I
+#KONTO 3308 "Fsg tjÑnster annat EU-land"
+#KTYP 3308 I
+#KONTO 3400 "Fsg egna uttag"
+#KTYP 3400 I
+#KONTO 3401 "Egna uttag 25 %"
+#KTYP 3401 I
+#KONTO 3402 "Egna uttag 12 %"
+#KTYP 3402 I
+#KONTO 3403 "Egna uttag 6 %"
+#KTYP 3403 I
+#KONTO 3404 "Egna uttag momsfria"
+#KTYP 3404 I
+#KONTO 3510 "Fakturerat emballage"
+#KTYP 3510 I
+#KONTO 3520 "Fakturerade frakter"
+#KTYP 3520 I
+#KONTO 3521 "Fakturerade frakter EU-land"
+#KTYP 3521 I
+#KONTO 3522 "Fakturerade frakter export"
+#KTYP 3522 I
+#KONTO 3530 "Fakturerde tull- o speditionsk"
+#KTYP 3530 I
+#KONTO 3540 "Faktureringsavgifter"
+#KTYP 3540 I
+#KONTO 3541 "Faktureringsavgifter EU-land"
+#KTYP 3541 I
+#KONTO 3542 "Faktureringsavgifter export"
+#KTYP 3542 I
+#KONTO 3550 "Fakturerade resekostnader"
+#KTYP 3550 I
+#KONTO 3560 "Fakturerade kostn kocernftg"
+#KTYP 3560 I
+#KONTO 3570 "Fakturerade kostn intresseftg"
+#KTYP 3570 I
+#KONTO 3590 "ôvriga fakt kostnader"
+#KTYP 3590 I
+#KONTO 3610 "FîrsÑljning av material"
+#KTYP 3610 I
+#KONTO 3620 "TillfÑllig uthyrn av personal"
+#KTYP 3620 I
+#KONTO 3630 "TillfÑllig uthyrn transp.medel"
+#KTYP 3630 I
+#KONTO 3670 "IntÑkter frÜn vÑrdepapper"
+#KTYP 3670 I
+#KONTO 3680 "Management fees"
+#KTYP 3680 I
+#KONTO 3690 "ôvr sidointÑkter"
+#KTYP 3690 I
+#KONTO 3710 "Ofîrdelade intÑktsreduktioner"
+#KTYP 3710 I
+#KONTO 3730 "LÑmnade rabatter"
+#KTYP 3730 I
+#KONTO 3740 "ôresutjÑmning"
+#KTYP 3740 I
+#SRU 3740 7410
+#KONTO 3750 "Punktskatter"
+#KTYP 3750 I
+#KONTO 3790 "ôvriga intÑktskorrigeringar"
+#KTYP 3790 I
+#KONTO 3840 "Aktiverat arbete material"
+#KTYP 3840 I
+#KONTO 3850 "Aktiverat arbete omkostnader"
+#KTYP 3850 I
+#KONTO 3870 "Aktiverat arbete personal"
+#KTYP 3870 I
+#KONTO 3910 "Hyres- o arrendeintÑkter"
+#KTYP 3910 I
+#KONTO 3911 "HyresintÑkter"
+#KTYP 3911 I
+#SRU 3911 7413
+#KONTO 3912 "ArrendeintÑkter"
+#KTYP 3912 I
+#SRU 3912 7413
+#KONTO 3913 "Frivilliga momspl hyresintÑkt."
+#KTYP 3913 I
+#KONTO 3920 "ProvisionsintÑkter"
+#KTYP 3920 I
+#KONTO 3921 "ProvisionsintÑkter"
+#KTYP 3921 I
+#SRU 3921 7413
+#KONTO 3922 "LicensintÑkter och royalties"
+#KTYP 3922 I
+#SRU 3922 7413
+#KONTO 3950 "Distriksstîd"
+#KTYP 3950 I
+#SRU 3950 7413
+#KONTO 3960 "Valutakursvinster"
+#KTYP 3960 I
+#KONTO 3970 "Vinst avyttr anlÑggningstillgÜ"
+#KTYP 3970 I
+#KONTO 3980 "ErhÜllna offentliga stîd mm"
+#KTYP 3980 I
+#KONTO 3981 "ErhÜllna EU-bidrag"
+#KTYP 3981 I
+#SRU 3981 7413
+#KONTO 3985 "ErhÜllna statliga bidrag"
+#KTYP 3985 I
+#SRU 3985 7413
+#KONTO 3987 "Drift o verksamhetsbidrag"
+#KTYP 3987 I
+#SRU 3987 7413
+#KONTO 3989 "Landstingsbidrag"
+#KTYP 3989 I
+#SRU 3989 7413
+#KONTO 3990 "ôvr ersÑttn och intÑkter"
+#KTYP 3990 I
+#SRU 3990 7413
+#KONTO 3999 "Budgetkostnad"
+#KTYP 3999 I
+#KONTO 4000 "LÑmnade bidrag"
+#KTYP 4000 K
+#SRU 4000 7511
+#KONTO 4010 "Inkîp material och varor"
+#KTYP 4010 K
+#SRU 4010 7511
+#KONTO 4051 "Inkîp rÜvar/fîrnîd, utanfîr EU"
+#KTYP 4051 K
+#SRU 4051 7511
+#KONTO 4055 "TrepartsfîrvÑrv rÜvar/fîrn, EU"
+#KTYP 4055 K
+#SRU 4055 7511
+#KONTO 4056 "Inkîp rÜvaror/fîrnîd, EU, ored"
+#KTYP 4056 K
+#SRU 4056 7511
+#KONTO 4057 "Inkîp rÜvaror/fîrnîd EU, red 1"
+#KTYP 4057 K
+#SRU 4057 7511
+#KONTO 4058 "Ink rÜvaror/fîrnîd EU momsfri"
+#KTYP 4058 K
+#SRU 4058 7511
+#KONTO 4059 "Fîrdelade rÜvaruinkîp"
+#KTYP 4059 K
+#SRU 4059 7511
+#KONTO 4081 "ErhÜllna kassarabatter"
+#KTYP 4081 K
+#SRU 4081 7511
+#KONTO 4090 "FîrÑndring rÜvaror/fîrnîd"
+#KTYP 4090 K
+#SRU 4090 7511
+#KONTO 4110 "Inkîp handelsvaror"
+#KTYP 4110 K
+#SRU 4110 7511
+#KONTO 4120 "Kostnad anordnade resor"
+#KTYP 4120 K
+#SRU 4120 7511
+#KONTO 4130 "LÑmnade fîreningsbidrag"
+#KTYP 4130 K
+#SRU 4130 7511
+#KONTO 4132 "Samarbetsavtal"
+#KTYP 4132 K
+#KONTO 4151 "Inkîp handelsvaror, utanfîr EU"
+#KTYP 4151 K
+#SRU 4151 7511
+#KONTO 4155 "Trepartsfîrv, handelsvaror, EU"
+#KTYP 4155 K
+#SRU 4155 7511
+#KONTO 4156 "Inkîp handelsvaror, EU, ored"
+#KTYP 4156 K
+#SRU 4156 7511
+#KONTO 4157 "Inkîp handelsvaror, EU, red1"
+#KTYP 4157 K
+#SRU 4157 7511
+#KONTO 4158 "Inkîp handelsvaror, EU momsfri"
+#KTYP 4158 K
+#SRU 4158 7511
+#KONTO 4159 "Fîrdelade rÜvaruinkîp"
+#KTYP 4159 K
+#SRU 4159 7511
+#KONTO 4181 "ErhÜllna kassarabatter"
+#KTYP 4181 K
+#SRU 4181 7511
+#KONTO 4190 "FîrÑndring handelsvaror"
+#KTYP 4190 K
+#SRU 4190 7511
+#KONTO 4200 "SÜlda varor VMB"
+#KTYP 4200 K
+#KONTO 4211 "SÜlda varor positiv VMB 25 %"
+#KTYP 4211 K
+#KONTO 4212 "SÜlda varor negativ VMB 25 %"
+#KTYP 4212 K
+#KONTO 4400 "Inkîpta tjÑnster Sv, omvÑnd"
+#KTYP 4400 K
+#KONTO 4425 "Inkîpta tj. Sv omvÑnd 25 %"
+#KTYP 4425 K
+#KONTO 4426 "Inkîpta tj. Sv omvÑnd 12 %"
+#KTYP 4426 K
+#KONTO 4427 "Inkîpta tj. Sv omvÑnd 6 %"
+#KTYP 4427 K
+#KONTO 4444 "Ankomstreg. motkonto"
+#KTYP 4444 K
+#KONTO 4500 "Inkîp frÜn annat EU-land"
+#KTYP 4500 K
+#KONTO 4515 "Inkîp varor annat EU-land 25 %"
+#KTYP 4515 K
+#KONTO 4516 "Inkîp varor annat EU-land 12 %"
+#KTYP 4516 K
+#KONTO 4517 "Inkîp varor annat EU-land 6 %"
+#KTYP 4517 K
+#KONTO 4518 "Inkîp varor EU-land momsfri"
+#KTYP 4518 K
+#KONTO 4535 "Inkîp tj. annat EU-land 25 %"
+#KTYP 4535 K
+#KONTO 4536 "Inkîp tj. annat EU-land  12 %"
+#KTYP 4536 K
+#KONTO 4537 "Inlîp tj. annat EU-land 6 %"
+#KTYP 4537 K
+#KONTO 4538 "Inkîpt tj. EU-land momsfri"
+#KTYP 4538 K
+#KONTO 4600 "Legoarbeten underentreprenad"
+#KTYP 4600 K
+#KONTO 4730 "ErhÜllna rabatter"
+#KTYP 4730 K
+#KONTO 4731 "ErhÜllna kassarabatter"
+#KTYP 4731 K
+#KONTO 4732 "ErhÜllna mÑngdrabatter"
+#KTYP 4732 K
+#KONTO 4790 "ôvr reduktioner inkîpspriser"
+#KTYP 4790 K
+#KONTO 4910 "FîrÑndring av lager av rÜvaror"
+#KTYP 4910 K
+#SRU 4910 7511
+#KONTO 4920 "FîrÑnd lager tills.mtrl/fîrnîd"
+#KTYP 4920 K
+#SRU 4920 7511
+#KONTO 4930 "FîrÑndring lager halvfabrikat"
+#KTYP 4930 K
+#KONTO 4931 "FîrÑndring lager kîpta halvfab"
+#KTYP 4931 K
+#KONTO 4932 "FîrÑndr lager egentillv. halvf"
+#KTYP 4932 K
+#KONTO 4940 "FîrÑndring produkter i arbete"
+#KTYP 4940 K
+#KONTO 4950 "FîrÑndring lager fÑrdiga varor"
+#KTYP 4950 K
+#KONTO 4960 "FîrÑndring lager handelsvaror"
+#KTYP 4960 K
+#SRU 4960 7512
+#KONTO 4970 "FîrÑnd pÜg arb, nedlagda kostn"
+#KTYP 4970 K
+#SRU 4970 7411
+#KONTO 4980 "FîrÑnd av lager av vÑrdepapper"
+#KTYP 4980 K
+#KONTO 4990 "FîrÑnd av lager o pÜg. arbeten"
+#KTYP 4990 K
+#KONTO 5010 "Lokalhyra"
+#KTYP 5010 K
+#SRU 5010 7513
+#KONTO 5011 "Hyra tillfÑllig lokal"
+#KTYP 5011 K
+#SRU 5011 7513
+#KONTO 5012 "Passersystem"
+#KTYP 5012 K
+#KONTO 5020 "El hyrd lokal"
+#KTYP 5020 K
+#SRU 5020 7513
+#KONTO 5030 "VÑrme"
+#KTYP 5030 K
+#KONTO 5040 "Vatten och avlopp"
+#KTYP 5040 K
+#KONTO 5050 "Lokaltillbehîr hyrd lokal"
+#KTYP 5050 K
+#SRU 5050 7513
+#KONTO 5060 "StÑdning och renhÜllning"
+#KTYP 5060 K
+#SRU 5060 7513
+#KONTO 5070 "Reparation/underhÜll lokaler"
+#KTYP 5070 K
+#SRU 5070 7513
+#KONTO 5090 "ôvr kostnader hyrd lokal"
+#KTYP 5090 K
+#SRU 5090 7513
+#KONTO 5091 "LokalfîrsÑkring"
+#KTYP 5091 K
+#SRU 5091 7513
+#KONTO 5098 "ôvr lokalkostnader avdragsgill"
+#KTYP 5098 K
+#KONTO 5099 "ôvr lokalkostnader ej avdragsg"
+#KTYP 5099 K
+#KONTO 5110 "TomtrÑttsavgÑld/arrende"
+#KTYP 5110 K
+#KONTO 5120 "El fîr belysning"
+#KTYP 5120 K
+#KONTO 5130 "VÑrme"
+#KTYP 5130 K
+#SRU 5130 7513
+#KONTO 5132 "Sotning"
+#KTYP 5132 K
+#SRU 5132 7513
+#KONTO 5140 "Vatten och avlopp"
+#KTYP 5140 K
+#SRU 5140 7513
+#KONTO 5160 "StÑdning och renhÜllning"
+#KTYP 5160 K
+#KONTO 5161 "StÑdning"
+#KTYP 5161 K
+#SRU 5161 7513
+#KONTO 5170 "Rep/underhÜll av fastighet"
+#KTYP 5170 K
+#SRU 5170 7513
+#KONTO 5191 "Fastighetsskatt"
+#KTYP 5191 K
+#SRU 5191 7513
+#KONTO 5192 "FastighetsfîrsÑkringspremier"
+#KTYP 5192 K
+#SRU 5192 7513
+#KONTO 5193 "Fastighetsskîtsel och fîrvaltn"
+#KTYP 5193 K
+#KONTO 5198 "ôvr fast.kostn, avdragsg"
+#KTYP 5198 K
+#SRU 5198 7513
+#KONTO 5199 "ôvr fast.kostn, ej avdragsgill"
+#KTYP 5199 K
+#SRU 5199 7513
+#SRU 5199 7653
+#KONTO 5210 "Hyra maskiner/tekn anl"
+#KTYP 5210 K
+#SRU 5210 7513
+#KONTO 5220 "Hyra inventarier"
+#KTYP 5220 K
+#SRU 5220 7513
+#KONTO 5230 "Hyra Radiokommunikation"
+#KTYP 5230 K
+#SRU 5230 7513
+#KONTO 5250 "Hyra av datorer"
+#KTYP 5250 K
+#KONTO 5290 "ôvr hyreskostn fîr anl.tillg"
+#KTYP 5290 K
+#SRU 5290 7513
+#KONTO 5310 "El fîr drift"
+#KTYP 5310 K
+#KONTO 5320 "Gas"
+#KTYP 5320 K
+#KONTO 5330 "Eldningsolja"
+#KTYP 5330 K
+#KONTO 5360 "Bensin fotogen motorbrÑnnolja"
+#KTYP 5360 K
+#KONTO 5370 "FjÑrrvÑrme, kyla o Ünga"
+#KTYP 5370 K
+#KONTO 5380 "Vatten"
+#KTYP 5380 K
+#KONTO 5390 "ôvr energikostnader"
+#KTYP 5390 K
+#KONTO 5410 "Fîrbrukningsinventarier"
+#KTYP 5410 K
+#SRU 5410 7513
+#KONTO 5420 "Programvaror"
+#KTYP 5420 K
+#SRU 5420 7513
+#KONTO 5440 "Fîrbrukningsemballage"
+#KTYP 5440 K
+#SRU 5440 7513
+#KONTO 5460 "Fîrbrukningsmaterial"
+#KTYP 5460 K
+#SRU 5460 7513
+#KONTO 5480 "ArbetsklÑder och skyddsmater"
+#KTYP 5480 K
+#KONTO 5490 "ôvr fîrbr inv och fîrb. mater"
+#KTYP 5490 K
+#KONTO 5500 "Reparation och underhÜll"
+#KTYP 5500 K
+#SRU 5500 7513
+#KONTO 5510 "Rep o underh maskin tekn anlÑg"
+#KTYP 5510 K
+#KONTO 5520 "Rep o underh invent verktyg"
+#KTYP 5520 K
+#KONTO 5530 "Rep o underh installationer"
+#KTYP 5530 K
+#KONTO 5550 "Rep o underh fîrbr.inventarier"
+#KTYP 5550 K
+#KONTO 5580 "Underh o tvÑtt arbetsklÑder"
+#KTYP 5580 K
+#KONTO 5590 "ôvr kostn fîr rep o underhÜll"
+#KTYP 5590 K
+#KONTO 5611 "Drivmedel fîr personbilar"
+#KTYP 5611 K
+#SRU 5611 7513
+#KONTO 5612 "FîrsÑkring/skatt personbilar"
+#KTYP 5612 K
+#SRU 5612 7513
+#KONTO 5613 "Rep/underhÜll personbilar"
+#KTYP 5613 K
+#SRU 5613 7513
+#KONTO 5615 "Leasingavgifter personbilar"
+#KTYP 5615 K
+#SRU 5615 7513
+#KONTO 5616 "TrÑngselskatt, avdragsgill"
+#KTYP 5616 K
+#KONTO 5619 "ôvriga personbilskostnader"
+#KTYP 5619 K
+#SRU 5619 7513
+#KONTO 5620 "Lastbilskostnader"
+#KTYP 5620 K
+#KONTO 5630 "Truckkostnader"
+#KTYP 5630 K
+#KONTO 5640 "Kostnader arbetsmaskiner"
+#KTYP 5640 K
+#KONTO 5690 "ôvr kost transportmedel"
+#KTYP 5690 K
+#KONTO 5700 "Frakter och transporter"
+#KTYP 5700 K
+#SRU 5700 7513
+#KONTO 5710 "Frakt/transp/fîrsÑkr varudistr"
+#KTYP 5710 K
+#SRU 5710 7513
+#KONTO 5720 "Flyttkostnader"
+#KTYP 5720 K
+#SRU 5720 7513
+#KONTO 5730 "Arbetstransporter"
+#KTYP 5730 K
+#KONTO 5790 "ôvr kost frakter och transport"
+#KTYP 5790 K
+#KONTO 5800 "Resekostnader"
+#KTYP 5800 K
+#SRU 5800 7513
+#KONTO 5810 "Biljetter"
+#KTYP 5810 K
+#SRU 5810 7513
+#KONTO 5820 "Hyrbil"
+#KTYP 5820 K
+#SRU 5820 7513
+#KONTO 5831 "Kost och logi Sverige"
+#KTYP 5831 K
+#SRU 5831 7513
+#KONTO 5832 "Kost och logi i utlandet"
+#KTYP 5832 K
+#SRU 5832 7513
+#KONTO 5840 "ReseersÑttning egen bil"
+#KTYP 5840 K
+#SRU 5840 7513
+#KONTO 5890 "ôvriga resekostnader"
+#KTYP 5890 K
+#SRU 5890 7513
+#KONTO 5910 "Annonsering"
+#KTYP 5910 K
+#SRU 5910 7513
+#KONTO 5920 "Utomhus- och trafikreklam"
+#KTYP 5920 K
+#KONTO 5930 "Reklamtrycksaker/direktreklam"
+#KTYP 5930 K
+#SRU 5930 7513
+#KONTO 5940 "UtstÑllningar och mÑssor"
+#KTYP 5940 K
+#SRU 5940 7513
+#KONTO 5941 "Deltagaravgifter"
+#KTYP 5941 K
+#SRU 5941 7513
+#KONTO 5950 "Butiks-/ÜterfîrsÑljarreklam"
+#KTYP 5950 K
+#SRU 5950 7513
+#KONTO 5960 "Varuprover, reklamgÜvor mm"
+#KTYP 5960 K
+#SRU 5960 7513
+#KONTO 5970 "Film, radio, TV o Internetrekl"
+#KTYP 5970 K
+#KONTO 5980 "PR, institut reklam, sponsring"
+#KTYP 5980 K
+#SRU 5980 7513
+#KONTO 5990 "ôvr kostnader reklam och PR"
+#KTYP 5990 K
+#SRU 5990 7513
+#KONTO 6010 "Kataloger, prislistor mm"
+#KTYP 6010 K
+#SRU 6010 7513
+#KONTO 6020 "Egna facktidskrifter"
+#KTYP 6020 K
+#KONTO 6030 "Speciella orderkostnader"
+#KTYP 6030 K
+#KONTO 6040 "Kontokortsavgifter"
+#KTYP 6040 K
+#KONTO 6050 "FîrsÑljningsprovisioner"
+#KTYP 6050 K
+#SRU 6050 7513
+#KONTO 6060 "KreditfîrsÑljningskostnader"
+#KTYP 6060 K
+#SRU 6060 7513
+#KONTO 6061 "Kreditupplysning"
+#KTYP 6061 K
+#KONTO 6062 "Inkasso och KFM-avgifter"
+#KTYP 6062 K
+#KONTO 6063 "KreditfîrsÑkringspremier"
+#KTYP 6063 K
+#KONTO 6064 "Factoringavgifter"
+#KTYP 6064 K
+#KONTO 6069 "ôvr kreditfîrsÑljningskostn"
+#KTYP 6069 K
+#KONTO 6071 "Representation, avdragsgill"
+#KTYP 6071 K
+#SRU 6071 7513
+#KONTO 6072 "Representation, ej avdragsgill"
+#KTYP 6072 K
+#SRU 6072 7513
+#SRU 6072 7653
+#KONTO 6080 "Bankgarantier"
+#KTYP 6080 K
+#KONTO 6090 "ôvriga fîrsÑljningskostnader"
+#KTYP 6090 K
+#SRU 6090 7513
+#KONTO 6110 "Kontorsmaterial"
+#KTYP 6110 K
+#SRU 6110 7513
+#KONTO 6150 "Trycksaker"
+#KTYP 6150 K
+#SRU 6150 7513
+#KONTO 6210 "Telekommunikation"
+#KTYP 6210 K
+#KONTO 6211 "Fast telefoni"
+#KTYP 6211 K
+#SRU 6211 7513
+#KONTO 6212 "Mobiltelefoni"
+#KTYP 6212 K
+#SRU 6212 7513
+#KONTO 6213 "Internet"
+#KTYP 6213 K
+#SRU 6213 7513
+#KONTO 6214 "Fax"
+#KTYP 6214 K
+#SRU 6214 7513
+#KONTO 6230 "Datakommunikation"
+#KTYP 6230 K
+#SRU 6230 7513
+#KONTO 6250 "Porto"
+#KTYP 6250 K
+#SRU 6250 7513
+#KONTO 6270 "saknade kvitton"
+#KTYP 6270 K
+#SRU 6270 7513
+#KONTO 6310 "FîretagsfîrsÑkringar"
+#KTYP 6310 K
+#SRU 6310 7513
+#KONTO 6320 "SjÑlvrisker vid skada"
+#KTYP 6320 K
+#KONTO 6350 "Fîrluster pÜ kundfordringar"
+#KTYP 6350 K
+#SRU 6350 7513
+#KONTO 6360 "Garantikostnader"
+#KTYP 6360 K
+#KONTO 6370 "Kostnader bevakning larm"
+#KTYP 6370 K
+#KONTO 6390 "ôvr kostnader"
+#KTYP 6390 K
+#SRU 6390 7513
+#KONTO 6400 "Fîrvaltningskostnader"
+#KTYP 6400 K
+#SRU 6400 7513
+#KONTO 6410 "Styrelsearvoden"
+#KTYP 6410 K
+#SRU 6410 7513
+#KONTO 6420 "Revisionsarvoden"
+#KTYP 6420 K
+#SRU 6420 7513
+#KONTO 6421 "Redovisning"
+#KTYP 6421 K
+#SRU 6421 7513
+#KONTO 6422 "Rev.verksamhet utîver revision"
+#KTYP 6422 K
+#KONTO 6423 "SkatterÜdgivning - revisor"
+#KTYP 6423 K
+#KONTO 6424 "ôvriga tjÑnster - revisor"
+#KTYP 6424 K
+#KONTO 6430 "Management fees"
+#KTYP 6430 K
+#KONTO 6440 "èrsredovisning, delÜrsrapport."
+#KTYP 6440 K
+#KONTO 6450 "BolagsstÑmma"
+#KTYP 6450 K
+#KONTO 6490 "ôvriga fîrvaltningskostnader"
+#KTYP 6490 K
+#SRU 6490 7513
+#KONTO 6520 "Ritnings- och kopieringskostn"
+#KTYP 6520 K
+#SRU 6520 7513
+#KONTO 6530 "RedovisningstjÑnster"
+#KTYP 6530 K
+#SRU 6530 7513
+#KONTO 6540 "IT-tjÑnster"
+#KTYP 6540 K
+#KONTO 6550 "Konsultarvoden"
+#KTYP 6550 K
+#SRU 6550 7513
+#KONTO 6560 "Serviceavg till branschorg"
+#KTYP 6560 K
+#SRU 6560 7513
+#KONTO 6570 "Bankkostnader"
+#KTYP 6570 K
+#SRU 6570 7513
+#KONTO 6580 "Advokat-/rÑttegÜngskostnader"
+#KTYP 6580 K
+#SRU 6580 7513
+#KONTO 6590 "ôvriga externa tjÑnster"
+#KTYP 6590 K
+#SRU 6590 7513
+#KONTO 6810 "Inhyrd produktionspersonal"
+#KTYP 6810 K
+#KONTO 6820 "Inhyrd lagerpersonal"
+#KTYP 6820 K
+#KONTO 6830 "Inhyrd transportpersonal"
+#KTYP 6830 K
+#KONTO 6840 "Inhyrd kontor- ekonomipersonal"
+#KTYP 6840 K
+#KONTO 6850 "Inhyrd IT-personal"
+#KTYP 6850 K
+#KONTO 6860 "Inhyrd marknads- fîrsÑljn pers"
+#KTYP 6860 K
+#KONTO 6870 "Inhyrd rest och butikspersonal"
+#KTYP 6870 K
+#KONTO 6880 "Inhyrda fîretagsledare"
+#KTYP 6880 K
+#KONTO 6890 "ôvr inhyrd personal"
+#KTYP 6890 K
+#KONTO 6892 "FîrsÑkingar"
+#KTYP 6892 K
+#KONTO 6910 "Licensavgifter och royalties"
+#KTYP 6910 K
+#SRU 6910 7513
+#KONTO 6920 "Kostnader fîr egna patent"
+#KTYP 6920 K
+#KONTO 6930 "Kostnader varumÑrken mm"
+#KTYP 6930 K
+#KONTO 6940 "Kontroll-, provn- o stÑmpelavg"
+#KTYP 6940 K
+#KONTO 6950 "Tillsynsavgifter myndigheter"
+#KTYP 6950 K
+#KONTO 6970 "Tidningar, facklitteratur"
+#KTYP 6970 K
+#SRU 6970 7513
+#KONTO 6975 "Spel"
+#KTYP 6975 K
+#SRU 6975 7513
+#KONTO 6980 "èrsmîtet"
+#KTYP 6980 K
+#SRU 6980 7513
+#KONTO 6981 "Fîreningsavg, avdragsgilla"
+#KTYP 6981 K
+#SRU 6981 7513
+#KONTO 6982 "Fîreningsavg, ej avdragsgilla"
+#KTYP 6982 K
+#SRU 6982 7513
+#SRU 6982 7653
+#KONTO 6990 "GodkÑnda bidrag"
+#KTYP 6990 K
+#SRU 6990 7513
+#KONTO 6991 "ôvriga avdr gill kostn"
+#KTYP 6991 K
+#SRU 6991 7513
+#KONTO 6992 "ôvriga ej avdr gill kostn"
+#KTYP 6992 K
+#SRU 6992 7513
+#SRU 6992 7653
+#KONTO 6993 "Saknade kvitton"
+#KTYP 6993 K
+#KONTO 6999 "Budgetkostnad"
+#KTYP 6999 K
+#KONTO 7010 "Lîner"
+#KTYP 7010 K
+#SRU 7010 7514
+#KONTO 7012 "Vinstandelar till kollektivans"
+#KTYP 7012 K
+#KONTO 7013 "Lîner kollektivans.under 26 Ür"
+#KTYP 7013 K
+#KONTO 7014 "Lîn kollektivanst nya pensions"
+#KTYP 7014 K
+#KONTO 7015 "Lîn kollektivans. avg.befriade"
+#KTYP 7015 K
+#KONTO 7017 "AvgÜngsvederlag kollektivanst"
+#KTYP 7017 K
+#KONTO 7018 "Bruttolîneavdrag, kollektivans"
+#KTYP 7018 K
+#KONTO 7019 "Uppl lîner/vinstand koll.anst"
+#KTYP 7019 K
+#SRU 7019 7514
+#KONTO 7030 "Lîn kollektivanst. utlandsanst"
+#KTYP 7030 K
+#KONTO 7080 "Lîner koll.anst ej arbetad tid"
+#KTYP 7080 K
+#SRU 7080 7514
+#KONTO 7081 "Sjuklîner kollektivanstÑllda"
+#KTYP 7081 K
+#KONTO 7082 "Sem.lîner kollektivanstÑllda"
+#KTYP 7082 K
+#KONTO 7083 "FîrÑldraersÑttn kollektivanst"
+#KTYP 7083 K
+#KONTO 7089 "ôvr lîn kollektivanst ej arb.t"
+#KTYP 7089 K
+#KONTO 7090 "FîrÑndring semesterlîneskuld"
+#KTYP 7090 K
+#SRU 7090 7514
+#KONTO 7210 "Lîner till tjÑnstemÑn"
+#KTYP 7210 K
+#SRU 7210 7514
+#KONTO 7212 "Vinstdelar till tjÑnstemÑn"
+#KTYP 7212 K
+#KONTO 7213 "Lîn till tjÑnstmÑn under 26 Ür"
+#KTYP 7213 K
+#KONTO 7214 "Lîn tjÑnstemÑn nya pensions"
+#KTYP 7214 K
+#KONTO 7215 "Lîn tjÑnstemÑn avgiftsbefriade"
+#KTYP 7215 K
+#KONTO 7217 "AvgÜngsvederlag tjÑnstemÑn"
+#KTYP 7217 K
+#KONTO 7218 "Bruttolîneavdrag, tjÑnstemÑn"
+#KTYP 7218 K
+#KONTO 7219 "Uppl lîner/vinstand tjÑnstemÑn"
+#KTYP 7219 K
+#SRU 7219 7514
+#KONTO 7220 "Lîner till fîretagsledare"
+#KTYP 7220 K
+#SRU 7220 7514
+#KONTO 7222 "Tantiem till fîretagsledare"
+#KTYP 7222 K
+#KONTO 7223 "Lîn fîretagsledare under 26 Ür"
+#KTYP 7223 K
+#KONTO 7224 "Lîn fîretagsled nya pensions"
+#KTYP 7224 K
+#KONTO 7225 "Lîn fîretagsledare avgiftsbefr"
+#KTYP 7225 K
+#KONTO 7227 "AvgÜngsvederlag fîretagsledare"
+#KTYP 7227 K
+#KONTO 7228 "Bruttolîneavdrag, fîretagsleda"
+#KTYP 7228 K
+#KONTO 7229 "Uppl lîner/tantiem ftgledare"
+#KTYP 7229 K
+#SRU 7229 7514
+#KONTO 7230 "Lîn tj.mÑn o ftg.ledare utland"
+#KTYP 7230 K
+#KONTO 7240 "Styrelsearvoden"
+#KTYP 7240 K
+#KONTO 7280 "Lîner tj.mÑn/ftgled ej arb tid"
+#KTYP 7280 K
+#SRU 7280 7514
+#KONTO 7281 "Sjuklîner tjÑnstemÑn"
+#KTYP 7281 K
+#KONTO 7282 "Sjuklîner fîretagsledare"
+#KTYP 7282 K
+#KONTO 7283 "FîrÑldraersÑttning tjÑnstemÑn"
+#KTYP 7283 K
+#KONTO 7284 "FîrÑldraersÑttning fîretagsled"
+#KTYP 7284 K
+#KONTO 7285 "Sem.lîner tjÑnstemÑn"
+#KTYP 7285 K
+#KONTO 7286 "Sem.lîner fîretagsledare"
+#KTYP 7286 K
+#KONTO 7290 "FîrÑndring semesterlîneskuld"
+#KTYP 7290 K
+#SRU 7290 7514
+#KONTO 7291 "FîrÑndr semlîneskuld tjÑnstem"
+#KTYP 7291 K
+#KONTO 7292 "FîrÑndr semlîneskuld ftgledare"
+#KTYP 7292 K
+#KONTO 7310 "Kontanta extraersÑttningar"
+#KTYP 7310 K
+#KONTO 7311 "ErsÑttningar sammantrÑden mm"
+#KTYP 7311 K
+#SRU 7311 7514
+#KONTO 7312 "ErsÑttn fîrslagsverks/uppf"
+#KTYP 7312 K
+#SRU 7312 7514
+#KONTO 7313 "ErsÑttn/bidrag bostadskostn"
+#KTYP 7313 K
+#SRU 7313 7514
+#KONTO 7314 "ErsÑttn/bidrag mÜltidskostn"
+#KTYP 7314 K
+#SRU 7314 7514
+#KONTO 7315 "ErsÑttn/bidrag resor t/f arb.p"
+#KTYP 7315 K
+#SRU 7315 7514
+#KONTO 7316 "ErsÑttning/bidrag arbetsklÑder"
+#KTYP 7316 K
+#SRU 7316 7514
+#KONTO 7319 "ôvr kontanta extraersÑttningar"
+#KTYP 7319 K
+#SRU 7319 7514
+#KONTO 7321 "Skattefria traktamenten, Sv"
+#KTYP 7321 K
+#SRU 7321 7514
+#KONTO 7322 "Skattepl traktamenten, Sv"
+#KTYP 7322 K
+#SRU 7322 7514
+#KONTO 7323 "Skattefria traktamenten, utl"
+#KTYP 7323 K
+#SRU 7323 7514
+#KONTO 7324 "Skattepl traktamenten, utl"
+#KTYP 7324 K
+#SRU 7324 7514
+#KONTO 7331 "Skattefria bilersÑttningar"
+#KTYP 7331 K
+#SRU 7331 7514
+#KONTO 7332 "Skattepliktiga bilersÑttningar"
+#KTYP 7332 K
+#SRU 7332 7514
+#KONTO 7333 "Ers trÑngselskatt, skattefri"
+#KTYP 7333 K
+#KONTO 7350 "ErsÑttn fîreskrivna arb.klÑder"
+#KTYP 7350 K
+#SRU 7350 7514
+#KONTO 7370 "RepresentationsersÑttning"
+#KTYP 7370 K
+#SRU 7370 7514
+#KONTO 7380 "Kostnad fîr fîrmÜn anstÑllda"
+#KTYP 7380 K
+#KONTO 7381 "Kostnader fîr fri bostad"
+#KTYP 7381 K
+#SRU 7381 7514
+#KONTO 7382 "Kostn fria/subv mÜltider"
+#KTYP 7382 K
+#SRU 7382 7514
+#KONTO 7383 "Kostn fria resor t/f arb.plats"
+#KTYP 7383 K
+#SRU 7383 7514
+#KONTO 7384 "Kostn f fria/sub arbetsklÑder"
+#KTYP 7384 K
+#SRU 7384 7514
+#KONTO 7385 "Kostnader fîr fri bil"
+#KTYP 7385 K
+#SRU 7385 7514
+#KONTO 7389 "ôvriga kostn fîr fîrmÜner"
+#KTYP 7389 K
+#SRU 7389 7514
+#KONTO 7390 "ôvr kostnadsers och fîrmÜner"
+#KTYP 7390 K
+#SRU 7390 7514
+#KONTO 7410 "Aleckta / Collectum"
+#KTYP 7410 K
+#SRU 7410 7514
+#KONTO 7411 "Premier kollektiva pens.fîrsÑk"
+#KTYP 7411 K
+#KONTO 7412 "Premier individuella pens.fîrs"
+#KTYP 7412 K
+#KONTO 7418 "èterbÑring frÜn fîrsÑkr.ftg"
+#KTYP 7418 K
+#KONTO 7420 "FîrÑndring av pensionsskuld"
+#KTYP 7420 K
+#SRU 7420 7514
+#KONTO 7430 "Avdrag rÑntedel pensionskost"
+#KTYP 7430 K
+#KONTO 7440 "FîrÑndr pensionsstiftelsekapit"
+#KTYP 7440 K
+#KONTO 7460 "Pensionsutbetalningar"
+#KTYP 7460 K
+#SRU 7460 7514
+#KONTO 7461 "Pensionsutb f.d kollektivanst"
+#KTYP 7461 K
+#KONTO 7462 "Pensionsutb f.d tjÑnstemÑn"
+#KTYP 7462 K
+#KONTO 7463 "Pensionsutb f.d ftg.ledare"
+#KTYP 7463 K
+#KONTO 7470 "Fîrvaltn. och kreditfîrsÑk.avg"
+#KTYP 7470 K
+#KONTO 7490 "ôvriga pensionskostnader"
+#KTYP 7490 K
+#SRU 7490 7514
+#KONTO 7510 "Arbetsgivaravgifter"
+#KTYP 7510 K
+#SRU 7510 7514
+#KONTO 7511 "Sociala avg lîner/ersÑttningar"
+#KTYP 7511 K
+#SRU 7511 7514
+#KONTO 7512 "Sociala avg fîr fîrmÜnsvÑrden"
+#KTYP 7512 K
+#SRU 7512 7514
+#KONTO 7519 "Sociala avg semester/lîneskuld"
+#KTYP 7519 K
+#SRU 7519 7514
+#KONTO 7520 "Arbetsgiv.avgifter nya pension"
+#KTYP 7520 K
+#KONTO 7530 "SÑrskild lîneskatt"
+#KTYP 7530 K
+#KONTO 7531 "SÑrsk lîneskatt lîn/ersÑttn"
+#KTYP 7531 K
+#SRU 7531 7514
+#KONTO 7532 "SÑrsk lîneskatt fîr fîrmÜnsv"
+#KTYP 7532 K
+#SRU 7532 7514
+#SRU 7532 7653
+#KONTO 7533 "SÑrsk lîneskatt pensionskostn"
+#KTYP 7533 K
+#SRU 7533 7514
+#KONTO 7540 "SÑrskild sjukfîrsÑkringsavgift"
+#KTYP 7540 K
+#SRU 7540 7514
+#KONTO 7550 "Avkastn.skatt pÜ pensionsmedel"
+#KTYP 7550 K
+#KONTO 7560 "Arbetsgivaravgift. under 26 Ür"
+#KTYP 7560 K
+#KONTO 7570 "Premier arb.markn.fîrsÑkringar"
+#KTYP 7570 K
+#SRU 7570 7514
+#KONTO 7572 "Arb.marknadsfîrs.pens.fîrsprem"
+#KTYP 7572 K
+#KONTO 7573 "Arb.marknadsfîrs.bet prem/avg"
+#KTYP 7573 K
+#KONTO 7581 "GrupplivsfîrsÑkringspremier"
+#KTYP 7581 K
+#KONTO 7582 "GruppsjukfîrsÑkringspremier"
+#KTYP 7582 K
+#KONTO 7583 "GruppolycksfallsfîrsÑkr.premie"
+#KTYP 7583 K
+#KONTO 7590 "ôvr soc o andra avg enl lag/av"
+#KTYP 7590 K
+#KONTO 7610 "Utbildning"
+#KTYP 7610 K
+#SRU 7610 7514
+#KONTO 7620 "Sjuk- och hÑlsovÜrd"
+#KTYP 7620 K
+#SRU 7620 7514
+#KONTO 7621 "Sjuk- & hÑlsovÜrd, avdragsgill"
+#KTYP 7621 K
+#KONTO 7622 "Sjuk- & hÑlsovÜrd, ej avdrag"
+#KTYP 7622 K
+#KONTO 7623 "SjukvÜrdsfîrsÑkr. ej avdrag"
+#KTYP 7623 K
+#KONTO 7631 "Personalrepr, avdragsgill"
+#KTYP 7631 K
+#SRU 7631 7514
+#KONTO 7632 "Personalrepr, ej avdragsgill"
+#KTYP 7632 K
+#SRU 7632 7514
+#SRU 7632 7653
+#KONTO 7650 "SjuklînefîrsÑkring"
+#KTYP 7650 K
+#KONTO 7670 "FîrÑndr personalstiftelsekapit"
+#KTYP 7670 K
+#KONTO 7690 "ôvr personalkostn/erh bidrag"
+#KTYP 7690 K
+#SRU 7690 7514
+#KONTO 7693 "Fritidsverksamhet"
+#KTYP 7693 K
+#SRU 7693 7514
+#KONTO 7699 "Fîrdelning personalkostnader"
+#KTYP 7699 K
+#KONTO 7710 "Nedskriv immater anltillgÜngar"
+#KTYP 7710 K
+#KONTO 7720 "Nedskriv byggnader mark"
+#KTYP 7720 K
+#KONTO 7730 "Nedskriv maskiner inventarier"
+#KTYP 7730 K
+#KONTO 7740 "Nedskriv vissa omsÑttningstill"
+#KTYP 7740 K
+#KONTO 7760 "èterfîr av nedskriv imm anl"
+#KTYP 7760 K
+#KONTO 7770 "èterfîr av nedskriv bygg/mark"
+#KTYP 7770 K
+#KONTO 7780 "èterfîr av nedskriv mask/inv"
+#KTYP 7780 K
+#KONTO 7790 "èterfîr av nedskriv vissa oms"
+#KTYP 7790 K
+#KONTO 7810 "Avskrivn pÜ imm anl.tillg"
+#KTYP 7810 K
+#SRU 7810 7515
+#KONTO 7811 "Avskrivn pÜ balanserade utg"
+#KTYP 7811 K
+#SRU 7811 7515
+#KONTO 7813 "Avskrivningar pÜ patent"
+#KTYP 7813 K
+#SRU 7813 7515
+#KONTO 7816 "Avskrivningar pÜ hyresrÑtter"
+#KTYP 7816 K
+#SRU 7816 7515
+#KONTO 7817 "Avskrivningar pÜ goodwill"
+#KTYP 7817 K
+#SRU 7817 7515
+#KONTO 7820 "Avskrivn byggnader och markanl"
+#KTYP 7820 K
+#SRU 7820 7515
+#KONTO 7821 "Avskrivningar pÜ byggnader"
+#KTYP 7821 K
+#SRU 7821 7515
+#KONTO 7824 "Avskrivn pÜ markanlÑggningar"
+#KTYP 7824 K
+#SRU 7824 7515
+#KONTO 7830 "Avskrivningar"
+#KTYP 7830 K
+#SRU 7830 7515
+#KONTO 7831 "Avskrivn mask/andra tekn anl"
+#KTYP 7831 K
+#SRU 7831 7515
+#KONTO 7832 "Avskrivn inventarier/verktyg"
+#KTYP 7832 K
+#SRU 7832 7515
+#KONTO 7834 "Avskrivn bilar/andra transpm"
+#KTYP 7834 K
+#SRU 7834 7515
+#KONTO 7960 "Valutakursfîrlust"
+#KTYP 7960 K
+#KONTO 7970 "Fîrlust vid avyttring imm o ma"
+#KTYP 7970 K
+#KONTO 7990 "ôvr rîrelsekostnader"
+#KTYP 7990 K
+#KONTO 8010 "Utdel andelar i konc.ftg"
+#KTYP 8010 K
+#KONTO 8014 "Koncernbidrag"
+#KTYP 8014 K
+#KONTO 8110 "Utdel andelar intresseftg"
+#KTYP 8110 K
+#KONTO 8120 "Res fîrsÑlj.andelar i intr.ftg"
+#KTYP 8120 K
+#KONTO 8210 "Res fîrsÑlj vÑrdepapper"
+#KTYP 8210 K
+#KONTO 8220 "Res vid fîrsÑlj vÑrdepapper"
+#KTYP 8220 K
+#KONTO 8230 "Valutadiff lÜngfrist fordring"
+#KTYP 8230 K
+#KONTO 8250 "RÑnteint fr lÜngfr. fordringar"
+#KTYP 8250 K
+#KONTO 8300 "RÑnteintÑkter"
+#KTYP 8300 K
+#SRU 8300 7417
+#KONTO 8310 "RÑnteintÑkter"
+#KTYP 8310 K
+#SRU 8310 7417
+#KONTO 8313 "RÑnteint kortfr kundfordr."
+#KTYP 8313 K
+#KONTO 8314 "Skattefria rÑnteintÑkter"
+#KTYP 8314 K
+#KONTO 8330 "Valutakursdiff. kortfr fordr"
+#KTYP 8330 K
+#KONTO 8340 "Utdelningar kortfr placeringar"
+#KTYP 8340 K
+#KONTO 8350 "Res.vid fîrsÑlj. kortfr plac."
+#KTYP 8350 K
+#KONTO 8390 "ôvriga finansiella intÑkter"
+#KTYP 8390 K
+#SRU 8390 7417
+#KONTO 8400 "RÑntekostnader"
+#KTYP 8400 K
+#SRU 8400 7522
+#KONTO 8410 "DrîjsmÜlsrÑnta"
+#KTYP 8410 K
+#SRU 8410 7522
+#KONTO 8411 "RÑntekostnader Skatteverket"
+#KTYP 8411 K
+#SRU 8411 7522
+#KONTO 8420 "RÑntekostnader kortfrist skuld"
+#KTYP 8420 K
+#KONTO 8422 "DrîjsmÜlsrÑntor lev.skulder"
+#KTYP 8422 K
+#SRU 8422 7522
+#KONTO 8423 "KostnadsrÑntor skatter och avg"
+#KTYP 8423 K
+#SRU 8423 7522
+#SRU 8423 7653
+#KONTO 8430 "Valutadifferenser pÜ skulder"
+#KTYP 8430 K
+#KONTO 8431 "Valutakursvinster pÜ skulder"
+#KTYP 8431 K
+#KONTO 8436 "Valutakursfîrlust pÜ skulder"
+#KTYP 8436 K
+#KONTO 8440 "ErhÜllna rÑntebidrag"
+#KTYP 8440 K
+#KONTO 8490 "ôvriga finansiella kostnader"
+#KTYP 8490 K
+#SRU 8490 7522
+#KONTO 8491 "ErhÜllet ackord skulder kredin"
+#KTYP 8491 K
+#KONTO 8710 "ExtraordinÑr intÑkt"
+#KTYP 8710 K
+#SRU 8710 7418
+#KONTO 8750 "ExtraordinÑra kostnader"
+#KTYP 8750 K
+#KONTO 8810 "FîrÑndring periodiseringsfond"
+#KTYP 8810 K
+#KONTO 8811 "AvsÑttning periodiseringsfond"
+#KTYP 8811 K
+#SRU 8811 7525
+#KONTO 8819 "èterfîring periodiseringsfond"
+#KTYP 8819 K
+#SRU 8819 7420
+#KONTO 8820 "Mottagna koncernbidrag"
+#KTYP 8820 K
+#KONTO 8830 "LÑmnade koncernbidrag"
+#KTYP 8830 K
+#KONTO 8850 "ôveravskrivningar"
+#KTYP 8850 K
+#SRU 8850 7421
+#KONTO 8860 "FîrÑndring av ersÑttningsfond"
+#KTYP 8860 K
+#SRU 8860 7422
+#KONTO 8880 "FîrÑndring obesk intÑkter"
+#KTYP 8880 K
+#KONTO 8890 "ôvriga bokslutsdispositioner"
+#KTYP 8890 K
+#SRU 8890 7422
+#KONTO 8896 "FîrÑndring av lagerreserv"
+#KTYP 8896 K
+#KONTO 8899 "ôvr.bokslutsdispositioner"
+#KTYP 8899 K
+#KONTO 8910 "Skatt Ürets besk.bara res"
+#KTYP 8910 K
+#SRU 8910 7528
+#SRU 8910 7651
+#KONTO 8920 "Skatt pga Ñndrad taxering"
+#KTYP 8920 K
+#SRU 8920 7528
+#SRU 8920 7651
+#KONTO 8940 "Uppskjuten skatt"
+#KTYP 8940 K
+#KONTO 8980 "ôvriga skatter"
+#KTYP 8980 K
+#KONTO 8990 "Resultat"
+#KTYP 8990 K
+#KONTO 8999 "Redovisat resultat"
+#KTYP 8999 K
+#SRU 8999 7450
+#OBJEKT 1 "0" "ôvrigt"
+#OBJEKT 1 "1" "Regionsbidrag VÑstra Gîtaland"
+#OBJEKT 1 "2" "Regionsbidrag Halland"
+#OBJEKT 1 "3" "Kommunbidrag"
+#OBJEKT 1 "4" "HyresintÑkter"
+#OBJEKT 1 "5" "èrskort"
+#OBJEKT 1 "11" "Spelets hus"
+#OBJEKT 1 "12" "Kansli"
+#OBJEKT 1 "13" "èrsmîte"
+#OBJEKT 1 "14" "Samarbetsmodellen VG"
+#OBJEKT 1 "15" "Samarbetsmodellen Halland"
+#OBJEKT 1 "16" "Styrelsen"
+#OBJEKT 1 "17" "Utbildning"
+#OBJEKT 1 "18" "Speletshus rÜdet"
+#OBJEKT 1 "19" "Fîrenings service"
+#OBJEKT 1 "20" "Valberedningen"
+#OBJEKT 1 "21" "Revision"
+#OBJEKT 1 "190" "Resultatenhet FRèN SIE-FIL"
+#OBJEKT 1 "431" "Resultatenhet FRèN SIE-FIL"
+#OBJEKT 1 "550" "Resultatenhet FRèN SIE-FIL"
+#OBJEKT 1 "870" "Resultatenhet FRèN SIE-FIL"
+#OBJEKT 1 "920" "Resultatenhet FRèN SIE-FIL"
+#OBJEKT 1 "950" "Resultatenhet FRèN SIE-FIL"
+#OBJEKT 1 "960" "Resultatenhet FRèN SIE-FIL"
+#OBJEKT 1 "970" "Resultatenhet FRèN SIE-FIL"
+#OBJEKT 6 "0" "Gemensamt projekt"
+#OBJEKT 6 "15" "PROJEKT FRèN SIE-FIL"
+#OBJEKT 6 "17" "PROJEKT FRèN SIE-FIL"
+#OBJEKT 6 "18" "PROJEKT FRèN SIE-FIL"
+#OBJEKT 6 "19" "PROJEKT FRèN SIE-FIL"
+#OBJEKT 6 "20" "PROJEKT FRèN SIE-FIL"
+#IB 0 1210 277777
+#IB 0 1229 -144705.4
+#IB 0 1380 15050
+#IB 0 1381 5463
+#IB 0 1700 12100
+#IB 0 1710 36038
+#IB 0 1910 2782
+#IB 0 1930 35575.28
+#IB 0 1940 303021.02
+#IB 0 2010 -228310.55
+#IB 0 2098 -163887.66
+#IB 0 2099 -95407.69
+#IB 0 2900 -55495
+#UB 0 1210 277777
+#UB 0 1229 -200260.8
+#UB 0 1380 2050
+#UB 0 1381 5463
+#UB 0 1382 2063
+#UB 0 1510 81160
+#UB 0 1700 0
+#UB 0 1710 36665
+#UB 0 1910 8221
+#UB 0 1930 23861.12
+#UB 0 1940 302018.9
+#UB 0 2010 -228310.55
+#UB 0 2098 -163887.66
+#UB 0 2099 -95407.69
+#UB 0 2900 -116875
+#RES 0 3740 -.23
+#RES 0 3911 -152110
+#RES 0 3985 -388052
+#RES 0 3987 -87500
+#RES 0 3989 -136454
+#RES 0 3990 -13000
+#RES 0 4132 151975
+#RES 0 5010 433471
+#RES 0 5012 13438
+#RES 0 5020 54055.09
+#RES 0 5060 39874
+#RES 0 5090 4009
+#RES 0 5220 6674
+#RES 0 5410 15586.11
+#RES 0 5420 1337.74
+#RES 0 5460 30587.84
+#RES 0 5800 10848.36
+#RES 0 5831 6626.14
+#RES 0 6071 657
+#RES 0 6212 2096
+#RES 0 6213 4480
+#RES 0 6230 448
+#RES 0 6250 120
+#RES 0 6570 1346
+#RES 0 6892 5242
+#RES 0 7610 8744
+#RES 0 7830 55555.4
+#RES 0 8310 -4591.77
+#OIB 0 1210 {"1" "0"}  277777
+#OIB 0 1229 {"1" "0"} -144705.4
+#OIB 0 1380 {"1" "0"}  15050
+#OIB 0 1381 {"1" "0"}  5463
+#OIB 0 1700 {"1" "0"}  12100
+#OIB 0 1710 {"1" "0"}  36038
+#OIB 0 1910 {"1" "0"}  2782
+#OIB 0 1930 {"1" "0"}  35575.28
+#OIB 0 1940 {"1" "0"}  303021.02
+#OIB 0 2010 {"1" "0"} -228310.55
+#OIB 0 2098 {"1" "0"} -163887.66
+#OIB 0 2099 {"1" "0"} -95407.69
+#OIB 0 2900 {"1" "0"} -55495
+#OUB 0 1229 {"1" "0"} -200260.8
+#OUB 0 1380 {"1" "0"}  2050
+#OUB 0 1382 {"1" "0"}  2063
+#OUB 0 1510 {"1" "0"}  81160
+#OUB 0 1700 {"1" "0"}  0
+#OUB 0 1710 {"1" "0"}  36665
+#OUB 0 1790 {"1" "0"}  0
+#OUB 0 1910 {"1" "0"}  8221
+#OUB 0 1920 {"1" "0"}  0
+#OUB 0 1930 {"1" "0"}  23861.12
+#OUB 0 1940 {"1" "0"}  302018.9
+#OUB 0 2710 {"1" "0"}  0
+#OUB 0 2731 {"1" "0"}  0
+#OUB 0 2900 {"1" "0"} -116875
+#OUB 0 2990 {"1" "0"}  0
+#OUB 0 2999 {"1" "0"}  0
+#OUB 0 1210 {"1" "0"}  277777
+#OUB 0 1381 {"1" "0"}  5463
+#OUB 0 2010 {"1" "0"} -228310.55
+#OUB 0 2098 {"1" "0"} -163887.66
+#OUB 0 2099 {"1" "0"} -95407.69
+#UB -1 1210 277777
+#UB -1 1229 -144705.4
+#UB -1 1380 15050
+#UB -1 1381 5463
+#UB -1 1680 0
+#UB -1 1700 12100
+#UB -1 1710 36038
+#UB -1 1910 2782
+#UB -1 1930 35575.28
+#UB -1 1940 303021.02
+#UB -1 2010 -228310.55
+#UB -1 2098 -163887.66
+#UB -1 2099 -97980.69
+#UB -1 2900 -55495
+#RES -1 3911 -105846.75
+#RES -1 3987 -175000
+#RES -1 3989 -439723
+#RES -1 4000 77670
+#RES -1 5010 318690
+#RES -1 5020 25134
+#RES -1 5050 15203
+#RES -1 5060 48704
+#RES -1 5091 10235
+#RES -1 5410 7233.58
+#RES -1 5420 1852.4
+#RES -1 5460 12641
+#RES -1 5500 7125
+#RES -1 5800 9389
+#RES -1 5831 9953.37
+#RES -1 6110 4733
+#RES -1 6212 3232
+#RES -1 6213 4222
+#RES -1 6230 9
+#RES -1 6250 216
+#RES -1 6270 5068.7
+#RES -1 6421 1000
+#RES -1 6570 1364.5
+#RES -1 6590 2535
+#RES -1 7610 8990
+#RES -1 7830 55555.4
+#RES -1 8310 -5593.89
+#RES -1 8999 97980.69
+#OIB -1 1210 {"1" "0"}  277777
+#OIB -1 1229 {"1" "0"} -89150
+#OIB -1 1680 {"1" "0"}  2024
+#OIB -1 1700 {"1" "0"}  35146
+#OIB -1 1710 {"1" "0"}  22072
+#OIB -1 1910 {"1" "0"}  282
+#OIB -1 1930 {"1" "0"}  43109.81
+#OIB -1 1940 {"1" "0"}  115000
+#OIB -1 2010 {"1" "0"} -228310.55
+#OIB -1 2099 {"1" "0"} -163887.66
+#OIB -1 2900 {"1" "0"} -14062.6
+#OUB -1 1210 {"1" "0"}  352777
+#OUB -1 1210 {"1" "22"} -75000
+#OUB -1 1229 {"1" "0"} -144705.4
+#OUB -1 1380 {"1" "0"}  15050
+#OUB -1 1381 {"1" "0"}  5463
+#OUB -1 1680 {"1" "0"}  5119
+#OUB -1 1680 {"1" "27"} -5119
+#OUB -1 1700 {"1" "0"}  12100
+#OUB -1 1710 {"1" "0"}  58110
+#OUB -1 1710 {"1" "201"} -22072
+#OUB -1 1910 {"1" "0"}  2782
+#OUB -1 1930 {"1" "0"}  35575.28
+#OUB -1 1940 {"1" "0"}  303021.02
+#OUB -1 2098 {"1" "0"} -163887.66
+#OUB -1 2099 {"1" "0"} -97980.69
+#OUB -1 2900 {"1" "0"} -55495
+#OUB -1 2010 {"1" "0"} -228310.55
+#PSALDO 0 201301 1710 {} -36038
+#PSALDO 0 201301 1930 {}  48903.02
+#PSALDO 0 201301 1940 {} -73021.02
+#PSALDO 0 201301 2990 {}  55495
+#PSALDO 0 201301 2999 {}  0
+#PSALDO 0 201301 3987 {} -87500
+#PSALDO 0 201301 5010 {}  72106
+#PSALDO 0 201301 5012 {}  7938
+#PSALDO 0 201301 5020 {}  5822
+#PSALDO 0 201301 5060 {}  5511
+#PSALDO 0 201301 5460 {}  0
+#PSALDO 0 201301 5800 {}  2986.1
+#PSALDO 0 201301 5831 {}  1375.77
+#PSALDO 0 201301 6212 {}  948
+#PSALDO 0 201301 6250 {}  120
+#PSALDO 0 201301 6570 {}  175
+#PSALDO 0 201301 6993 {} -2248
+#PSALDO 0 201301 8310 {} -2572.87
+#PSALDO 0 201301 1710 {"1" "0"} -36038
+#PSALDO 0 201301 1930 {"1" "0"}  48903.02
+#PSALDO 0 201301 1940 {"1" "0"} -73021.02
+#PSALDO 0 201301 2990 {"1" "0"}  55495
+#PSALDO 0 201301 2999 {"1" "0"}  0
+#PSALDO 0 201301 3987 {"1" "3"} -87500
+#PSALDO 0 201301 5010 {"1" "11"}  72106
+#PSALDO 0 201301 5012 {"1" "11"}  7938
+#PSALDO 0 201301 5020 {"1" "11"}  5822
+#PSALDO 0 201301 5060 {"1" "11"}  5511
+#PSALDO 0 201301 5460 {"1" "11"}  0
+#PSALDO 0 201301 5800 {"1" "16"}  2986.1
+#PSALDO 0 201301 5831 {"1" "16"}  1073.87
+#PSALDO 0 201301 5831 {"1" "20"}  301.9
+#PSALDO 0 201301 6212 {"1" "12"}  948
+#PSALDO 0 201301 6250 {"1" "12"}  120
+#PSALDO 0 201301 6570 {"1" "12"}  175
+#PSALDO 0 201301 6993 {"1" "0"} -2248
+#PSALDO 0 201301 8310 {"1" "12"} -2572.87
+#PSALDO 0 201302 1380 {} -13000
+#PSALDO 0 201302 1510 {}  29680
+#PSALDO 0 201302 1700 {} -12100
+#PSALDO 0 201302 1910 {} -547
+#PSALDO 0 201302 1930 {}  118180.62
+#PSALDO 0 201302 2900 {}  55495
+#PSALDO 0 201302 2990 {} -55495
+#PSALDO 0 201302 3011 {}  0
+#PSALDO 0 201302 3911 {} -52350
+#PSALDO 0 201302 3989 {} -110006
+#PSALDO 0 201302 3990 {} -13000
+#PSALDO 0 201302 5010 {}  36068
+#PSALDO 0 201302 5020 {}  8192
+#PSALDO 0 201302 5060 {}  3512
+#PSALDO 0 201302 5460 {}  547
+#PSALDO 0 201302 5800 {}  150
+#PSALDO 0 201302 5831 {}  2178.38
+#PSALDO 0 201302 6071 {}  657
+#PSALDO 0 201302 6212 {}  448
+#PSALDO 0 201302 6230 {}  448
+#PSALDO 0 201302 6570 {}  942
+#PSALDO 0 201302 1380 {"1" "0"} -13000
+#PSALDO 0 201302 1510 {"1" "0"}  29680
+#PSALDO 0 201302 1700 {"1" "0"} -12100
+#PSALDO 0 201302 1910 {"1" "0"} -547
+#PSALDO 0 201302 1930 {"1" "0"}  118180.62
+#PSALDO 0 201302 2900 {"1" "0"}  55495
+#PSALDO 0 201302 2990 {"1" "0"} -55495
+#PSALDO 0 201302 3011 {"1" "4"}  0
+#PSALDO 0 201302 3011 {"1" "5"}  0
+#PSALDO 0 201302 3911 {"1" "4"} -29580
+#PSALDO 0 201302 3911 {"1" "5"} -22770
+#PSALDO 0 201302 3989 {"1" "1"} -110006
+#PSALDO 0 201302 3990 {"1" "0"} -13000
+#PSALDO 0 201302 5010 {"1" "11"}  36068
+#PSALDO 0 201302 5020 {"1" "11"}  8192
+#PSALDO 0 201302 5060 {"1" "11"}  3512
+#PSALDO 0 201302 5460 {"1" "18"}  547
+#PSALDO 0 201302 5800 {"1" "16"}  150
+#PSALDO 0 201302 5831 {"1" "13"}  1950.48
+#PSALDO 0 201302 5831 {"1" "16"}  78
+#PSALDO 0 201302 5831 {"1" "21"}  149.9
+#PSALDO 0 201302 6071 {"1" "16"}  657
+#PSALDO 0 201302 6212 {"1" "12"}  448
+#PSALDO 0 201302 6230 {"1" "12"}  448
+#PSALDO 0 201302 6570 {"1" "12"}  942
+#PSALDO 0 201303 1510 {} -1990
+#PSALDO 0 201303 1920 {}  0
+#PSALDO 0 201303 1930 {} -37732
+#PSALDO 0 201303 3911 {} -1620
+#PSALDO 0 201303 5010 {}  36068
+#PSALDO 0 201303 5020 {}  5424
+#PSALDO 0 201303 5800 {} -150
+#PSALDO 0 201303 1510 {"1" "0"} -1990
+#PSALDO 0 201303 1920 {"1" "0"}  0
+#PSALDO 0 201303 1930 {"1" "0"} -37732
+#PSALDO 0 201303 3911 {"1" "4"} -1620
+#PSALDO 0 201303 5010 {"1" "11"}  36068
+#PSALDO 0 201303 5020 {"1" "11"}  5424
+#PSALDO 0 201303 5800 {"1" "16"} -150
+#PSALDO 0 201304 1510 {} -680
+#PSALDO 0 201304 1920 {}  0
+#PSALDO 0 201304 1930 {} -44811.27
+#PSALDO 0 201304 3740 {} -.23
+#PSALDO 0 201304 3911 {} -1000
+#PSALDO 0 201304 5010 {}  36068
+#PSALDO 0 201304 5020 {}  2657
+#PSALDO 0 201304 5060 {}  6250
+#PSALDO 0 201304 5460 {}  19195.5
+#PSALDO 0 201304 6213 {}  896
+#PSALDO 0 201304 6570 {}  175
+#PSALDO 0 201304 6993 {} -18750
+#PSALDO 0 201304 1510 {"1" "0"} -680
+#PSALDO 0 201304 1920 {"1" "0"}  0
+#PSALDO 0 201304 1930 {"1" "0"} -44811.27
+#PSALDO 0 201304 3740 {"1" "12"} -.23
+#PSALDO 0 201304 3911 {"1" "11"} -1000
+#PSALDO 0 201304 5010 {"1" "11"}  36068
+#PSALDO 0 201304 5020 {"1" "11"}  2657
+#PSALDO 0 201304 5060 {"1" "11"}  6250
+#PSALDO 0 201304 5460 {"1" "11"}  18750
+#PSALDO 0 201304 5460 {"1" "12"}  445.5
+#PSALDO 0 201304 6213 {"1" "12"}  896
+#PSALDO 0 201304 6570 {"1" "12"}  175
+#PSALDO 0 201304 6993 {"1" "0"} -18750
+#PSALDO 0 201305 1382 {}  2063
+#PSALDO 0 201305 1930 {} -55568
+#PSALDO 0 201305 5010 {}  36068
+#PSALDO 0 201305 5020 {}  5506
+#PSALDO 0 201305 5060 {}  3125
+#PSALDO 0 201305 5220 {}  6674
+#PSALDO 0 201305 5460 {}  2428
+#PSALDO 0 201305 5800 {}  2445
+#PSALDO 0 201305 5831 {}  230
+#PSALDO 0 201305 6212 {}  300
+#PSALDO 0 201305 6213 {}  448
+#PSALDO 0 201305 6993 {} -3719
+#PSALDO 0 201305 1382 {"1" "0"}  2063
+#PSALDO 0 201305 1930 {"1" "0"} -55568
+#PSALDO 0 201305 5010 {"1" "11"}  36068
+#PSALDO 0 201305 5020 {"1" "11"}  5506
+#PSALDO 0 201305 5060 {"1" "11"}  3125
+#PSALDO 0 201305 5220 {"1" "12"}  6674
+#PSALDO 0 201305 5460 {"1" "11"}  2250
+#PSALDO 0 201305 5460 {"1" "12"}  178
+#PSALDO 0 201305 5800 {"1" "16"}  2445
+#PSALDO 0 201305 5831 {"1" "16"}  230
+#PSALDO 0 201305 6212 {"1" "12"}  300
+#PSALDO 0 201305 6213 {"1" "12"}  448
+#PSALDO 0 201305 6993 {"1" "0"} -3719
+#PSALDO 0 201306 1930 {}  14883
+#PSALDO 0 201306 1940 {} -70000
+#PSALDO 0 201306 3985 {}  0
+#PSALDO 0 201306 3989 {} -26448
+#PSALDO 0 201306 4132 {}  17675
+#PSALDO 0 201306 5010 {}  72136
+#PSALDO 0 201306 5020 {}  4881
+#PSALDO 0 201306 5060 {}  833
+#PSALDO 0 201306 5831 {}  1523
+#PSALDO 0 201306 6213 {}  448
+#PSALDO 0 201306 6892 {}  5242
+#PSALDO 0 201306 6993 {} -22917
+#PSALDO 0 201306 7610 {}  1744
+#PSALDO 0 201306 1930 {"1" "0"}  14883
+#PSALDO 0 201306 1940 {"1" "0"} -70000
+#PSALDO 0 201306 3985 {"1" "2"}  0
+#PSALDO 0 201306 3989 {"1" "2"} -26448
+#PSALDO 0 201306 4132 {"1" "14"}  17675
+#PSALDO 0 201306 5010 {"1" "11"}  72136
+#PSALDO 0 201306 5020 {"1" "11"}  4881
+#PSALDO 0 201306 5060 {"1" "11"}  833
+#PSALDO 0 201306 5831 {"1" "16"}  1523
+#PSALDO 0 201306 6213 {"1" "12"}  448
+#PSALDO 0 201306 6892 {"1" "12"}  5242
+#PSALDO 0 201306 6993 {"1" "0"} -22917
+#PSALDO 0 201306 7610 {"1" "16"}  1744
+#PSALDO 0 201307 1510 {}  17360
+#PSALDO 0 201307 1930 {}  14062
+#PSALDO 0 201307 3911 {} -36720
+#PSALDO 0 201307 4132 {}  15025
+#PSALDO 0 201307 5020 {}  4796
+#PSALDO 0 201307 5831 {}  64.75
+#PSALDO 0 201307 6213 {}  448
+#PSALDO 0 201307 6570 {}  54
+#PSALDO 0 201307 6993 {} -15089.75
+#PSALDO 0 201307 1510 {"1" "0"}  17360
+#PSALDO 0 201307 1930 {"1" "0"}  14062
+#PSALDO 0 201307 3911 {"1" "4"} -36720
+#PSALDO 0 201307 4132 {"1" "14"}  15025
+#PSALDO 0 201307 5020 {"1" "11"}  4796
+#PSALDO 0 201307 5831 {"1" "16"}  64.75
+#PSALDO 0 201307 6213 {"1" "12"}  448
+#PSALDO 0 201307 6570 {"1" "12"}  54
+#PSALDO 0 201307 6993 {"1" "0"} -15089.75
+#PSALDO 0 201308 1510 {} -5640
+#PSALDO 0 201308 1930 {}  290331
+#PSALDO 0 201308 1940 {} -60000
+#PSALDO 0 201308 3985 {} -282920
+#PSALDO 0 201308 5010 {}  36068
+#PSALDO 0 201308 5012 {}  2250
+#PSALDO 0 201308 5020 {}  3542
+#PSALDO 0 201308 5060 {}  6911
+#PSALDO 0 201308 5410 {}  10000
+#PSALDO 0 201308 5460 {}  640
+#PSALDO 0 201308 5800 {}  1565
+#PSALDO 0 201308 5831 {}  351.24
+#PSALDO 0 201308 6213 {}  448
+#PSALDO 0 201308 6993 {} -10546.24
+#PSALDO 0 201308 7610 {}  7000
+#PSALDO 0 201308 1510 {"1" "0"} -5640
+#PSALDO 0 201308 1930 {"1" "0"}  290331
+#PSALDO 0 201308 1940 {"1" "0"} -60000
+#PSALDO 0 201308 3985 {"1" "1"} -282920
+#PSALDO 0 201308 5010 {"1" "11"}  36068
+#PSALDO 0 201308 5012 {"1" "11"}  2250
+#PSALDO 0 201308 5020 {"1" "11"}  3542
+#PSALDO 0 201308 5060 {"1" "11"}  6911
+#PSALDO 0 201308 5410 {"1" "11"}  10000
+#PSALDO 0 201308 5460 {"1" "11"}  501
+#PSALDO 0 201308 5460 {"1" "16"}  139
+#PSALDO 0 201308 5800 {"1" "16"}  1565
+#PSALDO 0 201308 5831 {"1" "16"}  351.24
+#PSALDO 0 201308 6213 {"1" "12"}  448
+#PSALDO 0 201308 6993 {"1" "0"} -10546.24
+#PSALDO 0 201308 7610 {"1" "16"}  7000
+#PSALDO 0 201309 1510 {} -11720
+#PSALDO 0 201309 1920 {}  0
+#PSALDO 0 201309 1930 {} -174441.99
+#PSALDO 0 201309 1940 {}  200000
+#PSALDO 0 201309 2710 {}  0
+#PSALDO 0 201309 2731 {}  0
+#PSALDO 0 201309 3010 {}  0
+#PSALDO 0 201309 3740 {}  0
+#PSALDO 0 201309 3911 {}  2130
+#PSALDO 0 201309 3985 {} -105132
+#PSALDO 0 201309 4132 {}  2400
+#PSALDO 0 201309 5060 {}  6994
+#PSALDO 0 201309 5090 {}  4009
+#PSALDO 0 201309 5460 {}  1029
+#PSALDO 0 201309 5831 {}  196
+#PSALDO 0 201309 6212 {}  400
+#PSALDO 0 201309 6213 {}  448
+#PSALDO 0 201309 6993 {}  73687.99
+#PSALDO 0 201309 7010 {}  0
+#PSALDO 0 201309 7210 {}  0
+#PSALDO 0 201309 7280 {}  0
+#PSALDO 0 201309 7281 {}  0
+#PSALDO 0 201309 7285 {}  0
+#PSALDO 0 201309 7321 {}  0
+#PSALDO 0 201309 7322 {}  0
+#PSALDO 0 201309 7510 {}  0
+#PSALDO 0 201309 7511 {}  0
+#PSALDO 0 201309 1510 {"1" "0"} -11720
+#PSALDO 0 201309 1920 {"1" "0"}  0
+#PSALDO 0 201309 1930 {"1" "0"} -174441.99
+#PSALDO 0 201309 1940 {"1" "0"}  200000
+#PSALDO 0 201309 2710 {"1" "0"}  0
+#PSALDO 0 201309 2731 {"1" "0"}  0
+#PSALDO 0 201309 3010 {"1" "190"}  0
+#PSALDO 0 201309 3740 {"1" "0"}  0
+#PSALDO 0 201309 3740 {"1" "550"}  0
+#PSALDO 0 201309 3740 {"1" "870"}  0
+#PSALDO 0 201309 3740 {"1" "950"}  0
+#PSALDO 0 201309 3740 {"1" "960"}  0
+#PSALDO 0 201309 3740 {"1" "970"}  0
+#PSALDO 0 201309 3911 {"1" "11"}  2130
+#PSALDO 0 201309 3985 {"1" "1"} -87500
+#PSALDO 0 201309 3985 {"1" "2"} -17632
+#PSALDO 0 201309 4132 {"1" "14"}  2400
+#PSALDO 0 201309 5060 {"1" "11"}  6994
+#PSALDO 0 201309 5090 {"1" "12"}  4009
+#PSALDO 0 201309 5460 {"1" "11"}  1029
+#PSALDO 0 201309 5831 {"1" "16"}  196
+#PSALDO 0 201309 6212 {"1" "12"}  400
+#PSALDO 0 201309 6213 {"1" "12"}  448
+#PSALDO 0 201309 6993 {"1" "0"}  73687.99
+#PSALDO 0 201309 7010 {"1" "950"}  0
+#PSALDO 0 201309 7210 {"1" "431"}  0
+#PSALDO 0 201309 7210 {"1" "550"}  0
+#PSALDO 0 201309 7210 {"1" "870"}  0
+#PSALDO 0 201309 7210 {"1" "920"}  0
+#PSALDO 0 201309 7210 {"1" "950"}  0
+#PSALDO 0 201309 7210 {"1" "960"}  0
+#PSALDO 0 201309 7210 {"1" "970"}  0
+#PSALDO 0 201309 7280 {"1" "550"}  0
+#PSALDO 0 201309 7280 {"1" "970"}  0
+#PSALDO 0 201309 7281 {"1" "550"}  0
+#PSALDO 0 201309 7285 {"1" "550"}  0
+#PSALDO 0 201309 7285 {"1" "960"}  0
+#PSALDO 0 201309 7321 {"1" "550"}  0
+#PSALDO 0 201309 7322 {"1" "550"}  0
+#PSALDO 0 201309 7322 {"1" "960"}  0
+#PSALDO 0 201309 7510 {"1" "431"}  0
+#PSALDO 0 201309 7510 {"1" "550"}  0
+#PSALDO 0 201309 7510 {"1" "870"}  0
+#PSALDO 0 201309 7510 {"1" "950"}  0
+#PSALDO 0 201309 7510 {"1" "960"}  0
+#PSALDO 0 201309 7511 {"1" "431"}  0
+#PSALDO 0 201309 7511 {"1" "920"}  0
+#PSALDO 0 201309 7511 {"1" "950"}  0
+#PSALDO 0 201309 7511 {"1" "970"}  0
+#PSALDO 0 201309 7010 {"6" "0"} -15153
+#PSALDO 0 201309 7010 {"6" "17"}  15153
+#PSALDO 0 201309 7210 {"6" "0"} -334528.7
+#PSALDO 0 201309 7210 {"6" "0"}  232324.11
+#PSALDO 0 201309 7210 {"6" "15"}  19955.07
+#PSALDO 0 201309 7210 {"6" "17"}  31639.04
+#PSALDO 0 201309 7210 {"6" "18"}  4600
+#PSALDO 0 201309 7210 {"6" "19"}  23027.48
+#PSALDO 0 201309 7210 {"6" "20"}  22983
+#PSALDO 0 201309 7280 {"6" "0"} -3836.87
+#PSALDO 0 201309 7280 {"6" "0"}  1078.91
+#PSALDO 0 201309 7280 {"6" "20"}  2757.96
+#PSALDO 0 201309 7285 {"6" "0"} -2406
+#PSALDO 0 201309 7285 {"6" "0"}  1440
+#PSALDO 0 201309 7285 {"6" "19"}  966
+#PSALDO 0 201309 7322 {"6" "0"} -1266
+#PSALDO 0 201309 7322 {"6" "0"}  1083
+#PSALDO 0 201309 7322 {"6" "19"}  183
+#PSALDO 0 201309 7510 {"6" "0"} -90159.91
+#PSALDO 0 201309 7510 {"6" "0"}  68237.98
+#PSALDO 0 201309 7510 {"6" "15"}  6269.89
+#PSALDO 0 201309 7510 {"6" "17"}  8055.79
+#PSALDO 0 201309 7510 {"6" "19"}  7596.25
+#PSALDO 0 201309 7511 {"6" "0"} -11371.05
+#PSALDO 0 201309 7511 {"6" "0"}  3394.63
+#PSALDO 0 201309 7511 {"6" "17"}  3276.6
+#PSALDO 0 201309 7511 {"6" "18"}  712.54
+#PSALDO 0 201309 7511 {"6" "20"}  3987.28
+#PSALDO 0 201310 1910 {}  8000
+#PSALDO 0 201310 1930 {} -79350
+#PSALDO 0 201310 5010 {}  72136
+#PSALDO 0 201310 5012 {}  1000
+#PSALDO 0 201310 5020 {}  3969
+#PSALDO 0 201310 5060 {}  488
+#PSALDO 0 201310 5420 {}  418
+#PSALDO 0 201310 5460 {}  3050.34
+#PSALDO 0 201310 5800 {}  213
+#PSALDO 0 201310 5831 {}  97
+#PSALDO 0 201310 6213 {}  448
+#PSALDO 0 201310 6993 {} -10469.34
+#PSALDO 0 201310 1910 {"1" "0"}  8000
+#PSALDO 0 201310 1930 {"1" "0"} -79350
+#PSALDO 0 201310 5010 {"1" "11"}  72136
+#PSALDO 0 201310 5012 {"1" "11"}  1000
+#PSALDO 0 201310 5020 {"1" "11"}  3969
+#PSALDO 0 201310 5060 {"1" "0"}  488
+#PSALDO 0 201310 5420 {"1" "12"}  418
+#PSALDO 0 201310 5460 {"1" "11"}  964
+#PSALDO 0 201310 5460 {"1" "12"}  2086.34
+#PSALDO 0 201310 5800 {"1" "16"}  213
+#PSALDO 0 201310 5831 {"1" "16"}  97
+#PSALDO 0 201310 6213 {"1" "12"}  448
+#PSALDO 0 201310 6993 {"1" "0"} -10469.34
+#PSALDO 0 201311 1930 {} -51204.09
+#PSALDO 0 201311 5010 {}  36115
+#PSALDO 0 201311 5012 {}  2250
+#PSALDO 0 201311 5020 {}  9266.09
+#PSALDO 0 201311 5060 {}  3125
+#PSALDO 0 201311 5410 {}  5586.11
+#PSALDO 0 201311 5800 {}  3639.26
+#PSALDO 0 201311 5831 {}  369
+#PSALDO 0 201311 6213 {}  448
+#PSALDO 0 201311 6993 {} -9594.37
+#PSALDO 0 201311 1930 {"1" "0"} -51204.09
+#PSALDO 0 201311 5010 {"1" "11"}  36115
+#PSALDO 0 201311 5012 {"1" "11"}  2250
+#PSALDO 0 201311 5020 {"1" "11"}  9266.09
+#PSALDO 0 201311 5060 {"1" "11"}  3125
+#PSALDO 0 201311 5410 {"1" "11"}  5586.11
+#PSALDO 0 201311 5800 {"1" "16"}  3639.26
+#PSALDO 0 201311 5831 {"1" "16"}  369
+#PSALDO 0 201311 6213 {"1" "12"}  448
+#PSALDO 0 201311 6993 {"1" "0"} -9594.37
+#PSALDO 0 201312 1229 {} -55555.4
+#PSALDO 0 201312 1510 {}  54150
+#PSALDO 0 201312 1710 {}  36665
+#PSALDO 0 201312 1790 {}  0
+#PSALDO 0 201312 1910 {} -2014
+#PSALDO 0 201312 1930 {} -54966.45
+#PSALDO 0 201312 1940 {}  2018.9
+#PSALDO 0 201312 2900 {} -116875
+#PSALDO 0 201312 3911 {} -62550
+#PSALDO 0 201312 4132 {}  116875
+#PSALDO 0 201312 5010 {}  638
+#PSALDO 0 201312 5060 {}  3125
+#PSALDO 0 201312 5420 {}  919.74
+#PSALDO 0 201312 5460 {}  3698
+#PSALDO 0 201312 5831 {}  241
+#PSALDO 0 201312 6213 {}  448
+#PSALDO 0 201312 6993 {}  19645.71
+#PSALDO 0 201312 7830 {}  55555.4
+#PSALDO 0 201312 8310 {} -2018.9
+#PSALDO 0 201312 1229 {"1" "0"} -55555.4
+#PSALDO 0 201312 1510 {"1" "0"}  54150
+#PSALDO 0 201312 1710 {"1" "0"}  36665
+#PSALDO 0 201312 1790 {"1" "0"}  0
+#PSALDO 0 201312 1910 {"1" "0"} -2014
+#PSALDO 0 201312 1930 {"1" "0"} -54966.45
+#PSALDO 0 201312 1940 {"1" "0"}  2018.9
+#PSALDO 0 201312 2900 {"1" "0"} -116875
+#PSALDO 0 201312 3911 {"1" "4"} -62550
+#PSALDO 0 201312 4132 {"1" "14"}  116875
+#PSALDO 0 201312 5010 {"1" "11"}  638
+#PSALDO 0 201312 5060 {"1" "11"}  3125
+#PSALDO 0 201312 5420 {"1" "12"}  919.74
+#PSALDO 0 201312 5460 {"1" "11"}  2014
+#PSALDO 0 201312 5460 {"1" "12"}  1684
+#PSALDO 0 201312 5831 {"1" "0"}  75
+#PSALDO 0 201312 5831 {"1" "16"}  166
+#PSALDO 0 201312 6213 {"1" "12"}  448
+#PSALDO 0 201312 6993 {"1" "0"}  19645.71
+#PSALDO 0 201312 7830 {"1" "11"}  55555.4
+#PSALDO 0 201312 8310 {"1" "12"} -2018.9
+#PSALDO -1 201201 1700 {} -35146.5
+#PSALDO -1 201201 1930 {}  10353.9
+#PSALDO -1 201201 2098 {} -163887.66
+#PSALDO -1 201201 2099 {}  163887.66
+#PSALDO -1 201201 2900 {}  14063.1
+#PSALDO -1 201201 3911 {} -33336.5
+#PSALDO -1 201201 5011 {}  22072
+#PSALDO -1 201201 5020 {}  964
+#PSALDO -1 201201 5050 {}  11125
+#PSALDO -1 201201 5800 {}  635
+#PSALDO -1 201201 5831 {}  382
+#PSALDO -1 201201 6110 {}  6354
+#PSALDO -1 201201 6211 {}  448
+#PSALDO -1 201201 6250 {}  36
+#PSALDO -1 201201 6570 {}  175
+#PSALDO -1 201201 6590 {}  1875
+#PSALDO -1 201201 1700 {"1" "0"} -35146.5
+#PSALDO -1 201201 1930 {"1" "0"}  10353.9
+#PSALDO -1 201201 2098 {"1" "0"} -163887.66
+#PSALDO -1 201201 2099 {"1" "0"}  163887.66
+#PSALDO -1 201201 2900 {"1" "0"}  14063.1
+#PSALDO -1 201201 3911 {"1" "201"} -33336.5
+#PSALDO -1 201201 5011 {"1" "200"}  22072
+#PSALDO -1 201201 5020 {"1" "201"}  964
+#PSALDO -1 201201 5050 {"1" "201"}  11125
+#PSALDO -1 201201 5800 {"1" "501"}  635
+#PSALDO -1 201201 5831 {"1" "501"}  382
+#PSALDO -1 201201 6110 {"1" "201"}  6354
+#PSALDO -1 201201 6211 {"1" "200"}  448
+#PSALDO -1 201201 6250 {"1" "200"}  36
+#PSALDO -1 201201 6570 {"1" "0"}  175
+#PSALDO -1 201201 6590 {"1" "201"}  1875
+#PSALDO -1 201202 1210 {}  0
+#PSALDO -1 201202 1680 {} -2024
+#PSALDO -1 201202 1700 {}  .5
+#PSALDO -1 201202 1710 {} -22072
+#PSALDO -1 201202 1930 {} -42550.5
+#PSALDO -1 201202 1940 {}  232000
+#PSALDO -1 201202 2900 {} -.5
+#PSALDO -1 201202 3740 {}  0
+#PSALDO -1 201202 3911 {}  19906.5
+#PSALDO -1 201202 3987 {} -252606
+#PSALDO -1 201202 5010 {}  66216
+#PSALDO -1 201202 5011 {} -22072
+#PSALDO -1 201202 5020 {}  2742
+#PSALDO -1 201202 5060 {}  16516
+#PSALDO -1 201202 6110 {}  3535
+#PSALDO -1 201202 6211 {}  0
+#PSALDO -1 201202 6212 {}  409
+#PSALDO -1 201202 6250 {}  0
+#PSALDO -1 201202 6520 {}  0
+#PSALDO -1 201202 1210 {"1" "0"}  75000
+#PSALDO -1 201202 1210 {"1" "22"} -75000
+#PSALDO -1 201202 1680 {"1" "0"}  3095
+#PSALDO -1 201202 1680 {"1" "27"} -5119
+#PSALDO -1 201202 1700 {"1" "0"}  .5
+#PSALDO -1 201202 1710 {"1" "0"}  0
+#PSALDO -1 201202 1710 {"1" "201"} -22072
+#PSALDO -1 201202 1930 {"1" "0"} -42550.5
+#PSALDO -1 201202 1940 {"1" "0"}  232000
+#PSALDO -1 201202 2900 {"1" "0"} -.5
+#PSALDO -1 201202 3740 {"1" "0"}  0
+#PSALDO -1 201202 3911 {"1" "201"}  19906.5
+#PSALDO -1 201202 3987 {"1" "0"} -252606
+#PSALDO -1 201202 5010 {"1" "201"}  66216
+#PSALDO -1 201202 5011 {"1" "200"} -22072
+#PSALDO -1 201202 5020 {"1" "201"}  2742
+#PSALDO -1 201202 5060 {"1" "201"}  16516
+#PSALDO -1 201202 6110 {"1" "201"}  3535
+#PSALDO -1 201202 6211 {"1" "200"} -448
+#PSALDO -1 201202 6211 {"1" "201"}  448
+#PSALDO -1 201202 6212 {"1" "501"}  409
+#PSALDO -1 201202 6250 {"1" "200"} -36
+#PSALDO -1 201202 6250 {"1" "201"}  36
+#PSALDO -1 201202 6520 {"1" "200"}  0
+#PSALDO -1 201203 1930 {} -1508
+#PSALDO -1 201203 1940 {} -40000
+#PSALDO -1 201203 3911 {} -3107
+#PSALDO -1 201203 5010 {}  22072
+#PSALDO -1 201203 5020 {}  1410
+#PSALDO -1 201203 5161 {}  2488
+#PSALDO -1 201203 5410 {}  3925
+#PSALDO -1 201203 5460 {}  296
+#PSALDO -1 201203 5800 {}  1110
+#PSALDO -1 201203 5831 {}  6540
+#PSALDO -1 201203 6212 {}  125
+#PSALDO -1 201203 6213 {}  896
+#PSALDO -1 201203 6570 {}  753
+#PSALDO -1 201203 7610 {}  5000
+#PSALDO -1 201203 1930 {"1" "0"} -1508
+#PSALDO -1 201203 1940 {"1" "0"} -40000
+#PSALDO -1 201203 3911 {"1" "201"} -3107
+#PSALDO -1 201203 5010 {"1" "201"}  22072
+#PSALDO -1 201203 5020 {"1" "201"}  1410
+#PSALDO -1 201203 5161 {"1" "201"}  2488
+#PSALDO -1 201203 5410 {"1" "201"}  3925
+#PSALDO -1 201203 5460 {"1" "201"}  296
+#PSALDO -1 201203 5800 {"1" "501"}  1110
+#PSALDO -1 201203 5831 {"1" "301"}  4865
+#PSALDO -1 201203 5831 {"1" "501"}  1230
+#PSALDO -1 201203 5831 {"1" "503"}  445
+#PSALDO -1 201203 6212 {"1" "501"}  125
+#PSALDO -1 201203 6213 {"1" "201"}  896
+#PSALDO -1 201203 6570 {"1" "201"}  753
+#PSALDO -1 201203 7610 {"1" "501"}  5000
+#PSALDO -1 201204 1930 {}  73157.5
+#PSALDO -1 201204 1940 {} -50000
+#PSALDO -1 201204 3911 {} -58010
+#PSALDO -1 201204 5010 {}  22072
+#PSALDO -1 201204 5020 {}  1117
+#PSALDO -1 201204 5050 {}  1590
+#PSALDO -1 201204 5060 {}  2488
+#PSALDO -1 201204 5091 {}  4993
+#PSALDO -1 201204 5460 {}  649
+#PSALDO -1 201204 5800 {}  1113
+#PSALDO -1 201204 6230 {}  448
+#PSALDO -1 201204 6250 {}  156
+#PSALDO -1 201204 6570 {}  127.5
+#PSALDO -1 201204 6590 {}  99
+#PSALDO -1 201204 1930 {"1" "0"}  73157.5
+#PSALDO -1 201204 1940 {"1" "0"} -50000
+#PSALDO -1 201204 3911 {"1" "201"} -58010
+#PSALDO -1 201204 5010 {"1" "201"}  22072
+#PSALDO -1 201204 5020 {"1" "201"}  1117
+#PSALDO -1 201204 5050 {"1" "201"}  1590
+#PSALDO -1 201204 5060 {"1" "201"}  2488
+#PSALDO -1 201204 5091 {"1" "201"}  4993
+#PSALDO -1 201204 5460 {"1" "201"}  649
+#PSALDO -1 201204 5800 {"1" "501"}  1113
+#PSALDO -1 201204 6230 {"1" "201"}  448
+#PSALDO -1 201204 6250 {"1" "501"}  156
+#PSALDO -1 201204 6570 {"1" "103"}  127.5
+#PSALDO -1 201204 6590 {"1" "201"}  99
+#PSALDO -1 201205 1930 {}  75754
+#PSALDO -1 201205 3911 {} -75754
+#PSALDO -1 201205 1930 {"1" "0"}  75754
+#PSALDO -1 201205 3911 {"1" "201"} -75754
+#PSALDO -1 201206 1381 {}  5463
+#PSALDO -1 201206 1930 {}  158685
+#PSALDO -1 201206 1940 {} -30000
+#PSALDO -1 201206 3911 {}  71967
+#PSALDO -1 201206 3989 {} -289177
+#PSALDO -1 201206 5010 {}  57600
+#PSALDO -1 201206 5020 {}  4029
+#PSALDO -1 201206 5060 {}  8041
+#PSALDO -1 201206 5091 {}  5242
+#PSALDO -1 201206 5500 {}  1875
+#PSALDO -1 201206 5800 {}  222
+#PSALDO -1 201206 5831 {}  1408
+#PSALDO -1 201206 6212 {}  748
+#PSALDO -1 201206 6213 {}  897
+#PSALDO -1 201206 7610 {}  3000
+#PSALDO -1 201206 1381 {"1" "0"}  5463
+#PSALDO -1 201206 1930 {"1" "0"}  158685
+#PSALDO -1 201206 1940 {"1" "0"} -30000
+#PSALDO -1 201206 3911 {"1" "201"}  71967
+#PSALDO -1 201206 3989 {"1" "100"} -289177
+#PSALDO -1 201206 5010 {"1" "201"}  57600
+#PSALDO -1 201206 5020 {"1" "201"}  4029
+#PSALDO -1 201206 5060 {"1" "201"}  8041
+#PSALDO -1 201206 5091 {"1" "201"}  5242
+#PSALDO -1 201206 5500 {"1" "201"}  1875
+#PSALDO -1 201206 5800 {"1" "501"}  222
+#PSALDO -1 201206 5831 {"1" "501"}  1408
+#PSALDO -1 201206 6212 {"1" "201"}  448
+#PSALDO -1 201206 6212 {"1" "501"}  300
+#PSALDO -1 201206 6213 {"1" "201"}  897
+#PSALDO -1 201206 7610 {"1" "501"}  3000
+#PSALDO -1 201207 1930 {} -276275.75
+#PSALDO -1 201207 1940 {}  300000
+#PSALDO -1 201207 3911 {} -23851.75
+#PSALDO -1 201207 6570 {}  127.5
+#PSALDO -1 201207 1930 {"1" "0"} -276275.75
+#PSALDO -1 201207 1940 {"1" "0"}  300000
+#PSALDO -1 201207 3911 {"1" "201"} -23851.75
+#PSALDO -1 201207 6570 {"1" "200"}  127.5
+#PSALDO -1 201208 1930 {} -13530
+#PSALDO -1 201208 1940 {} -30000
+#PSALDO -1 201208 3911 {} -3476
+#PSALDO -1 201208 5010 {}  28800
+#PSALDO -1 201208 5020 {}  4325
+#PSALDO -1 201208 5060 {}  5254
+#PSALDO -1 201208 5460 {}  525
+#PSALDO -1 201208 5500 {}  5250
+#PSALDO -1 201208 6212 {}  306
+#PSALDO -1 201208 6230 {}  995
+#PSALDO -1 201208 6590 {}  561
+#PSALDO -1 201208 7610 {}  990
+#PSALDO -1 201208 1930 {"1" "0"} -13530
+#PSALDO -1 201208 1940 {"1" "0"} -30000
+#PSALDO -1 201208 3911 {"1" "201"} -3476
+#PSALDO -1 201208 5010 {"1" "201"}  28800
+#PSALDO -1 201208 5020 {"1" "201"}  4325
+#PSALDO -1 201208 5060 {"1" "201"}  5254
+#PSALDO -1 201208 5460 {"1" "201"}  525
+#PSALDO -1 201208 5500 {"1" "201"}  5250
+#PSALDO -1 201208 6212 {"1" "501"}  306
+#PSALDO -1 201208 6230 {"1" "201"}  995
+#PSALDO -1 201208 6590 {"1" "501"}  561
+#PSALDO -1 201208 7610 {"1" "501"}  990
+#PSALDO -1 201209 1910 {}  2500
+#PSALDO -1 201209 1930 {}  19498.9
+#PSALDO -1 201209 1940 {} -69000
+#PSALDO -1 201209 3911 {} -2720
+#PSALDO -1 201209 4000 {}  7225
+#PSALDO -1 201209 5010 {}  28800
+#PSALDO -1 201209 5020 {}  3652
+#PSALDO -1 201209 5060 {}  5488
+#PSALDO -1 201209 5410 {}  297
+#PSALDO -1 201209 5460 {}  2777
+#PSALDO -1 201209 5800 {}  66
+#PSALDO -1 201209 5831 {}  668.1
+#PSALDO -1 201209 6212 {}  300
+#PSALDO -1 201209 6213 {}  448
+#PSALDO -1 201209 1910 {"1" "0"}  2500
+#PSALDO -1 201209 1930 {"1" "0"}  19498.9
+#PSALDO -1 201209 1940 {"1" "0"} -69000
+#PSALDO -1 201209 3911 {"1" "201"} -2720
+#PSALDO -1 201209 4000 {"1" "22"}  7225
+#PSALDO -1 201209 5010 {"1" "201"}  28800
+#PSALDO -1 201209 5020 {"1" "201"}  3652
+#PSALDO -1 201209 5060 {"1" "201"}  5488
+#PSALDO -1 201209 5410 {"1" "201"}  297
+#PSALDO -1 201209 5460 {"1" "201"}  2777
+#PSALDO -1 201209 5800 {"1" "501"}  66
+#PSALDO -1 201209 5831 {"1" "501"}  668.1
+#PSALDO -1 201209 6212 {"1" "501"}  300
+#PSALDO -1 201209 6213 {"1" "201"}  448
+#PSALDO -1 201210 1930 {}  4129.42
+#PSALDO -1 201210 3911 {} -43945
+#PSALDO -1 201210 5010 {}  28800
+#PSALDO -1 201210 5020 {}  1300
+#PSALDO -1 201210 5060 {}  3973
+#PSALDO -1 201210 5410 {}  3997.58
+#PSALDO -1 201210 6110 {}  1198
+#PSALDO -1 201210 6230 {}  547
+#PSALDO -1 201210 1930 {"1" "0"}  4129.42
+#PSALDO -1 201210 3911 {"1" "201"} -43945
+#PSALDO -1 201210 5010 {"1" "201"}  28800
+#PSALDO -1 201210 5020 {"1" "201"}  1300
+#PSALDO -1 201210 5060 {"1" "201"}  3973
+#PSALDO -1 201210 5410 {"1" "201"}  2386.02
+#PSALDO -1 201210 5410 {"1" "501"}  1611.56
+#PSALDO -1 201210 6110 {"1" "201"}  1198
+#PSALDO -1 201210 6230 {"1" "201"}  547
+#PSALDO -1 201211 1930 {} -24732.2
+#PSALDO -1 201211 1940 {} -30000
+#PSALDO -1 201211 3911 {} -14360
+#PSALDO -1 201211 3987 {}  252606
+#PSALDO -1 201211 3989 {} -252606
+#PSALDO -1 201211 5010 {}  64330
+#PSALDO -1 201211 5020 {}  2578
+#PSALDO -1 201211 5060 {}  2488
+#PSALDO -1 201211 5161 {} -2488
+#PSALDO -1 201211 5410 {} -986
+#PSALDO -1 201211 5420 {}  910.2
+#PSALDO -1 201211 5460 {}  8166
+#PSALDO -1 201211 6110 {} -6354
+#PSALDO -1 201211 6211 {} -448
+#PSALDO -1 201211 6212 {}  896
+#PSALDO -1 201211 6213 {}  1981
+#PSALDO -1 201211 6230 {} -1981
+#PSALDO -1 201211 6250 {}  0
+#PSALDO -1 201211 6570 {}  0
+#PSALDO -1 201211 1930 {"1" "0"} -24732.2
+#PSALDO -1 201211 1940 {"1" "0"} -30000
+#PSALDO -1 201211 3911 {"1" "201"} -14360
+#PSALDO -1 201211 3987 {"1" "0"}  252606
+#PSALDO -1 201211 3989 {"1" "100"} -252606
+#PSALDO -1 201211 5010 {"1" "201"}  64330
+#PSALDO -1 201211 5020 {"1" "201"}  2578
+#PSALDO -1 201211 5060 {"1" "201"}  2488
+#PSALDO -1 201211 5161 {"1" "201"} -2488
+#PSALDO -1 201211 5410 {"1" "201"} -986
+#PSALDO -1 201211 5420 {"1" "408"}  910.2
+#PSALDO -1 201211 5460 {"1" "201"}  8166
+#PSALDO -1 201211 6110 {"1" "201"} -11087
+#PSALDO -1 201211 6110 {"1" "408"}  4733
+#PSALDO -1 201211 6211 {"1" "201"} -448
+#PSALDO -1 201211 6212 {"1" "200"}  2784
+#PSALDO -1 201211 6212 {"1" "201"} -448
+#PSALDO -1 201211 6212 {"1" "501"} -1440
+#PSALDO -1 201211 6213 {"1" "201"}  1981
+#PSALDO -1 201211 6230 {"1" "201"} -1981
+#PSALDO -1 201211 6250 {"1" "200"}  192
+#PSALDO -1 201211 6250 {"1" "201"} -36
+#PSALDO -1 201211 6250 {"1" "501"} -156
+#PSALDO -1 201211 6570 {"1" "103"}  880.5
+#PSALDO -1 201211 6570 {"1" "200"} -127.5
+#PSALDO -1 201211 6570 {"1" "201"} -753
+#PSALDO -1 201212 1229 {} -55555.4
+#PSALDO -1 201212 1380 {}  15050
+#PSALDO -1 201212 1700 {}  12100
+#PSALDO -1 201212 1710 {}  36038
+#PSALDO -1 201212 1930 {}  9483.2
+#PSALDO -1 201212 1940 {} -94978.98
+#PSALDO -1 201212 2099 {} -97980.69
+#PSALDO -1 201212 2900 {} -55495
+#PSALDO -1 201212 3911 {}  60840
+#PSALDO -1 201212 3987 {} -175000
+#PSALDO -1 201212 3989 {}  102060
+#PSALDO -1 201212 4000 {}  70445
+#PSALDO -1 201212 5020 {}  3017
+#PSALDO -1 201212 5050 {}  2488
+#PSALDO -1 201212 5060 {}  4456
+#PSALDO -1 201212 5410 {}  0
+#PSALDO -1 201212 5420 {}  942.2
+#PSALDO -1 201212 5460 {}  228
+#PSALDO -1 201212 5800 {}  6243
+#PSALDO -1 201212 5831 {}  955.27
+#PSALDO -1 201212 6212 {}  448
+#PSALDO -1 201212 6250 {}  24
+#PSALDO -1 201212 6270 {}  5068.7
+#PSALDO -1 201212 6421 {}  1000
+#PSALDO -1 201212 6570 {}  181.5
+#PSALDO -1 201212 7830 {}  55555.4
+#PSALDO -1 201212 8310 {} -5593.89
+#PSALDO -1 201212 8999 {}  97980.69
+#PSALDO -1 201212 1229 {"1" "0"} -55555.4
+#PSALDO -1 201212 1380 {"1" "0"}  15050
+#PSALDO -1 201212 1700 {"1" "0"}  12100
+#PSALDO -1 201212 1710 {"1" "0"}  36038
+#PSALDO -1 201212 1930 {"1" "0"}  9483.2
+#PSALDO -1 201212 1940 {"1" "0"} -94978.98
+#PSALDO -1 201212 2099 {"1" "0"} -97980.69
+#PSALDO -1 201212 2900 {"1" "0"} -55495
+#PSALDO -1 201212 3911 {"1" "201"}  60840
+#PSALDO -1 201212 3987 {"1" "104"} -175000
+#PSALDO -1 201212 3987 {"1" "105"}  0
+#PSALDO -1 201212 3989 {"1" "100"}  175000
+#PSALDO -1 201212 3989 {"1" "101"} -72940
+#PSALDO -1 201212 4000 {"1" "22"}  70445
+#PSALDO -1 201212 5020 {"1" "201"}  3017
+#PSALDO -1 201212 5050 {"1" "201"}  2488
+#PSALDO -1 201212 5060 {"1" "201"}  4456
+#PSALDO -1 201212 5410 {"1" "200"}  6311.02
+#PSALDO -1 201212 5410 {"1" "201"} -6311.02
+#PSALDO -1 201212 5420 {"1" "200"}  942.2
+#PSALDO -1 201212 5460 {"1" "201"}  228
+#PSALDO -1 201212 5800 {"1" "0"}  5797
+#PSALDO -1 201212 5800 {"1" "501"}  446
+#PSALDO -1 201212 5831 {"1" "501"}  955.27
+#PSALDO -1 201212 6212 {"1" "200"}  448
+#PSALDO -1 201212 6250 {"1" "200"}  24
+#PSALDO -1 201212 6250 {"1" "201"}  0
+#PSALDO -1 201212 6270 {"1" "0"}  5068.7
+#PSALDO -1 201212 6421 {"1" "501"}  1000
+#PSALDO -1 201212 6570 {"1" "200"}  54
+#PSALDO -1 201212 6570 {"1" "201"}  127.5
+#PSALDO -1 201212 7830 {"1" "201"}  55555.4
+#PSALDO -1 201212 8310 {"1" "0"} -5593.89
+#PSALDO -1 201212 8999 {"1" "0"}  97980.69
+#VER A  1 20130101 "Omfîring fîrut bet hyra" 20130101 "Anna Netzell"
+{
+   #TRANS  1710 {"1" "0"} -36038 20130101 ""
+   #TRANS  5010 {"1" "11"}  36038 20130101 ""
+}
+#VER A  2 20130122 "AG hybris" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -110 20130122 ""
+   #TRANS  5831 {"1" "16"}  110 20130122 ""
+}
+#VER A  3 20130122 "Mat Styrelsemîte" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -130 20130122 ""
+   #TRANS  5831 {"1" "16"}  130 20130122 ""
+}
+#VER A  4 20130122 "Mîte Marie -Louise" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -118 20130122 ""
+   #TRANS  5831 {"1" "16"}  118 20130122 ""
+}
+#VER A  5 20130122 "Resekostnad" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -72 20130122 ""
+   #TRANS  5800 {"1" "16"}  72 20130122 ""
+}
+#VER A  6 20130122 "Mat Styrelsen" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -79 20130122 ""
+   #TRANS  5831 {"1" "16"}  79 20130122 ""
+}
+#VER A  7 20130122 "Inkîp styrelsen" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -86.87 20130122 ""
+   #TRANS  5831 {"1" "16"}  86.87 20130122 ""
+}
+#VER A  8 20130122 "resekostnad" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -24 20130122 ""
+   #TRANS  5800 {"1" "16"}  24 20130122 ""
+}
+#VER A  9 20130122 "mat Styrelsen" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -135 20130122 ""
+   #TRANS  5831 {"1" "16"}  135 20130122 ""
+}
+#VER A  10 20130122 "OLD" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2488 20130122 ""
+   #TRANS  5060 {"1" "11"}  2488 20130122 ""
+}
+#VER A  11 20130122 "Omfîring" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  5593.89 20130122 ""
+   #TRANS  1940 {"1" "0"} -5593.89 20130122 ""
+}
+#VER A  12 20130122 "Carl- Magnus" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -327 20130122 ""
+   #TRANS  5831 {"1" "16"}  327 20130122 ""
+}
+#VER A  13 20130122 "Wallenstams" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -5822 20130122 ""
+   #TRANS  5020 {"1" "11"}  5822 20130122 ""
+}
+#VER A  14 20130122 "Omfîring" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  70000 20130122 ""
+   #TRANS  1940 {"1" "0"} -70000 20130122 ""
+}
+#VER A  15 20130122 "Telia" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -448 20130122 ""
+   #TRANS  6212 {"1" "12"}  448 20130122 ""
+}
+#VER A  16 20130122 "Wallenstams" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -36068 20130122 ""
+   #TRANS  5010 {"1" "11"}  36068 20130122 ""
+}
+#VER A  17 20130122 "Bg kostnad" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -87.5 20130122 ""
+   #TRANS  6570 {"1" "12"}  87.5 20130122 ""
+}
+#VER A  18 20130122 "Bg kostnad" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -87.5 20130122 ""
+   #TRANS  6570 {"1" "12"}  87.5 20130122 ""
+}
+#VER A  19 20130122 "OLD" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -3023 20130122 ""
+   #TRANS  5060 {"1" "11"}  3023 20130122 ""
+}
+#VER A  20 20130122 "ôlmestig" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -992.1 20130122 ""
+   #TRANS  5800 {"1" "16"}  992.1 20130122 ""
+}
+#VER A  21 20130122 "Safeteam" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -5688 20130122 ""
+   #TRANS  5012 {"1" "11"}  5688 20130122 ""
+}
+#VER A  22 20130122 "Utbet samarbetsmodellen" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -13070 20130122 ""
+   #TRANS  1930 {"1" "0"} -13000 20130122 ""
+   #TRANS  1930 {"1" "0"} -6525 20130122 ""
+   #TRANS  1930 {"1" "0"} -5400 20130122 ""
+   #TRANS  1930 {"1" "0"} -5400 20130122 ""
+   #TRANS  1930 {"1" "0"} -5000 20130122 ""
+   #TRANS  1930 {"1" "0"} -4825 20130122 ""
+   #TRANS  1930 {"1" "0"} -1075 20130122 ""
+   #TRANS  1930 {"1" "0"} -750 20130122 ""
+   #TRANS  1930 {"1" "0"} -450 20130122 ""
+   #TRANS  2990 {"1" "0"}  55495 20130122 ""
+}
+#VER A  23 20130122 "Kommunbidrag" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  87500 20130122 ""
+   #TRANS  3987 {"1" "3"} -87500 20130122 ""
+}
+#VER A  24 20130122 "Valberedningen" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -301.9 20130122 ""
+   #TRANS  5831 {"1" "20"}  301.9 20130122 ""
+}
+#VER A  25 20130122 "Resa styrelsen" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -150 20130122 ""
+   #TRANS  5800 {"1" "16"}  150 20130122 ""
+}
+#VER A  26 20130122 "Inkîp styrelsen" 20130122 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -120 20130122 ""
+   #TRANS  6250 {"1" "12"}  120 20130122 ""
+}
+#VER A  27 20130128 "Safeteam" 20130128 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2250 20130128 ""
+   #TRANS  5012 {"1" "11"}  2250 20130128 ""
+}
+#VER A  28 20130128 "Mat Styrelsen" 20130128 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -88 20130128 ""
+   #TRANS  5831 {"1" "16"}  88 20130128 ""
+}
+#VER A  29 20130207 "Gîteborgs energi" 20130207 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -3411 20130207 ""
+   #TRANS  5020 {"1" "11"}  3411 20130207 ""
+}
+#VER A  30 20130207 "Telia" 20130207 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -448 20130207 ""
+   #TRANS  6212 {"1" "12"}  448 20130207 ""
+}
+#VER A  31 20130207 "OLD" 20130207 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -1012 20130207 ""
+   #TRANS  5060 {"1" "11"}  1012 20130207 ""
+}
+#VER A  32 20130207 "Handkassa Magnus" 20130207 "Anna Netzell"
+{
+   #TRANS  1910 {"1" "0"} -329 20130207 ""
+   #TRANS  1910 {"1" "0"} -168 20130207 ""
+   #TRANS  1910 {"1" "0"} -50 20130207 ""
+   #TRANS  5460 {"1" "18"}  547 20130207 ""
+}
+#VER A  33 20130212 "Wallenstams" 20130212 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -4781 20130212 ""
+   #TRANS  5020 {"1" "11"}  4781 20130212 ""
+}
+#VER A  34 20130212 "Wallenstams" 20130212 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -36068 20130212 ""
+   #TRANS  5010 {"1" "11"}  36068 20130212 ""
+}
+#VER A  35 20130212 "LÜn Nintend next" 20130212 "Anna Netzell"
+{
+   #TRANS  1380 {"1" "0"} -13000 20130212 ""
+   #TRANS  1930 {"1" "0"}  13000 20130212 ""
+}
+#VER A  36 20130212 "Hyrsinbet" 20130212 "Anna Netzell"
+{
+   #TRANS  1700 {"1" "0"} -1680 20130212 ""
+   #TRANS  1930 {"1" "0"}  3040 20130212 ""
+   #TRANS  3011 {"1" "4"} -1360 20130212 ""
+}
+#VER A  37 20130212 "HyresintÑkt" 20130212 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  22000 20130212 ""
+   #TRANS  3011 {"1" "4"} -22000 20130212 ""
+}
+#VER A  38 20130212 "Inbet" 20130212 "Anna Netzell"
+{
+   #TRANS  1700 {"1" "0"} -3660 20130212 ""
+   #TRANS  1930 {"1" "0"}  114886 20130212 ""
+   #TRANS  3911 {"1" "4"} -1220 20130212 ""
+   #TRANS  3989 {"1" "1"} -110006 20130212 ""
+}
+#VER A  39 20130212 "Inbet" 20130212 "Anna Netzell"
+{
+   #TRANS  1700 {"1" "0"} -1360 20130212 ""
+   #TRANS  1930 {"1" "0"}  4850 20130212 ""
+   #TRANS  3911 {"1" "4"} -2720 20130212 ""
+   #TRANS  3911 {"1" "5"} -770 20130212 ""
+}
+#VER A  40 20130228 "OLD" 20130228 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2500 20130228 ""
+   #TRANS  5060 {"1" "11"}  2500 20130228 ""
+}
+#VER A  41 20130228 "RÑttelse ver A37" 20130228 "Anna Netzell"
+{
+   #TRANS  3011 {"1" "4"}  22000 20130228 ""
+   #TRANS  3011 {"1" "5"} -22000 20130228 ""
+}
+#VER A  42 20130228 "RÑttning A 22" 20130228 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  13000 20130228 ""
+   #TRANS  2900 {"1" "0"} -13000 20130228 ""
+   #TRANS  2900 {"1" "0"}  55495 20130228 ""
+   #TRANS  2990 {"1" "0"} -55495 20130228 ""
+}
+#VER A  43 20130228 "BG avgift" 20130228 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -942 20130228 ""
+   #TRANS  6570 {"1" "12"}  942 20130228 ""
+}
+#VER A  44 20130228 "Omfîring konton ver a36" 20130228 "Anna Netzell"
+{
+   #TRANS  3011 {"1" "4"}  1360 20130228 ""
+   #TRANS  3011 {"1" "5"}  22000 20130228 ""
+   #TRANS  3911 {"1" "4"} -1360 20130228 ""
+   #TRANS  3911 {"1" "5"} -22000 20130228 ""
+}
+#VER A  45 20130228 "Ombokning Goth con redan utbet" 20130228 "Anna Netzell"
+{
+   #TRANS  2900 {"1" "0"}  13000 20130228 ""
+   #TRANS  3990 {"1" "0"} -13000 20130228 ""
+}
+#VER A  46 20130228 "" 20130228 "Anna Netzell"
+{
+   #TRANS  1510 {"1" "0"}  680 20130228 ""
+   #TRANS  1510 {"1" "0"}  1990 20130228 ""
+   #TRANS  1510 {"1" "0"}  3600 20130228 ""
+   #TRANS  1510 {"1" "0"}  3610 20130228 ""
+   #TRANS  1510 {"1" "0"}  5400 20130228 ""
+   #TRANS  1510 {"1" "0"}  5400 20130228 ""
+   #TRANS  1510 {"1" "0"}  12000 20130228 ""
+   #TRANS  1700 {"1" "0"} -5400 20130228 ""
+   #TRANS  3911 {"1" "4"} -12000 20130228 ""
+   #TRANS  3911 {"1" "4"} -5400 20130228 ""
+   #TRANS  3911 {"1" "4"} -3610 20130228 ""
+   #TRANS  3911 {"1" "4"} -3600 20130228 ""
+   #TRANS  3911 {"1" "4"} -1990 20130228 ""
+   #TRANS  3911 {"1" "4"} -680 20130228 ""
+}
+#VER A  47 20130228 "" 20130228 "Anna Netzell"
+{
+   #TRANS  1510 {"1" "0"} -3000 20130228 ""
+   #TRANS  1510 {"1" "0"} -3000 20130228 "Kvittning betalning av 9000"
+   #TRANS  1510 {"1" "0"}  3000 20130228 "Kvittning betalning av 1"
+   #TRANS  3911 {"1" "4"}  3000 20130228 ""
+}
+#VER A  48 20130228 "Golden Lee" 20130228 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -78 20130228 ""
+   #TRANS  5831 {"1" "16"}  78 20130228 ""
+}
+#VER A  49 20130228 "Kebab" 20130228 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -69 20130228 ""
+   #TRANS  5831 {"1" "13"}  69 20130228 ""
+}
+#VER A  50 20130228 "èrsmîtet" 20130228 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -89 20130228 ""
+   #TRANS  5831 {"1" "21"}  89 20130228 ""
+}
+#VER A  51 20130228 "èrsmîte" 20130228 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -60.9 20130228 ""
+   #TRANS  5831 {"1" "21"}  60.9 20130228 ""
+}
+#VER A  52 20130228 "èrsmîte" 20130228 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -1458 20130228 ""
+   #TRANS  5831 {"1" "13"}  1458 20130228 ""
+}
+#VER A  53 20130228 "Mat Ürsmîte" 20130228 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -423.48 20130228 ""
+   #TRANS  5831 {"1" "13"}  423.48 20130228 ""
+}
+#VER A  54 20130228 "Present Robert" 20130228 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -657 20130228 ""
+   #TRANS  6071 {"1" "16"}  657 20130228 ""
+}
+#VER A  55 20130228 "Resa styrelsen" 20130228 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -150 20130228 ""
+   #TRANS  5800 {"1" "16"}  150 20130228 ""
+}
+#VER A  56 20130228 "Telia" 20130228 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -448 20130228 ""
+   #TRANS  6230 {"1" "12"}  448 20130228 ""
+}
+#VER A  57 20130312 "Wallenstams" 20130312 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -36068 20130312 ""
+   #TRANS  5010 {"1" "11"}  36068 20130312 ""
+}
+#VER A  58 20130312 "Wallenstams" 20130312 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -5424 20130312 ""
+   #TRANS  5020 {"1" "11"}  5424 20130312 ""
+}
+#VER A  59 20130312 "" 20130312 "Anna Netzell"
+{
+   #TRANS  1510 {"1" "0"} -1990 20130312 ""
+   #TRANS  1920 {"1" "0"}  1990 20130312 ""
+}
+#VER A  60 20130312 "HyresintÑkt" 20130312 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  810 20130312 ""
+   #TRANS  1930 {"1" "0"}  810 20130312 ""
+   #TRANS  3911 {"1" "4"} -1620 20130312 ""
+}
+#VER A  61 20130312 "Omfîring" 20130312 "Anna Netzell"
+{
+   #TRANS  1920 {"1" "0"} -1990 20130312 ""
+   #TRANS  1930 {"1" "0"}  1990 20130312 ""
+}
+#VER A  62 20130312 "" 20130312 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  150 20130312 ""
+   #TRANS  5800 {"1" "16"} -150 20130312 ""
+}
+#VER A  63 20130411 "Wallenstams" 20130411 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -36068 20130411 ""
+   #TRANS  5010 {"1" "11"}  36068 20130411 ""
+}
+#VER A  64 20130411 "OLD" 20130411 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -3125 20130411 ""
+   #TRANS  5060 {"1" "11"}  3125 20130411 ""
+}
+#VER A  65 20130411 "Telia" 20130411 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -448 20130411 ""
+   #TRANS  1930 {"1" "0"} -448 20130411 ""
+   #TRANS  6213 {"1" "12"}  896 20130411 ""
+}
+#VER A  66 20130411 "Wallenstams" 20130411 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2657 20130411 ""
+   #TRANS  5020 {"1" "11"}  2657 20130411 ""
+}
+#VER A  67 20130411 "" 20130411 "Anna Netzell"
+{
+   #TRANS  1510 {"1" "0"} -680 20130411 ""
+   #TRANS  1920 {"1" "0"}  1680 20130411 ""
+   #TRANS  3911 {"1" "11"} -1000 20130411 ""
+}
+#VER A  68 20130411 "Bg kostnad" 20130411 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -87.5 20130411 ""
+   #TRANS  1930 {"1" "0"} -87.5 20130411 ""
+   #TRANS  6570 {"1" "12"}  175 20130411 ""
+}
+#VER A  69 20130411 "Omfîring" 20130411 "Anna Netzell"
+{
+   #TRANS  1920 {"1" "0"} -1680 20130411 ""
+   #TRANS  1930 {"1" "0"}  1680 20130411 ""
+}
+#VER A  70 20130411 "ôresutjÑmning" 20130411 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  .23 20130411 ""
+   #TRANS  3740 {"1" "12"} -.23 20130411 ""
+}
+#VER A  71 20130515 "Wallenstam" 20130515 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2522 20130515 ""
+   #TRANS  5020 {"1" "11"}  2522 20130515 ""
+}
+#VER A  72 20130626 "OLD" 20130626 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -833 20130626 ""
+   #TRANS  5060 {"1" "11"}  833 20130626 ""
+}
+#VER A  73 20130614 "" 20130614 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  70000 20130614 ""
+   #TRANS  1940 {"1" "0"} -70000 20130614 ""
+}
+#VER A  74 20130614 "Wallenstams" 20130614 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -36068 20130614 ""
+   #TRANS  5010 {"1" "11"}  36068 20130614 ""
+}
+#VER A  75 20130614 "Wallenstams" 20130614 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -36068 20130614 ""
+   #TRANS  5010 {"1" "11"}  36068 20130614 ""
+}
+#VER A  76 20130614 "Gîteborgs Energi" 20130614 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2984 20130614 ""
+   #TRANS  5020 {"1" "11"}  2984 20130614 ""
+}
+#VER A  77 20130613 "Wallenstams" 20130613 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -1897 20130613 ""
+   #TRANS  5020 {"1" "11"}  1897 20130613 ""
+}
+#VER A  78 20130611 "Telia" 20130611 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -448 20130611 ""
+   #TRANS  6213 {"1" "12"}  448 20130611 ""
+}
+#VER A  79 20130522 "OLD" 20130522 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -3125 20130522 ""
+   #TRANS  5060 {"1" "11"}  3125 20130522 ""
+}
+#VER A  80 20130515 "Wallenstams" 20130515 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -36068 20130515 ""
+   #TRANS  5010 {"1" "11"}  36068 20130515 ""
+}
+#VER A  81 20130515 "Gîteborgs energi" 20130515 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2984 20130515 ""
+   #TRANS  5020 {"1" "11"}  2984 20130515 ""
+}
+#VER A  82 20130513 "Telia" 20130513 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -448 20130513 ""
+   #TRANS  6213 {"1" "12"}  448 20130513 ""
+}
+#VER A  83 20130507 "Binero" 20130507 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -99 20130507 ""
+   #TRANS  5460 {"1" "12"}  99 20130507 ""
+}
+#VER A  84 20130507 "Atea" 20130507 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -6674 20130507 ""
+   #TRANS  5220 {"1" "12"}  6674 20130507 ""
+}
+#VER A  85 20130502 "Safeteam" 20130502 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2250 20130502 ""
+   #TRANS  5460 {"1" "11"}  2250 20130502 ""
+}
+#VER A  86 20130425 "OLD" 20130425 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -3125 20130425 ""
+   #TRANS  5060 {"1" "11"}  3125 20130425 ""
+}
+#VER A  87 20130704 "Wallenstams" 20130704 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2522 20130704 ""
+   #TRANS  5020 {"1" "11"}  2522 20130704 ""
+}
+#VER A  88 20130620 "Region halland" 20130620 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  26448 20130620 ""
+   #TRANS  3989 {"1" "2"} -26448 20130620 ""
+}
+#VER A  89 20130708 "" 20130708 "Anna Netzell"
+{
+   #TRANS  1510 {"1" "0"}  2440 20130708 ""
+   #TRANS  1510 {"1" "0"}  3200 20130708 ""
+   #TRANS  1510 {"1" "0"}  6720 20130708 ""
+   #TRANS  1510 {"1" "0"}  11720 20130708 ""
+   #TRANS  1510 {"1" "0"}  12640 20130708 ""
+   #TRANS  3911 {"1" "4"} -12640 20130708 ""
+   #TRANS  3911 {"1" "4"} -11720 20130708 ""
+   #TRANS  3911 {"1" "4"} -6720 20130708 ""
+   #TRANS  3911 {"1" "4"} -3200 20130708 ""
+   #TRANS  3911 {"1" "4"} -2440 20130708 ""
+}
+#VER A  90 20130708 "Telia" 20130708 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -448 20130708 ""
+   #TRANS  6213 {"1" "12"}  448 20130708 ""
+}
+#VER A  91 20130712 "Wallenstams" 20130712 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2274 20130712 ""
+   #TRANS  5020 {"1" "11"}  2274 20130712 ""
+}
+#VER A  92 20130813 "Wallenstam" 20130813 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -36068 20130813 ""
+   #TRANS  5010 {"1" "11"}  36068 20130813 ""
+}
+#VER A  93 20130813 "OLD" 20130813 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -661 20130813 ""
+   #TRANS  5060 {"1" "11"}  661 20130813 ""
+}
+#VER A  94 20130813 "OLD" 20130813 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -6250 20130813 ""
+   #TRANS  5060 {"1" "11"}  6250 20130813 ""
+}
+#VER A  95 20130813 "Telia" 20130813 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -448 20130813 ""
+   #TRANS  6213 {"1" "12"}  448 20130813 ""
+}
+#VER A  96 20130813 "Safeteam" 20130813 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2250 20130813 ""
+   #TRANS  5012 {"1" "11"}  2250 20130813 ""
+}
+#VER A  97 20130813 "Gîteborg Energi" 20130813 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -1795 20130813 ""
+   #TRANS  5020 {"1" "11"}  1795 20130813 ""
+}
+#VER A  98 20130813 "Omfîring" 20130813 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  60000 20130813 ""
+   #TRANS  1940 {"1" "0"} -60000 20130813 ""
+}
+#VER A  99 20130620 "Bidrag Halland" 20130620 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  26448 20130620 ""
+   #TRANS  3985 {"1" "2"} -26448 20130620 ""
+}
+#VER A  100 20130722 "Bg kostnad" 20130722 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -54 20130722 ""
+   #TRANS  6570 {"1" "12"}  54 20130722 ""
+}
+#VER A  101 20130821 "Wallenstams" 20130821 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -1747 20130821 ""
+   #TRANS  5020 {"1" "11"}  1747 20130821 ""
+}
+#VER A  102 20130827 "Sverok" 20130827 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -7000 20130827 ""
+   #TRANS  7610 {"1" "16"}  7000 20130827 ""
+}
+#VER A  103 20130822 "Bidrag VG" 20130822 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  282920 20130822 ""
+   #TRANS  3985 {"1" "1"} -282920 20130822 ""
+}
+#VER A  104 20130813 "" 20130813 "Anna Netzell"
+{
+   #TRANS  1510 {"1" "0"} -3200 20130813 ""
+   #TRANS  1930 {"1" "0"}  3200 20130813 ""
+}
+#VER A  105 20130820 "" 20130820 "Anna Netzell"
+{
+   #TRANS  1510 {"1" "0"} -2440 20130820 ""
+   #TRANS  1930 {"1" "0"}  2440 20130820 ""
+}
+#VER A  106 20130715 "" 20130715 "Anna Netzell"
+{
+   #TRANS  1510 {"1" "0"} -6720 20130715 ""
+   #TRANS  1930 {"1" "0"}  6720 20130715 ""
+}
+#VER A  107 20130719 "" 20130719 "Anna Netzell"
+{
+   #TRANS  1510 {"1" "0"} -12640 20130719 ""
+   #TRANS  1930 {"1" "0"}  12640 20130719 ""
+}
+#VER A  108 20130620 "RÑttning A99" 20130620 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -26448 20130620 ""
+   #TRANS  3985 {"1" "2"}  26448 20130620 ""
+}
+#VER A  109 20130904 "OLD" 20130904 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -3869 20130904 ""
+   #TRANS  5060 {"1" "11"}  3869 20130904 ""
+}
+#VER A  110 20130904 "Telia" 20130904 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -448 20130904 ""
+   #TRANS  6213 {"1" "12"}  448 20130904 ""
+}
+#VER A  111 20130617 "Liseberg" 20130617 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -590 20130617 ""
+   #TRANS  1930 {"1" "0"} -450 20130617 ""
+   #TRANS  1930 {"1" "0"} -450 20130617 ""
+   #TRANS  1930 {"1" "0"} -164 20130617 ""
+   #TRANS  1930 {"1" "0"} -90 20130617 ""
+   #TRANS  7610 {"1" "16"}  1744 20130617 ""
+}
+#VER A  112 20130617 "Mat styrelsen" 20130617 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -1523 20130617 ""
+   #TRANS  5831 {"1" "16"}  1523 20130617 ""
+}
+#VER A  113 20130417 "Telia Sonera AB" 20130417 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -445.5 20130417 ""
+   #TRANS  5460 {"1" "12"}  445.5 20130417 ""
+}
+#VER A  114 20130526 "Ikea" 20130526 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -79 20130526 ""
+   #TRANS  5460 {"1" "12"}  79 20130526 ""
+}
+#VER A  115 20130827 "Samuel Eriksson" 20130827 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2010 20130827 ""
+   #TRANS  5460 {"1" "16"}  139 20130827 ""
+   #TRANS  5800 {"1" "16"}  1565 20130827 ""
+   #TRANS  5831 {"1" "16"}  306 20130827 ""
+}
+#VER A  116 20130903 "îverfîring konto" 20130903 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -200000 20130903 ""
+   #TRANS  1940 {"1" "0"}  200000 20130903 ""
+}
+#VER A  117 20130903 "Region Halland" 20130903 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  17632 20130903 ""
+   #TRANS  3985 {"1" "2"} -17632 20130903 ""
+}
+#VER A  118 20130912 "Bida" 20130912 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  87500 20130912 ""
+   #TRANS  3985 {"1" "1"} -87500 20130912 ""
+}
+#VER A  119 20130912 "Saknade kvitton" 20130912 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -18750 20130912 ""
+   #TRANS  1930 {"1" "0"} -15025 20130912 ""
+   #TRANS  1930 {"1" "0"} -10000 20130912 ""
+   #TRANS  1930 {"1" "0"} -8375 20130912 ""
+   #TRANS  1930 {"1" "0"} -5400 20130912 ""
+   #TRANS  1930 {"1" "0"} -5242 20130912 ""
+   #TRANS  1930 {"1" "0"} -3900 20130912 ""
+   #TRANS  1930 {"1" "0"} -2400 20130912 ""
+   #TRANS  1930 {"1" "0"} -2130 20130912 ""
+   #TRANS  1930 {"1" "0"} -2063 20130912 ""
+   #TRANS  1930 {"1" "0"} -1415 20130912 ""
+   #TRANS  1930 {"1" "0"} -1319 20130912 ""
+   #TRANS  1930 {"1" "0"} -1029 20130912 ""
+   #TRANS  1930 {"1" "0"} -627 20130912 ""
+   #TRANS  1930 {"1" "0"} -501 20130912 ""
+   #TRANS  1930 {"1" "0"} -500 20130912 ""
+   #TRANS  1930 {"1" "0"} -499 20130912 ""
+   #TRANS  1930 {"1" "0"} -418 20130912 ""
+   #TRANS  1930 {"1" "0"} -400 20130912 ""
+   #TRANS  1930 {"1" "0"} -333 20130912 ""
+   #TRANS  1930 {"1" "0"} -300 20130912 ""
+   #TRANS  1930 {"1" "0"} -230 20130912 ""
+   #TRANS  1930 {"1" "0"} -64.75 20130912 ""
+   #TRANS  1930 {"1" "0"} -45.24 20130912 ""
+   #TRANS  6993 {"1" "0"}  80965.99 20130912 ""
+}
+#VER A  120 20130505 "Thai" 20130505 "Anna Netzell"
+{
+   #TRANS  5831 {"1" "16"}  230 20130505 ""
+   #TRANS  6993 {"1" "0"} -230 20130505 ""
+}
+#VER A  121 20130101 "RÑnta" 20130101 "Anna Netzell"
+{
+   #TRANS  1940 {"1" "0"}  2572.87 20130101 ""
+   #TRANS  8310 {"1" "12"} -2572.87 20130101 ""
+}
+#VER A  122 20130925 "Lîn/soc avg 20130925" 20130925 "Anna Netzell"
+{
+   #TRANS  1920 {"1" "0"} -267178 20130925 ""
+   #TRANS  2710 {"1" "0"} -92495 20130925 ""
+   #TRANS  2731 {"1" "0"} -101530 20130925 ""
+   #TRANS  3010 {"1" "190"} -760 20130925 ""
+   #TRANS  3740 {"1" "0"} -.96 20130925 ""
+   #TRANS  3740 {"1" "550"}  .86 20130925 ""
+   #TRANS  3740 {"1" "870"} -.07 20130925 ""
+   #TRANS  3740 {"1" "950"} -.04 20130925 ""
+   #TRANS  3740 {"1" "960"} -.48 20130925 ""
+   #TRANS  3740 {"1" "970"}  .04 20130925 ""
+   #TRANS  7010 {"1" "950" "6" "17"}  15153 20130925 ""
+   #TRANS  7210 {"1" "431"}  43830 20130925 ""
+   #TRANS  7210 {"1" "550"}  188494.11 20130925 ""
+   #TRANS  7210 {"1" "870" "6" "15"}  19955.07 20130925 ""
+   #TRANS  7210 {"1" "920" "6" "18"}  4600 20130925 ""
+   #TRANS  7210 {"1" "950" "6" "17"}  31639.04 20130925 ""
+   #TRANS  7210 {"1" "960" "6" "19"}  23027.48 20130925 ""
+   #TRANS  7210 {"1" "970" "6" "20"}  22983 20130925 ""
+   #TRANS  7280 {"1" "550"}  1078.91 20130925 ""
+   #TRANS  7280 {"1" "970" "6" "20"}  2757.96 20130925 ""
+   #TRANS  7281 {"1" "550"}  2769.12 20130925 ""
+   #TRANS  7285 {"1" "550"}  1440 20130925 ""
+   #TRANS  7285 {"1" "960" "6" "19"}  966 20130925 ""
+   #TRANS  7321 {"1" "550"}  473 20130925 ""
+   #TRANS  7322 {"1" "550"}  1083 20130925 ""
+   #TRANS  7322 {"1" "960" "6" "19"}  183 20130925 ""
+   #TRANS  7510 {"1" "431"}  6885.69 20130925 ""
+   #TRANS  7510 {"1" "550"}  61352.29 20130925 ""
+   #TRANS  7510 {"1" "870" "6" "15"}  6269.89 20130925 ""
+   #TRANS  7510 {"1" "950" "6" "17"}  8055.79 20130925 ""
+   #TRANS  7510 {"1" "960" "6" "19"}  7596.25 20130925 ""
+   #TRANS  7511 {"1" "431"}  3394.63 20130925 ""
+   #TRANS  7511 {"1" "920" "6" "18"}  712.54 20130925 ""
+   #TRANS  7511 {"1" "950" "6" "17"}  3276.6 20130925 ""
+   #TRANS  7511 {"1" "970" "6" "20"}  3987.28 20130925 ""
+}
+#VER A  123 20130925 "" 20130925 "Anna Netzell"
+{
+   #TRANS  1920 {"1" "0"}  267178 20130925 ""
+   #TRANS  2710 {"1" "0"}  92495 20130925 ""
+   #TRANS  2731 {"1" "0"}  101530 20130925 ""
+   #TRANS  3010 {"1" "190"}  760 20130925 ""
+   #TRANS  3740 {"1" "0"}  .96 20130925 ""
+   #TRANS  3740 {"1" "550"} -.86 20130925 ""
+   #TRANS  3740 {"1" "870"}  .07 20130925 ""
+   #TRANS  3740 {"1" "950"}  .04 20130925 ""
+   #TRANS  3740 {"1" "960"}  .48 20130925 ""
+   #TRANS  3740 {"1" "970"} -.04 20130925 ""
+   #TRANS  7010 {"1" "950"} -15153 20130925 ""
+   #TRANS  7210 {"1" "431"} -43830 20130925 ""
+   #TRANS  7210 {"1" "550"} -188494.11 20130925 ""
+   #TRANS  7210 {"1" "870"} -19955.07 20130925 ""
+   #TRANS  7210 {"1" "920"} -4600 20130925 ""
+   #TRANS  7210 {"1" "950"} -31639.04 20130925 ""
+   #TRANS  7210 {"1" "960"} -23027.48 20130925 ""
+   #TRANS  7210 {"1" "970"} -22983 20130925 ""
+   #TRANS  7280 {"1" "550"} -1078.91 20130925 ""
+   #TRANS  7280 {"1" "970"} -2757.96 20130925 ""
+   #TRANS  7281 {"1" "550"} -2769.12 20130925 ""
+   #TRANS  7285 {"1" "550"} -1440 20130925 ""
+   #TRANS  7285 {"1" "960"} -966 20130925 ""
+   #TRANS  7321 {"1" "550"} -473 20130925 ""
+   #TRANS  7322 {"1" "550"} -1083 20130925 ""
+   #TRANS  7322 {"1" "960"} -183 20130925 ""
+   #TRANS  7510 {"1" "431"} -6885.69 20130925 ""
+   #TRANS  7510 {"1" "550"} -61352.29 20130925 ""
+   #TRANS  7510 {"1" "870"} -6269.89 20130925 ""
+   #TRANS  7510 {"1" "950"} -8055.79 20130925 ""
+   #TRANS  7510 {"1" "960"} -7596.25 20130925 ""
+   #TRANS  7511 {"1" "431"} -3394.63 20130925 ""
+   #TRANS  7511 {"1" "920"} -712.54 20130925 ""
+   #TRANS  7511 {"1" "950"} -3276.6 20130925 ""
+   #TRANS  7511 {"1" "970"} -3987.28 20130925 ""
+}
+#VER A  124 20130925 "Kredit av hyra" 20130925 "Anna Netzell"
+{
+   #TRANS  3911 {"1" "11"}  2130 20130925 ""
+   #TRANS  6993 {"1" "0"} -2130 20130925 ""
+}
+#VER A  125 20130103 "Cellip" 20130103 "Anna Netzell"
+{
+   #TRANS  6212 {"1" "12"}  500 20130103 ""
+   #TRANS  6993 {"1" "0"} -500 20130103 ""
+}
+#VER A  126 20130507 "Cellip" 20130507 "Anna Netzell"
+{
+   #TRANS  6212 {"1" "12"}  300 20130507 ""
+   #TRANS  6993 {"1" "0"} -300 20130507 ""
+}
+#VER A  127 20130916 "Cellip" 20130916 "Anna Netzell"
+{
+   #TRANS  6212 {"1" "12"}  400 20130916 ""
+   #TRANS  6993 {"1" "0"} -400 20130916 ""
+}
+#VER A  128 20130918 "Atea" 20130918 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -4009 20130918 ""
+   #TRANS  5090 {"1" "12"}  4009 20130918 ""
+}
+#VER A  129 20130603 "FîrsÑkring" 20130603 "Anna Netzell"
+{
+   #TRANS  6892 {"1" "12"}  5242 20130603 ""
+   #TRANS  6993 {"1" "0"} -5242 20130603 ""
+}
+#VER A  130 20130930 "OLD" 20130930 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -3125 20130930 ""
+   #TRANS  5060 {"1" "11"}  3125 20130930 ""
+}
+#VER A  131 20131007 "Telia" 20131007 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -448 20131007 ""
+   #TRANS  6213 {"1" "12"}  448 20131007 ""
+}
+#VER A  132 20130918 "" 20130918 "Anna Netzell"
+{
+   #TRANS  1510 {"1" "0"} -11720 20130918 ""
+   #TRANS  1930 {"1" "0"}  11720 20130918 ""
+}
+#VER A  133 20131008 "OLD" 20131008 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -488 20131008 ""
+   #TRANS  5060 {"1" "0"}  488 20131008 ""
+}
+#VER A  134 20130509 "SJ Adam" 20130509 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -1319 20130509 ""
+   #TRANS  5800 {"1" "16"}  1319 20130509 ""
+}
+#VER A  135 20130905 "Omfîring Ver 135" 20130905 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  1319 20130905 ""
+   #TRANS  6993 {"1" "0"} -1319 20130905 ""
+}
+#VER A  136 20130903 "Samarbetsmodellen" 20130903 "Anna Netzell"
+{
+   #TRANS  4132 {"1" "14"}  2400 20130903 ""
+   #TRANS  6993 {"1" "0"} -2400 20130903 ""
+}
+#VER A  137 20130605 "Samarbetsavtal" 20130605 "Anna Netzell"
+{
+   #TRANS  4132 {"1" "14"}  8375 20130605 ""
+   #TRANS  6993 {"1" "0"} -8375 20130605 ""
+}
+#VER A  138 20130605 "Samarbetsavtal" 20130605 "Anna Netzell"
+{
+   #TRANS  4132 {"1" "14"}  3900 20130605 ""
+   #TRANS  6993 {"1" "0"} -3900 20130605 ""
+}
+#VER A  139 20130605 "Samarbetsavtal" 20130605 "Anna Netzell"
+{
+   #TRANS  4132 {"1" "14"}  5400 20130605 ""
+   #TRANS  6993 {"1" "0"} -5400 20130605 ""
+}
+#VER A  140 20130716 "Samarbetsavtal" 20130716 "Anna Netzell"
+{
+   #TRANS  4132 {"1" "14"}  15025 20130716 ""
+   #TRANS  6993 {"1" "0"} -15025 20130716 ""
+}
+#VER A  141 20130423 "MÜlning speletshus" 20130423 "Anna Netzell"
+{
+   #TRANS  5460 {"1" "11"}  18750 20130423 ""
+   #TRANS  6993 {"1" "0"} -18750 20130423 ""
+}
+#VER A  142 20131010 "Wallenstams" 20131010 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -36068 20131010 ""
+   #TRANS  5010 {"1" "11"}  36068 20131010 ""
+}
+#VER A  143 20131009 "BoE Paul" 20131009 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -98 20131009 ""
+   #TRANS  5460 {"1" "11"}  98 20131009 ""
+}
+#VER A  144 20131009 "BoE Paul" 20131009 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -78 20131009 ""
+   #TRANS  5460 {"1" "11"}  78 20131009 ""
+}
+#VER A  145 20131009 "BoE Carl-Magnus" 20131009 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -45 20131009 ""
+   #TRANS  5460 {"1" "11"}  45 20131009 ""
+}
+#VER A  146 20131009 "BoE Magnus" 20131009 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -55 20131009 ""
+   #TRANS  5460 {"1" "11"}  55 20131009 ""
+}
+#VER A  147 20131009 "BoE Ingemar" 20131009 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -147 20131009 ""
+   #TRANS  5460 {"1" "11"}  147 20131009 ""
+}
+#VER A  148 20131009 "BoE Joakim" 20131009 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -446 20131009 ""
+   #TRANS  5460 {"1" "11"}  446 20131009 ""
+}
+#VER A  149 20131009 "BoE Paul" 20131009 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -213 20131009 ""
+   #TRANS  5800 {"1" "16"}  213 20131009 ""
+}
+#VER A  150 20131009 "BoE Paul" 20131009 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -120 20131009 ""
+   #TRANS  5460 {"1" "12"}  120 20131009 ""
+}
+#VER A  151 20131009 "Billogram" 20131009 "Anna Netzell"
+{
+   #TRANS  5420 {"1" "12"}  418 20131009 ""
+   #TRANS  6993 {"1" "0"} -418 20131009 ""
+}
+#VER A  152 20131015 "Wallenstams" 20131015 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -3969 20131015 ""
+   #TRANS  5020 {"1" "11"}  3969 20131015 ""
+}
+#VER A  153 20131015 "Wallenstams" 20131015 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -36068 20131015 ""
+   #TRANS  5010 {"1" "11"}  36068 20131015 ""
+}
+#VER A  154 20131124 "safeteam" 20131124 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2250 20131124 ""
+   #TRANS  5012 {"1" "11"}  2250 20131124 ""
+}
+#VER A  155 20131124 "OLD" 20131124 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -3125 20131124 ""
+   #TRANS  5060 {"1" "11"}  3125 20131124 ""
+}
+#VER A  156 20131030 "Safeteam" 20131030 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -1000 20131030 ""
+   #TRANS  5012 {"1" "11"}  1000 20131030 ""
+}
+#VER A  157 20131104 "Wallenstam" 20131104 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2043.09 20131104 ""
+   #TRANS  5020 {"1" "11"}  2043.09 20131104 ""
+}
+#VER A  158 20131104 "Telia" 20131104 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -448 20131104 ""
+   #TRANS  6213 {"1" "12"}  448 20131104 ""
+}
+#VER A  159 20131111 "Gîteborg Energi" 20131111 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -2621 20131111 ""
+   #TRANS  5020 {"1" "11"}  2621 20131111 ""
+}
+#VER A  160 20131113 "Wallenstams" 20131113 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -36115 20131113 ""
+   #TRANS  5010 {"1" "11"}  36115 20131113 ""
+}
+#VER A  161 20131210 "" 20131210 "Anna Netzell"
+{
+   #TRANS  1510 {"1" "0"}  2875 20131210 ""
+   #TRANS  1510 {"1" "0"}  3050 20131210 ""
+   #TRANS  1510 {"1" "0"}  4000 20131210 ""
+   #TRANS  1510 {"1" "0"}  4000 20131210 ""
+   #TRANS  1510 {"1" "0"}  8500 20131210 ""
+   #TRANS  1510 {"1" "0"}  11250 20131210 ""
+   #TRANS  1510 {"1" "0"}  13875 20131210 ""
+   #TRANS  3911 {"1" "4"} -13875 20131210 ""
+   #TRANS  3911 {"1" "4"} -11250 20131210 ""
+   #TRANS  3911 {"1" "4"} -8500 20131210 ""
+   #TRANS  3911 {"1" "4"} -4000 20131210 ""
+   #TRANS  3911 {"1" "4"} -4000 20131210 ""
+   #TRANS  3911 {"1" "4"} -3050 20131210 ""
+   #TRANS  3911 {"1" "4"} -2875 20131210 ""
+}
+#VER A  162 20131209 "Telia" 20131209 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -448 20131209 ""
+   #TRANS  6213 {"1" "12"}  448 20131209 ""
+}
+#VER A  163 20131205 "OLD" 20131205 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -3125 20131205 ""
+   #TRANS  5060 {"1" "11"}  3125 20131205 ""
+}
+#VER A  164 20131205 "Wallenstams" 20131205 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -638 20131205 ""
+   #TRANS  5010 {"1" "11"}  638 20131205 ""
+}
+#VER A  165 20131115 "Wallenstams" 20131115 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -4602 20131115 ""
+   #TRANS  5020 {"1" "11"}  4602 20131115 ""
+}
+#VER A  166 20131211 "" 20131211 "Anna Netzell"
+{
+   #TRANS  1510 {"1" "0"} -8500 20131211 ""
+   #TRANS  1510 {"1" "0"} -4000 20131211 ""
+   #TRANS  1510 {"1" "0"}  27500 20131211 ""
+   #TRANS  3911 {"1" "4"} -27500 20131211 ""
+   #TRANS  3911 {"1" "4"}  4000 20131211 ""
+   #TRANS  3911 {"1" "4"}  8500 20131211 ""
+}
+#VER A  167 20131217 "Wallenstams" 20131217 "Anna Netzell"
+{
+   #TRANS  1790 {"1" "0"}  36665 20131217 ""
+   #TRANS  1930 {"1" "0"} -36665 20131217 ""
+}
+#VER A  168 20131227 "" 20131227 "Anna Netzell"
+{
+   #TRANS  1510 {"1" "0"} -8400 20131227 ""
+   #TRANS  1930 {"1" "0"}  8400 20131227 ""
+}
+#VER A  169 20131231 "RÑnta" 20131231 "Anna Netzell"
+{
+   #TRANS  1940 {"1" "0"}  2018.9 20131231 ""
+   #TRANS  8310 {"1" "12"} -2018.9 20131231 ""
+}
+#VER A  170 20131009 "RÑttning A 145" 20131009 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -10 20131009 ""
+   #TRANS  5460 {"1" "11"}  10 20131009 ""
+}
+#VER A  171 20131231 "Saknade kvitton" 20131231 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -8000 20131231 ""
+   #TRANS  1930 {"1" "0"} -5586.11 20131231 ""
+   #TRANS  1930 {"1" "0"} -2650 20131231 ""
+   #TRANS  1930 {"1" "0"} -1966.34 20131231 ""
+   #TRANS  1930 {"1" "0"} -1684 20131231 ""
+   #TRANS  1930 {"1" "0"} -989.26 20131231 ""
+   #TRANS  1930 {"1" "0"} -919.74 20131231 ""
+   #TRANS  1930 {"1" "0"} -196 20131231 ""
+   #TRANS  1930 {"1" "0"} -125 20131231 ""
+   #TRANS  1930 {"1" "0"} -100 20131231 ""
+   #TRANS  1930 {"1" "0"} -89 20131231 ""
+   #TRANS  1930 {"1" "0"} -85 20131231 ""
+   #TRANS  1930 {"1" "0"} -77 20131231 ""
+   #TRANS  1930 {"1" "0"} -75 20131231 ""
+   #TRANS  1930 {"1" "0"} -75 20131231 ""
+   #TRANS  1930 {"1" "0"} -75 20131231 ""
+   #TRANS  1930 {"1" "0"} -69 20131231 ""
+   #TRANS  1930 {"1" "0"} -22 20131231 ""
+   #TRANS  6993 {"1" "0"}  22783.45 20131231 ""
+}
+#VER A  172 20131003 "Star of india" 20131003 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -75 20131003 ""
+   #TRANS  5831 {"1" "16"}  75 20131003 ""
+}
+#VER A  173 20130923 "Steinbrenner" 20130923 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -196 20130923 ""
+   #TRANS  5831 {"1" "16"}  196 20130923 ""
+}
+#VER A  174 20131004 "Hemkîp" 20131004 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"} -22 20131004 ""
+   #TRANS  5831 {"1" "16"}  22 20131004 ""
+}
+#VER A  175 20131231 "" 20131231 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  75 20131231 ""
+   #TRANS  5831 {"1" "0"}  75 20131231 ""
+   #TRANS  5831 {"1" "16"} -75 20131231 ""
+   #TRANS  6993 {"1" "0"} -75 20131231 ""
+}
+#VER A  176 20131231 "" 20131231 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  196 20131231 ""
+   #TRANS  5831 {"1" "16"} -196 20131231 ""
+   #TRANS  5831 {"1" "16"}  196 20131231 ""
+   #TRANS  6993 {"1" "0"} -196 20131231 ""
+}
+#VER A  177 20131231 "" 20131231 "Anna Netzell"
+{
+   #TRANS  1930 {"1" "0"}  22 20131231 ""
+   #TRANS  5831 {"1" "16"} -22 20131231 ""
+   #TRANS  5831 {"1" "16"}  22 20131231 ""
+   #TRANS  6993 {"1" "0"} -22 20131231 ""
+}
+#VER A  178 20131211 "Andrum" 20131211 "Anna Netzell"
+{
+   #TRANS  5831 {"1" "16"}  77 20131211 ""
+   #TRANS  6993 {"1" "0"} -77 20131211 ""
+}
+#VER A  179 20131212 "Tandoor" 20131212 "Anna Netzell"
+{
+   #TRANS  5831 {"1" "16"}  89 20131212 ""
+   #TRANS  6993 {"1" "0"} -89 20131212 ""
+}
+#VER A  180 20131124 "ST1" 20131124 "Anna Netzell"
+{
+   #TRANS  5800 {"1" "16"}  989.26 20131124 ""
+   #TRANS  6993 {"1" "0"} -989.26 20131124 ""
+}
+#VER A  181 20131124 "Cabbe" 20131124 "Anna Netzell"
+{
+   #TRANS  5831 {"1" "16"}  125 20131124 ""
+   #TRANS  6993 {"1" "0"} -125 20131124 ""
+}
+#VER A  182 20131117 "Tandoor" 20131117 "Anna Netzell"
+{
+   #TRANS  5831 {"1" "16"}  69 20131117 ""
+   #TRANS  6993 {"1" "0"} -69 20131117 ""
+}
+#VER A  183 20131108 "Star of india" 20131108 "Anna Netzell"
+{
+   #TRANS  5831 {"1" "16"}  75 20131108 ""
+   #TRANS  6993 {"1" "0"} -75 20131108 ""
+}
+#VER A  184 20131126 "Avis" 20131126 "Anna Netzell"
+{
+   #TRANS  5800 {"1" "16"}  2650 20131126 ""
+   #TRANS  6993 {"1" "0"} -2650 20131126 ""
+}
+#VER A  185 20131219 "IKK Sergoia" 20131219 "Anna Netzell"
+{
+   #TRANS  5460 {"1" "12"}  1684 20131219 ""
+   #TRANS  6993 {"1" "0"} -1684 20131219 ""
+}
+#VER A  186 20131015 "Kontantkassa Paul" 20131015 "Anna Netzell"
+{
+   #TRANS  1910 {"1" "0"}  8000 20131015 ""
+   #TRANS  6993 {"1" "0"} -8000 20131015 ""
+}
+#VER A  187 20130722 "Lidl" 20130722 "Anna Netzell"
+{
+   #TRANS  5831 {"1" "16"}  64.75 20130722 ""
+   #TRANS  6993 {"1" "0"} -64.75 20130722 ""
+}
+#VER A  188 20130828 "Hemkîp" 20130828 "Anna Netzell"
+{
+   #TRANS  5831 {"1" "16"}  45.24 20130828 ""
+   #TRANS  6993 {"1" "0"} -45.24 20130828 ""
+}
+#VER A  189 20131202 "Dropbox" 20131202 "Anna Netzell"
+{
+   #TRANS  5420 {"1" "12"}  919.74 20131202 ""
+   #TRANS  6993 {"1" "0"} -919.74 20131202 ""
+}
+#VER A  190 20130505 "Resa" 20130505 "Anna Netzell"
+{
+   #TRANS  5800 {"1" "16"}  627 20130505 ""
+   #TRANS  6993 {"1" "0"} -627 20130505 ""
+}
+#VER A  191 20130830 "Teknikutrustning Robert Tiinus" 20130830 "Anna Netzell"
+{
+   #TRANS  5410 {"1" "11"}  10000 20130830 ""
+   #TRANS  6993 {"1" "0"} -10000 20130830 ""
+}
+#VER A  192 20131017 "UtlÑgg spelets hus" 20131017 "Anna Netzell"
+{
+   #TRANS  5460 {"1" "11"}  85 20131017 ""
+   #TRANS  6993 {"1" "0"} -85 20131017 ""
+}
+#VER A  193 20131231 "Redovisning av handkassa" 20131231 "Anna Netzell"
+{
+   #TRANS  1910 {"1" "0"} -2014 20131231 ""
+   #TRANS  5460 {"1" "11"}  2014 20131231 ""
+}
+#VER A  194 20131231 "èrets avskrivningar" 20131231 "Anna Netzell"
+{
+   #TRANS  1229 {"1" "0"} -40555.4 20131231 ""
+   #TRANS  1229 {"1" "0"} -15000 20131231 ""
+   #TRANS  7830 {"1" "11"}  55555.4 20131231 ""
+}
+#VER A  195 20130101 "Omfîring 2999" 20130101 "Anna Netzell"
+{
+   #TRANS  2999 {"1" "0"} -2573 20130101 ""
+   #TRANS  5460 {"1" "11"}  2573 20130101 ""
+}
+#VER A  196 20130101 "" 20130101 "Anna Netzell"
+{
+   #TRANS  2999 {"1" "0"}  2573 20130101 ""
+   #TRANS  5460 {"1" "11"} -2573 20130101 ""
+}
+#VER A  197 20131109 "Calimacil" 20131109 "Anna Netzell"
+{
+   #TRANS  5410 {"1" "11"}  5586.11 20131109 ""
+   #TRANS  6993 {"1" "0"} -5586.11 20131109 ""
+}
+#VER A  198 20130506 "LÜn Warcon" 20130506 "Anna Netzell"
+{
+   #TRANS  1382 {"1" "0"}  2063 20130506 ""
+   #TRANS  6993 {"1" "0"} -2063 20130506 ""
+}
+#VER A  199 20130528 "Transport" 20130528 "Anna Netzell"
+{
+   #TRANS  5800 {"1" "16"}  499 20130528 ""
+   #TRANS  6993 {"1" "0"} -499 20130528 ""
+}
+#VER A  200 20130130 "Resa Adam" 20130130 "Anna Netzell"
+{
+   #TRANS  5800 {"1" "16"}  1748 20130130 ""
+   #TRANS  6993 {"1" "0"} -1415 20130130 ""
+   #TRANS  6993 {"1" "0"} -333 20130130 ""
+}
+#VER A  201 20130903 "UtlÑgg" 20130903 "Anna Netzell"
+{
+   #TRANS  5460 {"1" "11"}  1029 20130903 ""
+   #TRANS  6993 {"1" "0"} -1029 20130903 ""
+}
+#VER A  202 20130827 "UtlÑgg" 20130827 "Anna Netzell"
+{
+   #TRANS  5460 {"1" "11"}  501 20130827 ""
+   #TRANS  6993 {"1" "0"} -501 20130827 ""
+}
+#VER A  203 20131028 "Kîp spel" 20131028 "Anna Netzell"
+{
+   #TRANS  5460 {"1" "12"}  1966.34 20131028 ""
+   #TRANS  6993 {"1" "0"} -1966.34 20131028 ""
+}
+#VER A  204 20131102 "Lunch Samuel" 20131102 "Anna Netzell"
+{
+   #TRANS  5831 {"1" "16"}  100 20131102 ""
+   #TRANS  6993 {"1" "0"} -100 20131102 ""
+}
+#VER A  205 20131211 "Lunch Samuel" 20131211 "Anna Netzell"
+{
+   #TRANS  5831 {"1" "16"}  75 20131211 ""
+   #TRANS  6993 {"1" "0"} -75 20131211 ""
+}
+#VER A  206 20131217 "Ombokning A167" 20131217 "Anna Netzell"
+{
+   #TRANS  1710 {"1" "0"}  36665 20131217 ""
+   #TRANS  1790 {"1" "0"} -36665 20131217 ""
+}
+#VER A  207 20131231 "Samarbetsavtal VG" 20131231 "Anna Netzell"
+{
+   #TRANS  2900 {"1" "0"} -116875 20131231 ""
+   #TRANS  4132 {"1" "14"}  116875 20131231 ""
+}

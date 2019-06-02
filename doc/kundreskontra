@@ -1,0 +1,76 @@
+Kundreskontran innehåller information om utsända fakturor - vilka som
+har betalats och vilka som är utestående. De flesta föreningar
+hanterar sina medlemsavgifter vid sidan av den traditionella
+faktureringsrutinen och skickar ett mycket litet antal fakturer. Det
+finns dock föreningar som skickar många. Ofta vill man generera
+fakturor utifrån ett externt system.
+
+Som exempel kan nämnas ett system för bokning av kanoter, där val av
+antal kanoter, tidpunkt och längd på bokningen förs in i ett
+bokningssystem, som sedan genererar underlag för en faktura. Vid en
+avbokning kan det bli nödvändigt att generera eller manuellt
+framställa en kreditfaktura. Det kan också vara interssant med en
+återrapportering av influtna betalningar till det externa systemet.
+
+Kundreskontran och medlemsrutinen har mycket gemensamt. Avprickning av
+inbetalningar sker mot både Kundreskontran och medlemsrutinen. De bör
+nyttja sig av samma OCR-system.
+
+Generering av fakturor för hand
+================================
+
+1. Val av kunddata ur kunddatabas alternativt inmatning av kunddata.
+
+2. Specifikation av fakturaposter.
+
+3. Fakturan åsätts automatiskt OCR-nummer
+
+4. Spara
+
+Generering av fakturor utifrån import av data
+=============================================
+
+Systemet ska vara ständigt tillgängligt för mottagande av data.
+
+1. Autenticering
+
+2. Mottagande av kunddata
+
+3. Mottagning av fakturaspecifikation
+
+4. Fakturan åsätts automatiskt OCR-nummer
+
+5. Sparande av faktura
+
+Utsändning/utskrift av fakturor
+===============================
+
+För varje mottagare specificeras ett leveranssätt. Detta kan t.ex. vara
+via epost, via Postens utskriftsservice, internt inom Eutaxia Admin eller
+för manuell utskrift.
+
+I samtliga fall utom manuell utskrift ska fakturan avsändas/köas
+omedelbart och noteras som avsänd. Vid manuell utskrift ska fakturan
+läggas i en utskriftskö. När användaren begär utskrift ska fakturan
+noteras som avsänd.
+
+Påminnelserutin
+===============
+
+Det ska gå lätt att avläsa vilka fakturor som har förfallit till betalning
+och att generera påminnelser (med eventuell påminnelseavgift).
+
+Bokföring
+=========
+
+Precis som med leverantörsfakturor så kan man antingen tillämpa
+kontantmetoden, där man bokför en faktura först när den betalas, eller
+fakturametoden, där man bokför den två gånger - först som en
+kundfordran när man skickar fakturan och sedan som en inbetalning när
+den betalas.
+
+Kreditfakturor
+==============
+
+Om man har fakturerat fel ska man kunna skapa en kreditfaktura som är
+knuten till den ursprungliga fakturan.

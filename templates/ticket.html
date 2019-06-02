@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/static/ticket.css" type="text/css" charset="utf-8" />
+    <!--
+    <link rel="stylesheet" href="/webshop/webshop.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="/webshop/invoice.css" type="text/css"
+    charset="utf-8" />
+    -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <title>Biljett</title>
+  </head>
+  <body>
+
+    {% if g.user %}
+    <div class="logout">
+      <a href="/logout?next=/ticket/?foo" class="btn btn-default">Logga ut</a>
+    </div>
+    {% endif %}
+
+    {% if ticket %}
+    {% if voided %}
+    <div class="label-success ticket-info-header text-center">
+      Biljetten godkänd
+    </div>
+    {% elif ticket.voided %}
+    <div class="label-danger ticket-info-header text-center">
+      Biljetten använd
+    </div>
+    {% else %}
+    <div class="label-primary ticket-info-header text-center">
+      Biljetten giltig
+    </div>
+    {% endif %}
+    {% else %}
+    {% if nodata %}
+    <div class="label-default ticket-info-header text-center">
+    </div>
+    {% else %}
+    <div class="label-danger ticket-info-header text-center">
+      Biljetten finns inte registrerad i systemet.
+    </div>
+    {% endif %}
+    {% endif %}
+
+
+    <div class="container">
+      {% if ticket %}
+      <div class="ticket">
+        <div class="ticket-collapse  {{ 'collapse' if not
+                    ticket.voided or voided or not canvoid else 'in' }}">
+          <button type="button" class="btn" data-toggle="collapse" data-target=".ticket-collapse">
+            Visa biljett
+          </button>
+        </div>
+        <div class="ticket-collapse {{ 'collapse' if ticket.voided and
+                    not voided and canvoid else 'in' }}">
+          <div class="ticket-name">
+            {{ ticket.name[0] }}
+          </div>
+
+          {% if ticket.options %}
+          <div class="itemOptions">
+            <table>
+              {% for field, value in ticket.options %}
+              <tr>
+                <td class="itemOptionField">{{ field }}:</td>
+                <td class="itemOptionValue">{{ value }}</td>
+              </tr>
+              {% endfor %}
+            </table>
+          </div>
+          {% endif %}
+
+          {% if ticket.voided %}
+          <span class="ticket-void">
+            Makulerad {{ ticket.voided[0]|datetime }}
+            {{ ticket.voidedBy[0].name[0] }}
+          </span>
+          {% endif %}
+
+          <form method="post">
+            {% if canvoid %}
+            {% if ticket.voided %}
+            <button type="submit" name="unvoid" class="btn btn-danger">
+              Ångra använd biljett
+            </button>
+            {% else %}
+            <button type="submit" name="void" class="btn btn-success">
+              Använd biljett
+            </button>
+            {% endif %}
+            {% endif %}
+            <button type="submit" name="print" class="btn">
+              Skriv ut
+            </button>
+          </form>
+        </div>
+      </div>
+      {% endif %}
+      {% if canvoid %}
+      <div class="ticket-scanner">
+        <div class="panel panel-default text-center">
+
+          <div class="panel-heading">Skanna
+            biljett <form method="get" action="zxing://scan/" style="display: inline;">
+              <input type="hidden" name="ret" value="{{ ticket_url }}?scan={CODE}">
+              <button><span class="glyphicon
+                                   glyphicon-camera"
+                            aria-hidden="true"></span><span class="sr-only">Använd kamera</span></button></form></div>
+          <div class="panel-body">
+            <form role="form" class="form" method="post" action="/ticket/">
+              <input id="scan-box" type="text" name="scan"
+                     class="form-control" autofocus autocomplete="off" />
+              <div class="checkbox-inline">
+                <input type="checkbox" id="autovoid" name="autovoid"
+                       {{ 'checked' if autovoid }} />
+                Markera skannad biljett som använd
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- jQuery -->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!-- <script src="/webshop/jquery.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="/static/ticket.js"></script>
+  </body>
+</html>

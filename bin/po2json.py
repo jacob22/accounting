@@ -1,5 +1,4 @@
-Unless stated otherwise in a file in this package, all files are
-available under the Apache 2.0 Open Source License.
+#!/usr/bin/env python
 
 # Copyright 2019 Open End AB
 #
@@ -15,3 +14,22 @@ available under the Apache 2.0 Open Source License.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import json
+import polib
+import sys
+
+
+def main(argv=sys.argv, out=sys.stdout):
+    po = argv[1]
+    translations = {}
+    for entry in polib.pofile(po):
+        translations[entry.msgid] = [None, entry.msgstr]
+
+    out.write('define([], function() {\n')
+    json.dump(translations, out, indent=4)
+    out.write('\n')
+    out.write('});\n')
+
+
+if __name__ == '__main__':
+    main()

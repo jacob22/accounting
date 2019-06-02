@@ -1,0 +1,38 @@
+To: {{(''.join(purchase.buyerName), ''.join(purchase.buyerEmail)) | email}}
+From: {{(org.name[0], sender) | email}}
+Subject: Bekräftelse delbetalning / Partial payment - {{org.name[0]}}
+X-OE-MailType: partial-payment-confirmation
+{% if replyto %}Reply-to: {{(org.name[0], replyto) | email}}{% endif %}
+
+För beställning med beställningsnummer {{purchase.ocr[0]}} har du
+betalt in {{payment.amount[0]|money}}.
+Summan för beställningen var {{purchase.total[0]|money}}.
+Det fattas {{purchase.remainingAmount[0]|money}}.
+{% if plusgiro %}
+Var snäll och betala in resterande belopp enlig specifikation nedan:
+
+Plusgiro: {{plusgiro|pgnum}}
+OCR-nummer: {{purchase.ocr[0]}}
+Belopp: {{purchase.remainingAmount[0]|money}}
+{% endif %}
+För att se den detaljerade beställningen, gå till
+{{purchase.invoiceUrl[0]}}
+
+När du har betalat in den resterande summan kommer du att få ett
+bekräftelse-email.
+
+
+You have paid {{payment.amount[0]|money}} for your order with
+order number {{purchase.ocr[0]}}. The total amount is  {{purchase.total[0]|money}}.
+You need to pay another  {{purchase.remainingAmount[0]|money}}.
+{% if plusgiro %}
+Please pay the remaining amount to:
+
+Plusgiro: {{plusgiro|pgnum}}
+OCR: {{purchase.ocr[0]}}
+Amount: {{purchase.remainingAmount[0]|money}}
+{% endif %}
+To see the order details, please visit
+{{purchase.invoiceUrl[0]}}
+
+We will send you a confirmation e-mail when you have paid in full.

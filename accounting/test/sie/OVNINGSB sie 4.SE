@@ -1,0 +1,4811 @@
+#FLAGGA 0
+#FORMAT PC8
+#SIETYP 4
+#PROGRAM "Visma Administration 200 med Visma Integration" 5.11
+#GEN 20110304 
+#FNAMN "ôvningsbolaget AB"
+#FNR "C:\Documents and Settings\All Users\Application Data\SPCS\SPCS Administration\Fˆretag\Ovnbol0200"
+#ORGNR 555555-5555
+#ADRESS "Siw Eriksson" "Box 1" "123 45 STORSTAD" "012-34 56 78"
+#RAR 0 20100101 20101231
+#RAR -1 20090101 20091231
+#TAXAR 2011 
+#VALUTA SEK
+#KPTYP EUBAS97
+#KONTO 1010 "Balanserade utgifter"
+#KTYP 1010 T
+#SRU 1010 7201
+#KONTO 1018 "Ack nedskrivningar balanserade utg"
+#KTYP 1018 T
+#SRU 1018 7201
+#KONTO 1019 "Ack avskrivningar balanserade utg"
+#KTYP 1019 T
+#SRU 1019 7201
+#KONTO 1028 "Ack nedskrivningar koncessioner m.m."
+#KTYP 1028 T
+#SRU 1028 7201
+#KONTO 1030 Patent
+#KTYP 1030 T
+#SRU 1030 7201
+#KONTO 1038 "Ack nedskrivn patent"
+#KTYP 1038 T
+#SRU 1038 7201
+#KONTO 1039 "Ack avskrivn patent"
+#KTYP 1039 T
+#SRU 1039 7201
+#KONTO 1040 Licenser
+#KTYP 1040 T
+#SRU 1040 7201
+#KONTO 1048 "Ack nedskrivn licenser"
+#KTYP 1048 T
+#SRU 1048 7201
+#KONTO 1049 "Ack avskrivn licenser"
+#KTYP 1049 T
+#SRU 1049 7201
+#KONTO 1050 VarumÑrken
+#KTYP 1050 T
+#SRU 1050 7201
+#KONTO 1058 "Ack nedskrivn varumÑrken"
+#KTYP 1058 T
+#SRU 1058 7201
+#KONTO 1059 "Ack avskrivn varumÑrken"
+#KTYP 1059 T
+#SRU 1059 7201
+#KONTO 1060 HyresrÑtt
+#KTYP 1060 T
+#SRU 1060 7201
+#KONTO 1068 "Ack nedskrivn hyresrÑtt"
+#KTYP 1068 T
+#SRU 1068 7201
+#KONTO 1069 "Ack avskrivn hyresrÑtt"
+#KTYP 1069 T
+#SRU 1069 7201
+#KONTO 1070 Goodwill
+#KTYP 1070 T
+#SRU 1070 7201
+#KONTO 1078 "Ack nedskrivn goodwill"
+#KTYP 1078 T
+#SRU 1078 7201
+#KONTO 1079 "Ack avskrivn goodwill"
+#KTYP 1079 T
+#SRU 1079 7201
+#KONTO 1090 "ôvriga imm anl tillg"
+#KTYP 1090 T
+#SRU 1090 7201
+#KONTO 1098 "Ack nedskrivn îvriga imm anl tillg"
+#KTYP 1098 T
+#SRU 1098 7201
+#KONTO 1099 "Ack avskrivn îvriga imm anl tillg"
+#KTYP 1099 T
+#SRU 1099 7201
+#KONTO 1110 Byggnader
+#KTYP 1110 T
+#SRU 1110 7214
+#KONTO 1118 "Ack nedskrivn byggnader"
+#KTYP 1118 T
+#SRU 1118 7214
+#KONTO 1119 "Ack avskrivn byggnader"
+#KTYP 1119 T
+#SRU 1119 7214
+#KONTO 1130 Mark
+#KTYP 1130 T
+#SRU 1130 7214
+#KONTO 1140 "Tomter, markomr obebyggda"
+#KTYP 1140 T
+#SRU 1140 7214
+#KONTO 1150 MarkanlÑggningar
+#KTYP 1150 T
+#SRU 1150 7214
+#KONTO 1158 "Ack nedskrivn markanlÑggn"
+#KTYP 1158 T
+#SRU 1158 7214
+#KONTO 1159 "Ack avskrivn markanlÑggn"
+#KTYP 1159 T
+#SRU 1159 7214
+#KONTO 1190 "ôvriga byggnader och mark"
+#KTYP 1190 T
+#SRU 1190 7214
+#KONTO 1200 "Maskiner och inventarier"
+#KTYP 1200 T
+#SRU 1200 7215
+#KONTO 1208 "Ack nedskrivn maskiner och inv"
+#KTYP 1208 T
+#SRU 1208 7215
+#KONTO 1209 "Ack avskrivn maskiner och inv"
+#KTYP 1209 T
+#SRU 1209 7215
+#KONTO 1210 "Maskiner och andra tekniska anlÑggningar"
+#KTYP 1210 T
+#SRU 1210 7215
+#KONTO 1211 Arbetsmaskiner
+#KTYP 1211 T
+#SRU 1211 7215
+#KONTO 1218 "Ack nedskrivn maskiner/tekn anl"
+#KTYP 1218 T
+#SRU 1218 7215
+#KONTO 1219 "Ack avskrivn arb.maskiner"
+#KTYP 1219 T
+#SRU 1219 7215
+#KONTO 1220 "Inventarier och verktyg"
+#KTYP 1220 T
+#SRU 1220 7215
+#KONTO 1221 Inventarier
+#KTYP 1221 T
+#SRU 1221 7215
+#KONTO 1222 Byggnadsinventarier
+#KTYP 1222 T
+#SRU 1222 7215
+#KONTO 1223 Markinventarier
+#KTYP 1223 T
+#SRU 1223 7215
+#KONTO 1225 Verktyg
+#KTYP 1225 T
+#SRU 1225 7215
+#KONTO 1228 "Ack nedskrivn inv/verktyg"
+#KTYP 1228 T
+#SRU 1228 7215
+#KONTO 1229 "Ack avskrivn inv/verktyg"
+#KTYP 1229 T
+#SRU 1229 7215
+#KONTO 1230 Installationer
+#KTYP 1230 T
+#SRU 1230 7215
+#KONTO 1238 "Ack nedskrivn installationer"
+#KTYP 1238 T
+#SRU 1238 7215
+#KONTO 1239 "Ack avskrivn maskiner och inv"
+#KTYP 1239 T
+#SRU 1239 7215
+#KONTO 1240 "Bilar och andra transportmedel"
+#KTYP 1240 T
+#SRU 1240 7215
+#KONTO 1241 Personbilar
+#KTYP 1241 T
+#SRU 1241 7215
+#KONTO 1242 Lastbilar
+#KTYP 1242 T
+#SRU 1242 7215
+#KONTO 1243 Truckar
+#KTYP 1243 T
+#SRU 1243 7215
+#KONTO 1244 Arbetsmaskiner
+#KTYP 1244 T
+#SRU 1244 7215
+#KONTO 1245 Traktorer
+#KTYP 1245 T
+#SRU 1245 7215
+#KONTO 1246 "Motorcyklar, mopeder och skotrar"
+#KTYP 1246 T
+#SRU 1246 7215
+#KONTO 1247 "BÜtar, flygplan och helikoptrar"
+#KTYP 1247 T
+#SRU 1247 7215
+#KONTO 1248 "Ack nedskr bilar/transportmedel"
+#KTYP 1248 T
+#SRU 1248 7215
+#KONTO 1249 "Ack avskr bilar/transportmedel"
+#KTYP 1249 T
+#SRU 1249 7215
+#KONTO 1250 Datorer
+#KTYP 1250 T
+#SRU 1250 7215
+#KONTO 1251 "Datorer, fîretaget"
+#KTYP 1251 T
+#SRU 1251 7215
+#KONTO 1257 "Datorer, personal"
+#KTYP 1257 T
+#SRU 1257 7215
+#KONTO 1258 "Ack nedskrivn datorer"
+#KTYP 1258 T
+#SRU 1258 7215
+#KONTO 1259 "Ack avskrivn datorer"
+#KTYP 1259 T
+#SRU 1259 7215
+#KONTO 1260 "Leasade tillgÜngar"
+#KTYP 1260 T
+#SRU 1260 7215
+#KONTO 1270 AnlÑggningsdjur
+#KTYP 1270 T
+#SRU 1270 7215
+#KONTO 1279 "Ack avskrivn anlÑggningsdjur"
+#KTYP 1279 T
+#SRU 1279 7215
+#KONTO 1290 "ôvriga maskiner och inventarier"
+#KTYP 1290 T
+#SRU 1290 7215
+#KONTO 1291 "Konst o ej avskrivn invent"
+#KTYP 1291 T
+#SRU 1291 7215
+#KONTO 1298 "Ack nedskrivn îvr maskiner/inv"
+#KTYP 1298 T
+#SRU 1298 7215
+#KONTO 1299 "Ack avskrivn îvr maskiner/inv"
+#KTYP 1299 T
+#SRU 1299 7215
+#KONTO 1311 "Aktier sv dotterfîretag"
+#KTYP 1311 T
+#SRU 1311 7230
+#KONTO 1312 "Aktier utl dotterfîretag"
+#KTYP 1312 T
+#SRU 1312 7230
+#KONTO 1314 "Aktier/and îvr utl konc.ftg"
+#KTYP 1314 T
+#SRU 1314 7230
+#KONTO 1318 "Ack nedskrivn andelar koncern"
+#KTYP 1318 T
+#SRU 1318 7230
+#KONTO 1330 "Aktier, andra sv fîretag"
+#KTYP 1330 T
+#SRU 1330 7231
+#KONTO 1338 "Ack nedskrivn andelar int.ftg"
+#KTYP 1338 T
+#SRU 1338 7231
+#KONTO 1350 "Andelar/vÑrdepapper andra ftg"
+#KTYP 1350 T
+#SRU 1350 7233
+#KONTO 1354 "Obligationer, vÑrdepapper"
+#KTYP 1354 T
+#SRU 1354 7233
+#KONTO 1358 "Ack nedskrivn andel/vÑrdepapper"
+#KTYP 1358 T
+#SRU 1358 7233
+#KONTO 1360 "LÜn till delÑgare eller nÑrstÜende, lÜngfristig del"
+#KTYP 1360 T
+#SRU 1360 7233
+#KONTO 1368 "Ack nedskrivn derivat"
+#KTYP 1368 T
+#SRU 1368 7233
+#KONTO 1369 "Ack nedskrivn lÜn till delÑgare eller nÑrstÜende, lÜngfrist"
+#KTYP 1369 T
+#SRU 1369 7233
+#KONTO 1370 "Uppskjuten skattefordran"
+#KTYP 1370 T
+#SRU 1370 7235
+#KONTO 1380 "LÜngfristiga fordringar"
+#KTYP 1380 T
+#SRU 1380 7235
+#KONTO 1382 "Fordringar hos anstÑllda"
+#KTYP 1382 T
+#SRU 1382 7235
+#KONTO 1383 Depositioner
+#KTYP 1383 T
+#SRU 1383 7235
+#KONTO 1384 "Derivat,lÜngfristiga vÑrdepappersinnehav"
+#KTYP 1384 T
+#SRU 1384 7233
+#KONTO 1390 "Ack nedskr lÜngfr fordr"
+#KTYP 1390 T
+#SRU 1390 7235
+#KONTO 1410 "Lager av rÜvaror"
+#KTYP 1410 T
+#SRU 1410 7241
+#KONTO 1419 "FîrÑndring av lager av rÜvaror"
+#KTYP 1419 T
+#SRU 1419 7241
+#KONTO 1420 "Lager av tillsatsmaterial och fîrnîdenheter"
+#KTYP 1420 T
+#SRU 1420 7241
+#KONTO 1429 "FîrÑndring av lager av tillsatsmaterial och fîrnîdenheter"
+#KTYP 1429 T
+#SRU 1429 7241
+#KONTO 1430 "Lager av halvfabrikat"
+#KTYP 1430 T
+#SRU 1430 7241
+#KONTO 1431 "Lager av kîpta halvfabrikat"
+#KTYP 1431 T
+#SRU 1431 7241
+#KONTO 1432 "Lager av egentillverkade halvfabrikat"
+#KTYP 1432 T
+#SRU 1432 7242
+#KONTO 1438 "FîrÑndring av lager av kîpta halvfabrikat"
+#KTYP 1438 T
+#SRU 1438 7241
+#KONTO 1439 "FîrÑndring av lager av egentillverkade halvfabrikat"
+#KTYP 1439 T
+#SRU 1439 7242
+#KONTO 1440 "Produkter i arbete"
+#KTYP 1440 T
+#SRU 1440 7242
+#KONTO 1449 "FîrÑndring av produkter i arbete"
+#KTYP 1449 T
+#SRU 1449 7242
+#KONTO 1450 "Lager av fÑrdiga varor"
+#KTYP 1450 T
+#SRU 1450 7243
+#KONTO 1459 "FîrÑndring av lager av fÑrdiga varor"
+#KTYP 1459 T
+#SRU 1459 7243
+#KONTO 1460 "Lager av handelsvaror"
+#KTYP 1460 T
+#SRU 1460 7243
+#KONTO 1462 "Varor pÜ vÑg"
+#KTYP 1462 T
+#SRU 1462 7243
+#KONTO 1465 "Lager varor VMB"
+#KTYP 1465 T
+#SRU 1465 7243
+#KONTO 1466 "Nedskrivn lager varor VMB"
+#KTYP 1466 T
+#SRU 1466 7243
+#KONTO 1467 "Lager varor VMB fîrenklad"
+#KTYP 1467 T
+#SRU 1467 7243
+#KONTO 1469 "FîrÑndring av lager av handelsvaror"
+#KTYP 1469 T
+#SRU 1469 7243
+#KONTO 1470 "PÜgÜende arbete"
+#KTYP 1470 T
+#SRU 1470 7245
+#KONTO 1471 "PÜgÜende arbeten, nedlagda kostnader"
+#KTYP 1471 T
+#SRU 1471 7245
+#KONTO 1480 "Fîrskott till leverantîr"
+#KTYP 1480 T
+#SRU 1480 7246
+#KONTO 1481 Remburser
+#KTYP 1481 T
+#SRU 1481 7246
+#KONTO 1490 "ôvriga lagertillgÜngar"
+#KTYP 1490 T
+#SRU 1490 7243
+#KONTO 1491 "lager av vÑrdepapper"
+#KTYP 1491 T
+#KONTO 1492 "Lager av fastigheter"
+#KTYP 1492 T
+#KONTO 1493 "Djur som klassificeras som omsÑttningstillgÜng"
+#KTYP 1493 T
+#KONTO 1510 Kundfordringar
+#KTYP 1510 T
+#SRU 1510 7251
+#KONTO 1512 "BelÜnade fordringar"
+#KTYP 1512 T
+#SRU 1512 7251
+#KONTO 1515 "OsÑkra kundfordringar"
+#KTYP 1515 T
+#SRU 1515 7251
+#KONTO 1517 "Kvittning kundfaktura"
+#KTYP 1517 T
+#SRU 1517 7251
+#KONTO 1580 "Kontokort och kuponger"
+#KTYP 1580 T
+#SRU 1580 7251
+#KONTO 1610 Fîrskott
+#KTYP 1610 T
+#SRU 1610 7261
+#KONTO 1611 Resefîrskott
+#KTYP 1611 T
+#SRU 1611 7261
+#KONTO 1613 "ôvriga fîrskott"
+#KTYP 1613 T
+#SRU 1613 7261
+#KONTO 1619 "ôvr fordringar hos anstÑllda"
+#KTYP 1619 T
+#SRU 1619 7261
+#KONTO 1620 "Fodran pÜ bestÑllare"
+#KTYP 1620 T
+#SRU 1620 7262
+#KONTO 1630 "AvrÑkning fîr skatter och avgifter (skattekonto)"
+#KTYP 1630 T
+#SRU 1630 7261
+#KONTO 1640 Skattefordringar
+#KTYP 1640 T
+#SRU 1640 7261
+#KONTO 1650 "Fordran moms"
+#KTYP 1650 T
+#SRU 1650 7261
+#KONTO 1680 "ôvr kortfristiga fordr"
+#KTYP 1680 T
+#SRU 1680 7261
+#KONTO 1683 "Derivat kortfristiga fodringar"
+#KTYP 1683 T
+#SRU 1683 7261
+#KONTO 1684 "Fordring hos leverantîr"
+#KTYP 1684 T
+#SRU 1684 7261
+#KONTO 1685 "Fordring hos nÑrstÜende"
+#KTYP 1685 T
+#SRU 1685 7261
+#KONTO 1690 "Fordringar fîr tecknat men ej inbetalt aktiekapital"
+#KTYP 1690 T
+#SRU 1690 7262
+#KONTO 1710 "Fîrutbetalda hyror"
+#KTYP 1710 T
+#SRU 1710 7263
+#KONTO 1740 "Fîrutbet rÑnteutgifter"
+#KTYP 1740 T
+#SRU 1740 7263
+#KONTO 1750 "Upplupna hyresinkomster"
+#KTYP 1750 T
+#SRU 1750 7263
+#KONTO 1760 "Upplupna inkomstrÑntor"
+#KTYP 1760 T
+#SRU 1760 7263
+#KONTO 1790 "ôvr interimsfordringar"
+#KTYP 1790 T
+#SRU 1790 7263
+#KONTO 1820 "Obligationer, vÑrdepapper"
+#KTYP 1820 T
+#SRU 1820 7271
+#KONTO 1860 "Andelar i koncernfîretag"
+#KTYP 1860 T
+#SRU 1860 7271
+#KONTO 1869 "Nedskrivn finansiella instr"
+#KTYP 1869 T
+#SRU 1869 7271
+#KONTO 1886 "Derivat kortfristga placeringar"
+#KTYP 1886 T
+#SRU 1886 7271
+#KONTO 1910 Kassa
+#KTYP 1910 T
+#SRU 1910 7281
+#KONTO 1920 "Bank, PlusGiro"
+#KTYP 1920 T
+#SRU 1920 7281
+#KONTO 1930 "Bank, checkrÑkningskonto"
+#KTYP 1930 T
+#SRU 1930 7281
+#KONTO 1940 "Bank, ôvriga bankkonto"
+#KTYP 1940 T
+#SRU 1940 7281
+#KONTO 1980 Valutakonton
+#KTYP 1980 T
+#SRU 1980 7281
+#KONTO 1990 Redovisningsmedel
+#KTYP 1990 T
+#SRU 1990 7281
+#KONTO 2081 Aktiekapital
+#KTYP 2081 S
+#SRU 2081 7301
+#KONTO 2084 "ôverkursfond/utgÜr 20060101"
+#KTYP 2084 T
+#SRU 2084 7301
+#KONTO 2085 Uppskrivningsfond
+#KTYP 2085 T
+#SRU 2085 7301
+#KONTO 2086 Reservfond
+#KTYP 2086 S
+#SRU 2086 7301
+#KONTO 2091 "Balanserad vinst/fîrlust"
+#KTYP 2091 S
+#SRU 2091 7302
+#KONTO 2094 "Egna aktier"
+#KTYP 2094 S
+#SRU 2094 7302
+#KONTO 2097 ôverkursfond
+#KTYP 2097 S
+#SRU 2097 7302
+#KONTO 2098 "Vinst/fîrlust fîreg Ür"
+#KTYP 2098 S
+#SRU 2098 7302
+#KONTO 2099 "Redovisat resultat"
+#KTYP 2099 S
+#SRU 2099 7302
+#KONTO 2110 "Periodiseringsfond TAX 2010"
+#KTYP 2110 S
+#SRU 2110 7321
+#KONTO 2111 "Periodiseringsfond TAX 2011"
+#KTYP 2111 S
+#SRU 2111 7321
+#KONTO 2112 "Periodiseringsfond TAX 2012"
+#KTYP 2112 S
+#SRU 2112 7321
+#KONTO 2113 "Periodiseringsfond TAX 2013"
+#KTYP 2113 S
+#SRU 2113 7321
+#KONTO 2114 "Periodiseringsfond TAX 2014"
+#KTYP 2114 S
+#SRU 2114 7321
+#KONTO 2115 "Periodiseringsfond TAX 2015"
+#KTYP 2115 S
+#SRU 2115 7321
+#KONTO 2121 "Periodiseringsfond TAX 2001"
+#KTYP 2121 S
+#SRU 2121 7321
+#KONTO 2122 "Periodiseringsfond TAX 2002"
+#KTYP 2122 S
+#SRU 2122 7321
+#KONTO 2123 "Periodiseringsfond TAX 2003"
+#KTYP 2123 S
+#SRU 2123 7321
+#KONTO 2124 "Periodiseringsfond TAX 2004"
+#KTYP 2124 S
+#SRU 2124 7321
+#KONTO 2125 "Periodiseringsfond TAX 2005"
+#KTYP 2125 S
+#SRU 2125 7321
+#KONTO 2126 "Periodiseringsfond TAX 2006"
+#KTYP 2126 S
+#SRU 2126 7321
+#KONTO 2127 "Periodiseringsfond TAX 2007"
+#KTYP 2127 S
+#SRU 2127 7321
+#KONTO 2128 "Periodiseringsfond TAX 2008"
+#KTYP 2128 S
+#SRU 2128 7321
+#KONTO 2129 "Periodiseringsfond TAX 2009"
+#KTYP 2129 S
+#SRU 2129 7321
+#KONTO 2150 "Ack îveravskrivningar"
+#KTYP 2150 S
+#SRU 2150 7322
+#KONTO 2151 "Ack îveravskr imm anl.tillg"
+#KTYP 2151 S
+#SRU 2151 7322
+#KONTO 2152 "Ack îveravskr pÜ byggn/markanl"
+#KTYP 2152 S
+#SRU 2152 7322
+#KONTO 2153 "Ack îveravskr maskiner/inv"
+#KTYP 2153 S
+#SRU 2153 7322
+#KONTO 2157 "Ack îveravskr anlÑggningsdjur"
+#KTYP 2157 T
+#SRU 2157 7322
+#KONTO 2190 "ôvr obeskattade reserver"
+#KTYP 2190 S
+#SRU 2190 7323
+#KONTO 2196 Lagerreserv
+#KTYP 2196 S
+#SRU 2196 7323
+#KONTO 2210 "AvsÑttningar fîr pensioner enligt tryggandelagen"
+#KTYP 2210 S
+#SRU 2210 7331
+#KONTO 2211 "AvsÑttningar fîr PRI-pensioner"
+#KTYP 2211 S
+#SRU 2211 7331
+#KONTO 2219 "AvsÑttningar fîr îvr pensioner"
+#KTYP 2219 S
+#SRU 2219 7332
+#KONTO 2220 Garantiskulder
+#KTYP 2220 S
+#SRU 2220 7333
+#KONTO 2230 "ôvr avs fîr pensioner och liknande fîrpliktelser"
+#KTYP 2230 S
+#SRU 2230 7333
+#KONTO 2240 "AvsÑttningar fîr uppskjutna skatter"
+#KTYP 2240 S
+#SRU 2240 7333
+#KONTO 2250 "ôvriga avsÑttningar fîr skatter"
+#KTYP 2250 S
+#SRU 2250 7333
+#KONTO 2323 VinstandelslÜn
+#KTYP 2323 S
+#SRU 2323 7350
+#KONTO 2324 KapitalandelslÜn
+#KTYP 2324 S
+#SRU 2324 7350
+#KONTO 2330 CheckrÑkningskredit
+#KTYP 2330 S
+#SRU 2330 7351
+#KONTO 2350 ReverslÜn
+#KTYP 2350 S
+#SRU 2350 7352
+#KONTO 2355 "LÜn i utlÑndsk valuta"
+#KTYP 2355 S
+#SRU 2355 7352
+#KONTO 2393 "LÜn frÜn aktieÑgare"
+#KTYP 2393 S
+#SRU 2393 7354
+#KONTO 2395 "Andra lÜn i utl valuta"
+#KTYP 2395 S
+#SRU 2395 7354
+#KONTO 2396 "Derivat lÜngfristiga skulder"
+#KTYP 2396 S
+#SRU 2396 7354
+#KONTO 2399 "ôvr lÜngfristiga skulder"
+#KTYP 2399 S
+#SRU 2399 7354
+#KONTO 2410 "Andra kortfristiga lÜneskulder till kreditinstitut"
+#KTYP 2410 S
+#SRU 2410 7361
+#KONTO 2420 "Fîrskott frÜn kunder"
+#KTYP 2420 S
+#SRU 2420 7362
+#KONTO 2440 Leverantîrsskulder
+#KTYP 2440 S
+#SRU 2440 7365
+#KONTO 2449 "Kvittning av leverantîrsfakturor"
+#KTYP 2449 S
+#SRU 2449 7365
+#KONTO 2450 "fakturerad men ej upparbetad intÑkt"
+#KTYP 2450 S
+#SRU 2450 7366
+#KONTO 2480 "CheckrÑkningskredit, kortfristig"
+#KTYP 2480 S
+#SRU 2480 7365
+#KONTO 2492 VÑxelskulder
+#KTYP 2492 S
+#SRU 2492 7369
+#KONTO 2499 "Andra îvr kortfrist skulder"
+#KTYP 2499 S
+#SRU 2499 7369
+#KONTO 2510 Skatteskulder
+#KTYP 2510 S
+#SRU 2510 7368
+#KONTO 2513 "BerÑknad fastighetsskatt/fastighetsavgift"
+#KTYP 2513 S
+#SRU 2513 7368
+#KONTO 2517 "BerÑknad utlÑndsk skatt"
+#KTYP 2517 S
+#SRU 2517 7368
+#KONTO 2611 "UtgÜende moms pÜ fîrsÑljning inom Sverige, 25%"
+#KTYP 2611 S
+#SRU 2611 7369
+#KONTO 2612 "UtgÜende moms pÜ egna uttag, 25%"
+#KTYP 2612 S
+#SRU 2612 7369
+#KONTO 2613 "Utg moms, uthyrning"
+#KTYP 2613 S
+#SRU 2613 7369
+#KONTO 2614 "Ber utg moms inkîp 25%"
+#KTYP 2614 S
+#SRU 2614 7369
+#KONTO 2615 "Ber utg moms pÜ varufîrvÑrv frÜn annat EG-land 25%"
+#KTYP 2615 S
+#SRU 2615 7369
+#KONTO 2617 "Ber utg moms 25% Sv, omv skatteplikt"
+#KTYP 2617 S
+#SRU 2617 7369
+#KONTO 2621 "Utg moms fîrsÑljning/uttag 12% Sv"
+#KTYP 2621 S
+#SRU 2621 7369
+#KONTO 2622 "UtgÜende moms pÜ egna uttag, 12%"
+#KTYP 2622 S
+#SRU 2622 7369
+#KONTO 2624 "Ber utg moms inkîp 12%"
+#KTYP 2624 S
+#SRU 2624 7369
+#KONTO 2631 "Utg moms fîrsÑljning/uttag 6% Sv"
+#KTYP 2631 S
+#SRU 2631 7369
+#KONTO 2632 "UtgÜende moms pÜ egna uttag, 6%"
+#KTYP 2632 S
+#SRU 2632 7369
+#KONTO 2634 "Ber utg moms inkî 6%"
+#KTYP 2634 S
+#SRU 2634 7369
+#KONTO 2641 "IngÜende moms"
+#KTYP 2641 S
+#SRU 2641 7369
+#KONTO 2645 "BerÑknad ingÜende moms pÜ fîrvÑrv frÜn utlandet"
+#KTYP 2645 S
+#SRU 2645 7369
+#KONTO 2647 "Ber ingÜende moms Sv, omv skatteplikt"
+#KTYP 2647 S
+#SRU 2647 7369
+#KONTO 2650 "Moms redovisningskonto"
+#KTYP 2650 S
+#SRU 2650 7369
+#KONTO 2660 "SÑrskilda punktskatter"
+#KTYP 2660 S
+#SRU 2660 7369
+#KONTO 2710 "Personalens kÑllskatt"
+#KTYP 2710 S
+#SRU 2710 7369
+#KONTO 2730 "Lagstadgade sociala avg"
+#KTYP 2730 S
+#SRU 2730 7369
+#KONTO 2731 "AvrÑkn sociala avgifter"
+#KTYP 2731 S
+#SRU 2731 7369
+#KONTO 2732 "AvrÑkn sÑrsk lînesk pens"
+#KTYP 2732 S
+#SRU 2732 7369
+#KONTO 2733 "AvrÑkn sÑrsk sjukfîrsÑkrings avg"
+#KTYP 2733 S
+#SRU 2733 7369
+#KONTO 2750 "UtmÑtning i lîn mm"
+#KTYP 2750 S
+#SRU 2750 7369
+#KONTO 2790 "ôvriga lîneavdrag"
+#KTYP 2790 S
+#SRU 2790 7369
+#KONTO 2792 Lînsparande
+#KTYP 2792 S
+#SRU 2792 7369
+#KONTO 2793 "KollektivfîrsÑkring mm"
+#KTYP 2793 S
+#SRU 2793 7369
+#KONTO 2794 Fackfîreningsavgifter
+#KTYP 2794 S
+#SRU 2794 7369
+#KONTO 2795 Granskningsavgifter
+#KTYP 2795 S
+#SRU 2795 7369
+#KONTO 2840 LÜneskulder
+#KTYP 2840 S
+#SRU 2840 7369
+#KONTO 2850 "AvrÑkn skatter/avgifter"
+#KTYP 2850 S
+#SRU 2850 7369
+#KONTO 2880 "Skuld erhÜllna bidrag"
+#KTYP 2880 S
+#SRU 2880 7369
+#KONTO 2890 "ôvr kortfr skulder"
+#KTYP 2890 S
+#SRU 2890 7369
+#KONTO 2893 "Skulder nÑrstÜende personer"
+#KTYP 2893 S
+#SRU 2893 7369
+#KONTO 2895 "Derivat kortfr skulder"
+#KTYP 2895 S
+#SRU 2895 7369
+#KONTO 2910 "Upplupna lîner"
+#KTYP 2910 S
+#SRU 2910 7370
+#KONTO 2920 "Upplupna semlîner"
+#KTYP 2920 S
+#SRU 2920 7370
+#KONTO 2921 "Upplupna soc.avg sem.lîn"
+#KTYP 2921 S
+#SRU 2921 7370
+#KONTO 2940 "Upplupna sociala avgifter och andra avgifter"
+#KTYP 2940 S
+#SRU 2940 7370
+#KONTO 2941 "BerÑkn upplupna sociala avgifter"
+#KTYP 2941 S
+#SRU 2941 7370
+#KONTO 2945 "BerÑkn upplupna sÑrskild sjuk fîrsÑk. avg"
+#KTYP 2945 S
+#SRU 2945 7370
+#KONTO 2950 "Upplupna avtalade soc avg"
+#KTYP 2950 S
+#SRU 2950 7370
+#KONTO 2960 "Upplupna utgiftsrÑntor"
+#KTYP 2960 S
+#SRU 2960 7370
+#KONTO 2970 "Fîrutbetalda hyresinkomster"
+#KTYP 2970 S
+#SRU 2970 7370
+#KONTO 2971 "Fîrutbetalda hyresintÑkter"
+#KTYP 2971 S
+#SRU 2971 7370
+#KONTO 2979 "ôvriga fîrutbetalda intÑkter"
+#KTYP 2979 S
+#SRU 2979 7370
+#KONTO 2990 "ôvr interimsskulder"
+#KTYP 2990 S
+#SRU 2990 7370
+#KONTO 2993 "Ospecificerad skuld till leverantîrer"
+#KTYP 2993 S
+#SRU 2993 7370
+#KONTO 2995 "Skuld inkomna fîljesedlar"
+#KTYP 2995 S
+#SRU 2995 7370
+#KONTO 2999 "ôvr uppl kostn/fîrutbet intÑkter"
+#KTYP 2999 S
+#SRU 2999 7370
+#KONTO 3020 "FîrsÑljning VMB varor"
+#KTYP 3020 I
+#SRU 3020 7410
+#KONTO 3028 "Positiv VM omfîringskonto"
+#KTYP 3028 I
+#SRU 3028 7410
+#KONTO 3030 "Positiv VM 25%"
+#KTYP 3030 I
+#SRU 3030 7410
+#KONTO 3041 "FîrsÑljn tjÑnst 25% sv"
+#KTYP 3041 I
+#SRU 3041 7410
+#KONTO 3042 "FîrsÑljn tjÑnst 12% sv"
+#KTYP 3042 I
+#SRU 3042 7410
+#KONTO 3043 "FîrsÑljn tjÑnst 6% sv"
+#KTYP 3043 I
+#SRU 3043 7410
+#KONTO 3044 "FîrsÑljn tjÑnst sv momsfri"
+#KTYP 3044 I
+#SRU 3044 7410
+#KONTO 3045 "FîrsÑljn tjÑnst utanfîr EU momsfri"
+#KTYP 3045 I
+#SRU 3045 7410
+#KONTO 3046 "FîrsÑljn tjÑnst till EU 25%"
+#KTYP 3046 I
+#SRU 3046 7410
+#KONTO 3047 "FîrsÑljn kîparen skattskyldig Sv"
+#KTYP 3047 I
+#SRU 3047 7410
+#KONTO 3048 "FîrsÑljn tjÑnst EU momsfri"
+#KTYP 3048 I
+#SRU 3048 7410
+#KONTO 3051 "FîrsÑljn varor 25% sv"
+#KTYP 3051 I
+#SRU 3051 7410
+#KONTO 3052 "FîrsÑljn varor 12% sv"
+#KTYP 3052 I
+#SRU 3052 7410
+#KONTO 3053 "FîrsÑljn varor 6% sv"
+#KTYP 3053 I
+#SRU 3053 7410
+#KONTO 3054 "FîrsÑljn varor sv momsfri"
+#KTYP 3054 I
+#SRU 3054 7410
+#KONTO 3055 "FîrsÑljn varor utanfîr EU momsfri"
+#KTYP 3055 I
+#SRU 3055 7410
+#KONTO 3056 "FîrsÑljn varor till EU 25% momspliktig"
+#KTYP 3056 I
+#SRU 3056 7410
+#KONTO 3057 "Treparts fîrsÑljn varor till EU 25%"
+#KTYP 3057 I
+#SRU 3057 7410
+#KONTO 3058 "FîrsÑljn varor EU momsfri"
+#KTYP 3058 I
+#SRU 3058 7410
+#KONTO 3059 "Momspl uttag av fast.tj 25%"
+#KTYP 3059 I
+#SRU 3059 7410
+#KONTO 3062 "Fîrs varor nÑrst fîretag"
+#KTYP 3062 I
+#SRU 3062 7410
+#KONTO 3100 "FîrsÑljning kîpta produkter"
+#KTYP 3100 I
+#SRU 3100 7410
+#KONTO 3231 "FîrsÑljn byggtjÑnst 25% sv, omv skatteplikt"
+#KTYP 3231 I
+#SRU 3231 7410
+#KONTO 3510 Emballage
+#KTYP 3510 I
+#SRU 3510 7410
+#KONTO 3520 Frakter
+#KTYP 3520 I
+#SRU 3520 7410
+#KONTO 3521 "Frakter export momsfri"
+#KTYP 3521 I
+#SRU 3521 7410
+#KONTO 3522 "Frakter EU momsfri"
+#KTYP 3522 I
+#SRU 3522 7410
+#KONTO 3530 "Frakt tull och spedition"
+#KTYP 3530 I
+#SRU 3530 7410
+#KONTO 3540 Faktureringsavgifter
+#KTYP 3540 I
+#SRU 3540 7410
+#KONTO 3541 "Faktureringsavgifter export"
+#KTYP 3541 I
+#SRU 3541 7410
+#KONTO 3542 "Faktureringsavgifter EU momsfri"
+#KTYP 3542 I
+#SRU 3542 7410
+#KONTO 3550 "Fakt resekostnader"
+#KTYP 3550 I
+#SRU 3550 7410
+#KONTO 3561 "Fakt kostn moderftg"
+#KTYP 3561 I
+#SRU 3561 7410
+#KONTO 3562 "Fakt kostn dotterftg"
+#KTYP 3562 I
+#SRU 3562 7410
+#KONTO 3563 "Fakt kostn andra koncernftg"
+#KTYP 3563 I
+#SRU 3563 7410
+#KONTO 3590 "ôvr fakt kostnader"
+#KTYP 3590 I
+#SRU 3590 7410
+#KONTO 3591 "ôvr fakt kostnader export"
+#KTYP 3591 I
+#SRU 3591 7410
+#KONTO 3592 "ôvr fakt kostnader EU momsfri"
+#KTYP 3592 I
+#SRU 3592 7410
+#KONTO 3610 "FîrsÑljning material"
+#KTYP 3610 I
+#SRU 3610 7410
+#KONTO 3670 "IntÑkt vÑrdepapper"
+#KTYP 3670 I
+#SRU 3670 7410
+#KONTO 3671 "FîrsÑljning vÑrdepapper"
+#KTYP 3671 I
+#SRU 3671 7410
+#KONTO 3672 "Utdeln vÑrdepapper"
+#KTYP 3672 I
+#SRU 3672 7410
+#KONTO 3679 "ôvr intÑkter vÑrdepapper"
+#KTYP 3679 I
+#SRU 3679 7410
+#KONTO 3690 "ôvriga sidointÑkter"
+#KTYP 3690 I
+#SRU 3690 7410
+#KONTO 3731 Kassarabatter
+#KTYP 3731 I
+#SRU 3731 7410
+#KONTO 3732 "LÑmnade rabatter"
+#KTYP 3732 I
+#SRU 3732 7410
+#KONTO 3736 "Kassarabatter export"
+#KTYP 3736 I
+#SRU 3736 7410
+#KONTO 3737 "Kassarabatter EU momsfri"
+#KTYP 3737 I
+#SRU 3737 7410
+#KONTO 3740 "ôres- och kronutjÑmning"
+#KTYP 3740 I
+#SRU 3740 7410
+#KONTO 3840 "Aktiverat arbete (material)"
+#KTYP 3840 I
+#SRU 3840 7412
+#KONTO 3850 "Aktiverat arbete (omkostnader)"
+#KTYP 3850 I
+#SRU 3850 7412
+#KONTO 3870 "Aktiverat arbete (personal)"
+#KTYP 3870 I
+#SRU 3870 7412
+#KONTO 3911 HyresintÑkter
+#KTYP 3911 I
+#SRU 3911 7413
+#KONTO 3912 "HyresintÑkter frivilligskattskyldighet"
+#KTYP 3912 I
+#SRU 3912 7413
+#KONTO 3921 ProvisionsintÑkter
+#KTYP 3921 I
+#SRU 3921 7413
+#KONTO 3940 "Orealiserad negativ fîrÑndr sÑk. instrum"
+#KTYP 3940 I
+#SRU 3940 7413
+#KONTO 3950 "ètervunna kundfîrluster"
+#KTYP 3950 I
+#SRU 3950 7413
+#KONTO 3960 "Kursvinst rîrelsen"
+#KTYP 3960 I
+#SRU 3960 7413
+#KONTO 3971 "Vinst avyttr imm anl tillg"
+#KTYP 3971 I
+#SRU 3971 7413
+#KONTO 3972 "Vinst avyttr fastigheter"
+#KTYP 3972 I
+#SRU 3972 7413
+#KONTO 3973 "Vinst avyttr maskiner/inv"
+#KTYP 3973 I
+#SRU 3973 7413
+#KONTO 3974 "Vinst avyttr bilar och transportmedel"
+#KTYP 3974 I
+#SRU 3974 7413
+#KONTO 3977 "Vinst avyttr anlÑggningsdjur"
+#KTYP 3977 I
+#SRU 3977 7413
+#KONTO 3985 "ErhÜllna statliga bidrag"
+#KTYP 3985 I
+#SRU 3985 7413
+#KONTO 3987 "ErhÜllna kommunala bidrag"
+#KTYP 3987 I
+#SRU 3987 7413
+#KONTO 3988 "ErhÜllna bidrag personal"
+#KTYP 3988 I
+#SRU 3988 7413
+#KONTO 3989 "ôvriga erhÜllna bidrag"
+#KTYP 3989 I
+#SRU 3989 7413
+#KONTO 3990 "ôvr ersÑttn och intÑkter"
+#KTYP 3990 I
+#SRU 3990 7413
+#KONTO 3994 FîrsÑkringsersÑttningar
+#KTYP 3994 I
+#SRU 3994 7413
+#KONTO 3996 "ErhÜllna reklambidrag"
+#KTYP 3996 I
+#SRU 3996 7413
+#KONTO 3997 SjuklîneersÑttning
+#KTYP 3997 I
+#SRU 3997 7413
+#KONTO 3999 PÜminnelseavgift
+#KTYP 3999 I
+#SRU 3999 7413
+#KONTO 4010 "Inkîp material och varor"
+#KTYP 4010 K
+#SRU 4010 7512
+#KONTO 4020 "Inkîp VMB varor"
+#KTYP 4020 K
+#SRU 4020 7512
+#KONTO 4028 "Negativ VM omfîringskonto"
+#KTYP 4028 K
+#SRU 4028 7512
+#KONTO 4030 "Negativ VM"
+#KTYP 4030 K
+#SRU 4030 7512
+#KONTO 4031 "Inkîp vissa varor i Sverige 25%"
+#KTYP 4031 K
+#SRU 4031 7512
+#KONTO 4032 "Inkîp vissa varor i Sverige 12%"
+#KTYP 4032 K
+#SRU 4032 7512
+#KONTO 4033 "Inkîp vissa varor i Sverige 6%"
+#KTYP 4033 K
+#SRU 4033 7512
+#KONTO 4041 "Inkîp vissa tjÑnster i Sverige 25%"
+#KTYP 4041 K
+#SRU 4041 7512
+#KONTO 4042 "Inkîp vissa tjÑnster i Sverige 12%"
+#KTYP 4042 K
+#SRU 4042 7512
+#KONTO 4043 "Inkîp vissa tjÑnster i Sverige 6%"
+#KTYP 4043 K
+#SRU 4043 7512
+#KONTO 4054 "Inkîp varor 6% EU"
+#KTYP 4054 K
+#SRU 4054 7512
+#KONTO 4055 "Trepartsfîrv varor fr EU"
+#KTYP 4055 K
+#SRU 4055 7512
+#KONTO 4056 "Inkîp varor 25% EU"
+#KTYP 4056 K
+#SRU 4056 7512
+#KONTO 4057 "Inkîp varor 12% EU"
+#KTYP 4057 K
+#SRU 4057 7512
+#KONTO 4058 "Inkîp varor EU momsfri"
+#KTYP 4058 K
+#SRU 4058 7512
+#KONTO 4100 "Kostn uthyrn lokal sk.pl"
+#KTYP 4100 K
+#SRU 4100 7512
+#KONTO 4425 "Inkîp tjÑnster Sv, omv skattskyld"
+#KTYP 4425 K
+#SRU 4425 7512
+#KONTO 4600 "Legoarbeten, underentrepr"
+#KTYP 4600 K
+#SRU 4600 7512
+#KONTO 4731 "ErhÜllna kassarabatter"
+#KTYP 4731 K
+#SRU 4731 7512
+#KONTO 4733 "ErhÜllet aktivitetsstîd"
+#KTYP 4733 K
+#SRU 4733 7512
+#KONTO 4940 "FîrÑndr produkter i arbete"
+#KTYP 4940 K
+#SRU 4940 7411
+#KONTO 4950 "FîrÑndr lager fÑrdigvaror"
+#KTYP 4950 K
+#SRU 4950 7411
+#KONTO 4970 "FîrÑndr pÜg arbete"
+#KTYP 4970 K
+#SRU 4970 7411
+#KONTO 4980 "FîrÑndr vÑrdepapper"
+#KTYP 4980 K
+#SRU 4980 7512
+#KONTO 4981 "SÜlda vÑrdepappers ansk.kostn"
+#KTYP 4981 K
+#SRU 4981 7512
+#KONTO 4987 "Nedskrivn vÑrdepapper"
+#KTYP 4987 K
+#SRU 4987 7512
+#KONTO 4990 LagerfîrÑndring
+#KTYP 4990 K
+#SRU 4990 7411
+#KONTO 5010 Lokalhyra
+#KTYP 5010 K
+#SRU 5010 7513
+#KONTO 5020 "El hyrd lokal"
+#KTYP 5020 K
+#SRU 5020 7513
+#KONTO 5030 "VÑrme hyrd lokal"
+#KTYP 5030 K
+#SRU 5030 7513
+#KONTO 5050 "Lokaltillbehîr hyrd lokal"
+#KTYP 5050 K
+#SRU 5050 7513
+#KONTO 5060 "StÑdning, renhÜllning hyrd lokal"
+#KTYP 5060 K
+#SRU 5060 7513
+#KONTO 5070 "Reparationer hyrd lokal"
+#KTYP 5070 K
+#SRU 5070 7513
+#KONTO 5090 "ôvr kostnader hyrd lokal"
+#KTYP 5090 K
+#SRU 5090 7513
+#KONTO 5120 Belysning
+#KTYP 5120 K
+#SRU 5120 7513
+#KONTO 5130 VÑrme
+#KTYP 5130 K
+#SRU 5130 7513
+#KONTO 5132 Sotning
+#KTYP 5132 K
+#SRU 5132 7513
+#KONTO 5140 "Vatten och avlopp"
+#KTYP 5140 K
+#SRU 5140 7513
+#KONTO 5160 "RenhÜlln och stÑdning"
+#KTYP 5160 K
+#SRU 5160 7513
+#KONTO 5170 "Rep och underhÜll fastighet"
+#KTYP 5170 K
+#SRU 5170 7513
+#KONTO 5191 Fastighetsskatt
+#KTYP 5191 K
+#SRU 5191 7513
+#KONTO 5192 "FîrsÑkringsprem fastighet"
+#KTYP 5192 K
+#SRU 5192 7513
+#KONTO 5193 "Fastighetsskîtsel och fîrvaltn"
+#KTYP 5193 K
+#SRU 5193 7513
+#KONTO 5198 "ôvr fastighetskostn avdragsgill"
+#KTYP 5198 K
+#SRU 5198 7513
+#KONTO 5199 "ôvr fastighetskostnr ej avdragsgill"
+#KTYP 5199 K
+#SRU 5199 7513
+#KONTO 5210 "Hyra arbetsmaskiner"
+#KTYP 5210 K
+#SRU 5210 7513
+#KONTO 5220 "Hyra inventarier"
+#KTYP 5220 K
+#SRU 5220 7513
+#KONTO 5290 "ôvr hyreskostn anl tillg"
+#KTYP 5290 K
+#SRU 5290 7513
+#KONTO 5310 "El fîr drift"
+#KTYP 5310 K
+#SRU 5310 7513
+#KONTO 5380 Vatten
+#KTYP 5380 K
+#SRU 5380 7513
+#KONTO 5390 "ôvriga brÑnslen"
+#KTYP 5390 K
+#SRU 5390 7513
+#KONTO 5410 Fîrbrukningsinventarier
+#KTYP 5410 K
+#SRU 5410 7513
+#KONTO 5420 Programvaror
+#KTYP 5420 K
+#SRU 5420 7513
+#KONTO 5460 Fîrbrukningsmaterial
+#KTYP 5460 K
+#SRU 5460 7513
+#KONTO 5480 "ArbetsklÑder o skyddsmtrl"
+#KTYP 5480 K
+#SRU 5480 7513
+#KONTO 5500 "Reparation och underhÜll"
+#KTYP 5500 K
+#SRU 5500 7513
+#KONTO 5611 "Drivmedel personbilar"
+#KTYP 5611 K
+#SRU 5611 7513
+#KONTO 5612 "Skatt fîrsÑkr personbilar"
+#KTYP 5612 K
+#SRU 5612 7513
+#KONTO 5613 "Reparation personbilar"
+#KTYP 5613 K
+#SRU 5613 7513
+#KONTO 5615 "Leasingavg personbilar"
+#KTYP 5615 K
+#SRU 5615 7513
+#KONTO 5616 "TrÑngselskatter avdragsg"
+#KTYP 5616 K
+#SRU 5616 7513
+#KONTO 5618 "TrÑngselskatter, ej avdragsg"
+#KTYP 5618 K
+#SRU 5618 7513
+#KONTO 5690 "ôvr transportmedel"
+#KTYP 5690 K
+#SRU 5690 7513
+#KONTO 5710 "Frakt och transport"
+#KTYP 5710 K
+#SRU 5710 7513
+#KONTO 5720 "Tull- och speditionskost"
+#KTYP 5720 K
+#SRU 5720 7513
+#KONTO 5800 Resekostnader
+#KTYP 5800 K
+#SRU 5800 7513
+#KONTO 5910 Annonsering
+#KTYP 5910 K
+#SRU 5910 7513
+#KONTO 5930 Reklamtrycksaker
+#KTYP 5930 K
+#SRU 5930 7513
+#KONTO 5940 "UtstÑllning och mÑssor"
+#KTYP 5940 K
+#SRU 5940 7513
+#KONTO 5990 "ôvrig reklam"
+#KTYP 5990 K
+#SRU 5990 7513
+#KONTO 6010 "Kataloger och prislistor"
+#KTYP 6010 K
+#SRU 6010 7513
+#KONTO 6040 Kontokortsavgifter
+#KTYP 6040 K
+#SRU 6040 7513
+#KONTO 6050 FîrsÑljningsprovision
+#KTYP 6050 K
+#SRU 6050 7513
+#KONTO 6060 KreditfîrsÑljningskostnad
+#KTYP 6060 K
+#SRU 6060 7513
+#KONTO 6063 KreditfîrsÑkringspremier
+#KTYP 6063 K
+#SRU 6063 7513
+#KONTO 6064 Factoringavgifter
+#KTYP 6064 K
+#SRU 6064 7513
+#KONTO 6069 "ôvr kreditfîrsÑljnkostnader"
+#KTYP 6069 K
+#SRU 6069 7513
+#KONTO 6071 "Representation, avdragsgill"
+#KTYP 6071 K
+#SRU 6071 7513
+#KONTO 6072 "Representation, ej avdragsgill"
+#KTYP 6072 K
+#SRU 6072 7513
+#KONTO 6080 Bankgarantier
+#KTYP 6080 K
+#SRU 6080 7513
+#KONTO 6090 "ôvr fîrsÑljningskostnader"
+#KTYP 6090 K
+#SRU 6090 7513
+#KONTO 6110 Kontorsmaterial
+#KTYP 6110 K
+#SRU 6110 7513
+#KONTO 6150 Trycksaker
+#KTYP 6150 K
+#SRU 6150 7513
+#KONTO 6211 "Fast telefoni"
+#KTYP 6211 K
+#SRU 6211 7513
+#KONTO 6212 Mobiltelefon
+#KTYP 6212 K
+#SRU 6212 7513
+#KONTO 6213 Mobilsîkning
+#KTYP 6213 K
+#SRU 6213 7513
+#KONTO 6214 Fax
+#KTYP 6214 K
+#SRU 6214 7513
+#KONTO 6230 Datakommunikation
+#KTYP 6230 K
+#SRU 6230 7513
+#KONTO 6250 Porto
+#KTYP 6250 K
+#SRU 6250 7513
+#KONTO 6310 FîretagsfîrsÑkringar
+#KTYP 6310 K
+#SRU 6310 7513
+#KONTO 6320 SjÑlvrisker
+#KTYP 6320 K
+#SRU 6320 7513
+#KONTO 6340 "LÑmnade skadestÜnd"
+#KTYP 6340 K
+#SRU 6340 7513
+#KONTO 6350 Kundfîrluster
+#KTYP 6350 K
+#SRU 6350 7513
+#KONTO 6390 "ôvriga riskkostnader"
+#KTYP 6390 K
+#SRU 6390 7513
+#KONTO 6410 Styrelsearvode
+#KTYP 6410 K
+#SRU 6410 7513
+#KONTO 6420 "ErsÑttning till revisor"
+#KTYP 6420 K
+#SRU 6420 7513
+#KONTO 6430 "Management fees"
+#KTYP 6430 K
+#SRU 6430 7513
+#KONTO 6440 "èrsredovisn, delÜrsrapporter"
+#KTYP 6440 K
+#SRU 6440 7513
+#KONTO 6450 BolagsstÑmma
+#KTYP 6450 K
+#SRU 6450 7513
+#KONTO 6490 "ôvr fîrvaltningskostnader"
+#KTYP 6490 K
+#SRU 6490 7513
+#KONTO 6530 RedovisningstjÑnster
+#KTYP 6530 K
+#SRU 6530 7513
+#KONTO 6540 IT-tjÑnster
+#KTYP 6540 K
+#SRU 6540 7513
+#KONTO 6550 Konsultarvoden
+#KTYP 6550 K
+#SRU 6550 7513
+#KONTO 6570 Bankkostnader
+#KTYP 6570 K
+#SRU 6570 7513
+#KONTO 6580 Advokatkostnader
+#KTYP 6580 K
+#SRU 6580 7513
+#KONTO 6590 "ôvr frÑmmande tjÑnster"
+#KTYP 6590 K
+#SRU 6590 7513
+#KONTO 6800 "Inhyrd personal"
+#KTYP 6800 K
+#SRU 6800 7513
+#KONTO 6970 "Tidningar, facklitteratur"
+#KTYP 6970 K
+#SRU 6970 7513
+#KONTO 6981 "Fîreningsavg avdr gill"
+#KTYP 6981 K
+#SRU 6981 7513
+#KONTO 6982 "Fîreningsavg ej avdr gill"
+#KTYP 6982 K
+#SRU 6982 7513
+#KONTO 6991 "ôvr avdr gill kostn"
+#KTYP 6991 K
+#SRU 6991 7513
+#KONTO 6992 "ôvr ej avdr gill kostn"
+#KTYP 6992 K
+#SRU 6992 7513
+#KONTO 6993 "LÑmnade bidrag och gÜvor"
+#KTYP 6993 K
+#SRU 6993 7513
+#KONTO 6996 "Betald utlÑndsk inkomstskatt"
+#KTYP 6996 K
+#SRU 6996 7513
+#KONTO 6997 "Obetald utlÑndsk inkomstskatt"
+#KTYP 6997 K
+#SRU 6997 7513
+#KONTO 7010 "Lîn kollektivanstÑllda"
+#KTYP 7010 K
+#SRU 7010 7514
+#KONTO 7011 "Lîner till kollektivanstÑllda"
+#KTYP 7011 K
+#SRU 7011 7514
+#KONTO 7013 "Lîn kollektivanst utland"
+#KTYP 7013 K
+#SRU 7013 7514
+#KONTO 7014 "Lîn kollektivanstÑllda nya pens"
+#KTYP 7014 K
+#SRU 7014 7514
+#KONTO 7015 "Lîner till kollektivanstÑllda (avgiftsbefriade)"
+#KTYP 7015 K
+#SRU 7015 7514
+#KONTO 7030 "Lîn kollektivanstÑllda, utland"
+#KTYP 7030 K
+#SRU 7030 7514
+#KONTO 7033 "Lîn kollektivanstÑllda under 26 Ür (utland)"
+#KTYP 7033 K
+#SRU 7033 7514
+#KONTO 7081 "Sjuklîn kollektivanstÑllda"
+#KTYP 7081 K
+#SRU 7081 7514
+#KONTO 7082 "Semesterlîner till kollektivanstÑllda"
+#KTYP 7082 K
+#SRU 7082 7514
+#KONTO 7083 "FîrÑldraers kollektivanstÑllda"
+#KTYP 7083 K
+#SRU 7083 7514
+#KONTO 7089 "ôvr lîner kollektivanst ej arb tid"
+#KTYP 7089 K
+#SRU 7089 7514
+#KONTO 7090 "FîrÑndr sem lîneskuld"
+#KTYP 7090 K
+#SRU 7090 7514
+#KONTO 7210 "Lîn tjÑnstemÑn"
+#KTYP 7210 K
+#SRU 7210 7514
+#KONTO 7211 "Lîner till tjÑnstemÑn"
+#KTYP 7211 K
+#SRU 7211 7514
+#KONTO 7213 "Lîn tjÑnstemÑn, utland"
+#KTYP 7213 K
+#SRU 7213 7514
+#KONTO 7214 "Lîn tjÑnstemÑn nya pens"
+#KTYP 7214 K
+#SRU 7214 7514
+#KONTO 7215 "Vinstandelar till tjÑnstemÑn (avgiftsbefriade)"
+#KTYP 7215 K
+#SRU 7215 7514
+#KONTO 7220 "Lîn fîretagsledare"
+#KTYP 7220 K
+#SRU 7220 7514
+#KONTO 7223 "Lîner till fîretagsledare under 26 Ür"
+#KTYP 7223 K
+#SRU 7223 7514
+#KONTO 7224 "Lîn fîretagsledare nya pens"
+#KTYP 7224 K
+#SRU 7224 7514
+#KONTO 7225 "Lîn fîretagsledare, lîneskatt"
+#KTYP 7225 K
+#SRU 7225 7514
+#KONTO 7230 "Lîn tjÑnstemÑn, fîretagsledare, utland"
+#KTYP 7230 K
+#SRU 7230 7514
+#KONTO 7233 "Lîn tjÑnstemÑn och fîretagsledare under 26 Ür, utland"
+#KTYP 7233 K
+#SRU 7233 7514
+#KONTO 7281 "Sjuklîn tjÑnstemÑn"
+#KTYP 7281 K
+#SRU 7281 7514
+#KONTO 7282 "Sjuklîner till ftgledare"
+#KTYP 7282 K
+#SRU 7282 7514
+#KONTO 7283 "FîrÑldraers tjÑnstemÑn"
+#KTYP 7283 K
+#SRU 7283 7514
+#KONTO 7284 "FîrÑldraers ftgledare"
+#KTYP 7284 K
+#SRU 7284 7514
+#KONTO 7285 "Semesterlîn tjÑnstemÑn"
+#KTYP 7285 K
+#SRU 7285 7514
+#KONTO 7286 "Semesterlîn ftgledare"
+#KTYP 7286 K
+#SRU 7286 7514
+#KONTO 7288 "ôvr lîner tjÑnstemÑn ej arb tid"
+#KTYP 7288 K
+#SRU 7288 7514
+#KONTO 7289 "ôvr lîner ftgledare ej arb tid"
+#KTYP 7289 K
+#SRU 7289 7514
+#KONTO 7290 "FîrÑndring av semesterlîneskuld"
+#KTYP 7290 K
+#SRU 7290 7514
+#KONTO 7310 "Kontanta extra ersÑttn"
+#KTYP 7310 K
+#SRU 7310 7514
+#KONTO 7321 "Skattefria trakt Sverige"
+#KTYP 7321 K
+#SRU 7321 7514
+#KONTO 7322 "Skattepl trakt Sverige"
+#KTYP 7322 K
+#SRU 7322 7514
+#KONTO 7323 "Skattefria trakt utland"
+#KTYP 7323 K
+#SRU 7323 7514
+#KONTO 7324 "Skattepl trakt utland"
+#KTYP 7324 K
+#SRU 7324 7514
+#KONTO 7331 "Skattefri bilersÑttning"
+#KTYP 7331 K
+#SRU 7331 7514
+#KONTO 7332 "Skattepl bilersÑttning"
+#KTYP 7332 K
+#SRU 7332 7514
+#KONTO 7333 "Skattefri ers trÑngselskatt"
+#KTYP 7333 K
+#SRU 7333 7514
+#KONTO 7338 "Skattepliktig ers trÑngselskatt"
+#KTYP 7338 K
+#SRU 7338 7514
+#KONTO 7381 "Kostn fîr fri bostad"
+#KTYP 7381 K
+#SRU 7381 7514
+#KONTO 7382 "Kostn fria/subv mÜltider"
+#KTYP 7382 K
+#SRU 7382 7514
+#KONTO 7385 "Kostnader fîr fri bil/fri bensin"
+#KTYP 7385 K
+#SRU 7385 7514
+#KONTO 7387 "Kostn fîr lÜnedator"
+#KTYP 7387 K
+#SRU 7387 7514
+#KONTO 7389 "ôvriga kostn naturafîrm"
+#KTYP 7389 K
+#SRU 7389 7514
+#KONTO 7390 "ôvriga kostnadsersÑttningar och fîrmÜner"
+#KTYP 7390 K
+#SRU 7390 7514
+#KONTO 7391 "ResekostnadsersÑttning mot utlÑgg"
+#KTYP 7391 K
+#SRU 7391 7514
+#KONTO 7392 "Kostn fîrmÜn, hushÜllsnÑra tjÑnster"
+#KTYP 7392 K
+#SRU 7392 7514
+#KONTO 7399 "Motkontering av fîrmÜn"
+#KTYP 7399 K
+#SRU 7399 7514
+#KONTO 7411 "Premier fîr kollektiva pensionsfîrsÑkringar"
+#KTYP 7411 K
+#SRU 7411 7514
+#KONTO 7412 "Indiv pensionsfîrsÑkring"
+#KTYP 7412 K
+#SRU 7412 7514
+#KONTO 7461 "Pensionsutbetalningar till kollektivanst"
+#KTYP 7461 K
+#SRU 7461 7514
+#KONTO 7462 "Pensionsutbetalningar till tjÑnstemÑn"
+#KTYP 7462 K
+#SRU 7462 7514
+#KONTO 7490 "ôvriga pensionskostnader"
+#KTYP 7490 K
+#SRU 7490 7514
+#KONTO 7510 Arbetsgivaravgifter
+#KTYP 7510 K
+#SRU 7510 7514
+#KONTO 7519 "Soc.avgifter semesterlîn"
+#KTYP 7519 K
+#SRU 7519 7514
+#KONTO 7520 "Arbetsgivaravg (nya pensionssystemet)"
+#KTYP 7520 K
+#SRU 7520 7514
+#KONTO 7521 "Arbgivaravg lîner ers (nya pensionssyst)"
+#KTYP 7521 K
+#SRU 7521 7514
+#KONTO 7531 "Lîneskatt fîr vissa fîrsÑkringsers m m"
+#KTYP 7531 K
+#SRU 7531 7514
+#KONTO 7533 "SÑrsk lîneskatt pensionsk"
+#KTYP 7533 K
+#SRU 7533 7514
+#KONTO 7540 "SÑrsk sjukfîrsÑk avg"
+#KTYP 7540 K
+#SRU 7540 7514
+#KONTO 7560 "Arbetsgivaravgifter under 26 Ür"
+#KTYP 7560 K
+#SRU 7560 7514
+#KONTO 7570 "Premier fîr arbetsmarknadsfîrsÑkringar"
+#KTYP 7570 K
+#SRU 7570 7514
+#KONTO 7583 GruppolycksfallsfîrsÑkringspremier
+#KTYP 7583 K
+#SRU 7583 7514
+#KONTO 7589 "ôvr gruppfîrsÑkringspremier"
+#KTYP 7589 K
+#SRU 7589 7514
+#KONTO 7610 Utbildning
+#KTYP 7610 K
+#SRU 7610 7514
+#KONTO 7620 "Sjuk- och hÑlsovÜrd"
+#KTYP 7620 K
+#SRU 7620 7514
+#KONTO 7631 "Personalrepresentation, avdragsgill"
+#KTYP 7631 K
+#SRU 7631 7514
+#KONTO 7632 "Personalrepresentation, ej avdragsgill"
+#KTYP 7632 K
+#SRU 7632 7514
+#KONTO 7650 SjuklînefîrsÑkring
+#KTYP 7650 K
+#SRU 7650 7514
+#KONTO 7690 "ôvriga personalkostnader"
+#KTYP 7690 K
+#SRU 7690 7514
+#KONTO 7710 "Nedskrivn av imm anl tillg"
+#KTYP 7710 K
+#SRU 7710 7515
+#KONTO 7720 "Nedskrivn av byggnader och mark"
+#KTYP 7720 K
+#SRU 7720 7515
+#KONTO 7730 "Nedskrivn av maskiner och inv"
+#KTYP 7730 K
+#SRU 7730 7515
+#KONTO 7760 "èterfîring av nedskrivn imm anl tillg"
+#KTYP 7760 I
+#SRU 7760 7515
+#KONTO 7770 "èterfîring av nedskrivn byggn/mark"
+#KTYP 7770 I
+#SRU 7770 7515
+#KONTO 7780 "èterfîring av nedskrivn maskiner/inv"
+#KTYP 7780 I
+#SRU 7780 7515
+#KONTO 7810 "Avskrivningar imm anl tillg"
+#KTYP 7810 K
+#SRU 7810 7515
+#KONTO 7811 "Avskrivningar balanserade utgifter"
+#KTYP 7811 K
+#SRU 7811 7515
+#KONTO 7813 "Avskrivningar patent"
+#KTYP 7813 K
+#SRU 7813 7515
+#KONTO 7814 "Avskrivningar licenser"
+#KTYP 7814 K
+#SRU 7814 7515
+#KONTO 7815 "Avskrivningar varumÑrken"
+#KTYP 7815 K
+#SRU 7815 7515
+#KONTO 7816 "Avskrivningar hyresrÑtt"
+#KTYP 7816 K
+#SRU 7816 7515
+#KONTO 7817 "Avskrivningar goodwill"
+#KTYP 7817 K
+#SRU 7817 7515
+#KONTO 7820 "Avskrivningar byggnader/mark"
+#KTYP 7820 K
+#SRU 7820 7515
+#KONTO 7821 "Avskrivn byggnader"
+#KTYP 7821 K
+#SRU 7821 7515
+#KONTO 7822 "Avskrivn byggnadsinv"
+#KTYP 7822 K
+#SRU 7822 7515
+#KONTO 7824 "Avskrivn markanlÑggn"
+#KTYP 7824 K
+#SRU 7824 7515
+#KONTO 7829 "Avskrivningar îvr byggnader"
+#KTYP 7829 K
+#SRU 7829 7515
+#KONTO 7830 "Avskrivningar maskiner/inv"
+#KTYP 7830 K
+#SRU 7830 7515
+#KONTO 7831 "Avskrivn arbetsmaskiner"
+#KTYP 7831 K
+#SRU 7831 7515
+#KONTO 7832 "Avskrivn inventarier"
+#KTYP 7832 K
+#SRU 7832 7515
+#KONTO 7833 "Avskrivningar installationer"
+#KTYP 7833 K
+#SRU 7833 7515
+#KONTO 7834 "Avskrivn bilar"
+#KTYP 7834 K
+#SRU 7834 7515
+#KONTO 7835 "Avskrivningar datorer"
+#KTYP 7835 K
+#SRU 7835 7515
+#KONTO 7836 "Avskrivningar leasade tillg"
+#KTYP 7836 K
+#SRU 7836 7515
+#KONTO 7837 "Avskrivningar anlÑggningsdjur"
+#KTYP 7837 K
+#SRU 7837 7515
+#KONTO 7840 "Avskrivningar pÜ fîrbÑttringutgifter pÜ annans fastighet"
+#KTYP 7840 K
+#SRU 7840 7515
+#KONTO 7940 "Orealiserad positiv vÑrdefîr sÑkr instr"
+#KTYP 7940 K
+#SRU 7940 7517
+#KONTO 7960 Kursfîrluster
+#KTYP 7960 K
+#SRU 7960 7517
+#KONTO 7970 "Fîrlust avyttr imm/mat anl tillg"
+#KTYP 7970 K
+#SRU 7970 7517
+#KONTO 7971 "Fîrlust avyttr imm anl tillg"
+#KTYP 7971 K
+#SRU 7971 7517
+#KONTO 7972 "Fîrlust avyttr fastigheter"
+#KTYP 7972 K
+#SRU 7972 7517
+#KONTO 7973 "Fîrlust avyttr maskiner/inv"
+#KTYP 7973 K
+#SRU 7973 7517
+#KONTO 7977 "Fîrlust avyttr anlÑggningsdjur"
+#KTYP 7977 K
+#SRU 7977 7517
+#KONTO 8012 "Utdeln andelar dotterbolag"
+#KTYP 8012 I
+#SRU 8012 7414
+#KONTO 8014 Koncernbidrag
+#KTYP 8014 I
+#SRU 8014 7414
+#KONTO 8019 "ôvr utdeln andelar koncernftg"
+#KTYP 8019 I
+#SRU 8019 7414
+#KONTO 8210 "Utdeln andelar andra fîretag"
+#KTYP 8210 I
+#SRU 8210 7416
+#KONTO 8221 "Res fîrs andelar îvr fîretag"
+#KTYP 8221 I
+#SRU 8221 7416
+#KONTO 8222 "Res lf fordr îvr fîretag"
+#KTYP 8222 I
+#SRU 8222 7416
+#KONTO 8223 "Res fîrs derivat"
+#KTYP 8223 I
+#SRU 8223 7416
+#KONTO 8230 "Valutakursdiff lÜngfr fordr"
+#KTYP 8230 I
+#SRU 8230 7416
+#KONTO 8240 "Resultatandelar handelsbolag (andra ftg)"
+#KTYP 8240 K
+#SRU 8240 7416
+#KONTO 8270 "Nedskr andel/lf fordr îvr ftg"
+#KTYP 8270 I
+#SRU 8270 7521
+#KONTO 8280 "èterf nedskr and/lf ford î ftg"
+#KTYP 8280 I
+#SRU 8280 7416
+#KONTO 8291 "Orealiserade fîrÑndr anlÑggningstillg"
+#KTYP 8291 I
+#SRU 8291 7416
+#KONTO 8295 "Orealiserade fîrÑndr derivat"
+#KTYP 8295 I
+#SRU 8295 7416
+#KONTO 8300 RÑnteintÑkter
+#KTYP 8300 I
+#SRU 8300 7417
+#KONTO 8310 "RÑnteintÑkter frÜn omsÑttningstillgÜngar"
+#KTYP 8310 I
+#SRU 8310 7417
+#KONTO 8313 "RÑnteintÑkter kundfordringar"
+#KTYP 8313 I
+#SRU 8313 7417
+#KONTO 8321 "Orealiserade fîrÑndr omsÑttn tillg"
+#KTYP 8321 I
+#SRU 8321 7417
+#KONTO 8325 "Orealiserade fîrÑndr derivat omsÑttn tillg"
+#KTYP 8325 I
+#SRU 8325 7417
+#KONTO 8331 Valutakursvinster
+#KTYP 8331 I
+#SRU 8331 7417
+#KONTO 8336 Valutakursfîrluster
+#KTYP 8336 K
+#SRU 8336 7417
+#KONTO 8390 "ôvr finansiella intÑkter"
+#KTYP 8390 I
+#SRU 8390 7417
+#KONTO 8400 RÑntekostnader
+#KTYP 8400 K
+#SRU 8400 7522
+#KONTO 8422 "RÑntekostnader levskulder"
+#KTYP 8422 K
+#SRU 8422 7522
+#KONTO 8431 "Valutakursvinst skulder"
+#KTYP 8431 I
+#SRU 8431 7522
+#KONTO 8436 "Valutakursfîrlust skulder"
+#KTYP 8436 K
+#SRU 8436 7522
+#KONTO 8451 "Orealiserade fîrÑndr skulder"
+#KTYP 8451 K
+#SRU 8451 7522
+#KONTO 8452 "Orealiserade fîrÑndr sÑkr instr"
+#KTYP 8452 K
+#SRU 8452 7522
+#KONTO 8490 "ôvr finansiella kostnader"
+#KTYP 8490 K
+#SRU 8490 7522
+#KONTO 8811 "AvsÑttning per fond"
+#KTYP 8811 K
+#SRU 8811 7525
+#KONTO 8819 "èterfîring av per fond"
+#KTYP 8819 K
+#SRU 8819 7420
+#KONTO 8820 "Mottagna koncernbidrag"
+#KTYP 8820 K
+#SRU 8820 7421
+#KONTO 8830 "LÑmnade koncernbidrag"
+#KTYP 8830 K
+#SRU 8830 7421
+#KONTO 8850 "Avskrivn îver/under plan"
+#KTYP 8850 K
+#SRU 8850 7526
+#KONTO 8851 "ôveravskrivningar imm anl tillg"
+#KTYP 8851 K
+#SRU 8851 7526
+#KONTO 8852 "ôveravskrivningar byggnader/mark"
+#KTYP 8852 K
+#SRU 8852 7526
+#KONTO 8853 "ôveravskrivningar maskiner/inv"
+#KTYP 8853 K
+#SRU 8853 7526
+#KONTO 8857 "ôveravskrivningar anlÑggningsdjur"
+#KTYP 8857 K
+#SRU 8857 7526
+#KONTO 8896 "FîrÑndring lagerreserv"
+#KTYP 8896 K
+#SRU 8896 7527
+#KONTO 8910 "èrets skattekostnad"
+#KTYP 8910 K
+#SRU 8910 7528
+#KONTO 8999 "Redovisat resultat"
+#KTYP 8999 K
+#SRU 8999 7450
+#DIM 1 Resultatenhet
+#OBJEKT 1 Nord "Kontor Nord"
+#OBJEKT 1 Syd "Kontor Syd"
+#IB 0 1221 518057.53
+#UB 0 1221 758223.53
+#IB 0 1229 -408754.50
+#UB 0 1229 -408754.50
+#IB 0 1460 498740.39
+#UB 0 1460 570458.31
+#IB 0 1510 1050982.35
+#UB 0 1510 925559.42
+#IB 0 1710 17000.00
+#UB 0 1710 36000.00
+#IB 0 1910 3038.00
+#UB 0 1910 1746.00
+#IB 0 1920 131834.24
+#UB 0 1920 241852.43
+#IB 0 1930 739126.26
+#UB 0 1930 1074025.36
+#IB 0 1940 1500000.00
+#UB 0 1940 1500000.00
+#IB 0 2081 -200000.00
+#UB 0 2081 -200000.00
+#IB 0 2086 -20000.00
+#UB 0 2086 -20000.00
+#IB 0 2091 -1483065.29
+#UB 0 2091 -933065.29
+#IB 0 2098 -593523.13
+#UB 0 2098 -593523.13
+#IB 0 2099 -766435.97
+#UB 0 2099 -766435.97
+#IB 0 2124 -87500.00
+#UB 0 2124 -87500.00
+#IB 0 2125 -36800.00
+#UB 0 2125 -36800.00
+#IB 0 2127 -187000.00
+#UB 0 2127 -187000.00
+#IB 0 2440 -234973.00
+#UB 0 2440 -544383.18
+#IB 0 2510 -30000.00
+#UB 0 2510 195000.00
+#UB 0 2611 -144486.56
+#UB 0 2615 -6662.55
+#UB 0 2641 98798.61
+#UB 0 2645 6662.55
+#IB 0 2650 -119375.00
+#UB 0 2650 -52481.00
+#IB 0 2710 -24790.00
+#UB 0 2710 -30564.00
+#IB 0 2732 -10500.00
+#UB 0 2732 -10500.00
+#IB 0 2790 -250.00
+#UB 0 2790 -250.00
+#IB 0 2794 -7089.31
+#UB 0 2794 -21379.67
+#IB 0 2920 -163438.89
+#UB 0 2920 -152337.33
+#IB 0 2940 -32812.86
+#UB 0 2940 -38201.90
+#IB 0 2941 -52470.82
+#UB 0 2941 -49455.20
+#RES 0 3041 -1277801.25
+#RES 0 3045 -503150.18
+#RES 0 3048 -383150.00
+#RES 0 3051 -1982024.80
+#RES 0 3055 -174350.18
+#RES 0 3058 -61550.00
+#RES 0 3540 -60.00
+#RES 0 3591 -9366.32
+#RES 0 3740 -2.03
+#RES 0 3960 2040.82
+#RES 0 4010 1735232.75
+#RES 0 4056 69855.73
+#RES 0 4990 -71717.92
+#RES 0 5010 140000.00
+#RES 0 5020 8329.60
+#RES 0 5090 2488.80
+#RES 0 5420 3392.00
+#RES 0 5460 3164.00
+#RES 0 5611 17309.60
+#RES 0 5612 4700.00
+#RES 0 5613 7105.60
+#RES 0 5615 35190.00
+#RES 0 5800 9194.00
+#RES 0 5930 13569.60
+#RES 0 6071 3530.00
+#RES 0 6072 856.00
+#RES 0 6090 2960.00
+#RES 0 6110 21928.80
+#RES 0 6211 6568.00
+#RES 0 6212 12696.80
+#RES 0 6250 2240.00
+#RES 0 6310 6600.00
+#RES 0 6420 16000.00
+#RES 0 6530 15688.00
+#RES 0 6570 1500.00
+#RES 0 6970 4033.83
+#RES 0 7010 417568.08 3316
+#RES 0 7081 8781.92 88
+#RES 0 7082 65150.50 388
+#RES 0 7090 -13979.20
+#RES 0 7210 361061.10 2150.5
+#RES 0 7285 45841.98 480
+#RES 0 7290 2877.64
+#RES 0 7321 630.00
+#RES 0 7385 33537.20
+#RES 0 7399 -33537.20
+#RES 0 7510 276922.87
+#RES 0 7519 -3015.62
+#RES 0 7560 7631.93
+#RES 0 7570 21000.00
+#RES 0 7690 2750.29
+#RES 0 8300 -768.67
+#IB -1 1221 421457.53
+#UB -1 1221 518057.53
+#IB -1 1229 -366754.50
+#UB -1 1229 -408754.50
+#IB -1 1460 422952.88
+#UB -1 1460 498740.39
+#IB -1 1510 1000255.40
+#UB -1 1510 1050982.35
+#IB -1 1710 16500.00
+#UB -1 1710 17000.00
+#IB -1 1910 1339.00
+#UB -1 1910 3038.00
+#IB -1 1920 444123.14
+#UB -1 1920 131834.24
+#IB -1 1930 898805.28
+#UB -1 1930 739126.26
+#IB -1 1940 1000000.00
+#UB -1 1940 1500000.00
+#IB -1 2081 -200000.00
+#UB -1 2081 -200000.00
+#IB -1 2086 -20000.00
+#UB -1 2086 -20000.00
+#IB -1 2091 -1644234.57
+#UB -1 2091 -1483065.29
+#IB -1 2098 -338830.72
+#UB -1 2098 -593523.13
+#IB -1 2099 -593523.13
+#UB -1 2099 -766435.97
+#IB -1 2124 -87500.00
+#UB -1 2124 -87500.00
+#IB -1 2125 -36800.00
+#UB -1 2125 -36800.00
+#IB -1 2127 -187000.00
+#UB -1 2127 -187000.00
+#IB -1 2440 -397207.60
+#UB -1 2440 -234973.00
+#IB -1 2510 57000.00
+#UB -1 2510 -30000.00
+#IB -1 2650 -72508.00
+#UB -1 2650 -119375.00
+#IB -1 2710 -29254.00
+#UB -1 2710 -24790.00
+#IB -1 2732 -10500.00
+#UB -1 2732 -10500.00
+#IB -1 2790 -250.00
+#UB -1 2790 -250.00
+#IB -1 2794 -6822.29
+#UB -1 2794 -7089.31
+#IB -1 2920 -177754.09
+#UB -1 2920 -163438.89
+#IB -1 2940 -36021.97
+#UB -1 2940 -32812.86
+#IB -1 2941 -57472.36
+#UB -1 2941 -52470.82
+#RES -1 3041 -1690380.20
+#RES -1 3045 -512299.95
+#RES -1 3048 -446450.00
+#RES -1 3051 -2985859.20
+#RES -1 3055 -92500.95
+#RES -1 3058 -42350.00
+#RES -1 3540 -20.00
+#RES -1 3541 -20.00
+#RES -1 3542 -20.00
+#RES -1 3590 -7224.00
+#RES -1 3592 -5689.00
+#RES -1 3740 -4.66
+#RES -1 3960 2818.89
+#RES -1 4010 2369403.10
+#RES -1 4056 151216.23
+#RES -1 4990 -75787.51
+#RES -1 5010 203500.00
+#RES -1 5020 8822.40
+#RES -1 5090 6373.60
+#RES -1 5410 16636.00
+#RES -1 5460 4480.00
+#RES -1 5611 25381.67
+#RES -1 5612 2400.00
+#RES -1 5613 14713.53
+#RES -1 5615 51345.00
+#RES -1 5800 16088.82
+#RES -1 5910 680.00
+#RES -1 5930 12755.80
+#RES -1 6071 2546.00
+#RES -1 6110 15257.60
+#RES -1 6211 9116.00
+#RES -1 6212 13159.20
+#RES -1 6250 4240.00
+#RES -1 6310 12750.00
+#RES -1 6420 16320.00
+#RES -1 6530 18480.00
+#RES -1 6570 2000.00
+#RES -1 6970 808.00
+#RES -1 7010 617171.14 4885.5
+#RES -1 7081 11668.72 116
+#RES -1 7082 95723.36 636
+#RES -1 7090 -19828.33
+#RES -1 7210 539592.19 3202
+#RES -1 7281 7172.48 64
+#RES -1 7285 65037.17 704
+#RES -1 7290 5513.13
+#RES -1 7321 546.00
+#RES -1 7331 92.50
+#RES -1 7385 40480.80
+#RES -1 7399 -40480.80
+#RES -1 7510 412783.09
+#RES -1 7519 -5001.54
+#RES -1 7560 9416.38
+#RES -1 7570 30100.00
+#RES -1 7620 1750.00
+#RES -1 7690 1629.26
+#RES -1 7832 42000.00
+#RES -1 8300 -1487.89
+#RES -1 8910 297000.00
+#RES -1 8999 766435.97
+#VER A 1 20100108 ôverfîring 20091230
+{
+   #TRANS 1920 {} -50000.00
+   #TRANS 1930 {} 50000.00
+}
+#VER A 2 20100108 "Inkîp fika" 20091230
+{
+   #TRANS 1910 {} -235.00
+   #TRANS 2641 {} 25.17
+   #TRANS 7690 {} 209.83
+}
+#VER A 3 20100115 ôverfîring 20091230
+{
+   #TRANS 1920 {} -200000.00
+   #TRANS 1930 {} 200000.00
+}
+#VER A 4 20100203 Fikabrîd 20100129
+{
+   #TRANS 7690 {} 235.00
+   #TRANS 2641 {} 28.00
+   #TRANS 1910 {} -263.00
+}
+#VER A 5 20100205 "Inkîp Kontorsmaterial" 20100129
+{
+   #TRANS 1910 {} -520.00
+   #TRANS 2641 {} 104.00
+   #TRANS 6110 {} 416.00
+}
+#VER A 6 20100210 "Inkîp av frimÑrken" 20100129
+{
+   #TRANS 1910 {} -1000.00
+   #TRANS 2641 {} 200.00
+   #TRANS 6250 {} 800.00
+}
+#VER A 7 20100210 ôverfîring 20100129
+{
+   #TRANS 1920 {} -200000.00
+   #TRANS 1930 {} 200000.00
+}
+#VER A 8 20100219 "Kontantinkîp moms 25%" 20100129
+{
+   #TRANS 5090 {} 520.00
+   #TRANS 2641 {} 130.00
+   #TRANS 1910 {} -650.00
+}
+#VER A 9 20100225 "ôverfîring likvida medel" 20100129
+{
+   #TRANS 1910 {} 3000.00
+   #TRANS 1930 {} -3000.00
+}
+#VER A 10 20100305 "Inkîp Kontorsmaterial" 20100129
+{
+   #TRANS 1910 {} -250.00
+   #TRANS 2641 {} 50.00
+   #TRANS 6110 {} 200.00
+}
+#VER A 11 20100305 "Inkîp av frimÑrken" 20100129
+{
+   #TRANS 1910 {} -600.00
+   #TRANS 2641 {} 120.00
+   #TRANS 6250 {} 480.00
+}
+#VER A 12 20100311 "Inkîp av fika" 20100129
+{
+   #TRANS 1910 {} -123.00
+   #TRANS 2641 {} 13.17
+   #TRANS 7690 {} 109.83
+}
+#VER A 13 20100317 "ôverfîring PG-BG" 20100129
+{
+   #TRANS 1930 {} 150000.00
+   #TRANS 1920 {} -150000.00
+}
+#VER A 14 20100326 "Inkîp av fika" 20100129
+{
+   #TRANS 1910 {} -258.00
+   #TRANS 2641 {} 27.63
+   #TRANS 7690 {} 230.37
+}
+#VER A 15 20100331 ôverfîring 20100129
+{
+   #TRANS 1920 {} -200000.00
+   #TRANS 1930 {} 200000.00
+}
+#VER A 16 20100402 "Inkîp Kontorsmaterial" 20100129
+{
+   #TRANS 1910 {} -235.00
+   #TRANS 2641 {} 47.00
+   #TRANS 6110 {} 188.00
+}
+#VER A 17 20100402 "Inkîp av fika" 20100129
+{
+   #TRANS 1910 {} -236.00
+   #TRANS 2641 {} 25.28
+   #TRANS 7690 {} 210.72
+}
+#VER A 18 20100409 Utdelning 20100129
+{
+   #TRANS 2091 {} 550000.00
+   #TRANS 1930 {} -550000.00
+}
+#VER A 19 20100409 "Uttag till kassa" 20100129
+{
+   #TRANS 1920 {} -3000.00
+   #TRANS 1910 {} 3000.00
+}
+#VER A 20 20100416 "Inkîp av fika" 20100129
+{
+   #TRANS 1910 {} -298.00
+   #TRANS 2641 {} 31.92
+   #TRANS 7690 {} 266.08
+}
+#VER A 21 20100416 "Inkîp Fîrbrukningsmaterial" 20100129
+{
+   #TRANS 1910 {} -565.00
+   #TRANS 2641 {} 113.00
+   #TRANS 5460 {} 452.00
+}
+#VER A 22 20100428 "Inkîp av fika" 20100129
+{
+   #TRANS 1910 {} -136.00
+   #TRANS 2641 {} 14.57
+   #TRANS 7690 {} 121.43
+}
+#VER A 23 20100430 Skattebetalning 20100129
+{
+   #TRANS 1930 {} -67000.00
+   #TRANS 2510 {} 67000.00
+}
+#VER A 24 20100505 "Inkîp av fika" 20100129
+{
+   #TRANS 1910 {} -135.00
+   #TRANS 2641 {} 14.46
+   #TRANS 7690 {} 120.54
+}
+#VER A 25 20100507 "ôverfîring PG till BG" 20100129
+{
+   #TRANS 1920 {} -400000.00
+   #TRANS 1930 {} 400000.00
+}
+#VER A 26 20100512 "Inkîp av frimÑrken" 20100129
+{
+   #TRANS 1910 {} -650.00
+   #TRANS 2641 {} 130.00
+   #TRANS 6250 {} 520.00
+}
+#VER A 27 20100521 "Inkîp av fika" 20100129
+{
+   #TRANS 1910 {} -99.00
+   #TRANS 2641 {} 10.60
+   #TRANS 7690 {} 88.40
+}
+#VER A 28 20100525 "Inkîp Fîrbrukningsmaterial" 20100129
+{
+   #TRANS 1910 {} -375.00
+   #TRANS 2641 {} 75.00
+   #TRANS 5460 {} 300.00
+}
+#VER A 29 20100528 "Inkîp av fika" 20100129
+{
+   #TRANS 1910 {} -265.00
+   #TRANS 2641 {} 28.38
+   #TRANS 7690 {} 236.62
+}
+#VER A 30 20100531 Visa 20100129
+{
+   #TRANS 5800 {} 5210.00
+   #TRANS 2641 {} 321.50
+   #TRANS 6071 {} 450.00
+   #TRANS 6072 {} 856.00
+   #TRANS 2641 {} 112.50
+   #TRANS 1930 {} -6950.00
+}
+#VER A 31 20100604 "Kontantinkîp moms 25%" 20100728
+{
+   #TRANS 5460 {} 280.00
+   #TRANS 2641 {} 70.00
+   #TRANS 1910 {} -350.00
+}
+#VER A 32 20100610 "Inkîp av fika" 20100728
+{
+   #TRANS 1910 {} -236.00
+   #TRANS 2641 {} 25.28
+   #TRANS 7690 {} 210.72
+}
+#VER A 33 20100614 "Avdragsgill extern representation 25 %" 20100728
+{
+   #TRANS 1910 {} -650.00
+   #TRANS 6071 {} 520.00
+   #TRANS 2641 {} 130.00
+}
+#VER A 34 20100618 ôverfîring 20100728
+{
+   #TRANS 1930 {} -2000.00
+   #TRANS 1910 {} 2000.00
+}
+#VER A 35 20100624 ôverfîring 20100728
+{
+   #TRANS 1920 {} -500000.00
+   #TRANS 1930 {} 500000.00
+}
+#VER A 36 20100702 "Inkîp Kontorsmaterial" 20100728
+{
+   #TRANS 1910 {} -265.00
+   #TRANS 2641 {} 53.00
+   #TRANS 6110 {} 212.00
+}
+#VER A 37 20100709 "Inkîp av fika" 20100728
+{
+   #TRANS 1910 {} -428.00
+   #TRANS 2641 {} 45.84
+   #TRANS 7690 {} 382.16
+}
+#VER A 38 20100715 Visa 20100728
+{
+   #TRANS 5800 {} 3984.00
+   #TRANS 2641 {} 421.00
+   #TRANS 1930 {} -4405.00
+}
+#VER A 39 20100727 "Inkîp av frimÑrken" 20100728
+{
+   #TRANS 1910 {} -550.00
+   #TRANS 2641 {} 110.00
+   #TRANS 6250 {} 440.00
+}
+#VER A 40 20100730 ôverfîring 20100728
+{
+   #TRANS 1920 {} -500000.00
+   #TRANS 1930 {} 500000.00
+}
+#VER A 41 20100802 "Inkîp Fîrbrukningsmaterial" 20100728
+{
+   #TRANS 1910 {} -165.00
+   #TRANS 2641 {} 33.00
+   #TRANS 5460 {} 132.00
+}
+#VER A 42 20100806 "Avdragsgill extern representation 25 %" 20100728
+{
+   #TRANS 1910 {} -3200.00
+   #TRANS 6071 {} 2560.00
+   #TRANS 2641 {} 640.00
+}
+#VER A 43 20100813 Handelsbanken 20100728
+{
+   #TRANS 6570 {} 1500.00
+   #TRANS 1930 {} -1500.00
+}
+#VER A 44 20100820 "Inkîp av fika" 20100728
+{
+   #TRANS 1910 {} -368.00
+   #TRANS 2641 {} 39.41
+   #TRANS 7690 {} 328.59
+}
+#VER A 45 20100827 ôverfîring 20100728
+{
+   #TRANS 1920 {} -200000.00
+   #TRANS 1930 {} 200000.00
+}
+#VER A 46 20100830 "Inkîp Kontorsmaterial" 20100728
+{
+   #TRANS 1910 {} -187.00
+   #TRANS 2641 {} 37.40
+   #TRANS 6110 {} 149.60
+}
+#VER A 47 20100830 ôverfîring 20100728
+{
+   #TRANS 1930 {} -4000.00
+   #TRANS 1910 {} 4000.00
+}
+#VER B 1 20100104 "Inbetalningsjournal nr 217" 20091230
+{
+   #TRANS 1510 {} -265126.00
+   #TRANS 1920 {} 265126.00
+}
+#VER B 2 20100111 "Inbetalningsjournal nr 218" 20091230
+{
+   #TRANS 1510 {} -14900.00
+   #TRANS 1930 {} 14900.00
+}
+#VER B 3 20100114 "Inbetalningsjournal nr 219" 20091230
+{
+   #TRANS 1510 {} -53873.00
+   #TRANS 1930 {} 53873.00
+}
+#VER B 4 20100104 "Kundavtalsfkt 742 RedovisningsbyrÜn" 20100519
+{
+   #TRANS 1510 {} 1375.00 20100104 "Faktnr: 742, Namn: RedovisningsbyrÜn"
+   #TRANS 2611 {} -275.00 20100104 "Faktnr: 742, Namn: RedovisningsbyrÜn"
+   #TRANS 3041 {1 Syd} -1100.00 20100104 "Faktnr: 742, Namn: RedovisningsbyrÜn"
+}
+#VER B 5 20100104 "Kundavtalsfkt 743 Rîrfirman VVS" 20100519
+{
+   #TRANS 1510 {} 2063.00 20100104 "Faktnr: 743, Namn: Rîrfirman VVS"
+   #TRANS 2611 {} -412.50 20100104 "Faktnr: 743, Namn: Rîrfirman VVS"
+   #TRANS 3041 {1 Nord} -1650.00 20100104 "Faktnr: 743, Namn: Rîrfirman VVS"
+   #TRANS 3740 {} -0.50 20100104 "Faktnr: 743, Namn: Rîrfirman VVS"
+}
+#VER B 6 20100104 "Kundavtalsfkt 744 Billeverantîren AB" 20100519
+{
+   #TRANS 1510 {} 4625.00 20100104 "Faktnr: 744, Namn: Billeverantîren AB"
+   #TRANS 2611 {} -925.00 20100104 "Faktnr: 744, Namn: Billeverantîren AB"
+   #TRANS 3051 {1 Nord} -3700.00 20100104 "Faktnr: 744, Namn: Billeverantîren AB"
+}
+#VER B 7 20100104 "Kundavtalsfkt 745 Storstads IF" 20100519
+{
+   #TRANS 1510 {} 2375.00 20100104 "Faktnr: 745, Namn: Storstads IF"
+   #TRANS 2611 {} -475.00 20100104 "Faktnr: 745, Namn: Storstads IF"
+   #TRANS 3041 {1 Nord} -1900.00 20100104 "Faktnr: 745, Namn: Storstads IF"
+}
+#VER B 8 20100108 "Kundfkt 746 IWU Trading" 20100519
+{
+   #TRANS 1510 {} 44199.62 20100108 "Faktnr: 746, Namn: IWU Trading"
+   #TRANS 3045 {} -0.01 20100108 "Faktnr: 746, Namn: IWU Trading"
+   #TRANS 3045 {} -44199.85 20100108 "Faktnr: 746, Namn: IWU Trading"
+   #TRANS 3740 {} 0.24 20100108 "Faktnr: 746, Namn: IWU Trading"
+}
+#VER B 9 20100108 "Kundfkt 747 Grossisten HB" 20100519
+{
+   #TRANS 1510 {} 120625.00 20100108 "Faktnr: 747, Namn: Grossisten HB"
+   #TRANS 2611 {} -24125.00 20100108 "Faktnr: 747, Namn: Grossisten HB"
+   #TRANS 3051 {} -13600.00 20100108 "Faktnr: 747, Namn: Grossisten HB"
+   #TRANS 3051 {} -60350.00 20100108 "Faktnr: 747, Namn: Grossisten HB"
+   #TRANS 3051 {} -22550.00 20100108 "Faktnr: 747, Namn: Grossisten HB"
+}
+#VER B 10 20100108 "Kundfkt 748 Lernia" 20100519
+{
+   #TRANS 1510 {} 76875.00 20100108 "Faktnr: 748, Namn: Lernia"
+   #TRANS 2611 {} -15375.00 20100108 "Faktnr: 748, Namn: Lernia"
+   #TRANS 3041 {1 Nord} -25500.00 20100108 "Faktnr: 748, Namn: Lernia"
+   #TRANS 3041 {1 Nord} -36000.00 20100108 "Faktnr: 748, Namn: Lernia"
+}
+#VER B 11 20100115 "Kundfkt 749 Storstads Blommor AB" 20100519
+{
+   #TRANS 1510 {} 4000.00 20100115 "Faktnr: 749, Namn: Storstads Blommor AB"
+   #TRANS 2611 {} -800.00 20100115 "Faktnr: 749, Namn: Storstads Blommor AB"
+   #TRANS 3051 {} -3200.00 20100115 "Faktnr: 749, Namn: Storstads Blommor AB"
+}
+#VER B 12 20100115 "Kundfkt 750 Storstadshotellet AB" 20100519
+{
+   #TRANS 1510 {} 6900.00 20100115 "Faktnr: 750, Namn: Storstadshotellet AB"
+   #TRANS 2611 {} -1380.00 20100115 "Faktnr: 750, Namn: Storstadshotellet AB"
+   #TRANS 3051 {} -2320.00 20100115 "Faktnr: 750, Namn: Storstadshotellet AB"
+   #TRANS 3051 {} -3200.00 20100115 "Faktnr: 750, Namn: Storstadshotellet AB"
+}
+#VER B 13 20100115 "Kundfkt 751 Storstads IF" 20100519
+{
+   #TRANS 1510 {} 4000.00 20100115 "Faktnr: 751, Namn: Storstads IF"
+   #TRANS 2611 {} -800.00 20100115 "Faktnr: 751, Namn: Storstads IF"
+   #TRANS 3051 {} -3200.00 20100115 "Faktnr: 751, Namn: Storstads IF"
+}
+#VER B 14 20100115 "Kundfkt 752 Sparlivs" 20100519
+{
+   #TRANS 1510 {} 8625.00 20100115 "Faktnr: 752, Namn: Sparlivs"
+   #TRANS 2611 {} -1725.00 20100115 "Faktnr: 752, Namn: Sparlivs"
+   #TRANS 3051 {} -3700.00 20100115 "Faktnr: 752, Namn: Sparlivs"
+   #TRANS 3051 {} -3200.00 20100115 "Faktnr: 752, Namn: Sparlivs"
+}
+#VER B 15 20100115 "Kundfkt 753 RedovisningsbyrÜn" 20100519
+{
+   #TRANS 1510 {} 7525.00 20100115 "Faktnr: 753, Namn: RedovisningsbyrÜn"
+   #TRANS 2611 {} -1505.00 20100115 "Faktnr: 753, Namn: RedovisningsbyrÜn"
+   #TRANS 3051 {} -2320.00 20100115 "Faktnr: 753, Namn: RedovisningsbyrÜn"
+   #TRANS 3051 {} -3700.00 20100115 "Faktnr: 753, Namn: RedovisningsbyrÜn"
+}
+#VER B 16 20100115 "Kundfkt 754 Billeverantîren AB" 20100519
+{
+   #TRANS 1510 {} 4625.00 20100115 "Faktnr: 754, Namn: Billeverantîren AB"
+   #TRANS 2611 {} -925.00 20100115 "Faktnr: 754, Namn: Billeverantîren AB"
+   #TRANS 3051 {} -3700.00 20100115 "Faktnr: 754, Namn: Billeverantîren AB"
+}
+#VER B 17 20100115 "Kundfkt 755 Storstads èkeri AB" 20100519
+{
+   #TRANS 1510 {} 7525.00 20100115 "Faktnr: 755, Namn: Storstads èkeri AB"
+   #TRANS 2611 {} -1505.00 20100115 "Faktnr: 755, Namn: Storstads èkeri AB"
+   #TRANS 3051 {} -2320.00 20100115 "Faktnr: 755, Namn: Storstads èkeri AB"
+   #TRANS 3051 {} -3700.00 20100115 "Faktnr: 755, Namn: Storstads èkeri AB"
+}
+#VER B 18 20100115 "Kundfkt 756 Byggbolaget AB" 20100519
+{
+   #TRANS 1510 {} 7525.00 20100115 "Faktnr: 756, Namn: Byggbolaget AB"
+   #TRANS 2611 {} -1505.00 20100115 "Faktnr: 756, Namn: Byggbolaget AB"
+   #TRANS 3051 {} -2320.00 20100115 "Faktnr: 756, Namn: Byggbolaget AB"
+   #TRANS 3051 {} -3700.00 20100115 "Faktnr: 756, Namn: Byggbolaget AB"
+}
+#VER B 19 20100115 "Kundfkt 757 Rîrfirman VVS" 20100519
+{
+   #TRANS 1510 {} 7525.00 20100115 "Faktnr: 757, Namn: Rîrfirman VVS"
+   #TRANS 2611 {} -1505.00 20100115 "Faktnr: 757, Namn: Rîrfirman VVS"
+   #TRANS 3051 {} -2320.00 20100115 "Faktnr: 757, Namn: Rîrfirman VVS"
+   #TRANS 3051 {} -3700.00 20100115 "Faktnr: 757, Namn: Rîrfirman VVS"
+}
+#VER B 20 20100115 "Kundfkt 758 Storstads Radio & TV AB" 20100519
+{
+   #TRANS 1510 {} 7525.00 20100115 "Faktnr: 758, Namn: Storstads Radio & TV AB"
+   #TRANS 2611 {} -1505.00 20100115 "Faktnr: 758, Namn: Storstads Radio & TV AB"
+   #TRANS 3051 {} -2320.00 20100115 "Faktnr: 758, Namn: Storstads Radio & TV AB"
+   #TRANS 3051 {} -3700.00 20100115 "Faktnr: 758, Namn: Storstads Radio & TV AB"
+}
+#VER B 21 20100115 "Kundfkt 759 Lernia" 20100519
+{
+   #TRANS 1510 {} 4625.00 20100115 "Faktnr: 759, Namn: Lernia"
+   #TRANS 2611 {} -925.00 20100115 "Faktnr: 759, Namn: Lernia"
+   #TRANS 3051 {} -3700.00 20100115 "Faktnr: 759, Namn: Lernia"
+}
+#VER B 22 20100115 "Kundfkt 760 Restaurang Rasten AB" 20100519
+{
+   #TRANS 1510 {} 4625.00 20100115 "Faktnr: 760, Namn: Restaurang Rasten AB"
+   #TRANS 2611 {} -925.00 20100115 "Faktnr: 760, Namn: Restaurang Rasten AB"
+   #TRANS 3051 {} -3700.00 20100115 "Faktnr: 760, Namn: Restaurang Rasten AB"
+}
+#VER B 23 20100115 "Kundfkt 761 Storstads Kommun" 20100519
+{
+   #TRANS 1510 {} 6998.00 20100115 "Faktnr: 761, Namn: Storstads Kommun"
+   #TRANS 2611 {} -1399.65 20100115 "Faktnr: 761, Namn: Storstads Kommun"
+   #TRANS 3051 {} -2157.60 20100115 "Faktnr: 761, Namn: Storstads Kommun"
+   #TRANS 3051 {} -3441.00 20100115 "Faktnr: 761, Namn: Storstads Kommun"
+   #TRANS 3740 {} 0.25 20100115 "Faktnr: 761, Namn: Storstads Kommun"
+}
+#VER B 24 20100115 "Kundfkt 762 Storstads Golfklubb" 20100519
+{
+   #TRANS 1510 {} 2900.00 20100115 "Faktnr: 762, Namn: Storstads Golfklubb"
+   #TRANS 2611 {} -580.00 20100115 "Faktnr: 762, Namn: Storstads Golfklubb"
+   #TRANS 3051 {} -2320.00 20100115 "Faktnr: 762, Namn: Storstads Golfklubb"
+}
+#VER B 25 20100118 "Inbetalningsjournal nr 220" 20100519
+{
+   #TRANS 1510 {} -338906.62
+   #TRANS 1930 {} 338906.62
+}
+#VER B 26 20100121 "Inbetalningsjournal nr 221" 20100519
+{
+   #TRANS 1510 {} -53813.00
+   #TRANS 1920 {} 53813.00
+}
+#VER B 27 20100129 "Inbetalningsjournal nr 222" 20100519
+{
+   #TRANS 1510 {} -226000.73
+   #TRANS 1930 {} 226000.73
+}
+#VER B 28 20100118 "Kundfkt 763 Danske Disks APS" 20100519
+{
+   #TRANS 1510 {} 50400.00 20100118 "Faktnr: 763, Namn: Danske Disks APS"
+   #TRANS 3048 {} -50400.00 20100118 "Faktnr: 763, Namn: Danske Disks APS"
+}
+#VER B 29 20100118 "Kundfkt 764 Elektronikfîretaget AB" 20100519
+{
+   #TRANS 1510 {} 123875.00 20100118 "Faktnr: 764, Namn: Elektronikfîretaget AB"
+   #TRANS 2611 {} -24775.00 20100118 "Faktnr: 764, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -26350.00 20100118 "Faktnr: 764, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -13600.00 20100118 "Faktnr: 764, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -21300.00 20100118 "Faktnr: 764, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -37850.00 20100118 "Faktnr: 764, Namn: Elektronikfîretaget AB"
+}
+#VER B 30 20100122 "Kundfkt 765 IWU Trading" 20100519
+{
+   #TRANS 1510 {} 128200.00 20100122 "Faktnr: 765, Namn: IWU Trading"
+   #TRANS 3055 {} -52700.00 20100122 "Faktnr: 765, Namn: IWU Trading"
+   #TRANS 3055 {} -21300.00 20100122 "Faktnr: 765, Namn: IWU Trading"
+   #TRANS 3055 {} -49300.00 20100122 "Faktnr: 765, Namn: IWU Trading"
+   #TRANS 3055 {} -4900.00 20100122 "Faktnr: 765, Namn: IWU Trading"
+}
+#VER B 31 20100129 "Kundfkt 766 Storstads Kontorsvaruhus" 20100519
+{
+   #TRANS 1510 {} 108125.00 20100129 "Faktnr: 766, Namn: Storstads Kontorsvaruhus"
+   #TRANS 2611 {} -21625.00 20100129 "Faktnr: 766, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3051 {} -13600.00 20100129 "Faktnr: 766, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3051 {} -26350.00 20100129 "Faktnr: 766, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3051 {} -41650.00 20100129 "Faktnr: 766, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3051 {} -4900.00 20100129 "Faktnr: 766, Namn: Storstads Kontorsvaruhus"
+}
+#VER B 32 20100129 "Kundfkt 767 Lernia" 20100519
+{
+   #TRANS 1510 {} 63000.00 20100129 "Faktnr: 767, Namn: Lernia"
+   #TRANS 2611 {} -12600.00 20100129 "Faktnr: 767, Namn: Lernia"
+   #TRANS 3041 {} -50400.00 20100129 "Faktnr: 767, Namn: Lernia"
+}
+#VER B 33 20100203 "Inbetalningsjournal nr 223" 20100129
+{
+   #TRANS 1510 {} -108801.00
+   #TRANS 1930 {} 108801.00
+}
+#VER B 34 20100208 "Inbetalningsjournal nr 224" 20100129
+{
+   #TRANS 1510 {} -241699.62
+   #TRANS 1920 {} 241699.62
+}
+#VER B 35 20100215 "Inbetalningsjournal nr 225" 20100129
+{
+   #TRANS 1510 {} -55350.00
+   #TRANS 1930 {} 55350.00
+}
+#VER B 36 20100201 "Kundavtalsfkt 768 RedovisningsbyrÜn" 20100129
+{
+   #TRANS 1510 {} 4125.00 20100201 "Faktnr: 768, Namn: RedovisningsbyrÜn"
+   #TRANS 2611 {} -825.00 20100201 "Faktnr: 768, Namn: RedovisningsbyrÜn"
+   #TRANS 3041 {1 Syd} -3300.00 20100201 "Faktnr: 768, Namn: RedovisningsbyrÜn"
+}
+#VER B 37 20100201 "Kundavtalsfkt 769 Storstadshotellet AB" 20100129
+{
+   #TRANS 1510 {} 2063.00 20100201 "Faktnr: 769, Namn: Storstadshotellet AB"
+   #TRANS 2611 {} -412.50 20100201 "Faktnr: 769, Namn: Storstadshotellet AB"
+   #TRANS 3041 {1 Nord} -1650.00 20100201 "Faktnr: 769, Namn: Storstadshotellet AB"
+   #TRANS 3740 {} -0.50 20100201 "Faktnr: 769, Namn: Storstadshotellet AB"
+}
+#VER B 38 20100201 "Kundavtalsfkt 770 Storstads IF" 20100129
+{
+   #TRANS 1510 {} 1375.00 20100201 "Faktnr: 770, Namn: Storstads IF"
+   #TRANS 2611 {} -275.00 20100201 "Faktnr: 770, Namn: Storstads IF"
+   #TRANS 3041 {1 Nord} -1100.00 20100201 "Faktnr: 770, Namn: Storstads IF"
+}
+#VER B 39 20100201 "Kundavtalsfkt 771 Storstads Kommun" 20100129
+{
+   #TRANS 1510 {} 3919.00 20100201 "Faktnr: 771, Namn: Storstads Kommun"
+   #TRANS 2611 {} -783.75 20100201 "Faktnr: 771, Namn: Storstads Kommun"
+   #TRANS 3041 {1 Nord} -3135.00 20100201 "Faktnr: 771, Namn: Storstads Kommun"
+   #TRANS 3740 {} -0.25 20100201 "Faktnr: 771, Namn: Storstads Kommun"
+}
+#VER B 40 20100205 "KundrÑntefkt 772 Lernia" 20100129
+{
+   #TRANS 1510 {} 137.00 20100205 "Faktnr: 772, Namn: Lernia"
+   #TRANS 2611 {} -5.00 20100205 "Faktnr: 772, Namn: Lernia"
+   #TRANS 3540 {} -20.00 20100205 "Faktnr: 772, Namn: Lernia"
+   #TRANS 3740 {} -0.44 20100205 "Faktnr: 772, Namn: Lernia"
+   #TRANS 8300 {} -111.56 20100205 "Faktnr: 772, Namn: Lernia"
+}
+#VER B 41 20100205 "KundrÑntefkt 773 Storstads Kommun" 20100129
+{
+   #TRANS 1510 {} 237.00 20100205 "Faktnr: 773, Namn: Storstads Kommun"
+   #TRANS 2611 {} -5.00 20100205 "Faktnr: 773, Namn: Storstads Kommun"
+   #TRANS 3540 {} -20.00 20100205 "Faktnr: 773, Namn: Storstads Kommun"
+   #TRANS 3740 {} -0.03 20100205 "Faktnr: 773, Namn: Storstads Kommun"
+   #TRANS 8300 {} -211.97 20100205 "Faktnr: 773, Namn: Storstads Kommun"
+}
+#VER B 42 20100205 "Kundfkt 774 Grossisten HB" 20100129
+{
+   #TRANS 1510 {} 98671.00 20100205 "Faktnr: 774, Namn: Grossisten HB"
+   #TRANS 2611 {} -19725.00 20100205 "Faktnr: 774, Namn: Grossisten HB"
+   #TRANS 3051 {} -52700.00 20100205 "Faktnr: 774, Namn: Grossisten HB"
+   #TRANS 3051 {} -21300.00 20100205 "Faktnr: 774, Namn: Grossisten HB"
+   #TRANS 3051 {} -4900.00 20100205 "Faktnr: 774, Namn: Grossisten HB"
+   #TRANS 3740 {} 0.31 20100205 "Faktnr: 774, Namn: Grossisten HB"
+   #TRANS 8300 {} -46.31 20100205 "Faktnr: 774, Namn: Grossisten HB"
+}
+#VER B 43 20100205 "Kundfkt 775 RedovisningsbyrÜn" 20100129
+{
+   #TRANS 1510 {} 20000.00 20100205 "Faktnr: 775, Namn: RedovisningsbyrÜn"
+   #TRANS 2611 {} -4000.00 20100205 "Faktnr: 775, Namn: RedovisningsbyrÜn"
+   #TRANS 3041 {} -16000.00 20100205 "Faktnr: 775, Namn: RedovisningsbyrÜn"
+}
+#VER B 44 20100205 "Kundfkt 776 Storstads Blommor AB" 20100129
+{
+   #TRANS 1510 {} 9563.00 20100205 "Faktnr: 776, Namn: Storstads Blommor AB"
+   #TRANS 2611 {} -1912.50 20100205 "Faktnr: 776, Namn: Storstads Blommor AB"
+   #TRANS 3041 {} -7650.00 20100205 "Faktnr: 776, Namn: Storstads Blommor AB"
+   #TRANS 3740 {} -0.50 20100205 "Faktnr: 776, Namn: Storstads Blommor AB"
+}
+#VER B 45 20100205 "Kundfkt 777 Lernia" 20100129
+{
+   #TRANS 1510 {} 70875.00 20100205 "Faktnr: 777, Namn: Lernia"
+   #TRANS 2611 {} -14175.00 20100205 "Faktnr: 777, Namn: Lernia"
+   #TRANS 3041 {1 Nord} -56700.00 20100205 "Faktnr: 777, Namn: Lernia"
+}
+#VER B 46 20100212 "Kundfkt 778 Kontorsprogram AB" 20100129
+{
+   #TRANS 1510 {} 101000.00 20100212 "Faktnr: 778, Namn: Kontorsprogram AB"
+   #TRANS 2611 {} -20200.00 20100212 "Faktnr: 778, Namn: Kontorsprogram AB"
+   #TRANS 3051 {} -31500.00 20100212 "Faktnr: 778, Namn: Kontorsprogram AB"
+   #TRANS 3051 {} -49300.00 20100212 "Faktnr: 778, Namn: Kontorsprogram AB"
+}
+#VER B 47 20100212 "Kundfkt 779 Byggbolaget AB" 20100129
+{
+   #TRANS 1510 {} 6125.00 20100212 "Faktnr: 779, Namn: Byggbolaget AB"
+   #TRANS 2611 {} -1225.00 20100212 "Faktnr: 779, Namn: Byggbolaget AB"
+   #TRANS 3051 {} -1900.00 20100212 "Faktnr: 779, Namn: Byggbolaget AB"
+   #TRANS 3051 {} -1900.00 20100212 "Faktnr: 779, Namn: Byggbolaget AB"
+   #TRANS 3051 {} -1100.00 20100212 "Faktnr: 779, Namn: Byggbolaget AB"
+}
+#VER B 48 20100215 "Kundfkt 780 Billeverantîren AB" 20100129
+{
+   #TRANS 1510 {} 4781.00 20100215 "Faktnr: 780, Namn: Billeverantîren AB"
+   #TRANS 2611 {} -956.25 20100215 "Faktnr: 780, Namn: Billeverantîren AB"
+   #TRANS 3041 {} -3825.00 20100215 "Faktnr: 780, Namn: Billeverantîren AB"
+   #TRANS 3740 {} 0.25 20100215 "Faktnr: 780, Namn: Billeverantîren AB"
+}
+#VER B 49 20100217 "Inbetalningsjournal nr 226" 20100129
+{
+   #TRANS 1510 {} -203848.00
+   #TRANS 1930 {} 203848.00
+}
+#VER B 50 20100222 "Inbetalningsjournal nr 227" 20100129
+{
+   #TRANS 1510 {} -128200.00
+   #TRANS 1920 {} 128200.00
+}
+#VER B 51 20100219 "Kundfkt 781 Sparlivs" 20100129
+{
+   #TRANS 1510 {} 18438.00 20100219 "Faktnr: 781, Namn: Sparlivs"
+   #TRANS 2611 {} -3687.50 20100219 "Faktnr: 781, Namn: Sparlivs"
+   #TRANS 3041 {} -10800.00 20100219 "Faktnr: 781, Namn: Sparlivs"
+   #TRANS 3051 {} -1100.00 20100219 "Faktnr: 781, Namn: Sparlivs"
+   #TRANS 3051 {} -950.00 20100219 "Faktnr: 781, Namn: Sparlivs"
+   #TRANS 3051 {} -1900.00 20100219 "Faktnr: 781, Namn: Sparlivs"
+   #TRANS 3740 {} -0.50 20100219 "Faktnr: 781, Namn: Sparlivs"
+}
+#VER B 52 20100219 "Kundfkt 782 IWU Trading" 20100129
+{
+   #TRANS 1510 {} 55465.99 20100219 "Faktnr: 782, Namn: IWU Trading"
+   #TRANS 3045 {} -9974.92 20100219 "Faktnr: 782, Namn: IWU Trading"
+   #TRANS 3045 {} -36124.88 20100219 "Faktnr: 782, Namn: IWU Trading"
+   #TRANS 3591 {} -4924.44 20100219 "Faktnr: 782, Namn: IWU Trading"
+   #TRANS 3591 {} -4441.88 20100219 "Faktnr: 782, Namn: IWU Trading"
+   #TRANS 3740 {} 0.13 20100219 "Faktnr: 782, Namn: IWU Trading"
+}
+#VER B 53 20100226 "Kundfkt 783 Danske Disks APS" 20100129
+{
+   #TRANS 1510 {} 46800.00 20100226 "Faktnr: 783, Namn: Danske Disks APS"
+   #TRANS 3048 {} -46800.00 20100226 "Faktnr: 783, Namn: Danske Disks APS"
+}
+#VER B 54 20100226 "Kundfkt 784 Elektronikfîretaget AB" 20100129
+{
+   #TRANS 1510 {} 49313.00 20100226 "Faktnr: 784, Namn: Elektronikfîretaget AB"
+   #TRANS 2611 {} -9862.50 20100226 "Faktnr: 784, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -26350.00 20100226 "Faktnr: 784, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -10650.00 20100226 "Faktnr: 784, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -2450.00 20100226 "Faktnr: 784, Namn: Elektronikfîretaget AB"
+   #TRANS 3740 {} -0.50 20100226 "Faktnr: 784, Namn: Elektronikfîretaget AB"
+}
+#VER B 55 20100304 "Inbetalningsjournal nr 228" 20100129
+{
+   #TRANS 1510 {} -182607.00
+   #TRANS 1920 {} 182607.00
+}
+#VER B 56 20100301 "Kundavtalsfkt 785 Billeverantîren AB" 20100129
+{
+   #TRANS 1510 {} 4125.00 20100301 "Faktnr: 785, Namn: Billeverantîren AB"
+   #TRANS 2611 {} -825.00 20100301 "Faktnr: 785, Namn: Billeverantîren AB"
+   #TRANS 3041 {1 Nord} -3300.00 20100301 "Faktnr: 785, Namn: Billeverantîren AB"
+}
+#VER B 57 20100301 "Kundavtalsfkt 786 Storstads Blommor AB" 20100129
+{
+   #TRANS 1510 {} 1375.00 20100301 "Faktnr: 786, Namn: Storstads Blommor AB"
+   #TRANS 2611 {} -275.00 20100301 "Faktnr: 786, Namn: Storstads Blommor AB"
+   #TRANS 3041 {1 Nord} -1100.00 20100301 "Faktnr: 786, Namn: Storstads Blommor AB"
+}
+#VER B 58 20100301 "Kundavtalsfkt 787 Storstads Radio & TV AB" 20100129
+{
+   #TRANS 1510 {} 2750.00 20100301 "Faktnr: 787, Namn: Storstads Radio & TV AB"
+   #TRANS 2611 {} -550.00 20100301 "Faktnr: 787, Namn: Storstads Radio & TV AB"
+   #TRANS 3041 {1 Nord} -2200.00 20100301 "Faktnr: 787, Namn: Storstads Radio & TV AB"
+}
+#VER B 59 20100301 "Kundavtalsfkt 788 Storstads Golfklubb" 20100129
+{
+   #TRANS 1510 {} 4125.00 20100301 "Faktnr: 788, Namn: Storstads Golfklubb"
+   #TRANS 2611 {} -825.00 20100301 "Faktnr: 788, Namn: Storstads Golfklubb"
+   #TRANS 3041 {1 Nord} -3300.00 20100301 "Faktnr: 788, Namn: Storstads Golfklubb"
+}
+#VER B 60 20100305 "Kundfkt 789 Storstads èkeri AB" 20100129
+{
+   #TRANS 1510 {} 12750.00 20100305 "Faktnr: 789, Namn: Storstads èkeri AB"
+   #TRANS 2611 {} -2550.00 20100305 "Faktnr: 789, Namn: Storstads èkeri AB"
+   #TRANS 3041 {} -7200.00 20100305 "Faktnr: 789, Namn: Storstads èkeri AB"
+   #TRANS 3051 {} -1100.00 20100305 "Faktnr: 789, Namn: Storstads èkeri AB"
+   #TRANS 3051 {} -1900.00 20100305 "Faktnr: 789, Namn: Storstads èkeri AB"
+}
+#VER B 61 20100305 "Kundfkt 790 Rîrfirman VVS" 20100129
+{
+   #TRANS 1510 {} 14593.00 20100305 "Faktnr: 790, Namn: Rîrfirman VVS"
+   #TRANS 2611 {} -2912.50 20100305 "Faktnr: 790, Namn: Rîrfirman VVS"
+   #TRANS 3041 {} -9600.00 20100305 "Faktnr: 790, Namn: Rîrfirman VVS"
+   #TRANS 3051 {} -1100.00 20100305 "Faktnr: 790, Namn: Rîrfirman VVS"
+   #TRANS 3051 {} -950.00 20100305 "Faktnr: 790, Namn: Rîrfirman VVS"
+   #TRANS 3740 {} -0.30 20100305 "Faktnr: 790, Namn: Rîrfirman VVS"
+   #TRANS 8300 {} -30.20 20100305 "Faktnr: 790, Namn: Rîrfirman VVS"
+}
+#VER B 62 20100305 "Kundfkt 791 EDA-bolaget AB" 20100129
+{
+   #TRANS 1510 {} 92500.00 20100305 "Faktnr: 791, Namn: EDA-bolaget AB"
+   #TRANS 2611 {} -18500.00 20100305 "Faktnr: 791, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -13600.00 20100305 "Faktnr: 791, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -37850.00 20100305 "Faktnr: 791, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -22550.00 20100305 "Faktnr: 791, Namn: EDA-bolaget AB"
+}
+#VER B 63 20100312 "Kundfkt 792 Lernia" 20100129
+{
+   #TRANS 1510 {} 42188.00 20100312 "Faktnr: 792, Namn: Lernia"
+   #TRANS 2611 {} -8437.50 20100312 "Faktnr: 792, Namn: Lernia"
+   #TRANS 3041 {} -33750.00 20100312 "Faktnr: 792, Namn: Lernia"
+   #TRANS 3740 {} -0.50 20100312 "Faktnr: 792, Namn: Lernia"
+}
+#VER B 64 20100312 "Kundfkt 793 Storstads Kontorsvaruhus" 20100129
+{
+   #TRANS 1510 {} 109526.00 20100312 "Faktnr: 793, Namn: Storstads Kontorsvaruhus"
+   #TRANS 2611 {} -21900.00 20100312 "Faktnr: 793, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3051 {} -22550.00 20100312 "Faktnr: 793, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3051 {} -13600.00 20100312 "Faktnr: 793, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3051 {} -37850.00 20100312 "Faktnr: 793, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3051 {} -13600.00 20100312 "Faktnr: 793, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3740 {} -0.47 20100312 "Faktnr: 793, Namn: Storstads Kontorsvaruhus"
+   #TRANS 8300 {} -25.53 20100312 "Faktnr: 793, Namn: Storstads Kontorsvaruhus"
+}
+#VER B 65 20100315 "Inbetalningsjournal nr 229" 20100129
+{
+   #TRANS 1510 {} -306608.00
+   #TRANS 1930 {} 306608.00
+}
+#VER B 66 20100317 "Inbetalningsjournal nr 230" 20100129
+{
+   #TRANS 1510 {} -4781.00
+   #TRANS 1930 {} 4781.00
+}
+#VER B 67 20100322 "Inbetalningsjournal nr 231" 20100129
+{
+   #TRANS 1510 {} -73903.99
+   #TRANS 1920 {} 73808.00
+   #TRANS 3960 {} 95.99
+}
+#VER B 68 20100329 "Inbetalningsjournal nr 232" 20100129
+{
+   #TRANS 1510 {} -96113.00
+   #TRANS 1930 {} 96113.00
+}
+#VER B 69 20100331 "Inbetalningsjournal nr 233" 20100129
+{
+   #TRANS 1510 {} -12375.00
+   #TRANS 1920 {} 12375.00
+}
+#VER B 70 20100319 "Kundfkt 794 IWU Trading" 20100129
+{
+   #TRANS 1510 {} 56250.13 20100319 "Faktnr: 794, Namn: IWU Trading"
+   #TRANS 3045 {} -30000.07 20100319 "Faktnr: 794, Namn: IWU Trading"
+   #TRANS 3045 {} -26250.06 20100319 "Faktnr: 794, Namn: IWU Trading"
+}
+#VER B 71 20100319 "Kundfkt 795 Danske Disks APS" 20100129
+{
+   #TRANS 1510 {} 42050.00 20100319 "Faktnr: 795, Namn: Danske Disks APS"
+   #TRANS 3048 {} -34000.00 20100319 "Faktnr: 795, Namn: Danske Disks APS"
+   #TRANS 3058 {} -4750.00 20100319 "Faktnr: 795, Namn: Danske Disks APS"
+   #TRANS 3058 {} -3300.00 20100319 "Faktnr: 795, Namn: Danske Disks APS"
+}
+#VER B 72 20100319 "Kundfkt 796 Grossisten HB" 20100129
+{
+   #TRANS 1510 {} 99813.00 20100319 "Faktnr: 796, Namn: Grossisten HB"
+   #TRANS 2611 {} -19962.50 20100319 "Faktnr: 796, Namn: Grossisten HB"
+   #TRANS 3051 {} -2450.00 20100319 "Faktnr: 796, Namn: Grossisten HB"
+   #TRANS 3051 {} -26350.00 20100319 "Faktnr: 796, Namn: Grossisten HB"
+   #TRANS 3051 {} -24650.00 20100319 "Faktnr: 796, Namn: Grossisten HB"
+   #TRANS 3051 {} -15750.00 20100319 "Faktnr: 796, Namn: Grossisten HB"
+   #TRANS 3051 {} -10650.00 20100319 "Faktnr: 796, Namn: Grossisten HB"
+   #TRANS 3740 {} -0.50 20100319 "Faktnr: 796, Namn: Grossisten HB"
+}
+#VER B 73 20100319 "Kundfkt 797 Storstads Blommor AB" 20100129
+{
+   #TRANS 1510 {} 12969.00 20100319 "Faktnr: 797, Namn: Storstads Blommor AB"
+   #TRANS 2611 {} -2593.75 20100319 "Faktnr: 797, Namn: Storstads Blommor AB"
+   #TRANS 3041 {} -9000.00 20100319 "Faktnr: 797, Namn: Storstads Blommor AB"
+   #TRANS 3051 {} -900.00 20100319 "Faktnr: 797, Namn: Storstads Blommor AB"
+   #TRANS 3051 {} -475.00 20100319 "Faktnr: 797, Namn: Storstads Blommor AB"
+   #TRANS 3740 {} -0.25 20100319 "Faktnr: 797, Namn: Storstads Blommor AB"
+}
+#VER B 74 20100326 "Kundfkt 798 Kontorsprogram AB" 20100129
+{
+   #TRANS 1510 {} 92500.00 20100326 "Faktnr: 798, Namn: Kontorsprogram AB"
+   #TRANS 2611 {} -18500.00 20100326 "Faktnr: 798, Namn: Kontorsprogram AB"
+   #TRANS 3051 {} -13600.00 20100326 "Faktnr: 798, Namn: Kontorsprogram AB"
+   #TRANS 3051 {} -37850.00 20100326 "Faktnr: 798, Namn: Kontorsprogram AB"
+   #TRANS 3051 {} -22550.00 20100326 "Faktnr: 798, Namn: Kontorsprogram AB"
+}
+#VER B 75 20100326 "Kundfkt 799 Lernia" 20100129
+{
+   #TRANS 1510 {} 95709.00 20100326 "Faktnr: 799, Namn: Lernia"
+   #TRANS 2611 {} -19125.00 20100326 "Faktnr: 799, Namn: Lernia"
+   #TRANS 3041 {} -76500.00 20100326 "Faktnr: 799, Namn: Lernia"
+   #TRANS 3740 {} -0.33 20100326 "Faktnr: 799, Namn: Lernia"
+   #TRANS 8300 {} -83.67 20100326 "Faktnr: 799, Namn: Lernia"
+}
+#VER B 76 20100331 "Kundfkt 800 Elektronikfîretaget AB" 20100129
+{
+   #TRANS 1510 {} 105250.00 20100331 "Faktnr: 800, Namn: Elektronikfîretaget AB"
+   #TRANS 2611 {} -21050.00 20100331 "Faktnr: 800, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -37850.00 20100331 "Faktnr: 800, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -22550.00 20100331 "Faktnr: 800, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -10200.00 20100331 "Faktnr: 800, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -13600.00 20100331 "Faktnr: 800, Namn: Elektronikfîretaget AB"
+}
+#VER B 77 20100331 "Kundfkt 801 Sparlivs" 20100129
+{
+   #TRANS 1510 {} 5625.00 20100331 "Faktnr: 801, Namn: Sparlivs"
+   #TRANS 2611 {} -1125.00 20100331 "Faktnr: 801, Namn: Sparlivs"
+   #TRANS 3041 {} -4500.00 20100331 "Faktnr: 801, Namn: Sparlivs"
+}
+#VER B 78 20100405 "Inbetalningsjournal nr 234" 20100129
+{
+   #TRANS 1510 {} -119843.00
+   #TRANS 1930 {} 119843.00
+}
+#VER B 79 20100412 "Inbetalningsjournal nr 235" 20100129
+{
+   #TRANS 1510 {} -151714.00
+   #TRANS 1920 {} 151714.00
+}
+#VER B 80 20100401 "Kundavtalsfkt 802 Sparlivs" 20100129
+{
+   #TRANS 1510 {} 2750.00 20100401 "Faktnr: 802, Namn: Sparlivs"
+   #TRANS 2611 {} -550.00 20100401 "Faktnr: 802, Namn: Sparlivs"
+   #TRANS 3041 {1 Syd} -2200.00 20100401 "Faktnr: 802, Namn: Sparlivs"
+}
+#VER B 81 20100401 "Kundavtalsfkt 803 Sparlivs" 20100129
+{
+   #TRANS 1510 {} 3125.00 20100401 "Faktnr: 803, Namn: Sparlivs"
+   #TRANS 2611 {} -625.00 20100401 "Faktnr: 803, Namn: Sparlivs"
+   #TRANS 3041 {} -2500.00 20100401 "Faktnr: 803, Namn: Sparlivs"
+}
+#VER B 82 20100401 "Kundavtalsfkt 804 RedovisningsbyrÜn" 20100129
+{
+   #TRANS 1510 {} 2750.00 20100401 "Faktnr: 804, Namn: RedovisningsbyrÜn"
+   #TRANS 2611 {} -550.00 20100401 "Faktnr: 804, Namn: RedovisningsbyrÜn"
+   #TRANS 3041 {} -2200.00 20100401 "Faktnr: 804, Namn: RedovisningsbyrÜn"
+}
+#VER B 83 20100401 "Kundavtalsfkt 805 Billeverantîren AB" 20100129
+{
+   #TRANS 1510 {} 1094.00 20100401 "Faktnr: 805, Namn: Billeverantîren AB"
+   #TRANS 2611 {} -218.75 20100401 "Faktnr: 805, Namn: Billeverantîren AB"
+   #TRANS 3041 {} -875.00 20100401 "Faktnr: 805, Namn: Billeverantîren AB"
+   #TRANS 3740 {} -0.25 20100401 "Faktnr: 805, Namn: Billeverantîren AB"
+}
+#VER B 84 20100401 "Kundavtalsfkt 806 Storstads Blommor AB" 20100129
+{
+   #TRANS 1510 {} 3125.00 20100401 "Faktnr: 806, Namn: Storstads Blommor AB"
+   #TRANS 2611 {} -625.00 20100401 "Faktnr: 806, Namn: Storstads Blommor AB"
+   #TRANS 3041 {} -2500.00 20100401 "Faktnr: 806, Namn: Storstads Blommor AB"
+}
+#VER B 85 20100401 "Kundavtalsfkt 807 Storstads èkeri AB" 20100129
+{
+   #TRANS 1510 {} 5875.00 20100401 "Faktnr: 807, Namn: Storstads èkeri AB"
+   #TRANS 2611 {} -1175.00 20100401 "Faktnr: 807, Namn: Storstads èkeri AB"
+   #TRANS 3041 {} -2200.00 20100401 "Faktnr: 807, Namn: Storstads èkeri AB"
+   #TRANS 3041 {} -2500.00 20100401 "Faktnr: 807, Namn: Storstads èkeri AB"
+}
+#VER B 86 20100401 "Kundavtalsfkt 808 Byggbolaget AB" 20100129
+{
+   #TRANS 1510 {} 3125.00 20100401 "Faktnr: 808, Namn: Byggbolaget AB"
+   #TRANS 2611 {} -625.00 20100401 "Faktnr: 808, Namn: Byggbolaget AB"
+   #TRANS 3041 {} -2500.00 20100401 "Faktnr: 808, Namn: Byggbolaget AB"
+}
+#VER B 87 20100401 "Kundavtalsfkt 809 Storstadshotellet AB" 20100129
+{
+   #TRANS 1510 {} 2784.00 20100401 "Faktnr: 809, Namn: Storstadshotellet AB"
+   #TRANS 2611 {} -550.00 20100401 "Faktnr: 809, Namn: Storstadshotellet AB"
+   #TRANS 3041 {} -2200.00 20100401 "Faktnr: 809, Namn: Storstadshotellet AB"
+   #TRANS 3740 {} 0.21 20100401 "Faktnr: 809, Namn: Storstadshotellet AB"
+   #TRANS 8300 {} -34.21 20100401 "Faktnr: 809, Namn: Storstadshotellet AB"
+}
+#VER B 88 20100401 "Kundavtalsfkt 810 Restaurang Rasten AB" 20100129
+{
+   #TRANS 1510 {} 1094.00 20100401 "Faktnr: 810, Namn: Restaurang Rasten AB"
+   #TRANS 2611 {} -218.75 20100401 "Faktnr: 810, Namn: Restaurang Rasten AB"
+   #TRANS 3041 {} -875.00 20100401 "Faktnr: 810, Namn: Restaurang Rasten AB"
+   #TRANS 3740 {} -0.25 20100401 "Faktnr: 810, Namn: Restaurang Rasten AB"
+}
+#VER B 89 20100401 "Kundavtalsfkt 811 Restaurang Rasten AB" 20100129
+{
+   #TRANS 1510 {} 2750.00 20100401 "Faktnr: 811, Namn: Restaurang Rasten AB"
+   #TRANS 2611 {} -550.00 20100401 "Faktnr: 811, Namn: Restaurang Rasten AB"
+   #TRANS 3041 {} -2200.00 20100401 "Faktnr: 811, Namn: Restaurang Rasten AB"
+}
+#VER B 90 20100401 "Kundavtalsfkt 812 Storstads Kommun" 20100129
+{
+   #TRANS 1510 {} 2613.00 20100401 "Faktnr: 812, Namn: Storstads Kommun"
+   #TRANS 2611 {} -522.50 20100401 "Faktnr: 812, Namn: Storstads Kommun"
+   #TRANS 3041 {} -2090.00 20100401 "Faktnr: 812, Namn: Storstads Kommun"
+   #TRANS 3740 {} -0.50 20100401 "Faktnr: 812, Namn: Storstads Kommun"
+}
+#VER B 91 20100409 "KundrÑntefkt 813 Grossisten HB" 20100129
+{
+   #TRANS 1510 {} 141.00 20100409 "Faktnr: 813, Namn: Grossisten HB"
+   #TRANS 2611 {} -5.00 20100409 "Faktnr: 813, Namn: Grossisten HB"
+   #TRANS 3540 {} -20.00 20100409 "Faktnr: 813, Namn: Grossisten HB"
+   #TRANS 3740 {} 0.49 20100409 "Faktnr: 813, Namn: Grossisten HB"
+   #TRANS 8300 {} -116.49 20100409 "Faktnr: 813, Namn: Grossisten HB"
+}
+#VER B 92 20100409 "Kundfkt 814 Danske Disks APS" 20100129
+{
+   #TRANS 1510 {} 44200.00 20100409 "Faktnr: 814, Namn: Danske Disks APS"
+   #TRANS 3048 {} -44200.00 20100409 "Faktnr: 814, Namn: Danske Disks APS"
+}
+#VER B 93 20100409 "Kundfkt 815 Lernia" 20100129
+{
+   #TRANS 1510 {} 93375.00 20100409 "Faktnr: 815, Namn: Lernia"
+   #TRANS 2611 {} -18675.00 20100409 "Faktnr: 815, Namn: Lernia"
+   #TRANS 3041 {} -74700.00 20100409 "Faktnr: 815, Namn: Lernia"
+}
+#VER B 94 20100409 "Kundfkt 816 IWU Trading" 20100129
+{
+   #TRANS 1510 {} 54549.78 20100409 "Faktnr: 816, Namn: IWU Trading"
+   #TRANS 3045 {} -20799.99 20100409 "Faktnr: 816, Namn: IWU Trading"
+   #TRANS 3045 {} 0.01 20100409 "Faktnr: 816, Namn: IWU Trading"
+   #TRANS 3045 {} -33750.08 20100409 "Faktnr: 816, Namn: IWU Trading"
+   #TRANS 3740 {} 0.28 20100409 "Faktnr: 816, Namn: IWU Trading"
+}
+#VER B 95 20100416 "Kundfkt 817 Rîrfirman VVS" 20100129
+{
+   #TRANS 1510 {} 13500.00 20100416 "Faktnr: 817, Namn: Rîrfirman VVS"
+   #TRANS 2611 {} -2700.00 20100416 "Faktnr: 817, Namn: Rîrfirman VVS"
+   #TRANS 3041 {} -10800.00 20100416 "Faktnr: 817, Namn: Rîrfirman VVS"
+}
+#VER B 96 20100416 "Kundfkt 818 Storstads Radio & TV AB" 20100129
+{
+   #TRANS 1510 {} 11250.00 20100416 "Faktnr: 818, Namn: Storstads Radio & TV AB"
+   #TRANS 2611 {} -2250.00 20100416 "Faktnr: 818, Namn: Storstads Radio & TV AB"
+   #TRANS 3041 {} -9000.00 20100416 "Faktnr: 818, Namn: Storstads Radio & TV AB"
+}
+#VER B 97 20100419 "Inbetalningsjournal nr 236" 20100129
+{
+   #TRANS 1510 {} -211082.13
+   #TRANS 1930 {} 211082.13
+}
+#VER B 98 20100426 "Inbetalningsjournal nr 237" 20100129
+{
+   #TRANS 1510 {} -188209.00
+   #TRANS 1920 {} 188209.00
+}
+#VER B 99 20100430 "Inbetalningsjournal nr 238" 20100129
+{
+   #TRANS 1510 {} -110875.00
+   #TRANS 1930 {} 110875.00
+}
+#VER B 100 20100423 "Kundfkt 819 IWU Trading" 20100129
+{
+   #TRANS 1510 {} 44800.16 20100423 "Faktnr: 819, Namn: IWU Trading"
+   #TRANS 3045 {} -44799.97 20100423 "Faktnr: 819, Namn: IWU Trading"
+   #TRANS 3740 {} -0.19 20100423 "Faktnr: 819, Namn: IWU Trading"
+}
+#VER B 101 20100423 "Kundfkt 820 Karl Svensson" 20100129
+{
+   #TRANS 1510 {} 714.00 20100423 "Faktnr: 820, Namn: Karl Svensson"
+   #TRANS 2611 {} -142.80 20100423 "Faktnr: 820, Namn: Karl Svensson"
+   #TRANS 3051 {} -571.20 20100423 "Faktnr: 820, Namn: Karl Svensson"
+}
+#VER B 102 20100423 "Kundfkt 821 Storstads Golfklubb" 20100129
+{
+   #TRANS 1510 {} 11900.00 20100423 "Faktnr: 821, Namn: Storstads Golfklubb"
+   #TRANS 3045 {} -10800.00 20100423 "Faktnr: 821, Namn: Storstads Golfklubb"
+   #TRANS 3055 {} -1100.00 20100423 "Faktnr: 821, Namn: Storstads Golfklubb"
+}
+#VER B 103 20100430 "Kundfkt 822 Lernia" 20100129
+{
+   #TRANS 1510 {} 73125.00 20100430 "Faktnr: 822, Namn: Lernia"
+   #TRANS 2611 {} -14625.00 20100430 "Faktnr: 822, Namn: Lernia"
+   #TRANS 3041 {1 Nord} -58500.00 20100430 "Faktnr: 822, Namn: Lernia"
+}
+#VER B 104 20100503 "Inbetalningsjournal nr 239" 20100129
+{
+   #TRANS 1510 {} -31226.00
+   #TRANS 1930 {} 31226.00
+}
+#VER B 105 20100510 "Inbetalningsjournal nr 240" 20100129
+{
+   #TRANS 1510 {} -192124.78
+   #TRANS 1920 {} 192124.78
+}
+#VER B 106 20100503 "Kundavtalsfkt 823 Billeverantîren AB" 20100129
+{
+   #TRANS 1510 {} 2375.00 20100503 "Faktnr: 823, Namn: Billeverantîren AB"
+   #TRANS 2611 {} -475.00 20100503 "Faktnr: 823, Namn: Billeverantîren AB"
+   #TRANS 3041 {1 Nord} -1900.00 20100503 "Faktnr: 823, Namn: Billeverantîren AB"
+}
+#VER B 107 20100503 "Kundavtalsfkt 824 Rîrfirman VVS" 20100129
+{
+   #TRANS 1510 {} 2375.00 20100503 "Faktnr: 824, Namn: Rîrfirman VVS"
+   #TRANS 2611 {} -475.00 20100503 "Faktnr: 824, Namn: Rîrfirman VVS"
+   #TRANS 3041 {1 Nord} -1900.00 20100503 "Faktnr: 824, Namn: Rîrfirman VVS"
+}
+#VER B 108 20100503 "Kundavtalsfkt 825 Storstads Kommun" 20100129
+{
+   #TRANS 1510 {} 2256.00 20100503 "Faktnr: 825, Namn: Storstads Kommun"
+   #TRANS 2611 {} -451.25 20100503 "Faktnr: 825, Namn: Storstads Kommun"
+   #TRANS 3041 {1 Nord} -1805.00 20100503 "Faktnr: 825, Namn: Storstads Kommun"
+   #TRANS 3740 {} 0.25 20100503 "Faktnr: 825, Namn: Storstads Kommun"
+}
+#VER B 109 20100507 "Kundfkt 826 IWU Trading" 20100129
+{
+   #TRANS 1510 {} 63750.38 20100507 "Faktnr: 826, Namn: IWU Trading"
+   #TRANS 3045 {} 0.01 20100507 "Faktnr: 826, Namn: IWU Trading"
+   #TRANS 3045 {} -63750.15 20100507 "Faktnr: 826, Namn: IWU Trading"
+   #TRANS 3740 {} -0.24 20100507 "Faktnr: 826, Namn: IWU Trading"
+}
+#VER B 110 20100507 "Kundfkt 827 Lernia" 20100129
+{
+   #TRANS 1510 {} 92250.00 20100507 "Faktnr: 827, Namn: Lernia"
+   #TRANS 2611 {} -18450.00 20100507 "Faktnr: 827, Namn: Lernia"
+   #TRANS 3041 {1 Nord} -73800.00 20100507 "Faktnr: 827, Namn: Lernia"
+}
+#VER B 111 20100507 "Kundfkt 828 Grossisten HB" 20100129
+{
+   #TRANS 1510 {} 125438.00 20100507 "Faktnr: 828, Namn: Grossisten HB"
+   #TRANS 2611 {} -25087.50 20100507 "Faktnr: 828, Namn: Grossisten HB"
+   #TRANS 3051 {} -37850.00 20100507 "Faktnr: 828, Namn: Grossisten HB"
+   #TRANS 3051 {} -22550.00 20100507 "Faktnr: 828, Namn: Grossisten HB"
+   #TRANS 3051 {} -26350.00 20100507 "Faktnr: 828, Namn: Grossisten HB"
+   #TRANS 3051 {} -13600.00 20100507 "Faktnr: 828, Namn: Grossisten HB"
+   #TRANS 3740 {} -0.50 20100507 "Faktnr: 828, Namn: Grossisten HB"
+}
+#VER B 112 20100507 "Kundkreditfkt 829 Lernia" 20100129
+{
+   #TRANS 1510 {} -5625.00 20100507 "Faktnr: 829, Namn: Lernia"
+   #TRANS 2611 {} 1125.00 20100507 "Faktnr: 829, Namn: Lernia"
+   #TRANS 3041 {1 Nord} 4500.00 20100507 "Faktnr: 829, Namn: Lernia"
+}
+#VER B 113 20100507 "Kundfkt 830 Storstads Blommor AB" 20100129
+{
+   #TRANS 1510 {} 8563.00 20100507 "Faktnr: 830, Namn: Storstads Blommor AB"
+   #TRANS 2611 {} -1712.50 20100507 "Faktnr: 830, Namn: Storstads Blommor AB"
+   #TRANS 3041 {} -4950.00 20100507 "Faktnr: 830, Namn: Storstads Blommor AB"
+   #TRANS 3051 {} -1900.00 20100507 "Faktnr: 830, Namn: Storstads Blommor AB"
+   #TRANS 3740 {} -0.50 20100507 "Faktnr: 830, Namn: Storstads Blommor AB"
+}
+#VER B 114 20100514 "Kundfkt 831 Storstads èkeri AB" 20100129
+{
+   #TRANS 1510 {} 7875.00 20100514 "Faktnr: 831, Namn: Storstads èkeri AB"
+   #TRANS 2611 {} -1575.00 20100514 "Faktnr: 831, Namn: Storstads èkeri AB"
+   #TRANS 3041 {} -4400.00 20100514 "Faktnr: 831, Namn: Storstads èkeri AB"
+   #TRANS 3051 {} -1900.00 20100514 "Faktnr: 831, Namn: Storstads èkeri AB"
+}
+#VER B 115 20100514 "Kundfkt 832 Elektronikfîretaget AB" 20100129
+{
+   #TRANS 1510 {} 141000.00 20100514 "Faktnr: 832, Namn: Elektronikfîretaget AB"
+   #TRANS 2611 {} -28200.00 20100514 "Faktnr: 832, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -13600.00 20100514 "Faktnr: 832, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -4500.00 20100514 "Faktnr: 832, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -60350.00 20100514 "Faktnr: 832, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -8000.00 20100514 "Faktnr: 832, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -26350.00 20100514 "Faktnr: 832, Namn: Elektronikfîretaget AB"
+}
+#VER B 116 20100517 "Inbetalningsjournal nr 241" 20100129
+{
+   #TRANS 1510 {} -13500.00
+   #TRANS 1930 {} 13500.00
+}
+#VER B 117 20100531 "Inbetalningsjournal nr 242" 20100129
+{
+   #TRANS 1510 {} -85025.00
+   #TRANS 1920 {} 85025.00
+}
+#VER B 118 20100521 "Kundfkt 833 Danske Disks APS" 20100129
+{
+   #TRANS 1510 {} 49500.00 20100521 "Faktnr: 833, Namn: Danske Disks APS"
+   #TRANS 3048 {} -28800.00 20100521 "Faktnr: 833, Namn: Danske Disks APS"
+   #TRANS 3048 {} -20700.00 20100521 "Faktnr: 833, Namn: Danske Disks APS"
+}
+#VER B 119 20100521 "Kundfkt 834 RedovisningsbyrÜn" 20100129
+{
+   #TRANS 1510 {} 7375.00 20100521 "Faktnr: 834, Namn: RedovisningsbyrÜn"
+   #TRANS 2611 {} -1475.00 20100521 "Faktnr: 834, Namn: RedovisningsbyrÜn"
+   #TRANS 3041 {} -4000.00 20100521 "Faktnr: 834, Namn: RedovisningsbyrÜn"
+   #TRANS 3051 {} -1900.00 20100521 "Faktnr: 834, Namn: RedovisningsbyrÜn"
+}
+#VER B 120 20100521 "Kundfkt 835 Kontorsprogram AB" 20100129
+{
+   #TRANS 1510 {} 130375.00 20100521 "Faktnr: 835, Namn: Kontorsprogram AB"
+   #TRANS 2611 {} -26075.00 20100521 "Faktnr: 835, Namn: Kontorsprogram AB"
+   #TRANS 3051 {} -26350.00 20100521 "Faktnr: 835, Namn: Kontorsprogram AB"
+   #TRANS 3051 {} -21300.00 20100521 "Faktnr: 835, Namn: Kontorsprogram AB"
+   #TRANS 3051 {} -49300.00 20100521 "Faktnr: 835, Namn: Kontorsprogram AB"
+   #TRANS 3051 {} -7350.00 20100521 "Faktnr: 835, Namn: Kontorsprogram AB"
+}
+#VER B 121 20100528 "Kundfkt 836 Storstadshotellet AB" 20100129
+{
+   #TRANS 1510 {} 9750.00 20100528 "Faktnr: 836, Namn: Storstadshotellet AB"
+   #TRANS 2611 {} -1950.00 20100528 "Faktnr: 836, Namn: Storstadshotellet AB"
+   #TRANS 3041 {} -4000.00 20100528 "Faktnr: 836, Namn: Storstadshotellet AB"
+   #TRANS 3051 {} -1900.00 20100528 "Faktnr: 836, Namn: Storstadshotellet AB"
+   #TRANS 3051 {} -1900.00 20100528 "Faktnr: 836, Namn: Storstadshotellet AB"
+}
+#VER B 122 20100528 "Kundfkt 837 EDA-bolaget AB" 20100129
+{
+   #TRANS 1510 {} 115313.00 20100528 "Faktnr: 837, Namn: EDA-bolaget AB"
+   #TRANS 2611 {} -23062.50 20100528 "Faktnr: 837, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -22550.00 20100528 "Faktnr: 837, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -2250.00 20100528 "Faktnr: 837, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -13600.00 20100528 "Faktnr: 837, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -16000.00 20100528 "Faktnr: 837, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -37850.00 20100528 "Faktnr: 837, Namn: EDA-bolaget AB"
+   #TRANS 3740 {} -0.50 20100528 "Faktnr: 837, Namn: EDA-bolaget AB"
+}
+#VER B 123 20100528 "Kundfkt 838 Lernia" 20100129
+{
+   #TRANS 1510 {} 84375.00 20100528 "Faktnr: 838, Namn: Lernia"
+   #TRANS 2611 {} -16875.00 20100528 "Faktnr: 838, Namn: Lernia"
+   #TRANS 3041 {} -67500.00 20100528 "Faktnr: 838, Namn: Lernia"
+}
+#VER B 124 20100528 "Kundfkt 839 IWU Trading" 20100129
+{
+   #TRANS 1510 {} 9500.28 20100528 "Faktnr: 839, Namn: IWU Trading"
+   #TRANS 3055 {} -9500.28 20100528 "Faktnr: 839, Namn: IWU Trading"
+}
+#VER B 125 20100528 "Kundfkt 840 Sparlivs" 20100129
+{
+   #TRANS 1510 {} 10000.00 20100528 "Faktnr: 840, Namn: Sparlivs"
+   #TRANS 2611 {} -2000.00 20100528 "Faktnr: 840, Namn: Sparlivs"
+   #TRANS 3041 {} -8000.00 20100528 "Faktnr: 840, Namn: Sparlivs"
+}
+#VER B 126 20100602 "Inbetalningsjournal nr 243" 20100728
+{
+   #TRANS 1510 {} -63770.16
+   #TRANS 1930 {} 62257.28
+   #TRANS 3960 {} 1512.88
+}
+#VER B 127 20100607 "Inbetalningsjournal nr 244" 20100728
+{
+   #TRANS 1510 {} -284376.38
+   #TRANS 1920 {} 284134.19
+   #TRANS 3960 {} 242.19
+}
+#VER B 128 20100614 "Inbetalningsjournal nr 245" 20100728
+{
+   #TRANS 1510 {} -148875.00
+   #TRANS 1930 {} 148875.00
+}
+#VER B 129 20100601 "Kundavtalsfkt 841 Storstads Blommor AB" 20100728
+{
+   #TRANS 1510 {} 1375.00 20100601 "Faktnr: 841, Namn: Storstads Blommor AB"
+   #TRANS 2611 {} -275.00 20100601 "Faktnr: 841, Namn: Storstads Blommor AB"
+   #TRANS 3041 {1 Nord} -1100.00 20100601 "Faktnr: 841, Namn: Storstads Blommor AB"
+}
+#VER B 130 20100601 "Kundavtalsfkt 842 Byggbolaget AB" 20100728
+{
+   #TRANS 1510 {} 6500.00 20100601 "Faktnr: 842, Namn: Byggbolaget AB"
+   #TRANS 2611 {} -1300.00 20100601 "Faktnr: 842, Namn: Byggbolaget AB"
+   #TRANS 3041 {1 Nord} -1900.00 20100601 "Faktnr: 842, Namn: Byggbolaget AB"
+   #TRANS 3041 {1 Nord} -3300.00 20100601 "Faktnr: 842, Namn: Byggbolaget AB"
+}
+#VER B 131 20100601 "Kundavtalsfkt 843 Restaurang Rasten AB" 20100728
+{
+   #TRANS 1510 {} 4125.00 20100601 "Faktnr: 843, Namn: Restaurang Rasten AB"
+   #TRANS 2611 {} -825.00 20100601 "Faktnr: 843, Namn: Restaurang Rasten AB"
+   #TRANS 3041 {1 Nord} -3300.00 20100601 "Faktnr: 843, Namn: Restaurang Rasten AB"
+}
+#VER B 132 20100601 "Kundavtalsfkt 844 Storstads IF" 20100728
+{
+   #TRANS 1510 {} 1375.00 20100601 "Faktnr: 844, Namn: Storstads IF"
+   #TRANS 2611 {} -275.00 20100601 "Faktnr: 844, Namn: Storstads IF"
+   #TRANS 3041 {1 Nord} -1100.00 20100601 "Faktnr: 844, Namn: Storstads IF"
+}
+#VER B 133 20100601 "Kundavtalsfkt 845 Storstads Radio & TV AB" 20100728
+{
+   #TRANS 1510 {} 2787.00 20100601 "Faktnr: 845, Namn: Storstads Radio & TV AB"
+   #TRANS 2611 {} -550.00 20100601 "Faktnr: 845, Namn: Storstads Radio & TV AB"
+   #TRANS 3041 {} -2200.00 20100601 "Faktnr: 845, Namn: Storstads Radio & TV AB"
+   #TRANS 3740 {} 0.19 20100601 "Faktnr: 845, Namn: Storstads Radio & TV AB"
+   #TRANS 8300 {} -37.19 20100601 "Faktnr: 845, Namn: Storstads Radio & TV AB"
+}
+#VER B 134 20100601 "Kundavtalsfkt 846 Storstads LÑkarstation" 20100728
+{
+   #TRANS 1510 {} 4125.00 20100601 "Faktnr: 846, Namn: Storstads LÑkarstation"
+   #TRANS 2611 {} -825.00 20100601 "Faktnr: 846, Namn: Storstads LÑkarstation"
+   #TRANS 3041 {} -1100.00 20100601 "Faktnr: 846, Namn: Storstads LÑkarstation"
+   #TRANS 3041 {} -2200.00 20100601 "Faktnr: 846, Namn: Storstads LÑkarstation"
+}
+#VER B 135 20100604 "Kundfkt 847 Grossisten HB" 20100728
+{
+   #TRANS 1510 {} 114500.00 20100604 "Faktnr: 847, Namn: Grossisten HB"
+   #TRANS 2611 {} -22900.00 20100604 "Faktnr: 847, Namn: Grossisten HB"
+   #TRANS 3051 {} -60350.00 20100604 "Faktnr: 847, Namn: Grossisten HB"
+   #TRANS 3051 {} -4900.00 20100604 "Faktnr: 847, Namn: Grossisten HB"
+   #TRANS 3051 {} -26350.00 20100604 "Faktnr: 847, Namn: Grossisten HB"
+}
+#VER B 136 20100604 "Kundfkt 848 Billeverantîren AB" 20100728
+{
+   #TRANS 1510 {} 13625.00 20100604 "Faktnr: 848, Namn: Billeverantîren AB"
+   #TRANS 2611 {} -2725.00 20100604 "Faktnr: 848, Namn: Billeverantîren AB"
+   #TRANS 3041 {} -9000.00 20100604 "Faktnr: 848, Namn: Billeverantîren AB"
+   #TRANS 3051 {} -1900.00 20100604 "Faktnr: 848, Namn: Billeverantîren AB"
+}
+#VER B 137 20100604 "Kundfkt 849 Storstads èkeri AB" 20100728
+{
+   #TRANS 1510 {} 23688.00 20100604 "Faktnr: 849, Namn: Storstads èkeri AB"
+   #TRANS 2611 {} -4737.50 20100604 "Faktnr: 849, Namn: Storstads èkeri AB"
+   #TRANS 3041 {} -18000.00 20100604 "Faktnr: 849, Namn: Storstads èkeri AB"
+   #TRANS 3051 {} -950.00 20100604 "Faktnr: 849, Namn: Storstads èkeri AB"
+   #TRANS 3740 {} -0.50 20100604 "Faktnr: 849, Namn: Storstads èkeri AB"
+}
+#VER B 138 20100611 "Kundfkt 850 Storstads Kontorsvaruhus" 20100728
+{
+   #TRANS 1510 {} 8800.00 20100611 "Faktnr: 850, Namn: Storstads Kontorsvaruhus"
+   #TRANS 2611 {} -1760.00 20100611 "Faktnr: 850, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3041 {} -5440.00 20100611 "Faktnr: 850, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3051 {} -1600.00 20100611 "Faktnr: 850, Namn: Storstads Kontorsvaruhus"
+}
+#VER B 139 20100615 "Kundfkt 851 IWU Trading" 20100728
+{
+   #TRANS 1510 {} 22571.26 20100615 "Faktnr: 851, Namn: IWU Trading"
+   #TRANS 3045 {} -18699.94 20100615 "Faktnr: 851, Namn: IWU Trading"
+   #TRANS 3055 {} -3799.97 20100615 "Faktnr: 851, Namn: IWU Trading"
+   #TRANS 3740 {} 0.19 20100615 "Faktnr: 851, Namn: IWU Trading"
+   #TRANS 8300 {} -71.54 20100615 "Faktnr: 851, Namn: IWU Trading"
+}
+#VER B 140 20100615 "Kundfkt 852 Lernia" 20100728
+{
+   #TRANS 1510 {} 48750.00 20100615 "Faktnr: 852, Namn: Lernia"
+   #TRANS 2611 {} -9750.00 20100615 "Faktnr: 852, Namn: Lernia"
+   #TRANS 3041 {} -39000.00 20100615 "Faktnr: 852, Namn: Lernia"
+}
+#VER B 141 20100621 "Inbetalningsjournal nr 246" 20100728
+{
+   #TRANS 1510 {} -187250.00
+   #TRANS 1930 {} 187250.00
+}
+#VER B 142 20100628 "Inbetalningsjournal nr 247" 20100728
+{
+   #TRANS 1510 {} -228938.28
+   #TRANS 1920 {} 228617.46
+   #TRANS 3960 {} 320.82
+}
+#VER B 143 20100618 "Kundfkt 853 Danske Disks APS" 20100728
+{
+   #TRANS 1510 {} 64000.00 20100618 "Faktnr: 853, Namn: Danske Disks APS"
+   #TRANS 3048 {} -45000.00 20100618 "Faktnr: 853, Namn: Danske Disks APS"
+   #TRANS 3058 {} -19000.00 20100618 "Faktnr: 853, Namn: Danske Disks APS"
+}
+#VER B 144 20100618 "Kundfkt 854 Danske Disks APS" 20100728
+{
+   #TRANS 1510 {} 69500.00 20100618 "Faktnr: 854, Namn: Danske Disks APS"
+   #TRANS 3048 {} -60000.00 20100618 "Faktnr: 854, Namn: Danske Disks APS"
+   #TRANS 3058 {} -9500.00 20100618 "Faktnr: 854, Namn: Danske Disks APS"
+}
+#VER B 145 20100625 "Kundfkt 855 Lernia" 20100728
+{
+   #TRANS 1510 {} 95625.00 20100625 "Faktnr: 855, Namn: Lernia"
+   #TRANS 2611 {} -19125.00 20100625 "Faktnr: 855, Namn: Lernia"
+   #TRANS 3041 {} -76500.00 20100625 "Faktnr: 855, Namn: Lernia"
+}
+#VER B 146 20100630 "Kundfkt 856 RedovisningsbyrÜn" 20100728
+{
+   #TRANS 1510 {} 39375.00 20100630 "Faktnr: 856, Namn: RedovisningsbyrÜn"
+   #TRANS 2611 {} -7875.00 20100630 "Faktnr: 856, Namn: RedovisningsbyrÜn"
+   #TRANS 3041 {} -31500.00 20100630 "Faktnr: 856, Namn: RedovisningsbyrÜn"
+}
+#VER B 147 20100701 "Inbetalningsjournal nr 248" 20100728
+{
+   #TRANS 1510 {} -20287.00
+   #TRANS 1930 {} 20287.00
+}
+#VER B 148 20100705 "Inbetalningsjournal nr 249" 20100728
+{
+   #TRANS 1510 {} -151813.00
+   #TRANS 1930 {} 151813.00
+}
+#VER B 149 20100715 "Inbetalningsjournal nr 250" 20100728
+{
+   #TRANS 1510 {} -80121.26
+   #TRANS 1920 {} 80121.26
+}
+#VER B 150 20100701 "Kundavtalsfkt 857 Storstads èkeri AB" 20100728
+{
+   #TRANS 1510 {} 6500.00 20100701 "Faktnr: 857, Namn: Storstads èkeri AB"
+   #TRANS 2611 {} -1300.00 20100701 "Faktnr: 857, Namn: Storstads èkeri AB"
+   #TRANS 3041 {1 Nord} -1900.00 20100701 "Faktnr: 857, Namn: Storstads èkeri AB"
+   #TRANS 3041 {1 Nord} -3300.00 20100701 "Faktnr: 857, Namn: Storstads èkeri AB"
+}
+#VER B 151 20100701 "Kundavtalsfkt 858 Byggbolaget AB" 20100728
+{
+   #TRANS 1510 {} 1188.00 20100701 "Faktnr: 858, Namn: Byggbolaget AB"
+   #TRANS 2611 {} -237.50 20100701 "Faktnr: 858, Namn: Byggbolaget AB"
+   #TRANS 3051 {1 Nord} -950.00 20100701 "Faktnr: 858, Namn: Byggbolaget AB"
+   #TRANS 3740 {} -0.50 20100701 "Faktnr: 858, Namn: Byggbolaget AB"
+}
+#VER B 152 20100701 "Kundavtalsfkt 859 Billeverantîren AB" 20100728
+{
+   #TRANS 1510 {} 2750.00 20100701 "Faktnr: 859, Namn: Billeverantîren AB"
+   #TRANS 2611 {} -550.00 20100701 "Faktnr: 859, Namn: Billeverantîren AB"
+   #TRANS 3041 {} -2200.00 20100701 "Faktnr: 859, Namn: Billeverantîren AB"
+}
+#VER B 153 20100702 "Kundfkt 860 IWU Trading" 20100728
+{
+   #TRANS 1510 {} 46499.89 20100702 "Faktnr: 860, Namn: IWU Trading"
+   #TRANS 3045 {} -46500.14 20100702 "Faktnr: 860, Namn: IWU Trading"
+   #TRANS 3740 {} 0.25 20100702 "Faktnr: 860, Namn: IWU Trading"
+}
+#VER B 154 20100702 "Kundfkt 861 Danske Disks APS" 20100728
+{
+   #TRANS 1510 {} 60250.00 20100702 "Faktnr: 861, Namn: Danske Disks APS"
+   #TRANS 3048 {} -41250.00 20100702 "Faktnr: 861, Namn: Danske Disks APS"
+   #TRANS 3058 {} -19000.00 20100702 "Faktnr: 861, Namn: Danske Disks APS"
+}
+#VER B 155 20100709 "Kundfkt 862 Lernia" 20100728
+{
+   #TRANS 1510 {} 73125.00 20100709 "Faktnr: 862, Namn: Lernia"
+   #TRANS 2611 {} -14625.00 20100709 "Faktnr: 862, Namn: Lernia"
+   #TRANS 3041 {} -58500.00 20100709 "Faktnr: 862, Namn: Lernia"
+}
+#VER B 156 20100709 "Kundfkt 863 Grossisten HB" 20100728
+{
+   #TRANS 1510 {} 133375.00 20100709 "Faktnr: 863, Namn: Grossisten HB"
+   #TRANS 2611 {} -26675.00 20100709 "Faktnr: 863, Namn: Grossisten HB"
+   #TRANS 3051 {} -13600.00 20100709 "Faktnr: 863, Namn: Grossisten HB"
+   #TRANS 3051 {} -37850.00 20100709 "Faktnr: 863, Namn: Grossisten HB"
+   #TRANS 3051 {} -41650.00 20100709 "Faktnr: 863, Namn: Grossisten HB"
+   #TRANS 3051 {} -13600.00 20100709 "Faktnr: 863, Namn: Grossisten HB"
+}
+#VER B 157 20100715 "Kundfkt 864 Storstads Blommor AB" 20100728
+{
+   #TRANS 1510 {} 7313.00 20100715 "Faktnr: 864, Namn: Storstads Blommor AB"
+   #TRANS 2611 {} -1462.50 20100715 "Faktnr: 864, Namn: Storstads Blommor AB"
+   #TRANS 3041 {} -4050.00 20100715 "Faktnr: 864, Namn: Storstads Blommor AB"
+   #TRANS 3051 {} -1800.00 20100715 "Faktnr: 864, Namn: Storstads Blommor AB"
+   #TRANS 3740 {} -0.50 20100715 "Faktnr: 864, Namn: Storstads Blommor AB"
+}
+#VER B 158 20100719 "Inbetalningsjournal nr 251" 20100728
+{
+   #TRANS 1510 {} -133500.00
+   #TRANS 1930 {} 133500.00
+}
+#VER B 159 20100726 "Inbetalningsjournal nr 252" 20100728
+{
+   #TRANS 1510 {} -95625.00
+   #TRANS 1920 {} 95625.00
+}
+#VER B 160 20100730 "Inbetalningsjournal nr 253" 20100728
+{
+   #TRANS 1510 {} -39375.00
+   #TRANS 1930 {} 39375.00
+}
+#VER B 161 20100716 "Kundfkt 865 EDA-bolaget AB" 20100728
+{
+   #TRANS 1510 {} 97750.00 20100716 "Faktnr: 865, Namn: EDA-bolaget AB"
+   #TRANS 2611 {} -19550.00 20100716 "Faktnr: 865, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -26350.00 20100716 "Faktnr: 865, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -26350.00 20100716 "Faktnr: 865, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -11900.00 20100716 "Faktnr: 865, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -13600.00 20100716 "Faktnr: 865, Namn: EDA-bolaget AB"
+}
+#VER B 162 20100716 "Kundfkt 866 RedovisningsbyrÜn" 20100728
+{
+   #TRANS 1510 {} 19250.00 20100716 "Faktnr: 866, Namn: RedovisningsbyrÜn"
+   #TRANS 2611 {} -3850.00 20100716 "Faktnr: 866, Namn: RedovisningsbyrÜn"
+   #TRANS 3041 {} -13500.00 20100716 "Faktnr: 866, Namn: RedovisningsbyrÜn"
+   #TRANS 3051 {} -1900.00 20100716 "Faktnr: 866, Namn: RedovisningsbyrÜn"
+}
+#VER B 163 20100723 "Kundfkt 867 IWU Trading" 20100728
+{
+   #TRANS 1510 {} 14999.82 20100723 "Faktnr: 867, Namn: IWU Trading"
+   #TRANS 3055 {} -5499.89 20100723 "Faktnr: 867, Namn: IWU Trading"
+   #TRANS 3055 {} -0.01 20100723 "Faktnr: 867, Namn: IWU Trading"
+   #TRANS 3055 {} -9499.92 20100723 "Faktnr: 867, Namn: IWU Trading"
+}
+#VER B 164 20100723 "Kundfkt 868 Danske Disks APS" 20100728
+{
+   #TRANS 1510 {} 18000.00 20100723 "Faktnr: 868, Namn: Danske Disks APS"
+   #TRANS 3048 {} -12000.00 20100723 "Faktnr: 868, Namn: Danske Disks APS"
+   #TRANS 3058 {} -3800.00 20100723 "Faktnr: 868, Namn: Danske Disks APS"
+   #TRANS 3058 {} -2200.00 20100723 "Faktnr: 868, Namn: Danske Disks APS"
+}
+#VER B 165 20100730 "Kundfkt 869 Sparlivs" 20100728
+{
+   #TRANS 1510 {} 10188.00 20100730 "Faktnr: 869, Namn: Sparlivs"
+   #TRANS 2611 {} -2037.50 20100730 "Faktnr: 869, Namn: Sparlivs"
+   #TRANS 3041 {} -7200.00 20100730 "Faktnr: 869, Namn: Sparlivs"
+   #TRANS 3051 {} -950.00 20100730 "Faktnr: 869, Namn: Sparlivs"
+   #TRANS 3740 {} -0.50 20100730 "Faktnr: 869, Namn: Sparlivs"
+}
+#VER B 166 20100730 "Kundfkt 870 Storstadshotellet AB" 20100728
+{
+   #TRANS 1510 {} 5875.00 20100730 "Faktnr: 870, Namn: Storstadshotellet AB"
+   #TRANS 2611 {} -1175.00 20100730 "Faktnr: 870, Namn: Storstadshotellet AB"
+   #TRANS 3041 {} -3750.00 20100730 "Faktnr: 870, Namn: Storstadshotellet AB"
+   #TRANS 3051 {} -950.00 20100730 "Faktnr: 870, Namn: Storstadshotellet AB"
+}
+#VER B 167 20100802 "Inbetalningsjournal nr 254" 20100728
+{
+   #TRANS 1510 {} -54187.89
+   #TRANS 1930 {} 54187.89
+}
+#VER B 168 20100810 "Inbetalningsjournal nr 255" 20100728
+{
+   #TRANS 1510 {} -206500.00
+   #TRANS 1920 {} 206500.00
+}
+#VER B 169 20100802 "Kundavtalsfkt 871 RedovisningsbyrÜn" 20100728
+{
+   #TRANS 1510 {} 2375.00 20100802 "Faktnr: 871, Namn: RedovisningsbyrÜn"
+   #TRANS 2611 {} -475.00 20100802 "Faktnr: 871, Namn: RedovisningsbyrÜn"
+   #TRANS 3041 {1 Syd} -1900.00 20100802 "Faktnr: 871, Namn: RedovisningsbyrÜn"
+}
+#VER B 170 20100802 "Kundavtalsfkt 872 Byggbolaget AB" 20100728
+{
+   #TRANS 1510 {} 1375.00 20100802 "Faktnr: 872, Namn: Byggbolaget AB"
+   #TRANS 2611 {} -275.00 20100802 "Faktnr: 872, Namn: Byggbolaget AB"
+   #TRANS 3041 {1 Nord} -1100.00 20100802 "Faktnr: 872, Namn: Byggbolaget AB"
+}
+#VER B 171 20100806 "Kundfkt 873 IWU Trading" 20100728
+{
+   #TRANS 1510 {} 62250.50 20100806 "Faktnr: 873, Namn: IWU Trading"
+   #TRANS 3045 {} -26250.08 20100806 "Faktnr: 873, Namn: IWU Trading"
+   #TRANS 3045 {} -36000.25 20100806 "Faktnr: 873, Namn: IWU Trading"
+   #TRANS 3740 {} -0.17 20100806 "Faktnr: 873, Namn: IWU Trading"
+}
+#VER B 172 20100806 "Kundfkt 874 Lernia" 20100728
+{
+   #TRANS 1510 {} 50625.00 20100806 "Faktnr: 874, Namn: Lernia"
+   #TRANS 2611 {} -10125.00 20100806 "Faktnr: 874, Namn: Lernia"
+   #TRANS 3041 {1 Nord} -40500.00 20100806 "Faktnr: 874, Namn: Lernia"
+}
+#VER B 173 20100806 "Kundfkt 875 Grossisten HB" 20100728
+{
+   #TRANS 1510 {} 80813.00 20100806 "Faktnr: 875, Namn: Grossisten HB"
+   #TRANS 2611 {} -16162.50 20100806 "Faktnr: 875, Namn: Grossisten HB"
+   #TRANS 3051 {} -24650.00 20100806 "Faktnr: 875, Namn: Grossisten HB"
+   #TRANS 3051 {} -8500.00 20100806 "Faktnr: 875, Namn: Grossisten HB"
+   #TRANS 3051 {} -31500.00 20100806 "Faktnr: 875, Namn: Grossisten HB"
+   #TRANS 3740 {} -0.50 20100806 "Faktnr: 875, Namn: Grossisten HB"
+}
+#VER B 174 20100813 "Kundfkt 876 Storstads èkeri AB" 20100728
+{
+   #TRANS 1510 {} 9750.00 20100813 "Faktnr: 876, Namn: Storstads èkeri AB"
+   #TRANS 2611 {} -1950.00 20100813 "Faktnr: 876, Namn: Storstads èkeri AB"
+   #TRANS 3041 {} -4000.00 20100813 "Faktnr: 876, Namn: Storstads èkeri AB"
+   #TRANS 3051 {} -3800.00 20100813 "Faktnr: 876, Namn: Storstads èkeri AB"
+}
+#VER B 175 20100813 "Kundfkt 877 Rîrfirman VVS" 20100728
+{
+   #TRANS 1510 {} 7050.00 20100813 "Faktnr: 877, Namn: Rîrfirman VVS"
+   #TRANS 2611 {} -1410.00 20100813 "Faktnr: 877, Namn: Rîrfirman VVS"
+   #TRANS 3041 {} -3200.00 20100813 "Faktnr: 877, Namn: Rîrfirman VVS"
+   #TRANS 3051 {} -1800.00 20100813 "Faktnr: 877, Namn: Rîrfirman VVS"
+   #TRANS 3051 {} -640.00 20100813 "Faktnr: 877, Namn: Rîrfirman VVS"
+}
+#VER B 176 20100813 "Kundfkt 878 Elektronikfîretaget AB" 20100728
+{
+   #TRANS 1510 {} 74438.00 20100813 "Faktnr: 878, Namn: Elektronikfîretaget AB"
+   #TRANS 2611 {} -14887.50 20100813 "Faktnr: 878, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -26350.00 20100813 "Faktnr: 878, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -16600.00 20100813 "Faktnr: 878, Namn: Elektronikfîretaget AB"
+   #TRANS 3051 {} -16600.00 20100813 "Faktnr: 878, Namn: Elektronikfîretaget AB"
+   #TRANS 3740 {} -0.50 20100813 "Faktnr: 878, Namn: Elektronikfîretaget AB"
+}
+#VER B 177 20100816 "Inbetalningsjournal nr 256" 20100728
+{
+   #TRANS 1510 {} -124313.00
+   #TRANS 1930 {} 124313.00
+}
+#VER B 178 20100823 "Inbetalningsjournal nr 257" 20100728
+{
+   #TRANS 1510 {} -32999.82
+   #TRANS 1920 {} 33130.88
+   #TRANS 3960 {} -131.06
+}
+#VER B 179 20100830 "Inbetalningsjournal nr 258" 20100728
+{
+   #TRANS 1510 {} -10188.00
+   #TRANS 1920 {} 10188.00
+}
+#VER B 180 20100820 "Kundfkt 879 Kontorsprogram AB" 20100728
+{
+   #TRANS 1510 {} 77875.00 20100820 "Faktnr: 879, Namn: Kontorsprogram AB"
+   #TRANS 2611 {} -15575.00 20100820 "Faktnr: 879, Namn: Kontorsprogram AB"
+   #TRANS 3051 {} -8100.00 20100820 "Faktnr: 879, Namn: Kontorsprogram AB"
+   #TRANS 3051 {} -8100.00 20100820 "Faktnr: 879, Namn: Kontorsprogram AB"
+   #TRANS 3051 {} -26350.00 20100820 "Faktnr: 879, Namn: Kontorsprogram AB"
+   #TRANS 3051 {} -19750.00 20100820 "Faktnr: 879, Namn: Kontorsprogram AB"
+}
+#VER B 181 20100820 "Kundfkt 880 Storstads Kontorsvaruhus" 20100728
+{
+   #TRANS 1510 {} 110000.00 20100820 "Faktnr: 880, Namn: Storstads Kontorsvaruhus"
+   #TRANS 2611 {} -22000.00 20100820 "Faktnr: 880, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3051 {} -20000.00 20100820 "Faktnr: 880, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3051 {} -41650.00 20100820 "Faktnr: 880, Namn: Storstads Kontorsvaruhus"
+   #TRANS 3051 {} -26350.00 20100820 "Faktnr: 880, Namn: Storstads Kontorsvaruhus"
+}
+#VER B 182 20100820 "Kundfkt 881 Storstads Radio & TV AB" 20100728
+{
+   #TRANS 1510 {} 11188.00 20100820 "Faktnr: 881, Namn: Storstads Radio & TV AB"
+   #TRANS 2611 {} -2237.50 20100820 "Faktnr: 881, Namn: Storstads Radio & TV AB"
+   #TRANS 3041 {} -8000.00 20100820 "Faktnr: 881, Namn: Storstads Radio & TV AB"
+   #TRANS 3051 {} -950.00 20100820 "Faktnr: 881, Namn: Storstads Radio & TV AB"
+   #TRANS 3740 {} -0.50 20100820 "Faktnr: 881, Namn: Storstads Radio & TV AB"
+}
+#VER B 183 20100827 "Kundfkt 882 IWU Trading" 20100728
+{
+   #TRANS 1510 {} 71999.92 20100827 "Faktnr: 882, Namn: IWU Trading"
+   #TRANS 3045 {} 0.01 20100827 "Faktnr: 882, Namn: IWU Trading"
+   #TRANS 3045 {} -55249.82 20100827 "Faktnr: 882, Namn: IWU Trading"
+   #TRANS 3055 {} -4399.92 20100827 "Faktnr: 882, Namn: IWU Trading"
+   #TRANS 3055 {} -7599.94 20100827 "Faktnr: 882, Namn: IWU Trading"
+   #TRANS 3055 {} -4750.25 20100827 "Faktnr: 882, Namn: IWU Trading"
+}
+#VER B 184 20100827 "Kundfkt 883 Lernia" 20100728
+{
+   #TRANS 1510 {} 123750.00 20100827 "Faktnr: 883, Namn: Lernia"
+   #TRANS 2611 {} -24750.00 20100827 "Faktnr: 883, Namn: Lernia"
+   #TRANS 3041 {1 Nord} -99000.00 20100827 "Faktnr: 883, Namn: Lernia"
+}
+#VER B 185 20100827 "Kundkreditfkt 884 Storstads èkeri AB" 20100728
+{
+   #TRANS 1510 {} -1188.00 20100827 "Faktnr: 884, Namn: Storstads èkeri AB"
+   #TRANS 2611 {} 237.50 20100827 "Faktnr: 884, Namn: Storstads èkeri AB"
+   #TRANS 3051 {} 950.00 20100827 "Faktnr: 884, Namn: Storstads èkeri AB"
+   #TRANS 3740 {} 0.50 20100827 "Faktnr: 884, Namn: Storstads èkeri AB"
+}
+#VER B 186 20100830 "Kundfkt 886 Storstads Kommun" 20100728
+{
+   #TRANS 1510 {} 32508.00 20100830 "Faktnr: 886, Namn: Storstads Kommun"
+   #TRANS 2611 {} -6501.56 20100830 "Faktnr: 886, Namn: Storstads Kommun"
+   #TRANS 3041 {} -26006.25 20100830 "Faktnr: 886, Namn: Storstads Kommun"
+   #TRANS 3740 {} -0.19 20100830 "Faktnr: 886, Namn: Storstads Kommun"
+}
+#VER B 187 20100831 "Kundfkt 885 Sparlivs" 20100728
+{
+   #TRANS 1510 {} 18000.00 20100831 "Faktnr: 885, Namn: Sparlivs"
+   #TRANS 2611 {} -3600.00 20100831 "Faktnr: 885, Namn: Sparlivs"
+   #TRANS 3041 {} -14400.00 20100831 "Faktnr: 885, Namn: Sparlivs"
+}
+#VER B 188 20100831 "Kundfkt 887 Restaurang Rasten AB" 20100728
+{
+   #TRANS 1510 {} 22500.00 20100831 "Faktnr: 887, Namn: Restaurang Rasten AB"
+   #TRANS 2611 {} -4500.00 20100831 "Faktnr: 887, Namn: Restaurang Rasten AB"
+   #TRANS 3041 {} -18000.00 20100831 "Faktnr: 887, Namn: Restaurang Rasten AB"
+}
+#VER B 189 20100831 "Kundfkt 888 Storstads LÑkarstation" 20100728
+{
+   #TRANS 1510 {} 18000.00 20100831 "Faktnr: 888, Namn: Storstads LÑkarstation"
+   #TRANS 2611 {} -3600.00 20100831 "Faktnr: 888, Namn: Storstads LÑkarstation"
+   #TRANS 3041 {} -14400.00 20100831 "Faktnr: 888, Namn: Storstads LÑkarstation"
+}
+#VER B 190 20100831 "Kundfkt 889 Lernia" 20100728
+{
+   #TRANS 1510 {} 50625.00 20100831 "Faktnr: 889, Namn: Lernia"
+   #TRANS 2611 {} -10125.00 20100831 "Faktnr: 889, Namn: Lernia"
+   #TRANS 3041 {} -40500.00 20100831 "Faktnr: 889, Namn: Lernia"
+}
+#VER B 191 20100831 "Kundfkt 890 EDA-bolaget AB" 20100728
+{
+   #TRANS 1510 {} 32750.00 20100831 "Faktnr: 890, Namn: EDA-bolaget AB"
+   #TRANS 2611 {} -6550.00 20100831 "Faktnr: 890, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -21300.00 20100831 "Faktnr: 890, Namn: EDA-bolaget AB"
+   #TRANS 3051 {} -4900.00 20100831 "Faktnr: 890, Namn: EDA-bolaget AB"
+}
+#VER C 1 20100104 "Utbetalningsjournal nr 220" 20100104
+{
+   #TRANS 1930 {} -153568.00
+   #TRANS 2440 {} 153568.00
+}
+#VER C 2 20100111 "Utbetalningsjournal nr 221" 20100111
+{
+   #TRANS 1930 {} -36875.00
+   #TRANS 2440 {} 36875.00
+}
+#VER C 3 20100114 "Utbetalningsjournal nr 222" 20100114
+{
+   #TRANS 1930 {} -4895.00
+   #TRANS 2440 {} 4895.00
+}
+#VER C 4 20100104 "Levfkt 437 Storstads Energi AB" 20100104
+{
+   #TRANS 2440 {} -3200.00 20100104 "LevFktnr: 437, Namn: Storstads Energi AB"
+   #TRANS 2641 {} 640.00 20100104 "LevFktnr: 437, Namn: Storstads Energi AB"
+   #TRANS 5020 {} 2560.00 20100104 "LevFktnr: 437, Namn: Storstads Energi AB"
+}
+#VER C 5 20100104 "Levfkt 438 Bilfinans AB" 20100104
+{
+   #TRANS 2440 {} -4500.00 20100104 "LevFktnr: 438, Namn: Bilfinans AB"
+   #TRANS 2641 {} 450.00 20100104 "LevFktnr: 438, Namn: Bilfinans AB"
+   #TRANS 5615 {} 4050.00 20100104 "LevFktnr: 438, Namn: Bilfinans AB"
+}
+#VER C 6 20100106 "Levfkt 439 RedovisningsbyrÜn" 20100106
+{
+   #TRANS 2440 {} -5200.00 20100106 "LevFktnr: 439, Namn: RedovisningsbyrÜn"
+   #TRANS 2641 {} 1040.00 20100106 "LevFktnr: 439, Namn: RedovisningsbyrÜn"
+   #TRANS 6530 {} 4160.00 20100106 "LevFktnr: 439, Namn: RedovisningsbyrÜn"
+}
+#VER C 7 20100106 "Levfkt 440 Telenor Sverige AB" 20100106
+{
+   #TRANS 2440 {} -4258.00 20100106 "LevFktnr: 440, Namn: Telenor Sverige AB"
+   #TRANS 2641 {} 851.60 20100106 "LevFktnr: 440, Namn: Telenor Sverige AB"
+   #TRANS 6212 {} 3406.40 20100106 "LevFktnr: 440, Namn: Telenor Sverige AB"
+}
+#VER C 8 20100108 "Levfkt 441 Bensinbolaget AB" 20100108
+{
+   #TRANS 2440 {} -5630.00 20100108 "LevFktnr: 441, Namn: Bensinbolaget AB"
+   #TRANS 2641 {} 1126.00 20100108 "LevFktnr: 441, Namn: Bensinbolaget AB"
+   #TRANS 5611 {} 4504.00 20100108 "LevFktnr: 441, Namn: Bensinbolaget AB"
+}
+#VER C 9 20100111 "Levfkt 442 Hyresbolaget" 20100111
+{
+   #TRANS 1710 {} 51000.00 20100111 "LevFktnr: 442, Namn: Hyresbolaget"
+   #TRANS 2440 {} -63750.00 20100111 "LevFktnr: 442, Namn: Hyresbolaget"
+   #TRANS 2641 {} 12750.00 20100111 "LevFktnr: 442, Namn: Hyresbolaget"
+}
+#VER C 10 20100114 "Levfkt 443 Bachbinder GmbH" 20100114
+{
+   #TRANS 2440 {} -9974.00 20100114 "LevFktnr: 443, Namn: Bachbinder GmbH"
+   #TRANS 2615 {} -2493.50 20100114 "LevFktnr: 443, Namn: Bachbinder GmbH"
+   #TRANS 2645 {} 2493.50 20100114 "LevFktnr: 443, Namn: Bachbinder GmbH"
+   #TRANS 4056 {} 9974.00 20100114 "LevFktnr: 443, Namn: Bachbinder GmbH"
+}
+#VER C 11 20100115 "Levfkt 444 RedovisningsbyrÜn" 20100115
+{
+   #TRANS 2440 {} -20000.00 20100115 "LevFktnr: 444, Namn: RedovisningsbyrÜn"
+   #TRANS 2641 {} 4000.00 20100115 "LevFktnr: 444, Namn: RedovisningsbyrÜn"
+   #TRANS 6420 {} 16000.00 20100115 "LevFktnr: 444, Namn: RedovisningsbyrÜn"
+}
+#VER C 12 20100118 "Utbetalningsjournal nr 223" 20100118
+{
+   #TRANS 1930 {} -7378.00
+   #TRANS 2440 {} 7378.00
+}
+#VER C 13 20100121 "Utbetalningsjournal nr 224" 20100121
+{
+   #TRANS 1930 {} -22969.00
+   #TRANS 2440 {} 22969.00
+}
+#VER C 14 20100127 "Utbetalningsjournal nr 225" 20100127
+{
+   #TRANS 1930 {} -2358.00
+   #TRANS 2440 {} 2358.00
+}
+#VER C 15 20100129 "Utbetalningsjournal nr 226" 20100129
+{
+   #TRANS 1930 {} -6930.00
+   #TRANS 2440 {} 6930.00
+}
+#VER C 16 20100118 "Levfkt 445 Programleverantîren AB" 20100118
+{
+   #TRANS 2440 {} -279113.00 20100118 "LevFktnr: 445, Namn: Programleverantîren AB"
+   #TRANS 2641 {} 55823.00 20100118 "LevFktnr: 445, Namn: Programleverantîren AB"
+   #TRANS 4010 {} 223290.00 20100118 "LevFktnr: 445, Namn: Programleverantîren AB"
+}
+#VER C 17 20100118 "Levfkt 446 Storstads Blommor AB" 20100118
+{
+   #TRANS 2440 {} -525.00 20100118 "LevFktnr: 446, Namn: Storstads Blommor AB"
+   #TRANS 2641 {} 105.00 20100118 "LevFktnr: 446, Namn: Storstads Blommor AB"
+   #TRANS 5090 {} 420.00 20100118 "LevFktnr: 446, Namn: Storstads Blommor AB"
+}
+#VER C 18 20100120 "Levfkt 447 Fora AB" 20100120
+{
+   #TRANS 2440 {} -12500.00 20100120 "LevFktnr: 447, Namn: Fora AB"
+   #TRANS 7570 {} 12500.00 20100120 "LevFktnr: 447, Namn: Fora AB"
+}
+#VER C 19 20100122 "Levkreditfkt 448 RedovisningsbyrÜn" 20100122
+{
+   #TRANS 2440 {} 990.00 20100122 "LevFktnr: 448, Namn: RedovisningsbyrÜn"
+   #TRANS 2641 {} -198.00 20100122 "LevFktnr: 448, Namn: RedovisningsbyrÜn"
+   #TRANS 6530 {} -792.00 20100122 "LevFktnr: 448, Namn: RedovisningsbyrÜn"
+}
+#VER C 20 20100125 "Levfkt 449 Norsk Kontorsleverantîr A/S" 20100125
+{
+   #TRANS 2440 {} -4181.00 20100125 "LevFktnr: 449, Namn: Norsk Kontorsleverantîr A/S"
+   #TRANS 4010 {} 4181.00 20100125 "LevFktnr: 449, Namn: Norsk Kontorsleverantîr A/S"
+}
+#VER C 21 20100128 "Levfkt 450 Reklambolaget" 20100128
+{
+   #TRANS 2440 {} -2354.00 20100128 "LevFktnr: 450, Namn: Reklambolaget"
+   #TRANS 2641 {} 470.80 20100128 "LevFktnr: 450, Namn: Reklambolaget"
+   #TRANS 5930 {} 1883.20 20100128 "LevFktnr: 450, Namn: Reklambolaget"
+}
+#VER C 22 20100129 "Levfkt 451 Kontorslandslaget i BorÜs" 20100129
+{
+   #TRANS 2440 {} -2600.00 20100129 "LevFktnr: 451, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 2641 {} 520.00 20100129 "LevFktnr: 451, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 6110 {} 2080.00 20100129 "LevFktnr: 451, Namn: Kontorslandslaget i BorÜs"
+}
+#VER C 23 20100129 "Levfkt 452 Billeverantîren AB" 20100129
+{
+   #TRANS 2440 {} -3658.00 20100129 "LevFktnr: 452, Namn: Billeverantîren AB"
+   #TRANS 2641 {} 731.60 20100129 "LevFktnr: 452, Namn: Billeverantîren AB"
+   #TRANS 5613 {} 2926.40 20100129 "LevFktnr: 452, Namn: Billeverantîren AB"
+}
+#VER C 24 20100205 "Utbetalningsjournal nr 227" 20100205
+{
+   #TRANS 1930 {} -16168.00
+   #TRANS 2440 {} 16168.00
+}
+#VER C 25 20100210 "Utbetalningsjournal nr 228" 20100210
+{
+   #TRANS 1930 {} -69380.00
+   #TRANS 2440 {} 69380.00
+}
+#VER C 26 20100215 "Utbetalningsjournal nr 229" 20100215
+{
+   #TRANS 1930 {} -29974.00
+   #TRANS 2440 {} 29974.00
+}
+#VER C 27 20100205 "Levfkt 453 Telenor Sverige AB" 20100205
+{
+   #TRANS 2440 {} -2356.00 20100205 "LevFktnr: 453, Namn: Telenor Sverige AB"
+   #TRANS 2641 {} 471.20 20100205 "LevFktnr: 453, Namn: Telenor Sverige AB"
+   #TRANS 6212 {} 1884.80 20100205 "LevFktnr: 453, Namn: Telenor Sverige AB"
+}
+#VER C 28 20100205 "Levfkt 454 RedovisningsbyrÜn" 20100205
+{
+   #TRANS 2440 {} -5000.00 20100205 "LevFktnr: 454, Namn: RedovisningsbyrÜn"
+   #TRANS 2641 {} 1000.00 20100205 "LevFktnr: 454, Namn: RedovisningsbyrÜn"
+   #TRANS 6530 {} 4000.00 20100205 "LevFktnr: 454, Namn: RedovisningsbyrÜn"
+}
+#VER C 29 20100212 "Levfkt 455 Bilfinans AB" 20100212
+{
+   #TRANS 2440 {} -4800.00 20100212 "LevFktnr: 455, Namn: Bilfinans AB"
+   #TRANS 2641 {} 480.00 20100212 "LevFktnr: 455, Namn: Bilfinans AB"
+   #TRANS 5615 {} 4320.00 20100212 "LevFktnr: 455, Namn: Bilfinans AB"
+}
+#VER C 30 20100212 "Levfkt 456 Bensinbolaget AB" 20100212
+{
+   #TRANS 2440 {} -3600.00 20100212 "LevFktnr: 456, Namn: Bensinbolaget AB"
+   #TRANS 2641 {} 720.00 20100212 "LevFktnr: 456, Namn: Bensinbolaget AB"
+   #TRANS 5611 {} 2880.00 20100212 "LevFktnr: 456, Namn: Bensinbolaget AB"
+}
+#VER C 31 20100215 "Levfkt 457 Storstadstidningen AB" 20100215
+{
+   #TRANS 2440 {} -2000.00 20100215 "LevFktnr: 457, Namn: Storstadstidningen AB"
+   #TRANS 2641 {} 400.00 20100215 "LevFktnr: 457, Namn: Storstadstidningen AB"
+   #TRANS 5930 {} 1600.00 20100215 "LevFktnr: 457, Namn: Storstadstidningen AB"
+}
+#VER C 32 20100217 "Utbetalningsjournal nr 230" 20100217
+{
+   #TRANS 1930 {} -279638.00
+   #TRANS 2440 {} 279638.00
+}
+#VER C 33 20100219 "Utbetalningsjournal nr 231" 20100219
+{
+   #TRANS 1930 {} -12500.00
+   #TRANS 2440 {} 12500.00
+}
+#VER C 34 20100224 "Utbetalningsjournal nr 232" 20100224
+{
+   #TRANS 1930 {} -4181.00
+   #TRANS 2440 {} 4181.00
+}
+#VER C 35 20100219 "Levfkt 458 Programleverantîren AB" 20100219
+{
+   #TRANS 2440 {} -151806.00 20100219 "LevFktnr: 458, Namn: Programleverantîren AB"
+   #TRANS 2641 {} 30361.00 20100219 "LevFktnr: 458, Namn: Programleverantîren AB"
+   #TRANS 4010 {} 121445.00 20100219 "LevFktnr: 458, Namn: Programleverantîren AB"
+}
+#VER C 36 20100219 "Levfkt 459 Kontorslandslaget i BorÜs" 20100219
+{
+   #TRANS 1221 {} 44800.00 20100219 "LevFktnr: 459, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 2440 {} -56000.00 20100219 "LevFktnr: 459, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 2641 {} 11200.00 20100219 "LevFktnr: 459, Namn: Kontorslandslaget i BorÜs"
+}
+#VER C 37 20100226 "Levfkt 460 Telia Sonera Sverige AB" 20100226
+{
+   #TRANS 2440 {} -4321.00 20100226 "LevFktnr: 460, Namn: Telia Sonera Sverige AB"
+   #TRANS 2641 {} 864.20 20100226 "LevFktnr: 460, Namn: Telia Sonera Sverige AB"
+   #TRANS 6211 {} 3456.80 20100226 "LevFktnr: 460, Namn: Telia Sonera Sverige AB"
+}
+#VER C 38 20100301 "Utbetalningsjournal nr 233" 20100301
+{
+   #TRANS 1930 {} -8612.00
+   #TRANS 2440 {} 8612.00
+}
+#VER C 39 20100308 "Utbetalningsjournal nr 234" 20100308
+{
+   #TRANS 1930 {} -7356.00
+   #TRANS 2440 {} 7356.00
+}
+#VER C 40 20100304 "Levfkt 462 Telenor Sverige AB" 20100304
+{
+   #TRANS 2440 {} -3265.00 20100304 "LevFktnr: 462, Namn: Telenor Sverige AB"
+   #TRANS 2641 {} 653.00 20100304 "LevFktnr: 462, Namn: Telenor Sverige AB"
+   #TRANS 6212 {} 2612.00 20100304 "LevFktnr: 462, Namn: Telenor Sverige AB"
+}
+#VER C 41 20100305 "Levfkt 461 Programleverantîren AB" 20100305
+{
+   #TRANS 2440 {} -199613.00 20100305 "LevFktnr: 461, Namn: Programleverantîren AB"
+   #TRANS 2641 {} 39922.50 20100305 "LevFktnr: 461, Namn: Programleverantîren AB"
+   #TRANS 4010 {} 159690.50 20100305 "LevFktnr: 461, Namn: Programleverantîren AB"
+}
+#VER C 42 20100308 "Levfkt 463 FîrsÑkringsbolaget" 20100308
+{
+   #TRANS 2440 {} -2500.00 20100308 "LevFktnr: 463, Namn: FîrsÑkringsbolaget"
+   #TRANS 6310 {} 2500.00 20100308 "LevFktnr: 463, Namn: FîrsÑkringsbolaget"
+}
+#VER C 43 20100308 "Levfkt 464 Reklambolaget" 20100308
+{
+   #TRANS 2440 {} -3268.00 20100308 "LevFktnr: 464, Namn: Reklambolaget"
+   #TRANS 2641 {} 653.60 20100308 "LevFktnr: 464, Namn: Reklambolaget"
+   #TRANS 5930 {} 2614.40 20100308 "LevFktnr: 464, Namn: Reklambolaget"
+}
+#VER C 44 20100312 "Levfkt 465 Bensinbolaget AB" 20100312
+{
+   #TRANS 2440 {} -2956.00 20100312 "LevFktnr: 465, Namn: Bensinbolaget AB"
+   #TRANS 2641 {} 591.20 20100312 "LevFktnr: 465, Namn: Bensinbolaget AB"
+   #TRANS 5611 {} 2364.80 20100312 "LevFktnr: 465, Namn: Bensinbolaget AB"
+}
+#VER C 45 20100312 "Levfkt 466 Storstads Energi AB" 20100312
+{
+   #TRANS 2440 {} -4897.00 20100312 "LevFktnr: 466, Namn: Storstads Energi AB"
+   #TRANS 2641 {} 979.40 20100312 "LevFktnr: 466, Namn: Storstads Energi AB"
+   #TRANS 5020 {} 3917.60 20100312 "LevFktnr: 466, Namn: Storstads Energi AB"
+}
+#VER C 46 20100312 "Levfkt 467 Bilfinans AB" 20100312
+{
+   #TRANS 2440 {} -4800.00 20100312 "LevFktnr: 467, Namn: Bilfinans AB"
+   #TRANS 2641 {} 480.00 20100312 "LevFktnr: 467, Namn: Bilfinans AB"
+   #TRANS 5615 {} 4320.00 20100312 "LevFktnr: 467, Namn: Bilfinans AB"
+}
+#VER C 47 20100315 "Utbetalningsjournal nr 235" 20100315
+{
+   #TRANS 1930 {} -8400.00
+   #TRANS 2440 {} 8400.00
+}
+#VER C 48 20100322 "Utbetalningsjournal nr 236" 20100322
+{
+   #TRANS 1930 {} -209806.00
+   #TRANS 2440 {} 209806.00
+}
+#VER C 49 20100329 "Utbetalningsjournal nr 237" 20100329
+{
+   #TRANS 1930 {} -4321.00
+   #TRANS 2440 {} 4321.00
+}
+#VER C 50 20100317 "Levfkt 468 3M Sverige AB" 20100317
+{
+   #TRANS 2440 {} -2500.00 20100317 "LevFktnr: 468, Namn: 3M Sverige AB"
+   #TRANS 2641 {} 500.00 20100317 "LevFktnr: 468, Namn: 3M Sverige AB"
+   #TRANS 5460 {} 2000.00 20100317 "LevFktnr: 468, Namn: 3M Sverige AB"
+}
+#VER C 51 20100318 "Levfkt 469 Programleverantîren AB" 20100318
+{
+   #TRANS 2440 {} -277363.00 20100318 "LevFktnr: 469, Namn: Programleverantîren AB"
+   #TRANS 2641 {} 55472.50 20100318 "LevFktnr: 469, Namn: Programleverantîren AB"
+   #TRANS 4010 {} 221890.50 20100318 "LevFktnr: 469, Namn: Programleverantîren AB"
+}
+#VER C 52 20100330 "Levfkt 470 Storstads Blommor AB" 20100330
+{
+   #TRANS 2440 {} -356.00 20100330 "LevFktnr: 470, Namn: Storstads Blommor AB"
+   #TRANS 2641 {} 71.20 20100330 "LevFktnr: 470, Namn: Storstads Blommor AB"
+   #TRANS 5090 {} 284.80 20100330 "LevFktnr: 470, Namn: Storstads Blommor AB"
+}
+#VER C 53 20100330 "Levfkt 471 Storstadstidningen AB" 20100330
+{
+   #TRANS 2440 {} -350.00 20100330 "LevFktnr: 471, Namn: Storstadstidningen AB"
+   #TRANS 2641 {} 70.00 20100330 "LevFktnr: 471, Namn: Storstadstidningen AB"
+   #TRANS 5930 {} 280.00 20100330 "LevFktnr: 471, Namn: Storstadstidningen AB"
+}
+#VER C 54 20100405 "Utbetalningsjournal nr 238" 20100405
+{
+   #TRANS 1930 {} -202878.00
+   #TRANS 2440 {} 202878.00
+}
+#VER C 55 20100407 "Utbetalningsjournal nr 239" 20100407
+{
+   #TRANS 1930 {} -5768.00
+   #TRANS 2440 {} 5768.00
+}
+#VER C 56 20100412 "Utbetalningsjournal nr 240" 20100412
+{
+   #TRANS 1930 {} -12653.00
+   #TRANS 2440 {} 12653.00
+}
+#VER C 57 20100416 "Utbetalningsjournal nr 241" 20100416
+{
+   #TRANS 1930 {} -2500.00
+   #TRANS 2440 {} 2500.00
+}
+#VER C 58 20100402 "Levfkt 472 Hyresbolaget" 20100402
+{
+   #TRANS 1710 {} 54000.00 20100402 "LevFktnr: 472, Namn: Hyresbolaget"
+   #TRANS 2440 {} -67500.00 20100402 "LevFktnr: 472, Namn: Hyresbolaget"
+   #TRANS 2641 {} 13500.00 20100402 "LevFktnr: 472, Namn: Hyresbolaget"
+}
+#VER C 59 20100407 "Levfkt 473 Kontorslandslaget i BorÜs" 20100407
+{
+   #TRANS 2440 {} -21000.00 20100407 "LevFktnr: 473, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 2641 {} 4200.00 20100407 "LevFktnr: 473, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 6110 {} 16800.00 20100407 "LevFktnr: 473, Namn: Kontorslandslaget i BorÜs"
+}
+#VER C 60 20100409 "Levfkt 474 RedovisningsbyrÜn" 20100409
+{
+   #TRANS 2440 {} -3650.00 20100409 "LevFktnr: 474, Namn: RedovisningsbyrÜn"
+   #TRANS 2641 {} 730.00 20100409 "LevFktnr: 474, Namn: RedovisningsbyrÜn"
+   #TRANS 6530 {} 2920.00 20100409 "LevFktnr: 474, Namn: RedovisningsbyrÜn"
+}
+#VER C 61 20100409 "Levfkt 475 Bensinbolaget AB" 20100409
+{
+   #TRANS 2440 {} -1200.00 20100409 "LevFktnr: 475, Namn: Bensinbolaget AB"
+   #TRANS 2641 {} 240.00 20100409 "LevFktnr: 475, Namn: Bensinbolaget AB"
+   #TRANS 5611 {} 960.00 20100409 "LevFktnr: 475, Namn: Bensinbolaget AB"
+}
+#VER C 62 20100415 "Levfkt 476 3M Sverige AB" 20100415
+{
+   #TRANS 2440 {} -980.00 20100415 "LevFktnr: 476, Namn: 3M Sverige AB"
+   #TRANS 2641 {} 196.00 20100415 "LevFktnr: 476, Namn: 3M Sverige AB"
+   #TRANS 5420 {} 784.00 20100415 "LevFktnr: 476, Namn: 3M Sverige AB"
+}
+#VER C 63 20100415 "Levfkt 477 Billeverantîren AB" 20100415
+{
+   #TRANS 2440 {} -1350.00 20100415 "LevFktnr: 477, Namn: Billeverantîren AB"
+   #TRANS 2641 {} 270.00 20100415 "LevFktnr: 477, Namn: Billeverantîren AB"
+   #TRANS 5613 {} 1080.00 20100415 "LevFktnr: 477, Namn: Billeverantîren AB"
+}
+#VER C 64 20100419 "Utbetalningsjournal nr 242" 20100419
+{
+   #TRANS 1930 {} -277363.00
+   #TRANS 2440 {} 277363.00
+}
+#VER C 65 20100429 "Utbetalningsjournal nr 243" 20100429
+{
+   #TRANS 1930 {} -706.00
+   #TRANS 2440 {} 706.00
+}
+#VER C 66 20100420 "Levfkt 478 Bilfinans AB" 20100420
+{
+   #TRANS 2440 {} -5000.00 20100420 "LevFktnr: 478, Namn: Bilfinans AB"
+   #TRANS 2641 {} 500.00 20100420 "LevFktnr: 478, Namn: Bilfinans AB"
+   #TRANS 5615 {} 4500.00 20100420 "LevFktnr: 478, Namn: Bilfinans AB"
+}
+#VER C 67 20100423 "Levfkt 479 Telenor Sverige AB" 20100423
+{
+   #TRANS 2440 {} -1897.00 20100423 "LevFktnr: 479, Namn: Telenor Sverige AB"
+   #TRANS 2641 {} 379.40 20100423 "LevFktnr: 479, Namn: Telenor Sverige AB"
+   #TRANS 6212 {} 1517.60 20100423 "LevFktnr: 479, Namn: Telenor Sverige AB"
+}
+#VER C 68 20100429 "Levfkt 480 Reklambolaget" 20100429
+{
+   #TRANS 2440 {} -890.00 20100429 "LevFktnr: 480, Namn: Reklambolaget"
+   #TRANS 2641 {} 178.00 20100429 "LevFktnr: 480, Namn: Reklambolaget"
+   #TRANS 5930 {} 712.00 20100429 "LevFktnr: 480, Namn: Reklambolaget"
+}
+#VER C 69 20100503 "Utbetalningsjournal nr 244" 20100503
+{
+   #TRANS 1930 {} -67500.00
+   #TRANS 2440 {} 67500.00
+}
+#VER C 70 20100507 "Utbetalningsjournal nr 245" 20100507
+{
+   #TRANS 1930 {} -21000.00
+   #TRANS 2440 {} 21000.00
+}
+#VER C 71 20100510 "Utbetalningsjournal nr 246" 20100510
+{
+   #TRANS 1930 {} -4850.00
+   #TRANS 2440 {} 4850.00
+}
+#VER C 72 20100504 "Levfkt 481 Norsk Kontorsleverantîr A/S" 20100504
+{
+   #TRANS 2440 {} -7466.00 20100504 "LevFktnr: 481, Namn: Norsk Kontorsleverantîr A/S"
+   #TRANS 4010 {} 7466.00 20100504 "LevFktnr: 481, Namn: Norsk Kontorsleverantîr A/S"
+}
+#VER C 73 20100507 "Levfkt 482 Programleverantîren AB" 20100507
+{
+   #TRANS 2440 {} -162250.00 20100507 "LevFktnr: 482, Namn: Programleverantîren AB"
+   #TRANS 2641 {} 32450.00 20100507 "LevFktnr: 482, Namn: Programleverantîren AB"
+   #TRANS 4010 {} 129800.00 20100507 "LevFktnr: 482, Namn: Programleverantîren AB"
+}
+#VER C 74 20100511 "Levfkt 483 Fora AB" 20100511
+{
+   #TRANS 2440 {} -2500.00 20100511 "LevFktnr: 483, Namn: Fora AB"
+   #TRANS 7570 {} 2500.00 20100511 "LevFktnr: 483, Namn: Fora AB"
+}
+#VER C 75 20100512 "Levfkt 484 FîrsÑkringsbolaget" 20100512
+{
+   #TRANS 2440 {} -2500.00 20100512 "LevFktnr: 484, Namn: FîrsÑkringsbolaget"
+   #TRANS 6310 {} 2500.00 20100512 "LevFktnr: 484, Namn: FîrsÑkringsbolaget"
+}
+#VER C 76 20100513 "Levfkt 485 Storstadstidningen AB" 20100513
+{
+   #TRANS 2440 {} -950.00 20100513 "LevFktnr: 485, Namn: Storstadstidningen AB"
+   #TRANS 2641 {} 53.77 20100513 "LevFktnr: 485, Namn: Storstadstidningen AB"
+   #TRANS 6970 {} 896.23 20100513 "LevFktnr: 485, Namn: Storstadstidningen AB"
+}
+#VER C 77 20100513 "Levfkt 486 Storstads Blommor AB" 20100513
+{
+   #TRANS 2440 {} -260.00 20100513 "LevFktnr: 486, Namn: Storstads Blommor AB"
+   #TRANS 2641 {} 52.00 20100513 "LevFktnr: 486, Namn: Storstads Blommor AB"
+   #TRANS 5090 {} 208.00 20100513 "LevFktnr: 486, Namn: Storstads Blommor AB"
+}
+#VER C 78 20100513 "Levfkt 488 3M Sverige AB" 20100513
+{
+   #TRANS 2440 {} -1200.00 20100513 "LevFktnr: 488, Namn: 3M Sverige AB"
+   #TRANS 2641 {} 240.00 20100513 "LevFktnr: 488, Namn: 3M Sverige AB"
+   #TRANS 6090 {} 960.00 20100513 "LevFktnr: 488, Namn: 3M Sverige AB"
+}
+#VER C 79 20100514 "Levfkt 487 Bilfinans AB" 20100514
+{
+   #TRANS 2440 {} -5000.00 20100514 "LevFktnr: 487, Namn: Bilfinans AB"
+   #TRANS 2641 {} 500.00 20100514 "LevFktnr: 487, Namn: Bilfinans AB"
+   #TRANS 5615 {} 4500.00 20100514 "LevFktnr: 487, Namn: Bilfinans AB"
+}
+#VER C 80 20100517 "Utbetalningsjournal nr 247" 20100517
+{
+   #TRANS 1930 {} -2330.00
+   #TRANS 2440 {} 2330.00
+}
+#VER C 81 20100520 "Utbetalningsjournal nr 248" 20100520
+{
+   #TRANS 1930 {} -5000.00
+   #TRANS 2440 {} 5000.00
+}
+#VER C 82 20100524 "Utbetalningsjournal nr 249" 20100524
+{
+   #TRANS 1930 {} -1897.00
+   #TRANS 2440 {} 1897.00
+}
+#VER C 83 20100531 "Utbetalningsjournal nr 250" 20100531
+{
+   #TRANS 1930 {} -890.00
+   #TRANS 2440 {} 890.00
+}
+#VER C 84 20100517 "Levfkt 489 Programleverantîren AB" 20100517
+{
+   #TRANS 2440 {} -3260.00 20100517 "LevFktnr: 489, Namn: Programleverantîren AB"
+   #TRANS 2641 {} 652.00 20100517 "LevFktnr: 489, Namn: Programleverantîren AB"
+   #TRANS 5420 {} 2608.00 20100517 "LevFktnr: 489, Namn: Programleverantîren AB"
+}
+#VER C 85 20100517 "Levfkt 490 Kontorslandslaget i BorÜs" 20100517
+{
+   #TRANS 2440 {} -2354.00 20100517 "LevFktnr: 490, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 2641 {} 470.80 20100517 "LevFktnr: 490, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 6110 {} 1883.20 20100517 "LevFktnr: 490, Namn: Kontorslandslaget i BorÜs"
+}
+#VER C 86 20100520 "Levfkt 491 Programleverantîren AB" 20100520
+{
+   #TRANS 2440 {} -579056.00 20100520 "LevFktnr: 491, Namn: Programleverantîren AB"
+   #TRANS 2641 {} 115811.25 20100520 "LevFktnr: 491, Namn: Programleverantîren AB"
+   #TRANS 4010 {} 463244.75 20100520 "LevFktnr: 491, Namn: Programleverantîren AB"
+}
+#VER C 87 20100520 "Levfkt 492 Telenor Sverige AB" 20100520
+{
+   #TRANS 2440 {} -895.00 20100520 "LevFktnr: 492, Namn: Telenor Sverige AB"
+   #TRANS 2641 {} 179.00 20100520 "LevFktnr: 492, Namn: Telenor Sverige AB"
+   #TRANS 6212 {} 716.00 20100520 "LevFktnr: 492, Namn: Telenor Sverige AB"
+}
+#VER C 88 20100520 "Levfkt 493 Bachbinder GmbH" 20100520
+{
+   #TRANS 2440 {} -14394.00 20100520 "LevFktnr: 493, Namn: Bachbinder GmbH"
+   #TRANS 2615 {} -3598.50 20100520 "LevFktnr: 493, Namn: Bachbinder GmbH"
+   #TRANS 2645 {} 3598.50 20100520 "LevFktnr: 493, Namn: Bachbinder GmbH"
+   #TRANS 4056 {} 14394.00 20100520 "LevFktnr: 493, Namn: Bachbinder GmbH"
+}
+#VER C 89 20100524 "Levfkt 494 KA Data & Elektronik" 20100524
+{
+   #TRANS 1221 {} 18000.00 20100524 "LevFktnr: 494, Namn: KA Data & Elektronik"
+   #TRANS 2440 {} -22500.00 20100524 "LevFktnr: 494, Namn: KA Data & Elektronik"
+   #TRANS 2641 {} 4500.00 20100524 "LevFktnr: 494, Namn: KA Data & Elektronik"
+}
+#VER C 90 20100524 "Levfkt 495 Reklambolaget" 20100524
+{
+   #TRANS 2440 {} -2100.00 20100524 "LevFktnr: 495, Namn: Reklambolaget"
+   #TRANS 2641 {} 420.00 20100524 "LevFktnr: 495, Namn: Reklambolaget"
+   #TRANS 5930 {} 1680.00 20100524 "LevFktnr: 495, Namn: Reklambolaget"
+}
+#VER C 91 20100528 "Levkreditfkt 496 FîrsÑkringsbolaget" 20100528
+{
+   #TRANS 2440 {} 900.00 20100528 "LevFktnr: 496, Namn: FîrsÑkringsbolaget"
+   #TRANS 6310 {} -900.00 20100528 "LevFktnr: 496, Namn: FîrsÑkringsbolaget"
+}
+#VER C 92 20100528 "Levfkt 497 Bensinbolaget AB" 20100528
+{
+   #TRANS 2440 {} -1341.00 20100528 "LevFktnr: 497, Namn: Bensinbolaget AB"
+   #TRANS 2641 {} 268.20 20100528 "LevFktnr: 497, Namn: Bensinbolaget AB"
+   #TRANS 5611 {} 1072.80 20100528 "LevFktnr: 497, Namn: Bensinbolaget AB"
+}
+#VER C 93 20100528 "Levfkt 498 VÑgverket" 20100528
+{
+   #TRANS 2440 {} -1200.00 20100528 "LevFktnr: 498, Namn: VÑgverket"
+   #TRANS 5612 {} 1200.00 20100528 "LevFktnr: 498, Namn: VÑgverket"
+}
+#VER C 94 20100603 "Utbetalningsjournal nr 251" 20100603
+{
+   #TRANS 1930 {} -7466.00
+   #TRANS 2440 {} 7466.00
+}
+#VER C 95 20100607 "Utbetalningsjournal nr 252" 20100607
+{
+   #TRANS 1930 {} -162250.00
+   #TRANS 2440 {} 162250.00
+}
+#VER C 96 20100611 "Utbetalningsjournal nr 253" 20100611
+{
+   #TRANS 1930 {} -4100.00
+   #TRANS 2440 {} 4100.00
+}
+#VER C 97 20100614 "Utbetalningsjournal nr 254" 20100614
+{
+   #TRANS 1930 {} -7410.00
+   #TRANS 2440 {} 7410.00
+}
+#VER C 98 20100603 "Levfkt 499 Storstadstidningen AB" 20100603
+{
+   #TRANS 2440 {} -3500.00 20100603 "LevFktnr: 499, Namn: Storstadstidningen AB"
+   #TRANS 2641 {} 700.00 20100603 "LevFktnr: 499, Namn: Storstadstidningen AB"
+   #TRANS 5930 {} 2800.00 20100603 "LevFktnr: 499, Namn: Storstadstidningen AB"
+}
+#VER C 99 20100603 "Levfkt 500 RedovisningsbyrÜn" 20100603
+{
+   #TRANS 2440 {} -5000.00 20100603 "LevFktnr: 500, Namn: RedovisningsbyrÜn"
+   #TRANS 2641 {} 1000.00 20100603 "LevFktnr: 500, Namn: RedovisningsbyrÜn"
+   #TRANS 6530 {} 4000.00 20100603 "LevFktnr: 500, Namn: RedovisningsbyrÜn"
+}
+#VER C 100 20100604 "Levfkt 501 Telia Sonera Sverige AB" 20100604
+{
+   #TRANS 2440 {} -1200.00 20100604 "LevFktnr: 501, Namn: Telia Sonera Sverige AB"
+   #TRANS 2641 {} 240.00 20100604 "LevFktnr: 501, Namn: Telia Sonera Sverige AB"
+   #TRANS 6211 {} 960.00 20100604 "LevFktnr: 501, Namn: Telia Sonera Sverige AB"
+}
+#VER C 101 20100610 "Levfkt 502 Storstads Blommor AB" 20100610
+{
+   #TRANS 2440 {} -800.00 20100610 "LevFktnr: 502, Namn: Storstads Blommor AB"
+   #TRANS 2641 {} 160.00 20100610 "LevFktnr: 502, Namn: Storstads Blommor AB"
+   #TRANS 5090 {} 640.00 20100610 "LevFktnr: 502, Namn: Storstads Blommor AB"
+}
+#VER C 102 20100615 "Levfkt 503 Bilfinans AB" 20100615
+{
+   #TRANS 2440 {} -5000.00 20100615 "LevFktnr: 503, Namn: Bilfinans AB"
+   #TRANS 2641 {} 500.00 20100615 "LevFktnr: 503, Namn: Bilfinans AB"
+   #TRANS 5615 {} 4500.00 20100615 "LevFktnr: 503, Namn: Bilfinans AB"
+}
+#VER C 103 20100616 "Utbetalningsjournal nr 255" 20100616
+{
+   #TRANS 1930 {} -5614.00
+   #TRANS 2440 {} 5614.00
+}
+#VER C 104 20100621 "Utbetalningsjournal nr 256" 20100621
+{
+   #TRANS 1930 {} -594345.00
+   #TRANS 2440 {} 594345.00
+}
+#VER C 105 20100623 "Utbetalningsjournal nr 257" 20100623
+{
+   #TRANS 1930 {} -24600.00
+   #TRANS 2440 {} 24600.00
+}
+#VER C 106 20100628 "Utbetalningsjournal nr 258" 20100628
+{
+   #TRANS 1930 {} -2541.00
+   #TRANS 2440 {} 2541.00
+}
+#VER C 107 20100618 "Levfkt 504 Programleverantîren AB" 20100618
+{
+   #TRANS 2440 {} -65675.00 20100618 "LevFktnr: 504, Namn: Programleverantîren AB"
+   #TRANS 2641 {} 13135.00 20100618 "LevFktnr: 504, Namn: Programleverantîren AB"
+   #TRANS 4010 {} 52540.00 20100618 "LevFktnr: 504, Namn: Programleverantîren AB"
+}
+#VER C 108 20100618 "Levfkt 505 FîrsÑkringsbolaget" 20100618
+{
+   #TRANS 2440 {} -2500.00 20100618 "LevFktnr: 505, Namn: FîrsÑkringsbolaget"
+   #TRANS 6310 {} 2500.00 20100618 "LevFktnr: 505, Namn: FîrsÑkringsbolaget"
+}
+#VER C 109 20100624 "Levfkt 506 VÑgverket" 20100624
+{
+   #TRANS 2440 {} -3500.00 20100624 "LevFktnr: 506, Namn: VÑgverket"
+   #TRANS 5612 {} 3500.00 20100624 "LevFktnr: 506, Namn: VÑgverket"
+}
+#VER C 110 20100629 "Levfkt 507 Bachbinder GmbH" 20100629
+{
+   #TRANS 2440 {} -18837.55 20100629 "LevFktnr: 507, Namn: Bachbinder GmbH"
+   #TRANS 2615 {} -4709.39 20100629 "LevFktnr: 507, Namn: Bachbinder GmbH"
+   #TRANS 2645 {} 4709.39 20100629 "LevFktnr: 507, Namn: Bachbinder GmbH"
+   #TRANS 4056 {} 18837.55 20100629 "LevFktnr: 507, Namn: Bachbinder GmbH"
+}
+#VER C 111 20100629 "Levfkt 508 Kontorslandslaget i BorÜs" 20100629
+{
+   #TRANS 1221 {} 41840.00 20100629 "LevFktnr: 508, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 2440 {} -52300.00 20100629 "LevFktnr: 508, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 2641 {} 10460.00 20100629 "LevFktnr: 508, Namn: Kontorslandslaget i BorÜs"
+}
+#VER C 112 20100705 "Utbetalningsjournal nr 259" 20100705
+{
+   #TRANS 1930 {} -9700.00
+   #TRANS 2440 {} 9700.00
+}
+#VER C 113 20100715 "Utbetalningsjournal nr 260" 20100715
+{
+   #TRANS 1930 {} -9300.00
+   #TRANS 2440 {} 9300.00
+}
+#VER C 114 20100702 "Levfkt 509 Hyresbolaget" 20100702
+{
+   #TRANS 1710 {} 54000.00 20100702 "LevFktnr: 509, Namn: Hyresbolaget"
+   #TRANS 2440 {} -67500.00 20100702 "LevFktnr: 509, Namn: Hyresbolaget"
+   #TRANS 2641 {} 13500.00 20100702 "LevFktnr: 509, Namn: Hyresbolaget"
+}
+#VER C 115 20100706 "Levfkt 510 Kontorslandslaget i BorÜs" 20100706
+{
+   #TRANS 2440 {} -13000.00 20100706 "LevFktnr: 510, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 2641 {} 2600.00 20100706 "LevFktnr: 510, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 4010 {} 10400.00 20100706 "LevFktnr: 510, Namn: Kontorslandslaget i BorÜs"
+}
+#VER C 116 20100706 "Levfkt 511 Bensinbolaget AB" 20100706
+{
+   #TRANS 2440 {} -3256.00 20100706 "LevFktnr: 511, Namn: Bensinbolaget AB"
+   #TRANS 2641 {} 651.20 20100706 "LevFktnr: 511, Namn: Bensinbolaget AB"
+   #TRANS 5611 {} 2604.80 20100706 "LevFktnr: 511, Namn: Bensinbolaget AB"
+}
+#VER C 117 20100715 "Levfkt 512 Bilfinans AB" 20100715
+{
+   #TRANS 2440 {} -5000.00 20100715 "LevFktnr: 512, Namn: Bilfinans AB"
+   #TRANS 2641 {} 500.00 20100715 "LevFktnr: 512, Namn: Bilfinans AB"
+   #TRANS 5615 {} 4500.00 20100715 "LevFktnr: 512, Namn: Bilfinans AB"
+}
+#VER C 118 20100719 "Utbetalningsjournal nr 261" 20100719
+{
+   #TRANS 1930 {} -68175.00
+   #TRANS 2440 {} 68175.00
+}
+#VER C 119 20100729 "Utbetalningsjournal nr 262" 20100729
+{
+   #TRANS 1930 {} -71137.55
+   #TRANS 2440 {} 71137.55
+}
+#VER C 120 20100719 "Levfkt 513 Norsk Kontorsleverantîr A/S" 20100719
+{
+   #TRANS 1221 {} 81566.00 20100719 "LevFktnr: 513, Namn: Norsk Kontorsleverantîr A/S"
+   #TRANS 2440 {} -81566.00 20100719 "LevFktnr: 513, Namn: Norsk Kontorsleverantîr A/S"
+}
+#VER C 121 20100721 "Levfkt 514 Fora AB" 20100721
+{
+   #TRANS 2440 {} -5000.00 20100721 "LevFktnr: 514, Namn: Fora AB"
+   #TRANS 7570 {} 5000.00 20100721 "LevFktnr: 514, Namn: Fora AB"
+}
+#VER C 122 20100723 "Levfkt 515 Reklambolaget" 20100723
+{
+   #TRANS 2440 {} -2500.00 20100723 "LevFktnr: 515, Namn: Reklambolaget"
+   #TRANS 2641 {} 500.00 20100723 "LevFktnr: 515, Namn: Reklambolaget"
+   #TRANS 5930 {} 2000.00 20100723 "LevFktnr: 515, Namn: Reklambolaget"
+}
+#VER C 123 20100730 "Levfkt 516 Billeverantîren AB" 20100730
+{
+   #TRANS 2440 {} -1200.00 20100730 "LevFktnr: 516, Namn: Billeverantîren AB"
+   #TRANS 2641 {} 600.00 20100730 "LevFktnr: 516, Namn: Billeverantîren AB"
+   #TRANS 5613 {} 600.00 20100730 "LevFktnr: 516, Namn: Billeverantîren AB"
+}
+#VER C 124 20100802 "Utbetalningsjournal nr 263" 20100802
+{
+   #TRANS 1930 {} -67500.00
+   #TRANS 2440 {} 67500.00
+}
+#VER C 125 20100805 "Utbetalningsjournal nr 264" 20100805
+{
+   #TRANS 1930 {} -16256.00
+   #TRANS 2440 {} 16256.00
+}
+#VER C 126 20100803 "Levfkt 517 Storstads Blommor AB" 20100803
+{
+   #TRANS 2440 {} -520.00 20100803 "LevFktnr: 517, Namn: Storstads Blommor AB"
+   #TRANS 2641 {} 104.00 20100803 "LevFktnr: 517, Namn: Storstads Blommor AB"
+   #TRANS 5090 {1 Nord} 416.00 20100803 "LevFktnr: 517, Namn: Storstads Blommor AB"
+}
+#VER C 127 20100803 "Levfkt 518 3M Sverige AB" 20100803
+{
+   #TRANS 2440 {} -2500.00 20100803 "LevFktnr: 518, Namn: 3M Sverige AB"
+   #TRANS 2641 {} 500.00 20100803 "LevFktnr: 518, Namn: 3M Sverige AB"
+   #TRANS 6090 {1 Nord} 2000.00 20100803 "LevFktnr: 518, Namn: 3M Sverige AB"
+}
+#VER C 128 20100810 "Levfkt 519 Bensinbolaget AB" 20100810
+{
+   #TRANS 2440 {} -3654.00 20100810 "LevFktnr: 519, Namn: Bensinbolaget AB"
+   #TRANS 2641 {} 730.80 20100810 "LevFktnr: 519, Namn: Bensinbolaget AB"
+   #TRANS 5611 {} 2923.20 20100810 "LevFktnr: 519, Namn: Bensinbolaget AB"
+}
+#VER C 129 20100810 "Levfkt 520 Storstadstidningen AB" 20100810
+{
+   #TRANS 2440 {} -1568.00 20100810 "LevFktnr: 520, Namn: Storstadstidningen AB"
+   #TRANS 2641 {} 313.60 20100810 "LevFktnr: 520, Namn: Storstadstidningen AB"
+   #TRANS 6970 {1 Nord} 1254.40 20100810 "LevFktnr: 520, Namn: Storstadstidningen AB"
+}
+#VER C 130 20100812 "Levfkt 521 Telenor Sverige AB" 20100812
+{
+   #TRANS 2440 {} -3200.00 20100812 "LevFktnr: 521, Namn: Telenor Sverige AB"
+   #TRANS 2641 {} 640.00 20100812 "LevFktnr: 521, Namn: Telenor Sverige AB"
+   #TRANS 6212 {} 2560.00 20100812 "LevFktnr: 521, Namn: Telenor Sverige AB"
+}
+#VER C 131 20100812 "Levfkt 522 Telia Sonera Sverige AB" 20100812
+{
+   #TRANS 2440 {} -2689.00 20100812 "LevFktnr: 522, Namn: Telia Sonera Sverige AB"
+   #TRANS 2641 {} 537.80 20100812 "LevFktnr: 522, Namn: Telia Sonera Sverige AB"
+   #TRANS 6211 {} 2151.20 20100812 "LevFktnr: 522, Namn: Telia Sonera Sverige AB"
+}
+#VER C 132 20100816 "Utbetalningsjournal nr 265" 20100816
+{
+   #TRANS 1930 {} -5000.00
+   #TRANS 2440 {} 5000.00
+}
+#VER C 133 20100818 "Utbetalningsjournal nr 266" 20100818
+{
+   #TRANS 1930 {} -81566.00
+   #TRANS 2440 {} 81566.00
+}
+#VER C 134 20100820 "Utbetalningsjournal nr 267" 20100820
+{
+   #TRANS 1930 {} -5000.00
+   #TRANS 2440 {} 5000.00
+}
+#VER C 135 20100823 "Utbetalningsjournal nr 268" 20100823
+{
+   #TRANS 1930 {} -2500.00
+   #TRANS 2440 {} 2500.00
+}
+#VER C 136 20100830 "Utbetalningsjournal nr 269" 20100830
+{
+   #TRANS 1930 {} -1200.00
+   #TRANS 2440 {} 1200.00
+}
+#VER C 137 20100816 "Levfkt 523 Fora AB" 20100816
+{
+   #TRANS 2440 {} -1500.00 20100816 "LevFktnr: 523, Namn: Fora AB"
+   #TRANS 7570 {} 1500.00 20100816 "LevFktnr: 523, Namn: Fora AB"
+}
+#VER C 138 20100816 "Levfkt 524 Bachbinder GmbH" 20100816
+{
+   #TRANS 2440 {} -26650.18 20100816 "LevFktnr: 524, Namn: Bachbinder GmbH"
+   #TRANS 2615 {} -6662.55 20100816 "LevFktnr: 524, Namn: Bachbinder GmbH"
+   #TRANS 2645 {} 6662.55 20100816 "LevFktnr: 524, Namn: Bachbinder GmbH"
+   #TRANS 4056 {} 26650.18 20100816 "LevFktnr: 524, Namn: Bachbinder GmbH"
+}
+#VER C 139 20100820 "Levfkt 525 Norsk Kontorsleverantîr A/S" 20100820
+{
+   #TRANS 2440 {} -23990.00 20100820 "LevFktnr: 525, Namn: Norsk Kontorsleverantîr A/S"
+   #TRANS 4010 {} 23990.00 20100820 "LevFktnr: 525, Namn: Norsk Kontorsleverantîr A/S"
+}
+#VER C 140 20100820 "Levfkt 526 Storstads Energi AB" 20100820
+{
+   #TRANS 2440 {} -2315.00 20100820 "LevFktnr: 526, Namn: Storstads Energi AB"
+   #TRANS 2641 {} 463.00 20100820 "LevFktnr: 526, Namn: Storstads Energi AB"
+   #TRANS 5020 {} 1852.00 20100820 "LevFktnr: 526, Namn: Storstads Energi AB"
+}
+#VER C 141 20100824 "Levfkt 527 Kontorslandslaget i BorÜs" 20100824
+{
+   #TRANS 1221 {} 53960.00 20100824 "LevFktnr: 527, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 2440 {} -67450.00 20100824 "LevFktnr: 527, Namn: Kontorslandslaget i BorÜs"
+   #TRANS 2641 {} 13490.00 20100824 "LevFktnr: 527, Namn: Kontorslandslaget i BorÜs"
+}
+#VER C 142 20100824 "Levkreditfkt 528 Fora AB" 20100824
+{
+   #TRANS 2440 {} 500.00 20100824 "LevFktnr: 528, Namn: Fora AB"
+   #TRANS 7570 {} -500.00 20100824 "LevFktnr: 528, Namn: Fora AB"
+}
+#VER C 143 20100826 "Levfkt 529 Programleverantîren AB" 20100826
+{
+   #TRANS 2440 {} -396619.00 20100826 "LevFktnr: 529, Namn: Programleverantîren AB"
+   #TRANS 2641 {} 79324.00 20100826 "LevFktnr: 529, Namn: Programleverantîren AB"
+   #TRANS 4010 {} 317295.00 20100826 "LevFktnr: 529, Namn: Programleverantîren AB"
+}
+#VER C 144 20100830 "Levfkt 530 KA Data & Elektronik" 20100830
+{
+   #TRANS 2440 {} -2354.00 20100830 "LevFktnr: 530, Namn: KA Data & Elektronik"
+   #TRANS 2641 {} 470.80 20100830 "LevFktnr: 530, Namn: KA Data & Elektronik"
+   #TRANS 6970 {} 1883.20 20100830 "LevFktnr: 530, Namn: KA Data & Elektronik"
+}
+#VER C 145 20100830 "Levfkt 531 RedovisningsbyrÜn" 20100830
+{
+   #TRANS 2440 {} -1750.00 20100830 "LevFktnr: 531, Namn: RedovisningsbyrÜn"
+   #TRANS 2641 {} 350.00 20100830 "LevFktnr: 531, Namn: RedovisningsbyrÜn"
+   #TRANS 6530 {} 1400.00 20100830 "LevFktnr: 531, Namn: RedovisningsbyrÜn"
+}
+#VER C 146 20100830 "Levfkt 532 Bilfinans AB" 20100830
+{
+   #TRANS 2440 {} -5000.00 20100830 "LevFktnr: 532, Namn: Bilfinans AB"
+   #TRANS 2641 {} 500.00 20100830 "LevFktnr: 532, Namn: Bilfinans AB"
+   #TRANS 5615 {} 4500.00 20100830 "LevFktnr: 532, Namn: Bilfinans AB"
+}
+#VER C 147 20100831 "Levfkt 533 Billeverantîren AB" 20100831
+{
+   #TRANS 2440 {} -3124.00 20100831 "LevFktnr: 533, Namn: Billeverantîren AB"
+   #TRANS 2641 {} 624.80 20100831 "LevFktnr: 533, Namn: Billeverantîren AB"
+   #TRANS 5613 {} 2499.20 20100831 "LevFktnr: 533, Namn: Billeverantîren AB"
+}
+#VER D 1 20100131 "LagerfîrÑndringsjournal nr 56" 20091230
+{
+   #TRANS 1460 {} 56124.00
+   #TRANS 4990 {} 380125.24
+   #TRANS 4990 {1 Nord} 2590.00
+   #TRANS 1460 {} -199445.00
+   #TRANS 4990 {} -239394.24
+}
+#VER D 2 20100226 "LagerfîrÑndringsjournal nr 57" 20100129
+{
+   #TRANS 1460 {} 59945.00
+   #TRANS 4990 {} 166542.70
+   #TRANS 1460 {} -101711.01
+   #TRANS 4990 {} -124776.69
+}
+#VER D 3 20100331 "LagerfîrÑndringsjournal nr 58" 20100129
+{
+   #TRANS 1460 {} 121900.00
+   #TRANS 4990 {} 336033.65
+   #TRANS 1460 {} -71673.65
+   #TRANS 4990 {} -386260.00
+}
+#VER D 4 20100430 "LagerfîrÑndringsjournal nr 59" 20100129
+{
+   #TRANS 4990 {} 1185.00
+   #TRANS 1460 {} -1185.00
+}
+#VER D 5 20100531 "LagerfîrÑndringsjournal nr 60" 20100129
+{
+   #TRANS 1460 {} 354671.40
+   #TRANS 4990 {} 340816.93
+   #TRANS 1460 {} -75962.93
+   #TRANS 4990 {} -619525.40
+}
+#VER D 6 20100630 "LagerfîrÑndringsjournal nr 61" 20100728
+{
+   #TRANS 1460 {} 52540.00
+   #TRANS 4990 {} 94659.59
+   #TRANS 1460 {} -74762.04
+   #TRANS 4990 {} -72437.55
+}
+#VER D 7 20100731 "LagerfîrÑndringsjournal nr 62" 20100728
+{
+   #TRANS 1460 {} 9160.00
+   #TRANS 4990 {} 175779.10
+   #TRANS 4990 {1 Nord} 655.00
+   #TRANS 1460 {} -173109.10
+   #TRANS 4990 {} -12485.00
+}
+#VER D 8 20100831 "LagerfîrÑndringsjournal nr 63" 20100728
+{
+   #TRANS 1460 {} 293736.25
+   #TRANS 4990 {} 258285.83
+   #TRANS 1460 {} -178510.00
+   #TRANS 4990 {} -373512.08
+}
+#VER E 1 20100118 "Skattedeklaration  januari" 20091230
+{
+   #TRANS 2940 {} 32812.86
+   #TRANS 2710 {} 24790.00
+   #TRANS 3740 {} -0.86
+   #TRANS 2510 {} 17500.00
+   #TRANS 2650 {} 16483.00
+   #TRANS 1930 {} -91585.00
+}
+#VER E 2 20100131 "Momsrapport 2010-01-01 - 2010-01-31" 20100131
+{
+   #TRANS 2611 {} 117572.15
+   #TRANS 2615 {} 2493.50
+   #TRANS 3740 {} 0.02
+   #TRANS 2641 {} -78335.17
+   #TRANS 2645 {} -2493.50
+   #TRANS 2650 {} -39237.00
+}
+#VER E 3 20100212 "Skattedeklaration februari" 20100129
+{
+   #TRANS 2940 {} 34882.08
+   #TRANS 2710 {} 26133.00
+   #TRANS 3740 {} -0.08
+   #TRANS 2650 {} 102892.00
+   #TRANS 2510 {} 17500.00
+   #TRANS 1930 {} -181407.00
+}
+#VER E 4 20100228 "Momsrapport 2010-02-01 - 2010-02-28" 20100228
+{
+   #TRANS 2611 {} 78050.00
+   #TRANS 3740 {} 0.40
+   #TRANS 2641 {} -45958.40
+   #TRANS 2650 {} -32092.00
+}
+#VER E 5 20100312 "Skattedeklaration mars" 20100331
+{
+   #TRANS 2940 {} 32551.58
+   #TRANS 2710 {} 23906.00
+   #TRANS 2510 {} 17500.00
+   #TRANS 3740 {} -1.58
+   #TRANS 2650 {} 39237.00
+   #TRANS 1930 {} -113193.00
+}
+#VER E 6 20100331 "Momsrapport 2010-03-01 - 2010-03-31" 20100331
+{
+   #TRANS 2611 {} 139131.25
+   #TRANS 2641 {} -99604.20
+   #TRANS 2650 {} -39527.00
+   #TRANS 3740 {} -0.05
+}
+#VER E 7 20100412 "Skattedeklaration april" 20100331
+{
+   #TRANS 2940 {} 35834.91
+   #TRANS 2710 {} 28169.00
+   #TRANS 3740 {} -0.91
+   #TRANS 2510 {} 17500.00
+   #TRANS 2650 {} 32092.00
+   #TRANS 1930 {} -113595.00
+}
+#VER E 8 20100430 "Momsrapport 2010-04-01 - 2010-04-30" 20100430
+{
+   #TRANS 2611 {} 44607.80
+   #TRANS 2641 {} -20425.17
+   #TRANS 2650 {} -24182.00
+   #TRANS 3740 {} -0.63
+}
+#VER E 9 20100512 "Skattedeklaration maj" 20100430
+{
+   #TRANS 2940 {} 35018.10
+   #TRANS 2710 {} 26511.00
+   #TRANS 3740 {} -1.10
+   #TRANS 2510 {} 22000.00
+   #TRANS 2650 {} 39527.00
+   #TRANS 1930 {} -123055.00
+}
+#VER E 10 20100531 "Momsrapport 2010-05-01 - 2010-05-31" 20100531
+{
+   #TRANS 1650 {} 9551.00
+   #TRANS 2611 {} 146738.75
+   #TRANS 2615 {} 3598.50
+   #TRANS 2641 {} -156289.46
+   #TRANS 2645 {} -3598.50
+   #TRANS 3740 {} -0.29
+}
+#VER E 11 20100614 "Skattedeklaration juni" 20100730
+{
+   #TRANS 2940 {} 34010.27
+   #TRANS 2710 {} 25594.00
+   #TRANS 3740 {} -0.27
+   #TRANS 2510 {} 22000.00
+   #TRANS 2650 {} 24182.00
+   #TRANS 1930 {} -105786.00
+}
+#VER E 12 20100630 "Momsrapport 2010-06-01 - 2010-06-30" 20100630
+{
+   #TRANS 2611 {} 72922.50
+   #TRANS 2615 {} 4709.39
+   #TRANS 2641 {} -26420.28
+   #TRANS 2645 {} -4709.39
+   #TRANS 2650 {} -46502.00
+   #TRANS 3740 {} -0.22
+}
+#VER E 13 20100712 "Skattedeklaration juli" 20100702
+{
+   #TRANS 2940 {} 37063.95
+   #TRANS 2710 {} 28556.00
+   #TRANS 2510 {} 22000.00
+   #TRANS 1650 {} -9551.00
+   #TRANS 3740 {} -0.95
+   #TRANS 1930 {} -78068.00
+}
+#VER E 14 20100731 "Momsrapport 2010-07-01 - 2010-07-31" 20100731
+{
+   #TRANS 2611 {} 71462.50
+   #TRANS 2641 {} -18981.04
+   #TRANS 2650 {} -52481.00
+   #TRANS 3740 {} -0.46
+}
+#VER E 15 20100817 "Skattedeklaration augusti" 20100819
+{
+   #TRANS 2940 {} 36992.01
+   #TRANS 2710 {} 29405.00
+   #TRANS 3740 {} -0.01
+   #TRANS 2510 {} 22000.00
+   #TRANS 2650 {} 46502.00
+   #TRANS 1930 {} -134899.00
+}
+#VER F 1 20100125 "Lînekîrning: 2010-01-25 - Ordinarie lîn" 20091230
+{
+   #TRANS 1930 {} -82164.00
+   #TRANS 2710 {} -26133.00
+   #TRANS 2794 {} -1798.34
+   #TRANS 2920 {} -1949.05
+   #TRANS 2940 {} -34882.08
+   #TRANS 2941 {} -526.37
+   #TRANS 3740 {} 3.10
+   #TRANS 7010 {1 Nord} 27141.88 20100125 "" 176
+   #TRANS 7010 {1 Syd} 26764.00 20100125 "" 229
+   #TRANS 7081 {1 Nord} 900.96 20100125 "" 8
+   #TRANS 7082 {1 Nord} 5342.64 20100125 "" 36
+   #TRANS 7090 {1 Nord} -2023.73
+   #TRANS 7090 {1 Syd} 3211.68
+   #TRANS 7210 {1 Nord} 26700.45 20100125 "" 128
+   #TRANS 7210 {1 Syd} 18224.36 20100125 "" 110
+   #TRANS 7285 {1 Nord} 5017.95 20100125 "" 48
+   #TRANS 7290 {1 Nord} -1300.95
+   #TRANS 7290 {1 Syd} 2062.05
+   #TRANS 7385 {1 Nord} 3208.00
+   #TRANS 7399 {1 Nord} -3208.00
+   #TRANS 7510 {1 Nord} 21463.59
+   #TRANS 7510 {1 Syd} 12721.44
+   #TRANS 7519 {1 Nord} -1044.62
+   #TRANS 7519 {1 Syd} 1570.99
+   #TRANS 7560 {1 Syd} 697.05
+}
+#VER F 2 20100225 "Lînekîrning: 2010-02-25 - Ordinarie lîn" 20100129
+{
+   #TRANS 1930 {} -75785.00
+   #TRANS 2710 {} -23906.00
+   #TRANS 2794 {} -1719.11
+   #TRANS 2920 {} -9344.52
+   #TRANS 2940 {} -32551.58
+   #TRANS 2941 {} -2897.82
+   #TRANS 3740 {} 2.67
+   #TRANS 7010 {1 Nord} 30933.20 20100225 "" 220
+   #TRANS 7010 {1 Syd} 18456.00 20100225 "" 156
+   #TRANS 7081 {1 Nord} 900.96 20100225 "" 8
+   #TRANS 7081 {1 Syd} 1548.80 20100225 "" 16
+   #TRANS 7082 {1 Nord} 2530.40 20100225 "" 16
+   #TRANS 7090 {1 Nord} 1485.23
+   #TRANS 7090 {1 Syd} 2214.72
+   #TRANS 7210 {1 Nord} 30975.00 20100225 "" 160
+   #TRANS 7210 {1 Syd} 16063.08 20100225 "" 104
+   #TRANS 7290 {1 Nord} 3717.00
+   #TRANS 7290 {1 Syd} 1927.57
+   #TRANS 7385 {1 Nord} 3208.00
+   #TRANS 7399 {1 Nord} -3208.00
+   #TRANS 7510 {1 Nord} 21537.65
+   #TRANS 7510 {1 Syd} 10704.13
+   #TRANS 7519 {1 Nord} 1634.54
+   #TRANS 7519 {1 Syd} 1263.28
+   #TRANS 7560 {1 Syd} 309.80
+}
+#VER F 3 20100325 "Lînekîrning: 2010-03-25 - Ordinarie lîn" 20100129
+{
+   #TRANS 1930 {} -85651.00
+   #TRANS 2710 {} -28169.00
+   #TRANS 2794 {} -1762.68
+   #TRANS 2920 {} 1661.01
+   #TRANS 2940 {} -35834.91
+   #TRANS 2941 {} -253.27
+   #TRANS 3740 {} 0.98
+   #TRANS 7010 {1 Nord} 34205.34 20100325 "" 277
+   #TRANS 7010 {1 Syd} 23360.00 20100325 "" 200
+   #TRANS 7082 {1 Nord} 1031.36 20100325 "" 8
+   #TRANS 7082 {1 Syd} 5346.00
+   #TRANS 7090 {1 Nord} 3197.04
+   #TRANS 7090 {1 Syd} -2542.80
+   #TRANS 7210 {1 Nord} 23850.75 20100325 "" 144
+   #TRANS 7210 {1 Syd} 19425.00 20100325 "" 152
+   #TRANS 7285 {1 Nord} 8363.25 20100325 "" 80
+   #TRANS 7290 {1 Nord} -4646.25
+   #TRANS 7290 {1 Syd} 2331.00
+   #TRANS 7385 {1 Nord} 3208.00
+   #TRANS 7399 {1 Nord} -3208.00
+   #TRANS 7510 {1 Nord} 22200.96
+   #TRANS 7510 {1 Syd} 12186.25
+   #TRANS 7519 {1 Nord} -455.34
+   #TRANS 7519 {1 Syd} 708.61
+   #TRANS 7560 {1 Syd} 1447.70
+}
+#VER F 4 20100423 "Lînekîrning: 2010-04-23 - Ordinarie lîn" 20100129
+{
+   #TRANS 1930 {} -80728.00
+   #TRANS 2710 {} -26511.00
+   #TRANS 2794 {} -1783.59
+   #TRANS 2920 {} -12710.88
+   #TRANS 2940 {} -35018.10
+   #TRANS 2941 {} -3917.29
+   #TRANS 3740 {} 0.99
+   #TRANS 7010 {1 Nord} 34100.00 20100423 "" 240
+   #TRANS 7010 {1 Syd} 21424.00 20100423 "" 184
+   #TRANS 7081 {1 Syd} 3097.60 20100423 "" 32
+   #TRANS 7090 {1 Nord} 4092.00
+   #TRANS 7090 {1 Syd} 2570.88
+   #TRANS 7210 {1 Nord} 30975.00 20100423 "" 160
+   #TRANS 7210 {1 Syd} 19425.00 20100423 "" 128
+   #TRANS 7290 {1 Nord} 3717.00
+   #TRANS 7290 {1 Syd} 2331.00
+   #TRANS 7385 {1 Nord} 4708.00
+   #TRANS 7399 {1 Nord} -4708.00
+   #TRANS 7510 {1 Nord} 21847.27
+   #TRANS 7510 {1 Syd} 12551.23
+   #TRANS 7519 {1 Nord} 2453.59
+   #TRANS 7519 {1 Syd} 1463.70
+   #TRANS 7560 {1 Syd} 619.60
+}
+#VER F 5 20100525 "Lînekîrning: 2010-05-25 - Ordinarie lîn" 20100129
+{
+   #TRANS 1930 {} -78615.00
+   #TRANS 2710 {} -25594.00
+   #TRANS 2794 {} -1738.36
+   #TRANS 2920 {} -10186.06
+   #TRANS 2940 {} -34010.27
+   #TRANS 2941 {} -3152.67
+   #TRANS 3740 {} 0.84
+   #TRANS 7010 {1 Nord} 30062.88 20100525 "" 208
+   #TRANS 7010 {1 Syd} 21860.00 20100525 "" 185
+   #TRANS 7081 {1 Nord} 900.96 20100525 "" 8
+   #TRANS 7082 {1 Nord} 2092.68 20100525 "" 16
+   #TRANS 7090 {1 Nord} 1514.86
+   #TRANS 7090 {1 Syd} 2623.20
+   #TRANS 7210 {1 Nord} 30975.00 20100525 "" 160
+   #TRANS 7210 {1 Syd} 19425.00 20100525 "" 128
+   #TRANS 7290 {1 Nord} 3717.00
+   #TRANS 7290 {1 Syd} 2331.00
+   #TRANS 7321 {1 Nord} 630.00
+   #TRANS 7385 {1 Nord} 4392.40
+   #TRANS 7399 {1 Nord} -4392.40
+   #TRANS 7510 {1 Nord} 21436.77
+   #TRANS 7510 {1 Syd} 12186.25
+   #TRANS 7519 {1 Nord} 1643.85
+   #TRANS 7519 {1 Syd} 1508.82
+   #TRANS 7560 {1 Syd} 387.25
+}
+#VER F 6 20100624 "Lînekîrning: 2010-06-24 - Ordinarie lîn" 20100728
+{
+   #TRANS 1930 {} -85744.00
+   #TRANS 2710 {} -28556.00
+   #TRANS 2794 {} -1843.65
+   #TRANS 2920 {} -13760.05
+   #TRANS 2940 {} -37063.95
+   #TRANS 2941 {} -4224.00
+   #TRANS 3740 {} 2.31
+   #TRANS 7010 {1 Nord} 38345.85 20100624 "" 292
+   #TRANS 7010 {1 Syd} 25921.25 20100624 "" 227
+   #TRANS 7090 {1 Nord} 4601.50
+   #TRANS 7090 {1 Syd} 3110.55
+   #TRANS 7210 {1 Nord} 30975.00 20100624 "" 168
+   #TRANS 7210 {1 Syd} 20899.24 20100624 "" 152.5
+   #TRANS 7290 {1 Nord} 3717.00
+   #TRANS 7290 {1 Syd} 2331.00
+   #TRANS 7385 {1 Nord} 4708.00
+   #TRANS 7399 {1 Nord} -4708.00
+   #TRANS 7510 {1 Nord} 23181.31
+   #TRANS 7510 {1 Syd} 13077.16
+   #TRANS 7519 {1 Nord} 2613.67
+   #TRANS 7519 {1 Syd} 1610.33
+   #TRANS 7560 {1 Syd} 805.48
+}
+#VER F 7 20100723 "Lînekîrning: 2010-07-23 - Ordinarie lîn" 20100728
+{
+   #TRANS 1930 {} -89389.00
+   #TRANS 2710 {} -29405.00
+   #TRANS 2794 {} -1817.67
+   #TRANS 2920 {} 4140.28
+   #TRANS 2940 {} -36992.01
+   #TRANS 2941 {} 1077.22
+   #TRANS 3740 {} 1.62
+   #TRANS 7010 {1 Nord} 24004.80 20100723 "" 188
+   #TRANS 7010 {1 Syd} 32296.00 20100723 "" 286
+   #TRANS 7081 {1 Nord} 1432.64 20100723 "" 16
+   #TRANS 7082 {1 Nord} 8975.61 20100723 "" 56
+   #TRANS 7082 {1 Syd} 2724.00
+   #TRANS 7090 {1 Nord} -6095.04
+   #TRANS 7090 {1 Syd} 1151.52
+   #TRANS 7210 {1 Nord} 30975.00 20100723 "" 176
+   #TRANS 7210 {1 Syd} 14957.24 20100723 "" 104
+   #TRANS 7285 {1 Syd} 5244.76 20100723 "" 64
+   #TRANS 7290 {1 Nord} 3717.00
+   #TRANS 7290 {1 Syd} -2913.76
+   #TRANS 7385 {1 Nord} 4256.80
+   #TRANS 7399 {1 Nord} -4256.80
+   #TRANS 7510 {1 Nord} 21827.49
+   #TRANS 7510 {1 Syd} 13038.67
+   #TRANS 7519 {1 Nord} -747.18
+   #TRANS 7519 {1 Syd} -330.04
+   #TRANS 7560 {1 Syd} 2125.85
+}
+#VER F 8 20100825 "Lînekîrning: 2010-08-25 - Ordinarie lîn" 20100728
+{
+   #TRANS 1930 {} -87843.00
+   #TRANS 2710 {} -30564.00
+   #TRANS 2794 {} -1826.96
+   #TRANS 2920 {} 53250.83
+   #TRANS 2940 {} -38201.90
+   #TRANS 2941 {} 16909.82
+   #TRANS 3740 {} 1.27
+   #TRANS 7010 {1 Nord} 13916.88 20100825 "" 112
+   #TRANS 7010 {1 Syd} 14776.00 20100825 "" 136
+   #TRANS 7082 {1 Nord} 20618.46 20100825 "" 136
+   #TRANS 7082 {1 Syd} 16489.35 20100825 "" 120
+   #TRANS 7090 {1 Nord} -18670.10
+   #TRANS 7090 {1 Syd} -14420.71
+   #TRANS 7210 {1 Nord} 16726.50 20100825 "" 96
+   #TRANS 7210 {1 Syd} 10489.48 20100825 "" 80
+   #TRANS 7285 {1 Nord} 16726.50 20100825 "" 160
+   #TRANS 7285 {1 Syd} 10489.52 20100825 "" 128
+   #TRANS 7290 {1 Nord} -12390.00
+   #TRANS 7290 {1 Syd} -7770.02
+   #TRANS 7385 {1 Nord} 5848.00
+   #TRANS 7399 {1 Nord} -5848.00
+   #TRANS 7510 {1 Nord} 23061.13
+   #TRANS 7510 {1 Syd} 13901.57
+   #TRANS 7519 {1 Nord} -9759.08
+   #TRANS 7519 {1 Syd} -7150.74
+   #TRANS 7560 {1 Syd} 1239.20
+}
+#VER G 1 20100131 Hyra 20100131
+{
+   #TRANS 5010 {1 Nord} 8500.00
+   #TRANS 5010 {1 Syd} 8500.00
+   #TRANS 1710 {} -17000.00
+}
+#VER G 2 20100228 Hyra 20100228
+{
+   #TRANS 5010 {1 Nord} 8500.00
+   #TRANS 5010 {1 Syd} 8500.00
+   #TRANS 1710 {} -17000.00
+}
+#VER G 3 20100331 Hyra 20100331
+{
+   #TRANS 5010 {1 Nord} 8500.00
+   #TRANS 5010 {1 Syd} 8500.00
+   #TRANS 1710 {} -17000.00
+}
+#VER G 4 20100430 Hyra 20100430
+{
+   #TRANS 5010 {1 Nord} 8500.00
+   #TRANS 5010 {1 Syd} 8500.00
+   #TRANS 1710 {} -17000.00
+}
+#VER G 5 20100531 Hyra 20100531
+{
+   #TRANS 5010 {1 Nord} 9000.00
+   #TRANS 5010 {1 Syd} 9000.00
+   #TRANS 1710 {} -18000.00
+}
+#VER G 6 20100630 Hyra 20100630
+{
+   #TRANS 5010 {1 Nord} 9000.00
+   #TRANS 5010 {1 Syd} 9000.00
+   #TRANS 1710 {} -18000.00
+}
+#VER G 7 20100731 Hyra 20100731
+{
+   #TRANS 5010 {1 Nord} 9000.00
+   #TRANS 5010 {1 Syd} 9000.00
+   #TRANS 1710 {} -18000.00
+}
+#VER G 8 20100831 Hyra 20100831
+{
+   #TRANS 5010 {1 Nord} 9000.00
+   #TRANS 5010 {1 Syd} 9000.00
+   #TRANS 1710 {} -18000.00
+}

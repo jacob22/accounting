@@ -1,6 +1,3 @@
-Unless stated otherwise in a file in this package, all files are
-available under the Apache 2.0 Open Source License.
-
 # Copyright 2019 Open End AB
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,3 +12,24 @@ available under the Apache 2.0 Open Source License.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import os
+here = os.path.dirname(__file__)
+top = os.path.abspath(os.path.join(here, '..'))
+
+class jstests_setup:
+
+    staticDirs = {
+        '/clients': here,
+        '/static': os.path.join(top, 'static'),
+        '/testsupport': os.path.join(here, 'test', 'support'),
+        '/node_modules': os.path.join(top, 'node_modules'),
+    }
+
+    jsRepos = []
+
+    jsScripts = [
+        '/node_modules/requirejs/require.js',
+        '/testsupport/config.js'
+    ]
+
+    MochiKit__export__ = True

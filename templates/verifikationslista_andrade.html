@@ -1,0 +1,86 @@
+{% extends "report.html" %}
+{% block title %}{% trans %}List of modified verifications{% endtrans %}{% endblock title %}
+{% block header %}{% trans %}List of modified verifications{% endtrans %}{% endblock header %}
+
+{#<!-- filterdata displays chosen filterdata if received -->#}
+{% block filterdata %}
+<br /><div id="datefilter"><b id="current_year_filter-{{ filtername_daterange }}">{% trans %}Daterange{% endtrans %}: </b>{{ filterinfo_daterange }}</div>
+<div id="seriesfilter"><b id="current_year_filter-{{ filtername_series }}">{% trans %}Series{% endtrans %}: </b><span id="filterinfo_series">{{ filterinfo_series }}</span></div>
+<div id="verificationnumberfilter"><b id="current_year_filter-{{ filtername_verificationnumbers }}">{% trans %}Verification numbers{% endtrans %}: </b><span id="filterinfo_verificationnumbers">{{ filterinfo_verificationnumbers }}</span></div>
+
+{% endblock filterdata %}
+
+{% block report %}
+    <table class="verification-changed-list">
+      <thead>
+        <tr>
+          <th>{% trans %}Number{% endtrans %}</th>
+          <th>{% trans %}Date{% endtrans %}</th>
+          <th>{% trans %}Text{% endtrans %}</th>
+          <th class="debit">{% trans %}Debit{% endtrans %}</th>
+          <th class="credit">{% trans %}Credit{% endtrans %}</th>
+          <th>{% trans %}Entered by{% endtrans %}</th>
+        </tr>
+      </thead>
+      {% for (v, vlog) in modified_verifications %}
+        <tbody class="verification-old" id="verification-{{ v.id[0] }}">
+        {% for (version, logentries) in vlog %}
+            {% set lv = logentries[0] %}
+            {% for t in logentries[1:] %} 
+            <tr>
+              <td>{{ t['account'][0] }}</td>
+              <td>{{ t['transaction_date'][0] }}</td>
+              <td>{{ t['text'][0] }}</td>
+              {% set amount = t['amount'][0] %}
+              {% if amount > 0 %}
+                <td class="debit">{{ amount | thousand_sep }}</td>
+                <td></td>
+              {% else %}
+                <td></td>
+                <td class="credit">{{ -amount | thousand_sep }}</td>
+              {% endif %}
+              <td></td>
+            </tr>
+            {% endfor %}
+            <tr class="verification-summary">
+              <td>{{ v.series[0].name[0] }} {{ v.number[0] }}</td>
+              <td>{{ lv.registration_date[0] }}</td>
+              <td></td>
+              <td class="debit"></td>
+              <td class="credit"></td>
+              <td>{{ get_signature(v) }}</td>
+            </tr>
+        {% endfor %}
+	</tbody>
+	<tbody class="verification-new">
+        {% for t in v.transactions %}
+            <tr>
+              <td>{{ t.account[0].number[0] }}</td>
+              <td>{{ t.transaction_date[0] }}</td>
+              <td>{{ t.text[0] }}</td>
+              {% set amount = t.amount[0] %}
+              {% if amount > 0 %}
+                <td class="debit">{{ amount | thousand_sep }}</td>
+                <td></td>
+              {% else %}
+                <td></td>
+                <td class="credit">{{ -amount | thousand_sep }}</td>
+              {% endif %}
+              <td></td>
+            </tr>
+          {% endfor %}
+            <tr class="verification-summary">
+              <td>{{ v.series[0].name[0] }} {{ v.number[0] }}</td>
+              <td>{{ v.registration_date[0] }}</td>
+              <td></td>
+              <td class="debit">{{ totals[(v.series[0], v.number[0])][0] | thousand_sep }}</td>
+              <td class="credit">{{ totals[(v.series[0], v.number[0])][1] | thousand_sep }}</td>
+              <td>{{ get_signature(v) }}</td>
+            </tr>
+	    <tr>
+	      <td colspan="6"><hr/></td>
+	    </tr>  
+          </tbody>
+      {% endfor %}
+    </table>
+{% endblock %}

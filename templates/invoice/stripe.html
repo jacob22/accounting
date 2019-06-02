@@ -1,0 +1,16 @@
+{% if stripeprovider %}
+<div id ="stripe">
+  <form action="/providers/stripe/charge/{{ stripeprovider[0].id[0] }}/{{ purchase.id[0] }}" method="POST">
+    <script
+       src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+       data-label="{% trans %}Pay with Card{% endtrans %}"
+       data-key="{{ stripeprovider[0].stripe_publishable_key[0] }}"
+       data-image="/image/{{ org.id[0] }}"
+       data-name="{{ org.name[0] }}"
+       data-email="{{ purchase.buyerEmail[0] }}"
+       data-currency="{{ stripeprovider[0].currency[0] }}"
+       data-amount="{{ (purchase.remainingAmount[0] * 100).quantize(1) }}">
+    </script>
+  </form>
+</div>
+{% endif %}

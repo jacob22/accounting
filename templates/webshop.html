@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,
+                                   initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/webshop/webshop.css" type="text/css" charset="utf-8" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <link href="//netdna.bootstrapcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+      <link href="/static/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+      <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="/static/respond.proxy.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+window.onload = function() {
+  EutaxiaShop({org: "{{ org.id[0] }}",
+	       baseurl: "/rest/",
+	       currency: "{{ org.currency[0] }}"})
+}
+    </script>
+    <title>{{ org.name[0] }}</title>
+  </head>
+  <body>
+    <div id="webshop-header" class="container">
+      {% if org.hasImage[0] %}
+        <img class="logotype img-responsive" src="/image/{{ org.id[0] }}" />
+      {% else %}
+        <h1 class="text-center">{{ org.name[0] }}</h1>
+      {% endif %}
+    </div>
+    <div id="webshop"></div>
+
+    <!-- jQuery -->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!-- <script src="/webshop/jquery.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="/webshop/jquery.json.js"></script>
+    <script src="/webshop/simpleCart.js"></script>
+    {% for path in translation_files %}
+      <script src="{{ path }}"></script>
+    {% endfor %}
+    <script src="/webshop/webshop.js"></script>
+    <script type="text/javascript">
+      // Adjust layout for height of header
+      jQuery(document).ready(function ($) {
+        function adjust_height() {
+          $("#webshop").height($("body").height() -  $("#webshop-header").height())
+        }
+        $(window).resize(adjust_height)
+        adjust_height()
+      })
+    </script>
+  </body>
+</html>

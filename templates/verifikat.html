@@ -1,0 +1,44 @@
+{% extends "report.html" %}
+{% block title %}{% trans %}Verification{% endtrans %}{% endblock title %}
+{% block header %}{% trans %}Verification{% endtrans %}{% endblock header %}
+{% block report %}
+    <h2>{{ verification.series[0].name[0] }} {{ verification.number[0] }}</h2>
+    {% trans %}Date{% endtrans %}: {{ verification.registration_date[0] }}
+
+
+    <table class="verification-list">
+      <thead>
+        <tr>
+          <th>{% trans %}Account{% endtrans %}</th>
+          <th>{% trans %}Date{% endtrans %}</th>
+          <th>{% trans %}Text{% endtrans %}</th>
+          <th class="debit">{% trans %}Debit{% endtrans %}</th>
+          <th class="credit">{% trans %}Credit{% endtrans %}</th>
+        </tr>
+      </thead>
+      <tbody id="verification-{{ verification.id[0] }}">
+          {% for t in verification.transactions %}
+            <tr>
+              <td>{{ t.account[0].number[0] }}</td>
+              <td>{{ t.transaction_date[0] }}</td>
+              <td>{{ t.text[0] }}</td>
+              {% set amount = t.amount[0] %}
+              {% if amount > 0 %}
+                <td class="debit">{{ amount | thousand_sep }}</td>
+                <td></td>
+              {% else %}
+                <td></td>
+                <td class="credit">{{ -amount | thousand_sep }}</td>
+              {% endif %}
+            </tr>
+          {% endfor %}
+          <tr class="verification-summary">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="debit">{{ totals[0] | thousand_sep }}</td>
+            <td class="credit">{{ totals[1] | thousand_sep }}</td>
+          </tr>
+        </tbody>
+    </table>
+{% endblock %}

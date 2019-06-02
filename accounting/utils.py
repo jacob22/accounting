@@ -1,6 +1,3 @@
-Unless stated otherwise in a file in this package, all files are
-available under the Apache 2.0 Open Source License.
-
 # Copyright 2019 Open End AB
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,3 +12,15 @@ available under the Apache 2.0 Open Source License.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import collections
+
+class cidict(collections.defaultdict):
+    """case insensitive dictionary
+
+    keys are case insensitive, but case preserving"""
+
+    def __missing__(self, key):
+        try:
+            return self[{key.lower(): key for key in self.keys()}[key.lower()]]
+        except AttributeError:
+            raise KeyError(key)

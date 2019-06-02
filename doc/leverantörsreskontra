@@ -1,0 +1,43 @@
+Leverantörsreskontra är en sammanställning av de fakturor och andra
+utbetalningar som föreningen har gjort och som det är känt att man
+kommer att göra.
+
+I vårt fall kommer leverantörsreskontran att vara intimt sammanfogad
+med betalningsrutinen (så fungerar det i moderna affärssystem, men
+inte i lite mer gammalmodiga system). De utgör ett gemensamt subsystem.
+
+Det finns 2 olika accepterade bokföringmetoder för leverantörsfakturor.
+
+Den enklare kallas för kontantmetoden och den innebär att man
+registrerar fakturan i bokföringen när den betalas. Kredit är ett
+konto knutet till chekräkning, postgiro eller kassa. Debet är ett
+resultatkonto. Ska man redovisa moms så får man dessutom en debet på
+kontot för momsfordran.
+
+I vårt fall ska vi föra in verifikationerna från leverantörsreskontran
+till bokföringen den dagen som fakturorna betalas om kontantmetoden
+används. (Kontantmetoden är den som används i alla mindre föreningar.)
+
+Den andra metoden kallas för faktureringsmetoden. Då bokför man
+fakturan direkt när den anländer. På kreditsidan använder man ett
+konto för leverantörsskulder På debetsidan ser det lika dant ut som i
+kontantmetoden.
+
+När man vid ett senare tillfälle betalar fakturan så prickar man av
+den i leverantörsreskontran och gör en verifikation där kredit är
+kontot för checkräkning/plusgiro/kassa och debet är kontot för
+leverantörsskulder.
+
+Fördelen med fakturametoden är att man får en mer exakt uppskattning
+av den ekonomiska ställningen, Nackdelen är att man får 2
+verifikat per betalning.
+
+För vår del så innebär det att med fakturametoden ska verifikatet
+föras in i bokföringen direkt när betalningsordern registreras.
+Avprickning och avslutande verifikat ska göras när informationen om
+genomförd betalning kommer tillbaka från Nordea.
+
+För fakturametoden måste man kunna bokföra kredit-fakturor,
+d.v.s. fakturor på ett negativt belopp. Dessa får man när man har
+klagat på en faktura så att den har dragits tillbaka eller fått ett
+sänkt belopp.

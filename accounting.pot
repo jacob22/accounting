@@ -1,0 +1,715 @@
+#: members/invoice.py:110
+#, python-format
+msgid "Phone: %s"
+msgstr ""
+
+#: members/invoice.py:112
+#, python-format
+msgid "Email: %s"
+msgstr ""
+
+#: members/invoice.py:114
+#, python-format
+msgid "Web: %s"
+msgstr ""
+
+#: members/invoice.py:116
+#, python-format
+msgid "Registered office: %s"
+msgstr ""
+
+#: members/invoice.py:124
+#, python-format
+msgid "Pg: %s"
+msgstr ""
+
+#: members/invoice.py:125
+#, python-format
+msgid "Org no: %s"
+msgstr ""
+
+#: members/invoice.py:127
+#, python-format
+msgid "VAT no: %s"
+msgstr ""
+
+#: members/invoice.py:136
+msgid "Order"
+msgstr ""
+
+#: members/invoice.py:138
+msgid "Invoice"
+msgstr ""
+
+#: members/invoice.py:143
+msgid "Order date"
+msgstr ""
+
+#: members/invoice.py:145
+msgid "Invoice date"
+msgstr ""
+
+#: members/invoice.py:150
+msgid "Order number"
+msgstr ""
+
+#: members/invoice.py:152
+msgid "Invoice number"
+msgstr ""
+
+#: members/invoice.py:175
+#, python-format
+msgid "page %d"
+msgstr ""
+
+#: members/invoice.py:186
+msgid "Due date"
+msgstr ""
+
+#: members/invoice.py:268
+msgid "Your reference"
+msgstr ""
+
+#: members/invoice.py:273
+msgid "Your notes"
+msgstr ""
+
+#: members/invoice.py:454 templates/invoice/invoice.html:42
+msgid "Item"
+msgstr ""
+
+#: members/invoice.py:455 templates/invoice/invoice.html:45
+msgid "Price"
+msgstr ""
+
+#: members/invoice.py:456 templates/invoice/invoice.html:44
+#: templates/sales_report.html:24
+msgid "Quantity"
+msgstr ""
+
+#: members/invoice.py:457 members/invoice.py:482
+#: templates/invoice/invoice.html:43
+msgid "Total"
+msgstr ""
+
+#: members/invoice.py:495
+#, python-format
+msgid "Including %s%% VAT"
+msgstr ""
+
+#: templates/accountspayable.html:2
+msgid "Accounts payable ledger"
+msgstr ""
+
+#: templates/accountspayable_paymentjournal.html:2
+#: templates/accountspayable_paymentjournal.html:3
+msgid "Payment Journal"
+msgstr ""
+
+#: templates/accountspayable_paymentjournal.html:7
+#: templates/accountspayable_report.html:7 templates/periodrapport.html:54
+#: templates/verifikationslista.html:7
+#: templates/verifikationslista_andrade.html:7
+msgid "Daterange"
+msgstr ""
+
+#: templates/accountspayable_paymentjournal.html:8
+#: templates/accountspayable_report.html:8
+#: templates/accountspayable_report.html:19
+msgid "Status"
+msgstr ""
+
+#: templates/accountspayable_paymentjournal.html:9
+#: templates/accountspayable_paymentjournal.html:19
+#: templates/accountspayable_report.html:9
+#: templates/accountspayable_report.html:20
+msgid "Recipient name"
+msgstr ""
+
+#: templates/accountspayable_paymentjournal.html:17
+#: templates/accountspayable_report.html:21
+msgid "Transfer Date"
+msgstr ""
+
+#: templates/accountspayable_paymentjournal.html:18 templates/verifikat.html:2
+#: templates/verifikat.html:3
+msgid "Verification"
+msgstr ""
+
+#: templates/accountspayable_paymentjournal.html:20
+msgid "Payment method"
+msgstr ""
+
+#: templates/accountspayable_paymentjournal.html:21
+#: templates/accountspayable_report.html:23
+msgid "Identifier"
+msgstr ""
+
+#: templates/accountspayable_paymentjournal.html:22
+#: templates/accountspayable_report.html:24
+msgid "Attachements"
+msgstr ""
+
+#: templates/accountspayable_paymentjournal.html:23
+#: templates/invoice/plusgiro.html:5 templates/momsrapport.html:9
+msgid "Amount"
+msgstr ""
+
+#: templates/accountspayable_report.html:2
+#: templates/accountspayable_report.html:3
+msgid "Accounts payable"
+msgstr ""
+
+#: templates/accountspayable_report.html:17
+msgid "Accounted"
+msgstr ""
+
+#: templates/accountspayable_report.html:18
+msgid "Automated"
+msgstr ""
+
+#: templates/accountspayable_report.html:22
+msgid "Transaction Date"
+msgstr ""
+
+#: templates/accountspayable_report.html:25 templates/huvudbok.html:11
+#: templates/verifikat.html:15 templates/verifikationslista.html:21
+#: templates/verifikationslista_andrade.html:20
+msgid "Debit"
+msgstr ""
+
+#: templates/accountspayable_report.html:26 templates/huvudbok.html:12
+#: templates/verifikat.html:16 templates/verifikationslista.html:22
+#: templates/verifikationslista_andrade.html:21
+msgid "Credit"
+msgstr ""
+
+#: templates/accountspayable_report.html:27
+msgid "Verifications"
+msgstr ""
+
+#: templates/arsrapport.html:2 templates/arsrapport.html:3
+msgid "Annual report"
+msgstr ""
+
+#: templates/arsrapport.html:61 templates/balansrakning.html:47
+#: templates/periodrapport.html:63 templates/resultatrakning.html:41
+#: templates/verifikat.html:12
+msgid "Account"
+msgstr ""
+
+#: templates/arsrapport.html:62 templates/balansrakning.html:48
+#: templates/periodrapport.html:64 templates/resultatrakning.html:42
+msgid "Header/Name"
+msgstr ""
+
+#: templates/arsrapport.html:63 templates/arsrapport.html:65
+#: templates/arsrapport.html:67 templates/arsrapport.html:69
+#: templates/arsrapport.html:73 templates/resultatrakning.html:43
+msgid "Revenue"
+msgstr ""
+
+#: templates/arsrapport.html:71 templates/arsrapport.html:74
+msgid "Budget"
+msgstr ""
+
+#: templates/arsrapport.html:78 templates/arsrapport.html:81
+#: templates/periodrapport.html:72 templates/periodrapport.html:75
+#: templates/resultatrakning.html:47 templates/resultatrakning.html:50
+msgid "Income"
+msgstr ""
+
+#: templates/arsrapport.html:82 templates/periodrapport.html:76
+#: templates/resultatrakning.html:51
+msgid "Sum of income"
+msgstr ""
+
+#: templates/arsrapport.html:83 templates/periodrapport.html:77
+#: templates/resultatrakning.html:52
+msgid "Sum of operating income"
+msgstr ""
+
+#: templates/arsrapport.html:87 templates/periodrapport.html:81
+#: templates/resultatrakning.html:56
+msgid "Expenses"
+msgstr ""
+
+#: templates/arsrapport.html:90 templates/periodrapport.html:84
+#: templates/resultatrakning.html:59
+msgid "Materials and goods"
+msgstr ""
+
+#: templates/arsrapport.html:91 templates/periodrapport.html:85
+#: templates/resultatrakning.html:60
+msgid "Sum of materials and goods"
+msgstr ""
+
+#: templates/arsrapport.html:93 templates/periodrapport.html:87
+#: templates/resultatrakning.html:62
+msgid "Gross profit"
+msgstr ""
+
+#: templates/arsrapport.html:96 templates/periodrapport.html:90
+#: templates/resultatrakning.html:65
+msgid "Operating costs"
+msgstr ""
+
+#: templates/arsrapport.html:97 templates/periodrapport.html:91
+#: templates/resultatrakning.html:66
+msgid "Sum of operating costs"
+msgstr ""
+
+#: templates/arsrapport.html:101 templates/periodrapport.html:95
+#: templates/resultatrakning.html:70
+msgid "Personnel costs"
+msgstr ""
+
+#: templates/arsrapport.html:102 templates/periodrapport.html:96
+#: templates/resultatrakning.html:71
+msgid "Sum of personnel costs"
+msgstr ""
+
+#: templates/arsrapport.html:104 templates/periodrapport.html:98
+#: templates/resultatrakning.html:73
+msgid "Operational expenses"
+msgstr ""
+
+#: templates/arsrapport.html:107 templates/periodrapport.html:101
+#: templates/resultatrakning.html:76
+msgid "Write-offs"
+msgstr ""
+
+#: templates/arsrapport.html:108 templates/periodrapport.html:102
+#: templates/resultatrakning.html:77
+msgid "Sum of write-offs"
+msgstr ""
+
+#: templates/arsrapport.html:111 templates/periodrapport.html:105
+#: templates/resultatrakning.html:80
+msgid "Financial income"
+msgstr ""
+
+#: templates/arsrapport.html:112 templates/periodrapport.html:106
+#: templates/resultatrakning.html:81
+msgid "Sum of financial income"
+msgstr ""
+
+#: templates/arsrapport.html:115 templates/periodrapport.html:109
+#: templates/resultatrakning.html:84
+msgid "Financial costs"
+msgstr ""
+
+#: templates/arsrapport.html:116 templates/periodrapport.html:110
+#: templates/resultatrakning.html:85
+msgid "Sum of financial costs"
+msgstr ""
+
+#: templates/arsrapport.html:119 templates/periodrapport.html:113
+#: templates/resultatrakning.html:88
+msgid "Appropriations"
+msgstr ""
+
+#: templates/arsrapport.html:120 templates/periodrapport.html:114
+#: templates/resultatrakning.html:89
+msgid "Sum of appropriations"
+msgstr ""
+
+#: templates/arsrapport.html:123 templates/periodrapport.html:117
+#: templates/resultatrakning.html:92
+msgid "Earnings before taxes"
+msgstr ""
+
+#: templates/arsrapport.html:131 templates/periodrapport.html:125
+#: templates/resultatrakning.html:100
+msgid "Calculated results"
+msgstr ""
+
+#: templates/balansrakning.html:2 templates/balansrakning.html:3
+msgid "Balance sheet"
+msgstr ""
+
+#: templates/balansrakning.html:49
+msgid "Opening balance"
+msgstr ""
+
+#: templates/balansrakning.html:50
+msgid "Difference"
+msgstr ""
+
+#: templates/balansrakning.html:51
+msgid "Closing balance"
+msgstr ""
+
+#: templates/balansrakning.html:55
+msgid "Assets"
+msgstr ""
+
+#: templates/balansrakning.html:58
+msgid "Fixed assets"
+msgstr ""
+
+#: templates/balansrakning.html:59
+msgid "Sum of fixed assets"
+msgstr ""
+
+#: templates/balansrakning.html:62
+msgid "Current assets"
+msgstr ""
+
+#: templates/balansrakning.html:63
+msgid "Sum of current assets"
+msgstr ""
+
+#: templates/balansrakning.html:66
+msgid "Sum of assets"
+msgstr ""
+
+#: templates/balansrakning.html:69
+msgid "Liabilities and capital"
+msgstr ""
+
+#: templates/balansrakning.html:72
+msgid "Capital"
+msgstr ""
+
+#: templates/balansrakning.html:73
+msgid "Sum of capital"
+msgstr ""
+
+#: templates/balansrakning.html:76
+msgid "Provisions"
+msgstr ""
+
+#: templates/balansrakning.html:77
+msgid "Sum of provisions"
+msgstr ""
+
+#: templates/balansrakning.html:80
+msgid "Long term debts"
+msgstr ""
+
+#: templates/balansrakning.html:81
+msgid "Sum of long term debts"
+msgstr ""
+
+#: templates/balansrakning.html:84
+msgid "Short term debts"
+msgstr ""
+
+#: templates/balansrakning.html:85
+msgid "Sum of short term debts"
+msgstr ""
+
+#: templates/balansrakning.html:88
+msgid "Sum of debts and capital"
+msgstr ""
+
+#: templates/balansrakning.html:90
+msgid "Calculated net income"
+msgstr ""
+
+#: templates/create_profile.html:6
+msgid "Create profile - Eutaxia Admin"
+msgstr ""
+
+#: templates/create_profile.html:15
+msgid "Please fill in the following details"
+msgstr ""
+
+#: templates/create_profile.html:22 templates/verifikationslista.html:18
+msgid "Name"
+msgstr ""
+
+#: templates/create_profile.html:30
+msgid "E-mail"
+msgstr ""
+
+#: templates/create_profile.html:40
+msgid ""
+"I agree to the <a target=\"_new\" "
+"href=\"http://www.eutaxia.se/#tab_agreement\">terms of service</a>."
+msgstr ""
+
+#: templates/create_profile.html:46
+msgid "Create profile"
+msgstr ""
+
+#: templates/huvudbok.html:2 templates/huvudbok.html:3
+msgid "General ledger"
+msgstr ""
+
+#: templates/huvudbok.html:8
+msgid "Act/No"
+msgstr ""
+
+#: templates/huvudbok.html:9 templates/sales_report.html:23
+#: templates/verifikat.html:6 templates/verifikat.html:13
+#: templates/verifikationslista.html:19
+#: templates/verifikationslista_andrade.html:18
+msgid "Date"
+msgstr ""
+
+#: templates/huvudbok.html:10 templates/verifikat.html:14
+#: templates/verifikationslista.html:20
+#: templates/verifikationslista_andrade.html:19
+msgid "Text"
+msgstr ""
+
+#: templates/huvudbok.html:13
+msgid "Balance"
+msgstr ""
+
+#: templates/invitation_expired.html:10
+#, python-format
+msgid ""
+"The invitation you used is invalid or has expired. You can proceed to <a "
+"href=\"/\">Eutaxia Admin</a>, but you have not been added to any existing"
+" organisation. In the future, you can find Eutaxia Admin by pointing your"
+" webbrowser to <a href=\"%(url)s\">%(url)s</a>."
+msgstr ""
+
+#: templates/izettle_overview.html:2
+msgid "Import"
+msgstr ""
+
+#: templates/izettle_products.html:2
+msgid "iZettle products"
+msgstr ""
+
+#: templates/izettle_transactions.html:2
+msgid "iZettle transactions"
+msgstr ""
+
+#: templates/kontoplan.html:2 templates/kontoplan.html:3
+msgid "Chart of accounts"
+msgstr ""
+
+#: templates/kontoplan.html:7
+msgid "Account number"
+msgstr ""
+
+#: templates/kontoplan.html:8
+msgid "Account name"
+msgstr ""
+
+#: templates/kontoplan.html:9
+msgid "Account type"
+msgstr ""
+
+#: templates/login.html:12
+msgid "Log in using one of the following providers"
+msgstr ""
+
+#: templates/login.html:20
+msgid "Log in using Google"
+msgstr ""
+
+#: templates/login.html:23
+msgid "Log in using Yahoo"
+msgstr ""
+
+#: templates/login.html:26
+msgid "Log in using Facebook"
+msgstr ""
+
+#: templates/login.html:31
+msgid "Log in using Twitter"
+msgstr ""
+
+#: templates/login.html:34
+msgid "Log in using Windows Live or Hotmail"
+msgstr ""
+
+#: templates/login.html:40
+msgid "Custom OpenID URL"
+msgstr ""
+
+#: templates/login.html:43
+msgid "Log in using the given OpenID URL"
+msgstr ""
+
+#: templates/login.html:52
+msgid "Hotmail users can log in with Windows Live ID."
+msgstr ""
+
+#: templates/login.html:56
+msgid "If you log in, Eutaxia Admin uses cookies."
+msgstr ""
+
+#: templates/momsrapport.html:2 templates/momsrapport.html:3
+msgid "VAT report"
+msgstr ""
+
+#: templates/momsrapport.html:7
+msgid "VAT code"
+msgstr ""
+
+#: templates/periodrapport.html:4 templates/periodrapport.html:5
+msgid "Period Report"
+msgstr ""
+
+#: templates/periodrapport.html:65
+msgid "Period"
+msgstr ""
+
+#: templates/periodrapport.html:66
+msgid "Accumulated"
+msgstr ""
+
+#: templates/periodrapport.html:67
+msgid "Revenue last year"
+msgstr ""
+
+#: templates/periodrapport.html:68
+msgid "Year budget"
+msgstr ""
+
+#: templates/purchase_verification.html:2
+msgid "Payment received"
+msgstr ""
+
+#: templates/report.html:18
+msgid "Accounting year"
+msgstr ""
+
+#: templates/report.html:19
+msgid "Printing time"
+msgstr ""
+
+#: templates/resultatrakning.html:2 templates/resultatrakning.html:3
+msgid "Income statement"
+msgstr ""
+
+#: templates/sales_report.html:15
+#, python-format
+msgid "Sales report for <em>%(name)s</em>"
+msgstr ""
+
+#: templates/invoice/invoice.html:103 templates/sales_report.html:20
+msgid "Buyer"
+msgstr ""
+
+#: templates/sales_report.html:21
+msgid "Phone"
+msgstr ""
+
+#: templates/sales_report.html:22
+msgid "Buyer e-mail"
+msgstr ""
+
+#: templates/seqr.html:22
+msgid "SCAN TO PAY"
+msgstr ""
+
+#: templates/seqr.html:23
+msgid "PRESS TO PAY"
+msgstr ""
+
+#: templates/seqr.html:24
+msgid "PAYMENT CANCELLED"
+msgstr ""
+
+#: templates/seqr.html:25
+msgid "PAYMENT DONE"
+msgstr ""
+
+#: templates/seqr.html:28
+msgid "CANCEL PAYMENT"
+msgstr ""
+
+#: templates/verifikationslista.html:2 templates/verifikationslista.html:3
+msgid "Verification list"
+msgstr ""
+
+#: templates/verifikationslista.html:8
+#: templates/verifikationslista_andrade.html:8
+msgid "Series"
+msgstr ""
+
+#: templates/verifikationslista.html:9
+#: templates/verifikationslista_andrade.html:9
+msgid "Verification numbers"
+msgstr ""
+
+#: templates/verifikationslista.html:17
+#: templates/verifikationslista_andrade.html:17
+msgid "Number"
+msgstr ""
+
+#: templates/verifikationslista_andrade.html:2
+#: templates/verifikationslista_andrade.html:3
+msgid "List of modified verifications"
+msgstr ""
+
+#: templates/verifikationslista_andrade.html:22
+msgid "Entered by"
+msgstr ""
+
+#: templates/expense/account.html:2 templates/expense/report.html:2
+msgid "Expense reports"
+msgstr ""
+
+#: templates/expense/categories.html:2
+msgid "Expense report categories"
+msgstr ""
+
+#: templates/invoice/invoice.html:75
+msgid "VAT"
+msgstr ""
+
+#: templates/invoice/invoice.html:78
+msgid "Amount to pay:"
+msgstr ""
+
+#: templates/invoice/invoice.html:86
+msgid "Seller"
+msgstr ""
+
+#: templates/invoice/invoice.html:90 templates/invoice/invoice.html:107
+msgid "Phone:"
+msgstr ""
+
+#: templates/invoice/invoice.html:131
+msgid "Date:"
+msgstr ""
+
+#: templates/invoice/invoice.html:136
+msgid "Reference number:"
+msgstr ""
+
+#: templates/invoice/invoice.html:142
+msgid "Due date:"
+msgstr ""
+
+#: templates/invoice/invoice.html:151
+msgid "Thanks for your payment"
+msgstr ""
+
+#: templates/invoice/invoice.html:153
+msgid "Since the total cost of this purchase is zero, no payment is needed."
+msgstr ""
+
+#: templates/invoice/invoice.html:158
+msgid "Credited"
+msgstr ""
+
+#: templates/invoice/invoice.html:164
+msgid "Get tickets"
+msgstr ""
+
+#: templates/invoice/invoice.html:170
+msgid "Payment options"
+msgstr ""
+
+#: templates/invoice/payson.html:3
+msgid "Pay"
+msgstr ""
+
+#: templates/invoice/simulator.html:9
+msgid "Simulate payment"
+msgstr ""
+
+#: templates/invoice/stripe.html:6
+msgid "Pay with Card"
+msgstr ""
+

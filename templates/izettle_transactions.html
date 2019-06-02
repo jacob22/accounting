@@ -1,0 +1,9 @@
+{% extends "react_base.html" %}
+{% block title %}{% trans %}iZettle transactions{% endtrans %}{% endblock title %}
+{% block body %}
+  <div class="container">
+    <p>To import transactions from iZettle you first need to export them as a file from your <a href='https://my.izettle.com/'>iZettle account</a>. The file will be called something like "iZettle-Report-2016-10-30-2016-11-29.xls"</p>
+    <div id="importwidget"></div>
+    <div id="statusmessagebox"></div>
+  </div>
+{% endblock body %}

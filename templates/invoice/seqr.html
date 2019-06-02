@@ -1,0 +1,6 @@
+{% if seqrprovider %}
+<div id ="seqr">
+  <a href="/seqrPayment/{{ seqrprovider[0].id[0] }}/{{ purchase.id[0] }}?{{ {'returnurl': purchase.invoiceUrl[0]} | urlencode }}"
+     id="seqrButton" type="submit" value="Betala med SEQR"></a>
+</div>
+{% endif %}

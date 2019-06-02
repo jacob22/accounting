@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions name="ERSWSExternalClientService" targetNamespace="http://external.interfaces.ers.seamless.com/" xmlns:ns1="http://external.interfaces.ers.seamless.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<wsdl:types>
+  <xs:schema elementFormDefault="unqualified" targetNamespace="http://external.interfaces.ers.seamless.com/" version="1.0" xmlns:tns="http://external.interfaces.ers.seamless.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="assignSeqrId" type="tns:assignSeqrId"/>
+    <xs:element name="assignSeqrIdResponse" type="tns:assignSeqrIdResponse"/>
+    <xs:element name="benchmarkingNop" type="tns:benchmarkingNop"/>
+    <xs:element name="benchmarkingNopResponse" type="tns:benchmarkingNopResponse"/>
+    <xs:element name="cancelInvoice" type="tns:cancelInvoice"/>
+    <xs:element name="cancelInvoiceResponse" type="tns:cancelInvoiceResponse"/>
+    <xs:element name="changePrincipalPassword" type="tns:changePrincipalPassword"/>
+    <xs:element name="changePrincipalPasswordResponse" type="tns:changePrincipalPasswordResponse"/>
+    <xs:element name="commitReservation" type="tns:commitReservation"/>
+    <xs:element name="commitReservationResponse" type="tns:commitReservationResponse"/>
+    <xs:element name="confirmCustomerRegistration" type="tns:confirmCustomerRegistration"/>
+    <xs:element name="confirmCustomerRegistrationResponse" type="tns:confirmCustomerRegistrationResponse"/>
+    <xs:element name="executeReport" type="tns:executeReport"/>
+    <xs:element name="executeReportResponse" type="tns:executeReportResponse"/>
+    <xs:element name="getPaymentStatus" type="tns:getPaymentStatus"/>
+    <xs:element name="getPaymentStatusResponse" type="tns:getPaymentStatusResponse"/>
+    <xs:element name="markTransactionPeriod" type="tns:markTransactionPeriod"/>
+    <xs:element name="markTransactionPeriodResponse" type="tns:markTransactionPeriodResponse"/>
+    <xs:element name="refundPayment" type="tns:refundPayment"/>
+    <xs:element name="refundPaymentResponse" type="tns:refundPaymentResponse"/>
+    <xs:element name="registerTerminal" type="tns:registerTerminal"/>
+    <xs:element name="registerTerminalResponse" type="tns:registerTerminalResponse"/>
+    <xs:element name="requestPrincipalInformation" type="tns:requestPrincipalInformation"/>
+    <xs:element name="requestPrincipalInformationResponse" type="tns:requestPrincipalInformationResponse"/>
+    <xs:element name="requestPurchase" type="tns:requestPurchase"/>
+    <xs:element name="requestPurchaseResponse" type="tns:requestPurchaseResponse"/>
+    <xs:element name="requestTopup" type="tns:requestTopup"/>
+    <xs:element name="requestTopupResponse" type="tns:requestTopupResponse"/>
+    <xs:element name="requestTransfer" type="tns:requestTransfer"/>
+    <xs:element name="requestTransferResponse" type="tns:requestTransferResponse"/>
+    <xs:element name="sendInvoice" type="tns:sendInvoice"/>
+    <xs:element name="sendInvoiceResponse" type="tns:sendInvoiceResponse"/>
+    <xs:element name="submitPaymentReceipt" type="tns:submitPaymentReceipt"/>
+    <xs:element name="submitPaymentReceiptResponse" type="tns:submitPaymentReceiptResponse"/>
+    <xs:element name="unregisterTerminal" type="tns:unregisterTerminal"/>
+    <xs:element name="unregisterTerminalResponse" type="tns:unregisterTerminalResponse"/>
+    <xs:element name="updateInvoice" type="tns:updateInvoice"/>
+    <xs:element name="updateInvoiceResponse" type="tns:updateInvoiceResponse"/>
+    <xs:complexType name="refundPayment">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="ersReference" type="xs:string"/>
+        <xs:element minOccurs="0" name="invoice" type="tns:invoice"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="clientContext">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="channel" type="xs:string"/>
+        <xs:element minOccurs="0" name="clientComment" type="xs:string"/>
+        <xs:element minOccurs="0" name="clientId" type="xs:string"/>
+        <xs:element minOccurs="0" name="clientReference" type="xs:string"/>
+        <xs:element name="clientRequestTimeout" type="xs:long"/>
+        <xs:element minOccurs="0" name="initiatorPrincipalId" type="tns:principalId"/>
+        <xs:element minOccurs="0" name="password" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="principalId">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" type="xs:string"/>
+        <xs:element minOccurs="0" name="type" type="xs:string"/>
+        <xs:element minOccurs="0" name="userId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="invoice">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="paymentMode" type="tns:paymentMode"/>
+        <xs:element minOccurs="0" name="acknowledgmentMode" type="tns:acknowledgmentMode"/>
+        <xs:element minOccurs="0" name="issueDate" type="xs:dateTime"/>
+        <xs:element minOccurs="0" name="title" type="xs:string"/>
+        <xs:element minOccurs="0" name="clientInvoiceId" type="xs:string"/>
+        <xs:element minOccurs="0" name="invoiceRows">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="invoiceRow" type="tns:paymentInvoiceRow"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="totalAmount" type="tns:amount"/>
+        <xs:element minOccurs="0" name="cashierId" type="xs:string"/>
+        <xs:element minOccurs="0" name="footer" type="xs:string"/>
+        <xs:element minOccurs="0" name="backURL" type="xs:string"/>
+        <xs:element minOccurs="0" name="notificationUrl" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="paymentInvoiceRow">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="itemDescription" type="xs:string"/>
+        <xs:element minOccurs="0" name="itemDiscount" type="tns:amount"/>
+        <xs:element minOccurs="0" name="itemEAN" type="xs:string"/>
+        <xs:element minOccurs="0" name="itemQuantity" type="xs:decimal"/>
+        <xs:element minOccurs="0" name="itemSKU" type="xs:string"/>
+        <xs:element minOccurs="0" name="itemTaxRate" type="xs:decimal"/>
+        <xs:element minOccurs="0" name="itemTotalAmount" type="tns:amount"/>
+        <xs:element minOccurs="0" name="itemUnit" type="xs:string"/>
+        <xs:element minOccurs="0" name="itemUnitPrice" type="tns:amount"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="amount">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="currency" type="xs:string"/>
+        <xs:element minOccurs="0" name="value" type="xs:decimal"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="refundPaymentResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="erswsResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ersReference" type="xs:string"/>
+        <xs:element name="resultCode" type="xs:int"/>
+        <xs:element minOccurs="0" name="resultDescription" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="confirmCustomerRegistration">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="principalId" type="tns:principalId"/>
+        <xs:element minOccurs="0" name="secondaryPrincipalId" type="tns:principalId"/>
+        <xs:element minOccurs="0" name="registrationReference" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="confirmCustomerRegistrationResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="markTransactionPeriod">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="parameters" type="tns:parameterMap"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="parameterMap">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parameter" type="tns:mapArray"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="mapArray">
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" minOccurs="0" name="entry" type="tns:parameter"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="parameter">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="key" type="xs:string"/>
+        <xs:element minOccurs="0" name="value" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="markTransactionPeriodResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsMarkTransactionPeriodResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="erswsMarkTransactionPeriodResponse">
+      <xs:complexContent>
+        <xs:extension base="tns:erswsResponse">
+          <xs:sequence>
+            <xs:element minOccurs="0" name="transactionPeriodId" type="xs:string"/>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="commitReservation">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="invoiceReference" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="commitReservationResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="registerTerminal">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="externalTerminalId" type="xs:string"/>
+        <xs:element minOccurs="0" name="password" type="xs:string"/>
+        <xs:element minOccurs="0" name="name" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="registerTerminalResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsRegisterTerminalResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="erswsRegisterTerminalResponse">
+      <xs:complexContent>
+        <xs:extension base="tns:erswsResponse">
+          <xs:sequence>
+            <xs:element minOccurs="0" name="terminalId" type="xs:string"/>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="executeReport">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="reportId" type="xs:string"/>
+        <xs:element minOccurs="0" name="language" type="xs:string"/>
+        <xs:element minOccurs="0" name="parameters" type="tns:parameterMap"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="executeReportResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsExecuteReportResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="erswsExecuteReportResponse">
+      <xs:complexContent>
+        <xs:extension base="tns:erswsResponse">
+          <xs:sequence>
+            <xs:element minOccurs="0" name="report" type="tns:report"/>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="report">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="title" type="xs:string"/>
+        <xs:element minOccurs="0" name="mimeType" type="xs:string"/>
+        <xs:element minOccurs="0" name="content" type="xs:base64Binary"/>
+        <xs:element minOccurs="0" name="contentString" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="cancelInvoice">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="invoiceReference" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="cancelInvoiceResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="requestPrincipalInformation">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="principalId" type="tns:principalId"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="requestPrincipalInformationResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsPrincipalInformationResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="erswsPrincipalInformationResponse">
+      <xs:complexContent>
+        <xs:extension base="tns:erswsResponse">
+          <xs:sequence>
+            <xs:element minOccurs="0" name="requestedPrincipal" type="tns:principal"/>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="principal">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="principalId" type="tns:principalId"/>
+        <xs:element minOccurs="0" name="principalName" type="xs:string"/>
+        <xs:element minOccurs="0" name="accounts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="account" type="tns:principalAccount"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="status" type="xs:string"/>
+        <xs:element minOccurs="0" name="msisdn" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="principalAccount">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="accountDescription" type="xs:string"/>
+        <xs:element minOccurs="0" name="accountSpecifier" type="tns:principalAccountSpecifier"/>
+        <xs:element minOccurs="0" name="balance" type="tns:amount"/>
+        <xs:element minOccurs="0" name="creditLimit" type="tns:amount"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="principalAccountSpecifier">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="accountId" type="xs:string"/>
+        <xs:element minOccurs="0" name="accountTypeId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="submitPaymentReceipt">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="ersReference" type="xs:string"/>
+        <xs:element minOccurs="0" name="receiptDocument" type="tns:receiptDocument"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="receiptDocument">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mimeType" type="xs:string"/>
+        <xs:element minOccurs="0" name="receiptData" type="xs:base64Binary"/>
+        <xs:element minOccurs="0" name="receiptType" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="submitPaymentReceiptResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="unregisterTerminal">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="unregisterTerminalResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="getPaymentStatus">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="invoiceReference" type="xs:string"/>
+        <xs:element name="invoiceVersion" type="xs:int"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="getPaymentStatusResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsPaymentStatusResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="erswsPaymentStatusResponse">
+      <xs:complexContent>
+        <xs:extension base="tns:erswsResponse">
+          <xs:sequence>
+            <xs:element minOccurs="0" name="status" type="tns:invoiceStatus"/>
+            <xs:element minOccurs="0" name="receipt" type="tns:receipt"/>
+            <xs:element minOccurs="0" name="customerTokens">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element maxOccurs="unbounded" minOccurs="0" name="token" type="tns:customerToken"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="version" type="xs:int"/>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="receipt">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="terminalId" type="xs:string"/>
+        <xs:element minOccurs="0" name="paymentDate" type="xs:dateTime"/>
+        <xs:element minOccurs="0" name="clientInvoiceId" type="xs:string"/>
+        <xs:element minOccurs="0" name="invoiceReference" type="xs:string"/>
+        <xs:element minOccurs="0" name="paymentReference" type="xs:string"/>
+        <xs:element minOccurs="0" name="payerTerminalId" type="xs:string"/>
+        <xs:element minOccurs="0" name="receiverName" type="xs:string"/>
+        <xs:element minOccurs="0" name="invoice" type="tns:invoice"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="customerToken">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="description" type="xs:string"/>
+        <xs:element minOccurs="0" name="id" type="xs:string"/>
+        <xs:element name="status" type="xs:int"/>
+        <xs:element minOccurs="0" name="value" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="requestPurchase">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="senderPrincipalId" type="tns:principalId"/>
+        <xs:element minOccurs="0" name="receiverPrincipalId" type="tns:principalId"/>
+        <xs:element minOccurs="0" name="senderAccountSpecifier" type="tns:principalAccountSpecifier"/>
+        <xs:element minOccurs="0" name="receiverAccountSpecifier" type="tns:principalAccountSpecifier"/>
+        <xs:element maxOccurs="unbounded" minOccurs="0" name="purchaseOrder" type="tns:purchaseOrderRow"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="purchaseOrderRow">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="productSpecifier" type="tns:principalPurchaseProductSpecifier"/>
+        <xs:element name="purchaseCount" type="xs:int"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="principalPurchaseProductSpecifier">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="productId" type="xs:string"/>
+        <xs:element minOccurs="0" name="productIdType" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="requestPurchaseResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsPurchaseResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="erswsPurchaseResponse">
+      <xs:complexContent>
+        <xs:extension base="tns:erswsResponse">
+          <xs:sequence>
+            <xs:element minOccurs="0" name="paymentPrincipal" type="tns:principal"/>
+            <xs:element minOccurs="0" name="purchaseReference" type="xs:string"/>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="purchasedProducts" nillable="true" type="tns:principalPurchaseProductSpecifier"/>
+            <xs:element minOccurs="0" name="receiverPrincipal" type="tns:principal"/>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="updateInvoice">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="invoiceReference" type="xs:string"/>
+        <xs:element minOccurs="0" name="invoice" type="tns:invoice"/>
+        <xs:element maxOccurs="unbounded" minOccurs="0" name="tokens" type="tns:customerToken"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="updateInvoiceResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="sendInvoice">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="invoice" type="tns:invoice"/>
+        <xs:element maxOccurs="unbounded" minOccurs="0" name="tokens" type="tns:customerToken"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="sendInvoiceResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsSendInvoiceResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="erswsSendInvoiceResponse">
+      <xs:complexContent>
+        <xs:extension base="tns:erswsResponse">
+          <xs:sequence>
+            <xs:element minOccurs="0" name="invoiceQRCode" type="xs:string"/>
+            <xs:element minOccurs="0" name="invoiceReference" type="xs:string"/>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="requestTopup">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="senderPrincipalId" type="tns:principalId"/>
+        <xs:element minOccurs="0" name="topupPrincipalId" type="tns:principalId"/>
+        <xs:element minOccurs="0" name="senderAccountSpecifier" type="tns:principalAccountSpecifier"/>
+        <xs:element minOccurs="0" name="topupAccountSpecifier" type="tns:principalAccountSpecifier"/>
+        <xs:element minOccurs="0" name="productId" type="xs:string"/>
+        <xs:element minOccurs="0" name="amount" type="tns:amount"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="requestTopupResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsTopupResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="erswsTopupResponse">
+      <xs:complexContent>
+        <xs:extension base="tns:erswsResponse">
+          <xs:sequence>
+            <xs:element minOccurs="0" name="requestedTopupAmount" type="tns:amount"/>
+            <xs:element minOccurs="0" name="senderPrincipal" type="tns:principal"/>
+            <xs:element minOccurs="0" name="topupAccountSpecifier" type="tns:principalAccountSpecifier"/>
+            <xs:element minOccurs="0" name="topupAmount" type="tns:amount"/>
+            <xs:element minOccurs="0" name="topupPrincipal" type="tns:principal"/>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="changePrincipalPassword">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="principalId" type="tns:principalId"/>
+        <xs:element minOccurs="0" name="newPassword" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="changePrincipalPasswordResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="requestTransfer">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="senderPrincipalId" type="tns:principalId"/>
+        <xs:element minOccurs="0" name="receiverPrincipalId" type="tns:principalId"/>
+        <xs:element minOccurs="0" name="senderAccountSpecifier" type="tns:principalAccountSpecifier"/>
+        <xs:element minOccurs="0" name="receiverAccountSpecifier" type="tns:principalAccountSpecifier"/>
+        <xs:element minOccurs="0" name="productId" type="xs:string"/>
+        <xs:element minOccurs="0" name="amount" type="tns:amount"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="requestTransferResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsTransferResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="erswsTransferResponse">
+      <xs:complexContent>
+        <xs:extension base="tns:erswsResponse">
+          <xs:sequence>
+            <xs:element minOccurs="0" name="receivedAmount" type="tns:amount"/>
+            <xs:element minOccurs="0" name="receiverPrincipal" type="tns:principal"/>
+            <xs:element minOccurs="0" name="requestedTransferAmount" type="tns:amount"/>
+            <xs:element minOccurs="0" name="senderPrincipal" type="tns:principal"/>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="assignSeqrId">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="context" type="tns:clientContext"/>
+        <xs:element minOccurs="0" name="seqrId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="assignSeqrIdResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="benchmarkingNop">
+      <xs:sequence/>
+    </xs:complexType>
+    <xs:complexType name="benchmarkingNopResponse">
+      <xs:sequence>
+        <xs:element minOccurs="0" name="return" type="tns:erswsResponse"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="paymentMode">
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="IMMEDIATE_DEBIT"/>
+        <xs:enumeration value="RESERVATION_DESIRED"/>
+        <xs:enumeration value="RESERVATION_REQUIRED"/>
+      </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="acknowledgmentMode">
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="NO_ACKNOWLEDGMENT"/>
+        <xs:enumeration value="OPTIONAL_ACKNOWLEDGMENT"/>
+        <xs:enumeration value="REQUIRE_ACKNOWLEDGMENT"/>
+      </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="invoiceStatus">
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="ISSUED"/>
+        <xs:enumeration value="PAID"/>
+        <xs:enumeration value="PENDING_ISSUER_ACKNOWLEDGE"/>
+        <xs:enumeration value="CANCELED"/>
+        <xs:enumeration value="FAILED"/>
+        <xs:enumeration value="RESERVED"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:schema>
+</wsdl:types>
+<wsdl:message name="requestPurchaseResponse">
+  <wsdl:part element="ns1:requestPurchaseResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="getPaymentStatus">
+  <wsdl:part element="ns1:getPaymentStatus" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="requestTransferResponse">
+  <wsdl:part element="ns1:requestTransferResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="markTransactionPeriodResponse">
+  <wsdl:part element="ns1:markTransactionPeriodResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="changePrincipalPasswordResponse">
+  <wsdl:part element="ns1:changePrincipalPasswordResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="executeReport">
+  <wsdl:part element="ns1:executeReport" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="confirmCustomerRegistration">
+  <wsdl:part element="ns1:confirmCustomerRegistration" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="registerTerminalResponse">
+  <wsdl:part element="ns1:registerTerminalResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="unregisterTerminalResponse">
+  <wsdl:part element="ns1:unregisterTerminalResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="commitReservationResponse">
+  <wsdl:part element="ns1:commitReservationResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="benchmarkingNop">
+  <wsdl:part element="ns1:benchmarkingNop" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="cancelInvoiceResponse">
+  <wsdl:part element="ns1:cancelInvoiceResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="commitReservation">
+  <wsdl:part element="ns1:commitReservation" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="assignSeqrIdResponse">
+  <wsdl:part element="ns1:assignSeqrIdResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="cancelInvoice">
+  <wsdl:part element="ns1:cancelInvoice" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="requestTopup">
+  <wsdl:part element="ns1:requestTopup" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="executeReportResponse">
+  <wsdl:part element="ns1:executeReportResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="requestPrincipalInformationResponse">
+  <wsdl:part element="ns1:requestPrincipalInformationResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="assignSeqrId">
+  <wsdl:part element="ns1:assignSeqrId" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="submitPaymentReceiptResponse">
+  <wsdl:part element="ns1:submitPaymentReceiptResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="submitPaymentReceipt">
+  <wsdl:part element="ns1:submitPaymentReceipt" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="unregisterTerminal">
+  <wsdl:part element="ns1:unregisterTerminal" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="benchmarkingNopResponse">
+  <wsdl:part element="ns1:benchmarkingNopResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="sendInvoice">
+  <wsdl:part element="ns1:sendInvoice" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="updateInvoiceResponse">
+  <wsdl:part element="ns1:updateInvoiceResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="requestTopupResponse">
+  <wsdl:part element="ns1:requestTopupResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="confirmCustomerRegistrationResponse">
+  <wsdl:part element="ns1:confirmCustomerRegistrationResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="requestPrincipalInformation">
+  <wsdl:part element="ns1:requestPrincipalInformation" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="changePrincipalPassword">
+  <wsdl:part element="ns1:changePrincipalPassword" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="requestTransfer">
+  <wsdl:part element="ns1:requestTransfer" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="markTransactionPeriod">
+  <wsdl:part element="ns1:markTransactionPeriod" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="refundPaymentResponse">
+  <wsdl:part element="ns1:refundPaymentResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="getPaymentStatusResponse">
+  <wsdl:part element="ns1:getPaymentStatusResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="registerTerminal">
+  <wsdl:part element="ns1:registerTerminal" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="sendInvoiceResponse">
+  <wsdl:part element="ns1:sendInvoiceResponse" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="requestPurchase">
+  <wsdl:part element="ns1:requestPurchase" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="updateInvoice">
+  <wsdl:part element="ns1:updateInvoice" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:message name="refundPayment">
+  <wsdl:part element="ns1:refundPayment" name="parameters">
+  </wsdl:part>
+</wsdl:message>
+<wsdl:portType name="ERSWSExternalClientService">
+  <wsdl:operation name="refundPayment">
+    <wsdl:input message="ns1:refundPayment" name="refundPayment">
+    </wsdl:input>
+    <wsdl:output message="ns1:refundPaymentResponse" name="refundPaymentResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="confirmCustomerRegistration">
+    <wsdl:input message="ns1:confirmCustomerRegistration" name="confirmCustomerRegistration">
+    </wsdl:input>
+    <wsdl:output message="ns1:confirmCustomerRegistrationResponse" name="confirmCustomerRegistrationResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="markTransactionPeriod">
+    <wsdl:input message="ns1:markTransactionPeriod" name="markTransactionPeriod">
+    </wsdl:input>
+    <wsdl:output message="ns1:markTransactionPeriodResponse" name="markTransactionPeriodResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="commitReservation">
+    <wsdl:input message="ns1:commitReservation" name="commitReservation">
+    </wsdl:input>
+    <wsdl:output message="ns1:commitReservationResponse" name="commitReservationResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="registerTerminal">
+    <wsdl:input message="ns1:registerTerminal" name="registerTerminal">
+    </wsdl:input>
+    <wsdl:output message="ns1:registerTerminalResponse" name="registerTerminalResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="executeReport">
+    <wsdl:input message="ns1:executeReport" name="executeReport">
+    </wsdl:input>
+    <wsdl:output message="ns1:executeReportResponse" name="executeReportResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="cancelInvoice">
+    <wsdl:input message="ns1:cancelInvoice" name="cancelInvoice">
+    </wsdl:input>
+    <wsdl:output message="ns1:cancelInvoiceResponse" name="cancelInvoiceResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="requestPrincipalInformation">
+    <wsdl:input message="ns1:requestPrincipalInformation" name="requestPrincipalInformation">
+    </wsdl:input>
+    <wsdl:output message="ns1:requestPrincipalInformationResponse" name="requestPrincipalInformationResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="submitPaymentReceipt">
+    <wsdl:input message="ns1:submitPaymentReceipt" name="submitPaymentReceipt">
+    </wsdl:input>
+    <wsdl:output message="ns1:submitPaymentReceiptResponse" name="submitPaymentReceiptResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="unregisterTerminal">
+    <wsdl:input message="ns1:unregisterTerminal" name="unregisterTerminal">
+    </wsdl:input>
+    <wsdl:output message="ns1:unregisterTerminalResponse" name="unregisterTerminalResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="getPaymentStatus">
+    <wsdl:input message="ns1:getPaymentStatus" name="getPaymentStatus">
+    </wsdl:input>
+    <wsdl:output message="ns1:getPaymentStatusResponse" name="getPaymentStatusResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="requestPurchase">
+    <wsdl:input message="ns1:requestPurchase" name="requestPurchase">
+    </wsdl:input>
+    <wsdl:output message="ns1:requestPurchaseResponse" name="requestPurchaseResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="updateInvoice">
+    <wsdl:input message="ns1:updateInvoice" name="updateInvoice">
+    </wsdl:input>
+    <wsdl:output message="ns1:updateInvoiceResponse" name="updateInvoiceResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="sendInvoice">
+    <wsdl:input message="ns1:sendInvoice" name="sendInvoice">
+    </wsdl:input>
+    <wsdl:output message="ns1:sendInvoiceResponse" name="sendInvoiceResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="requestTopup">
+    <wsdl:input message="ns1:requestTopup" name="requestTopup">
+    </wsdl:input>
+    <wsdl:output message="ns1:requestTopupResponse" name="requestTopupResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="changePrincipalPassword">
+    <wsdl:input message="ns1:changePrincipalPassword" name="changePrincipalPassword">
+    </wsdl:input>
+    <wsdl:output message="ns1:changePrincipalPasswordResponse" name="changePrincipalPasswordResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="requestTransfer">
+    <wsdl:input message="ns1:requestTransfer" name="requestTransfer">
+    </wsdl:input>
+    <wsdl:output message="ns1:requestTransferResponse" name="requestTransferResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="assignSeqrId">
+    <wsdl:input message="ns1:assignSeqrId" name="assignSeqrId">
+    </wsdl:input>
+    <wsdl:output message="ns1:assignSeqrIdResponse" name="assignSeqrIdResponse">
+    </wsdl:output>
+  </wsdl:operation>
+  <wsdl:operation name="benchmarkingNop">
+    <wsdl:input message="ns1:benchmarkingNop" name="benchmarkingNop">
+    </wsdl:input>
+    <wsdl:output message="ns1:benchmarkingNopResponse" name="benchmarkingNopResponse">
+    </wsdl:output>
+  </wsdl:operation>
+</wsdl:portType>
+</wsdl:definitions>

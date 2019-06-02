@@ -1,0 +1,18 @@
+110009912346071215LEVERANTÖRSBETALNINGAR      7                                 
+13REFERENS                       BELOPP                                         
+14000123456656897456986              000000098000080130     VERIF 12            
+49MTRV0082Stopped after balance check inquiry. Contact your bank.
+14000123456612356986799              000000021000080104     VERIF 13            
+49MTRV0082Stopped after balance check inquiry. Contact your bank.
+140001234566421948311319             000000528000080104     VERIF 14            
+49MTRV0082Stopped after balance check inquiry. Contact your bank.
+14000123456615204076                 000000063000080107     VERIF 16            
+49MTRV0082Stopped after balance check inquiry. Contact your bank.
+14000123456648774616                 000000098000080130     VERIF 19
+49MTRV0082Stopped after balance check inquiry. Contact your bank.               
+160001234566563258967410             000000086000080112     VERIF 32            
+49MTRV0082Stopped after balance check inquiry. Contact your bank.
+4000009900108357001112223332RESEERS                                             
+14000099001015204076                 000000230000080130     VERIF 25            
+49MTRV0082Stopped after balance check inquiry. Contact your bank.
+29000991234600000007                                                            

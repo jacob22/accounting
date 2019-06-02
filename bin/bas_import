@@ -1,0 +1,28 @@
+#!/bin/sh
+bin=`dirname $0`
+root=`dirname $bin`
+
+#$root/accounting/bas_import.py "Förenklat årsbokslut (K1) - Kontoplan 2013" $root/misc/Kontoplan_K1_2013_ver1.xls replace
+#$root/accounting/bas_import.py "Förenklat årsbokslut (K1) - Minimikontoplan 2013" $root/misc/Kontoplan_K1_Mini_2013_ver1_reformatted.xls replace
+#$root/accounting/bas_import.py "Normal kontoplan 2013" $root/misc/Kontoplan_Normal_2013_ver1.xls replace
+
+#$root/accounting/bas_import.py "Tom kontoplan" /dev/null replace
+#$root/accounting/bas_import.py "Förenklat årsbokslut (K1) - Kontoplan 2014" $root/misc/Kontoplan_K1_2014_ver1.coa replace
+#$root/accounting/bas_import.py "Förenklat årsbokslut (K1) - Minimikontoplan 2014" $root/misc/Kontoplan_K1_Mini_2014_ver1.coa replace
+#$root/accounting/bas_import.py "Normal kontoplan 2014" $root/misc/Kontoplan_Normal_2014_ver1.coa replace
+
+# $root/accounting/bas_import.py "Förenklat årsbokslut (K1) - Kontoplan 2015" $root/misc/Kontoplan_K1_2015_ver1.coa replace
+# $root/accounting/bas_import.py "Förenklat årsbokslut (K1) - Minimikontoplan 2015" $root/misc/Kontoplan_K1_Mini_2015_ver1.coa replace
+# $root/accounting/bas_import.py "Normal kontoplan 2015" $root/misc/Kontoplan_Normal_2015_ver1.coa replace
+
+$root/accounting/bas_import.py "Förenklat årsbokslut (K1) - Kontoplan 2016" $root/misc/Kontoplan_K1_2016_ver1.coa replace
+$root/accounting/bas_import.py "Förenklat årsbokslut (K1) - Minimikontoplan 2016" $root/misc/Kontoplan_K1_Mini_2016_ver1.coa replace
+$root/accounting/bas_import.py "Normal kontoplan 2016" $root/misc/Kontoplan_Normal_2016_ver1.coa replace
+
+$root/accounting/bas_import.py "Förenklat årsbokslut (K1) - Kontoplan 2017" $root/misc/Kontoplan_K1_2017_ver1.coa replace
+$root/accounting/bas_import.py "Förenklat årsbokslut (K1) - Minimikontoplan 2017" $root/misc/Kontoplan_K1_Mini_2017_ver1.coa replace
+$root/accounting/bas_import.py "Normal kontoplan 2017" $root/misc/Kontoplan_Normal_2017_ver1.coa replace
+
+$root/accounting/bas_import.py "Förenklat årsbokslut (K1) - Kontoplan 2018" $root/misc/Kontoplan_K1_2018_ver1.coa replace
+$root/accounting/bas_import.py "Förenklat årsbokslut (K1) - Minimikontoplan 2018" $root/misc/Kontoplan_K1_Mini_2018_ver1.coa replace
+$root/accounting/bas_import.py "Normal kontoplan 2018" $root/misc/Kontoplan_Normal_2018_ver1.coa replace

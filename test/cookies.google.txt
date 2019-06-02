@@ -1,0 +1,19 @@
+# Netscape HTTP Cookie File
+# Netscape HTTP Cookie File
+# http://www.netscape.com/newsref/std/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.google.com	TRUE	/	FALSE	2146723199	CONSENT	YES+SE.en+20160407-02-0
+accounts.google.com	FALSE	/	TRUE	0	OCAK	kowli48wsZNPlBvuzF_dJyStcuwm2auIIH5yp3aq-kQ
+accounts.google.com	FALSE	/	TRUE	1843803268	SMSV	ADHTe-CoWYiFzwz9oz4o2ZGvfa2yaul08A491aF6ArANps9R18RyEQRipLUHGOMHCw9uRLRBH92JJ0DtaTDEzr66IfoAqMKE2gkk9LZ1iEordGclEKvNtMk
+.google.com	TRUE	/	FALSE	1586331269	SID	-wUllccA0l_7UCT6EDpAW6s40QzaEl_6J_aQpkkbMmqMqtjKegxSaoKZ9kzOJrnIqBOP6A.
+.google.com	TRUE	/	FALSE	1586331269	HSID	AX2Q6Whwkbzm8wOTN
+.google.com	TRUE	/	TRUE	1586331269	SSID	AArQmv2WcwJULTsxa
+.google.com	TRUE	/	FALSE	1586331269	APISID	fJ07KQEM_64JsjwX/AEG9ibQFAFon9Rp8H
+.google.com	TRUE	/	TRUE	1586331269	SAPISID	T-IABl1B7CezYYfR/A1ebqbc5-mLBB9n9a
+accounts.google.com	FALSE	/	TRUE	1586331269	ACCOUNT_CHOOSER	AFx_qI4bS7C8d3oc2eZzKN2hVugKtSaChdJdZDeMaDvgGyjKe8U8oo77pdo8lsULFo1SS_jGcoyp37EctRqcLx7OlfxLOFIhN-nDL7eY6DoLL4nH7uI1A7NEj0uc4iE1Mu1oxo_Ufjn-z1G1NS07nydVIr2uO_xPcSMRZNOsCmPJ5vcMujY_sxVMIz6PKZGD3jZmYEuy7i_ADxD8AsTPu-uPHKsw6ado-4e4aet2b5NytaTrU2HsmGc
+.google.com	TRUE	/	FALSE	1539070469	NID	127=aJVK9saXNNCS8ywCUY0gbr1ppQKZeqReQaFQ02GnWmL-i5k0enHLlul1KeTLfktjncjUk36rnWYgK4WpiIzdCm1lzbfx_aJwKPMIrjomsGKD6EYr2MRxn88iuxWCmUx6YL_KToyMNh7kv6G5k_TrVcYjVr7DsZYWkM_BPecrc_5LxkyAWMQWRX7dXKo72bbUB7Ckgv-CWQ
+accounts.google.com	FALSE	/	TRUE	1586331269	GAPS	1:sDIdDQQu3yG_rTvy1kPQJs5JqOstbl3trxuOnZgly4dGpoWV8MMLk8E2NC40xmHPYuJmIwUAqQkQXjszZjFzuoZ4X5QNvQ:BiGSLvBfdHwfTrWm
+accounts.google.com	FALSE	/	TRUE	1586331269	LSID	lso|s.SE|s.youtube:-wUllcwfzwFkIeREgWG-LgJLwPE6-M9OzoiKjHqTZNTKvF0V0wM-ioDdLPWk5rzVKiFC-g.
+.google.com	TRUE	/	FALSE	1531035269	SIDCC	AEfoLea3J8v1Ft2BoLZl9hs2mDj-5zgl7btNffXP-GqKtei2B1CroOiSzCzMj24pzXWYcXCm
+.google.com	TRUE	/	FALSE	1539070357	NID	127=ewF49xNj8HsMf3YA_QIkglhAcoBJ6MOCFuk4SWOwZqNgNd2q-wcHKGLvDGTgLurSuQXCXdiVXY7nqpGSLV6ZMxSFpqvLvV_qHFJ84hD8pL-noHDLZsRTy2pRwnFUhbAR
